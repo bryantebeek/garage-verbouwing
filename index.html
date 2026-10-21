@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Garage verbouwing</title>
+<style>
+  :root {
+    --panel: rgba(20, 20, 23, .72); --line: rgba(255, 255, 255, .08); --text: #f4f4f5; --muted: #a1a1aa;
+    --accent: #ff9f43; --blue: #4c8dff;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+  }
+  body { margin: 0; overflow: hidden; background: #e7e5e1; }
+  canvas { cursor: grab; }
+  canvas:active { cursor: grabbing; }
+  .panel {
+    position: fixed; z-index: 2; color: var(--text); background: var(--panel); border: 1px solid var(--line);
+    border-radius: 14px; backdrop-filter: blur(16px) saturate(140%); box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+    font-size: 12.5px; line-height: 1.4;
+  }
+  .heading { font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  kbd {
+    display: inline-block; min-width: 18px; height: 18px; padding: 0 5px; box-sizing: border-box; border-radius: 5px;
+    background: rgba(255, 255, 255, .09); border: 1px solid rgba(255, 255, 255, .14); border-bottom-width: 2px;
+    font: 600 10.5px/15px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); text-align: center;
+  }
+
+  #brand { top: 16px; left: 16px; padding: 12px 16px; }
+  #brand b { display: block; font-size: 15px; font-weight: 650; letter-spacing: -.01em; }
+  #brand span { color: var(--muted); font-size: 12px; }
+
+  #layers { top: 16px; right: 16px; padding: 12px 8px 8px; width: 230px; }
+  #layers .heading { padding: 0 8px; }
+  #layers button {
+    display: flex; align-items: center; gap: 10px; width: 100%; padding: 6px 8px; border: 0; border-radius: 8px;
+    background: none; color: inherit; font: inherit; text-align: left; cursor: pointer;
+  }
+  #layers button:hover { background: rgba(255, 255, 255, .06); }
+  #layers .name { flex: 1; }
+  #layers .off .name { color: var(--muted); }
+  .switch { position: relative; width: 28px; height: 16px; border-radius: 8px; background: rgba(255, 255, 255, .16); transition: background .15s; }
+  .switch::after {
+    content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%;
+    background: #fff; transition: transform .15s;
+  }
+  #layers .on .switch { background: var(--accent); }
+  #layers .on .switch::after { transform: translateX(12px); }
+
+  #help { bottom: 16px; left: 16px; padding: 12px 14px; }
+  #help dl { display: grid; grid-template-columns: auto auto; gap: 6px 14px; margin: 0; align-items: center; }
+  #help dt { display: flex; gap: 3px; justify-content: flex-end; }
+  #help dd { margin: 0; color: #d4d4d8; }
+  #help.collapsed dl { display: none; }
+  #help.collapsed .heading { margin: 0; }
+
+  #info { bottom: 16px; left: 50%; transform: translateX(-50%); padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+  #info[hidden] { display: none; }
+  #info .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 159, 67, .2); }
+  #info b { font-weight: 600; }
+  #info .part { color: var(--accent); font-weight: 600; }
+  #info a {
+    margin-left: 6px; padding: 7px 10px; border-radius: 9px; background: rgba(255, 255, 255, .08); border: 1px solid var(--line);
+    color: var(--text); text-decoration: none; font-size: 12px; line-height: 1.3; max-width: 260px;
+  }
+  #info a:hover { background: rgba(255, 255, 255, .14); }
+  #info a b { display: block; font-weight: 600; }
+  #info a span { color: var(--muted); font-size: 11px; }
+  #info a[hidden] { display: none; }
+  #info small { display: block; color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+
+  #pos { bottom: 16px; right: 16px; padding: 10px 14px; display: flex; align-items: center; gap: 14px; font-variant-numeric: tabular-nums; }
+  #pos .axis { color: var(--muted); font-size: 10.5px; font-weight: 600; margin-right: 4px; }
+  #pos .sep { width: 1px; height: 22px; background: var(--line); }
+  #compass { width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .2); display: grid; place-items: center; }
+  #compass i { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 9px solid var(--accent); margin-top: -3px; }
+
+  #cross { position: fixed; left: 50%; top: 50%; width: 12px; height: 12px; margin: -6px; pointer-events: none; z-index: 1;
+    border-radius: 50%; border: 1.5px solid #fff; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(0, 0, 0, .35), inset 0 0 0 1px rgba(0, 0, 0, .35); }
+  #cross::after { content: ''; position: absolute; inset: 3px; border-radius: 50%; background: #fff; }
+
+  #loading {
+    position: fixed; inset: 0; z-index: 3; display: grid; place-items: center; color: var(--text);
+    background: radial-gradient(ellipse at 50% 40%, #26262b 0%, #141417 60%, #0c0c0e 100%);
+    transition: opacity .6s ease, visibility .6s;
+  }
+  #loading.done { opacity: 0; visibility: hidden; }
+  #loading .card { width: 320px; text-align: center; }
+  #loading svg { width: 132px; height: 96px; margin-bottom: 22px; overflow: visible; }
+  #loading svg path { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+    stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 2.4s ease-in-out infinite; }
+  #loading svg path.frame { stroke: rgba(255, 255, 255, .55); stroke-width: 1.5; }
+  #loading svg path:nth-child(2) { animation-delay: .15s; } #loading svg path:nth-child(3) { animation-delay: .3s; }
+  #loading svg path:nth-child(4) { animation-delay: .45s; } #loading svg path:nth-child(5) { animation-delay: .6s; }
+  @keyframes draw { 0% { stroke-dashoffset: 260; } 45%, 70% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -260; } }
+  #loading h1 { margin: 0; font-size: 22px; font-weight: 650; letter-spacing: -.02em; }
+  #loading p { margin: 6px 0 26px; color: var(--muted); font-size: 13px; }
+  #loading .bar { height: 4px; border-radius: 2px; background: rgba(255, 255, 255, .08); overflow: hidden; }
+  #loading .bar i { display: block; height: 100%; width: 0; border-radius: 2px; background: linear-gradient(90deg, #ffb870, var(--accent)); transition: width .2s ease; }
+  #loading .bar.indeterminate i { width: 30%; animation: slide 1.2s ease-in-out infinite; }
+  @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(340%); } }
+  #loading .meta { display: flex; justify-content: space-between; margin-top: 10px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .label {
+    font: 600 10.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: #fff; padding: 3px 5px; border-radius: 6px;
+    background: rgba(20, 20, 23, .78); box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+  }
+  .dims {
+    font: 600 12px/1 Inter, ui-sans-serif, system-ui, sans-serif; color: #fff; padding: 6px 9px; border-radius: 8px;
+    background: var(--accent); box-shadow: 0 4px 14px rgba(0, 0, 0, .25); font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .dist { background: var(--blue); }
+  /* U: clean view, nothing but the model */
+  body.clean .panel, body.clean #cross, body.clean .labels { display: none !important; }
+  .dims u { text-decoration: underline 1px rgba(255, 255, 255, .65); text-underline-offset: 3px; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="loading">
+  <div class="card">
+    <svg viewBox="0 0 132 96" aria-hidden="true">
+      <path class="frame" d="M6 90 H126 M6 6 H126"/>
+      <path d="M10 90 V6 M38 90 V6"/>
+      <path d="M66 90 V6 M94 90 V6"/>
+      <path d="M122 90 V6"/>
+      <path class="frame" d="M10 48 H122"/>
+    </svg>
+    <h1>Garage verbouwing</h1>
+    <p id="load-step">Model ophalen…</p>
+    <div class="bar"><i id="load-bar"></i></div>
+    <div class="meta"><span id="load-size"></span><span id="load-pct"></span></div>
+  </div>
+</div>
+<div id="brand" class="panel"><b>Garage verbouwing</b><span>3D-model</span></div>
+<div id="layers" class="panel"><p class="heading">Lagen</p><div id="layer-list"></div></div>
+<div id="help" class="panel">
+  <p class="heading">Besturing <kbd>H</kbd></p>
+  <dl>
+    <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>Lopen</dd>
+    <dt><kbd>Shift</kbd></dt><dd>Rennen</dd>
+    <dt><kbd>Spatie</kbd><kbd>C</kbd></dt><dd>Omhoog / omlaag</dd>
+    <dt>Slepen</dt><dd>Rondkijken</dd>
+    <dt><kbd>E</kbd></dt><dd>Selecteer onder het vizier</dd>
+    <dt><kbd>Esc</kbd></dt><dd>Deselecteer</dd>
+    <dt><kbd>L</kbd><kbd>N</kbd></dt><dd>Lijnen / nummers</dd>
+    <dt><kbd>R</kbd></dt><dd>Terug naar start</dd>
+    <dt><kbd>U</kbd></dt><dd>Alles verbergen, vrij rondlopen</dd>
+    <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
+  </dl>
+</div>
+<div id="info" class="panel" hidden><span class="dot"></span><div><div id="info-title"></div><small id="info-sub"></small></div><a id="info-product" target="_blank" rel="noopener" hidden></a></div>
+<div id="pos" class="panel">
+  <span><span class="axis">X</span><span id="px"></span></span>
+  <span><span class="axis">Y</span><span id="py"></span></span>
+  <span><span class="axis">Z</span><span id="pz"></span></span>
+  <span class="sep"></span>
+  <span id="compass"><i></i></span>
+  <span id="heading"></span>
+</div>
+<div id="cross"></div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+const $ = id => document.getElementById(id);
+const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
+function showInfo(title, sub, product) {
+  $('info').hidden = !title;
+  $('info-title').innerHTML = title ?? '';
+  $('info-sub').textContent = sub ?? '';
+  const link = $('info-product');
+  link.hidden = !product;
+  if (product) {
+    link.href = product.url;
+    link.innerHTML = `<b>${esc(product.winkel ?? 'Bouwmaat')} ↗</b><span>${esc(product.naam)} · art. ${esc(product.artikel)}</span>`;
+  }
+}
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(devicePixelRatio);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xe7e5e1);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x888888, 2.5));
+const sun = new THREE.DirectionalLight(0xffffff, 1.5);
+sun.position.set(5, 10, 3);
+scene.add(sun);
+const camera = new THREE.PerspectiveCamera(70, 1, 0.05, 200);
+// Start: richting 270° in the readout = yaw +90°.
+const start = new THREE.Vector3(4.72, 1.5, -1.46);
+const startView = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.PI / 2);
+camera.position.copy(start);
+camera.quaternion.copy(startView);
+// Drag to look; pointer lock is blocked in the T3 preview.
+const look = new THREE.Euler(0, 0, 0, 'YXZ');
+renderer.domElement.addEventListener('mousemove', e => {
+  if (!(e.buttons & 1)) return;
+  look.setFromQuaternion(camera.quaternion);
+  look.y -= e.movementX * 0.0025;
+  look.x = THREE.MathUtils.clamp(look.x - e.movementY * 0.0025, -1.5, 1.5);
+  camera.quaternion.setFromEuler(look);
+});
+
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.domElement.style.cssText = 'position: fixed; top: 0; pointer-events: none';
+labelRenderer.domElement.className = 'labels';
+document.body.appendChild(labelRenderer.domElement);
+
+function resize() {
+  renderer.setSize(innerWidth, innerHeight);
+  labelRenderer.setSize(innerWidth, innerHeight);
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize);
+resize();
+
+// kelder.gltf: top-level nodes are the layers (toets 1..9), extras.visible = false starts hidden.
+// Their children are the objects; numbered frame parts (S12, P3, ...) get a label.
+// A model caught mid-save fails to parse; try again shortly.
+// Loading screen: the 36 MB kelder.bin dominates, so fetch it ourselves for real byte progress and hand the
+// loader a blob URL; the textures after that advance the last part of the bar.
+function loadProgress(fraction, step, size) {
+  $('load-bar').parentElement.classList.toggle('indeterminate', fraction == null);
+  if (fraction != null) {
+    $('load-bar').style.width = `${(fraction * 100).toFixed(1)}%`;
+    $('load-pct').textContent = `${Math.round(fraction * 100)}%`;
+  }
+  if (step) $('load-step').textContent = step;
+  if (size !== undefined) $('load-size').textContent = size;
+}
+async function fetchWithProgress(url, onBytes) {
+  const res = await fetch(url, { cache: 'no-store' });
+  const total = Number(res.headers.get('Content-Length')) || 0;
+  const reader = res.body.getReader(), parts = [];
+  let loaded = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    parts.push(value);
+    loaded += value.length;
+    onBytes(loaded, total);
+  }
+  return URL.createObjectURL(new Blob(parts));
+}
+const mb = b => `${(b / 1048576).toFixed(1).replace('.', ',')} MB`;
+// kelder.gltf and kelder.bin must come from the same save: fetch both with one cache-busting version, so neither
+// the browser nor the GitHub Pages CDN (max-age 600) can pair a stale .gltf with a fresh .bin.
+const version = Date.now();
+const gltf = await (async () => {
+  const binUrl = await fetchWithProgress(`kelder.bin?v=${version}`, (loaded, total) =>
+    total ? loadProgress(Math.min(loaded / total, 1) * 0.85, 'Model ophalen…', `${mb(loaded)} / ${mb(total)}`)
+          : loadProgress(null, 'Model ophalen…', mb(loaded)));
+  const manager = new THREE.LoadingManager();
+  manager.setURLModifier(url => url.endsWith('kelder.bin') ? binUrl : url);
+  manager.onProgress = (url, done, total) => loadProgress(0.85 + 0.15 * done / total, 'Textures en materialen…');
+  loadProgress(0.85, 'Model opbouwen…');
+  return new GLTFLoader(manager).loadAsync(`kelder.gltf?v=${version}`);
+})().catch(e => { loadProgress(null, 'Laden mislukt, opnieuw proberen…'); setTimeout(() => location.reload(), 1500); throw e; });
+scene.add(gltf.scene);
+const layers = gltf.scene.children;
+const NUMBERED = /^[A-Z]{1,2}\d+$/; // S12, P3, W1, SW4, ...
+window.kelder = { THREE, camera, scene, layers }; // handle for headless screenshots/debugging
+const displayName = o => o.userData.name ?? o.name;
+
+// SketchUp-style outlines: edges where faces meet at > 20°. Instances share geometry, so cache per geometry.
+const edgeCache = new Map();
+const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x222222 });
+const outlines = [];
+const labels = [];
+gltf.scene.traverse(o => {
+  if (o.isMesh) {
+    if (!edgeCache.has(o.geometry)) edgeCache.set(o.geometry, new THREE.EdgesGeometry(o.geometry, 20));
+    const lines = new THREE.LineSegments(edgeCache.get(o.geometry), edgeMaterial);
+    lines.raycast = () => {};
+    outlines.push(lines);
+    o.add(lines);
+  }
+  if (NUMBERED.test(displayName(o))) {
+    const div = Object.assign(document.createElement('div'), { className: 'label', textContent: displayName(o) });
+    const label = new CSS2DObject(div);
+    o.geometry?.computeBoundingBox();
+    o.geometry?.boundingBox.getCenter(label.position);
+    o.add(label);
+    labels.push(label);
+  }
+});
+const shown = o => { for (; o; o = o.parent) if (!o.visible) return false; return true; };
+
+// Doors: extras.deur = { delen, scharnier: [x, z], hoek } on the door group. The moving parts go into a pivot on
+// the hinge axis; a second E on an already selected moving part opens or closes the door.
+const doors = [];
+gltf.scene.updateMatrixWorld(true);
+gltf.scene.traverse(o => { if (o.userData.deur) doors.push({ door: o }); });
+for (const d of doors) {
+  const { delen, scharnier, hoek } = d.door.userData.deur;
+  d.pivot = new THREE.Group();
+  d.pivot.position.set(scharnier[0], 0, scharnier[1]);
+  d.door.add(d.pivot);
+  d.door.updateMatrixWorld(true);
+  for (const part of d.door.children.filter(c => delen.includes(displayName(c)))) d.pivot.attach(part);
+  d.angle = THREE.MathUtils.degToRad(hoek);
+  d.open = false;
+}
+const doorOf = o => doors.find(d => { if (o === d.door) return true; for (let x = o; x; x = x.parent) if (x === d.pivot) return true; return false; });
+
+// View state survives the automatic reload when kelder.gltf changes.
+const saved = JSON.parse(sessionStorage.getItem('kelder') ?? 'null');
+let labelsOn = saved?.labelsOn ?? true;
+layers.forEach((l, i) => { l.visible = saved ? !saved.off.includes(i) : l.userData.visible !== false; });
+if (saved) { camera.position.fromArray(saved.pos); camera.quaternion.fromArray(saved.quat); }
+addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.stringify({
+  pos: camera.position.toArray(), quat: camera.quaternion.toArray(), labelsOn,
+  off: layers.flatMap((l, i) => l.visible ? [] : [i]),
+})));
+
+function toggleLayer(i) {
+  layers[i].visible = !layers[i].visible;
+  renderLayers();
+  lastView = '';
+}
+function renderLayers() {
+  $('layer-list').replaceChildren(...layers.map((l, i) => {
+    const row = document.createElement('button');
+    row.className = l.visible ? 'on' : 'off';
+    row.innerHTML = `<kbd>${i < 10 ? '1234567890'[i] : '⇧' + '1234567890'[i - 10]}</kbd><span class="name">${esc(displayName(l))}</span><span class="switch"></span>`;
+    row.onclick = () => toggleLayer(i);
+    row.onmousedown = e => e.preventDefault(); // keep focus off the button so Space still flies up
+    return row;
+  }));
+}
+renderLayers();
+
+const keys = new Set();
+addEventListener('keydown', e => {
+  keys.add(e.code);
+  // 1-9, 0 = layer 10; Shift + 1-9 = layers 11-19 (by key position, so Shift doesn't change the digit).
+  const digit = /^Digit\d$/.test(e.code) ? '1234567890'.indexOf(e.code.slice(5)) : -1;
+  const n = digit < 0 ? -1 : digit + (e.shiftKey ? 10 : 0);
+  if (layers[n]) toggleLayer(n);
+  if (e.code === 'KeyE') identify();
+  if (e.code === 'Escape') { select(null); showInfo(null); }
+  if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
+  if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
+    clean = document.body.classList.toggle('clean');
+    if (clean) { select(null); hover(null); showInfo(null); } else lastView = '';
+  }
+  if (e.code === 'KeyR') { camera.position.copy(start); camera.quaternion.copy(startView); }
+  if (e.code === 'KeyL') outlines.forEach(l => { l.visible = !l.visible; });
+  if (e.code === 'KeyN') labelsOn = !labelsOn;
+});
+addEventListener('keyup', e => keys.delete(e.code));
+
+const ray = new THREE.Raycaster();
+const mm = v => `${Math.round(v * 1000)} mm`;
+// The object a ray points at: the numbered frame part if there is one, else the whole object in its layer.
+function pick(ndc) {
+  ray.setFromCamera(ndc, camera);
+  const hit = ray.intersectObjects(layers, true).find(h => shown(h.object));
+  if (!hit) return null;
+  let o = hit.object, numbered = null;
+  for (; !layers.includes(o.parent); o = o.parent) if (!numbered && NUMBERED.test(displayName(o))) numbered = o;
+  // Within a numbered group (e.g. W1) select the buyable part that was hit: the highest node below it with a product.
+  const group = numbered ?? o;
+  let part = null;
+  for (let x = hit.object; x && x !== group; x = x.parent) if (x.userData.product) part = x; // ends on the highest
+  return { hit, object: o, numbered, target: part ?? group };
+}
+// Swap materials on every mesh of an object; `restore` puts the originals back.
+function tint(o, material, store) {
+  for (const [mesh, original] of store) mesh.material = original;
+  store.clear();
+  o?.traverse(m => { if (m.isMesh) { store.set(m, m.material); m.material = material(m.material); } });
+}
+
+// Select (E): full orange plus its dimensions on the object.
+let selected = null;
+// Highlights keep the part's own colour/texture and only shift it towards the accent: subtle for hover,
+// a bit stronger for the selection. One tinted clone per original material and strength.
+const ACCENT = new THREE.Color(0xff9f43), tinted = new Map();
+const tintOf = strength => original => {
+  const key = `${original.uuid}:${strength}`;
+  if (!tinted.has(key)) {
+    const m = original.clone();
+    m.color?.lerp(ACCENT, strength);
+    m.emissive?.copy(ACCENT).multiplyScalar(strength * 0.25);
+    tinted.set(key, m);
+  }
+  return tinted.get(key);
+};
+const selectMaterial = tintOf(0.35);
+const selectStore = new Map();
+const dimsLabel = new CSS2DObject(Object.assign(document.createElement('div'), { className: 'dims' }));
+function select(o, faceNormal) {
+  hover(null);
+  lastView = '';
+  selected = o;
+  tint(o, selectMaterial, selectStore);
+  dimsLabel.removeFromParent();
+  if (o) {
+    renderDims(faceNormal);
+    new THREE.Box3().setFromObject(o).getCenter(dimsLabel.position);
+    scene.add(dimsLabel);
+  }
+}
+// Size in cm: a single mesh along its own axes (exact for rotated beams), a group as world bounding box.
+// Size per axis, largest first, as [metres, onFace]: onFace marks the two sizes spanning the face that was
+// aimed at (the axes other than the face normal). A single mesh is measured along its own axes.
+function dimensions(o, faceNormal) {
+  const size = new THREE.Vector3(), n = faceNormal?.clone();
+  if (o.isMesh) {
+    o.geometry.computeBoundingBox();
+    o.geometry.boundingBox.getSize(size).multiply(o.getWorldScale(new THREE.Vector3()));
+    n?.transformDirection(new THREE.Matrix4().copy(o.matrixWorld).invert());
+  } else new THREE.Box3().setFromObject(o).getSize(size);
+  const normalAxis = n ? [0, 1, 2].reduce((best, k) => Math.abs(n.getComponent(k)) > Math.abs(n.getComponent(best)) ? k : best, 0) : -1;
+  return size.toArray().map((v, k) => [Math.abs(v), n !== undefined && k !== normalAxis]).sort((a, b) => b[0] - a[0]);
+}
+// Selection label; the two sizes of the face are underlined, following the face under the crosshair or else the face turned to the camera.
+let dimsKey = '';
+function renderDims(faceNormal) {
+  const dims = dimensions(selected, faceNormal).map(([v, face]) => face ? `<u>${Math.round(v * 1000)}</u>` : Math.round(v * 1000));
+  const html = `${esc(displayName(selected))} (${dims.join(' × ')} mm)`;
+  if (html !== dimsKey) dimsLabel.element.innerHTML = dimsKey = html;
+}
+function followFace() {
+  ray.setFromCamera(new THREE.Vector2(0, 0), camera);
+  const hit = ray.intersectObject(selected, true)[0];
+  const normal = hit?.face
+    ? hit.face.normal.clone().transformDirection(hit.object.matrixWorld)
+    : camera.position.clone().sub(new THREE.Box3().setFromObject(selected).getCenter(new THREE.Vector3())).normalize();
+  renderDims(normal);
+}
+const dimensionText = o => dimensions(o).map(([v]) => Math.round(v * 1000)).join(' × ') + ' mm';
+let clean = false;
+function identify() {
+  if (clean) return;
+  const p = pick(new THREE.Vector2(0, 0));
+  const door = p && p.target === selected && doorOf(p.target);
+  if (door) return void (door.open = !door.open);
+  select(p?.target ?? null, p?.hit.face?.normal.clone().transformDirection(p.hit.object.matrixWorld));
+  if (!p) return showInfo(null);
+  const q = p.hit.point;
+  let product = null; // extras.product on the hit part or any parent (e.g. the stucplaat layers)
+  for (let o = p.hit.object; o && !product; o = o.parent) product = o.userData.product;
+  const about = p.target.userData.omschrijving ? ` · ${p.target.userData.omschrijving}` : '';
+  const part = [p.numbered, p.target].filter((x, i, all) => x && x !== p.object && all.indexOf(x) === i).map(x => esc(displayName(x)));
+  showInfo(`<b>${esc(displayName(p.object))}</b>${part.map(x => ` <span class="part">${x}</span>`).join(' ›')}`,
+    `${dimensionText(p.target)}${about} · punt ${q.x.toFixed(2)}, ${q.y.toFixed(2)}, ${q.z.toFixed(2)} m`, product);
+}
+
+// Hover (the dot): a light version of the select colour; with a selection also the distance to it.
+let hovered = null;
+const hoverStore = new Map();
+const hoverMaterial = tintOf(0.12);
+const distLine = new THREE.Line(new THREE.BufferGeometry(), new THREE.LineBasicMaterial({ color: 0x2266aa, depthTest: false }));
+distLine.renderOrder = 1;
+const distLabel = new CSS2DObject(Object.assign(document.createElement('div'), { className: 'dims dist' }));
+function hover(o) {
+  if (o === selected) o = null;
+  if (o === hovered) return;
+  hovered = o;
+  tint(o, hoverMaterial, hoverStore);
+  distLine.removeFromParent();
+  distLabel.removeFromParent();
+  if (!o || !selected) return;
+  // Measure perpendicular: along the one axis the two parts are apart on (the largest separation; if they
+  // touch or overlap, the axis their centres differ most on). The line runs along that axis, face to face,
+  // at a spot both parts share on the other two axes.
+  const a = new THREE.Box3().setFromObject(selected), b = new THREE.Box3().setFromObject(o);
+  const ca = a.getCenter(new THREE.Vector3()), cb = b.getCenter(new THREE.Vector3());
+  const axes = [0, 1, 2], lo = (box, k) => box.min.getComponent(k), hi = (box, k) => box.max.getComponent(k);
+  const gaps = axes.map(k => Math.max(0, lo(a, k) - hi(b, k), lo(b, k) - hi(a, k)));
+  const axis = Math.max(...gaps) > 0
+    ? gaps.indexOf(Math.max(...gaps))
+    : axes.reduce((best, k) => Math.abs(cb.getComponent(k) - ca.getComponent(k)) > Math.abs(cb.getComponent(best) - ca.getComponent(best)) ? k : best, 0);
+  const from = new THREE.Vector3(), to = new THREE.Vector3();
+  for (const k of axes) {
+    if (k === axis) {
+      const up = cb.getComponent(k) >= ca.getComponent(k);
+      from.setComponent(k, gaps[k] > 0 ? (up ? hi(a, k) : lo(a, k)) : ca.getComponent(k));
+      to.setComponent(k, gaps[k] > 0 ? (up ? lo(b, k) : hi(b, k)) : cb.getComponent(k));
+    } else {
+      const l = Math.max(lo(a, k), lo(b, k)), h = Math.min(hi(a, k), hi(b, k));
+      const v = l <= h ? (l + h) / 2 : (ca.getComponent(k) + cb.getComponent(k)) / 2; // shared range, else between
+      from.setComponent(k, v);
+      to.setComponent(k, v);
+    }
+  }
+  distLine.geometry.setFromPoints([from, to]);
+  distLabel.position.lerpVectors(from, to, 0.5);
+  const centres = Math.abs(cb.getComponent(axis) - ca.getComponent(axis));
+  distLabel.element.textContent = `tussen ${mm(gaps[axis])} · hart-op-hart ${mm(centres)}`;
+  scene.add(distLine, distLabel);
+}
+// Re-pick under the dot only when the view changed.
+let lastView = '';
+const viewChanged = () => {
+  const v = camera.position.toArray().concat(camera.quaternion.toArray()).join();
+  if (v === lastView) return false;
+  lastView = v;
+  return true;
+};
+
+loadProgress(1, 'Klaar');
+$('loading').classList.add('done');
+setTimeout(() => $('loading').remove(), 700);
+
+// Reload when the model file changes on disk.
+// Wait until the change has settled for a second, so a save in progress isn't loaded half-written.
+let loaded = null, last = null;
+setInterval(async () => {
+  const m = (await fetch('kelder.gltf', { method: 'HEAD', cache: 'no-store' })).headers.get('Last-Modified');
+  if (loaded && m !== loaded && m === last) location.reload();
+  loaded ??= m;
+  last = m;
+}, 1000);
+
+const clock = new THREE.Clock();
+const forward = new THREE.Vector3(), right = new THREE.Vector3();
+const labelPos = new THREE.Vector3();
+// A part number is hidden when another visible part sits between the eye and the label (e.g. the frame behind
+// the stucwerk). Only re-checked when the view or the layers change.
+const hiddenBehind = new Map(), sightRay = new THREE.Raycaster(), toLabel = new THREE.Vector3();
+function behindSomething(label, at, dist) {
+  sightRay.set(camera.position, toLabel.copy(at).sub(camera.position).normalize());
+  sightRay.far = dist - 0.01;
+  const hit = sightRay.intersectObjects(layers, true).find(h => shown(h.object));
+  if (!hit) return false;
+  for (let o = hit.object; o; o = o.parent) if (o === label.parent) return false; // its own surface
+  return true;
+}
+renderer.setAnimationLoop(() => {
+  const dt = Math.min(clock.getDelta(), 0.1);
+  for (const d of doors) d.pivot.rotation.y += ((d.open ? d.angle : 0) - d.pivot.rotation.y) * Math.min(1, dt * 6);
+  const speed = (keys.has('ShiftLeft') || keys.has('ShiftRight') ? 4 : 1.5) * dt;
+  const fwd = (keys.has('KeyW') ? 1 : 0) - (keys.has('KeyS') ? 1 : 0);
+  const side = (keys.has('KeyD') ? 1 : 0) - (keys.has('KeyA') ? 1 : 0);
+  camera.getWorldDirection(forward);
+  forward.y = 0;
+  forward.normalize();
+  right.crossVectors(forward, camera.up);
+  camera.position.addScaledVector(forward, fwd * speed).addScaledVector(right, side * speed);
+  camera.position.y += ((keys.has('Space') ? 1 : 0) - (keys.has('KeyC') ? 1 : 0)) * speed;
+  const p = camera.position;
+  look.setFromQuaternion(camera.quaternion);
+  const deg = r => Math.round(THREE.MathUtils.radToDeg(r));
+  const heading = (360 - deg(look.y)) % 360;
+  $('px').textContent = p.x.toFixed(2);
+  $('py').textContent = p.y.toFixed(2);
+  $('pz').textContent = p.z.toFixed(2);
+  $('heading').textContent = `${heading}° · ${deg(look.x) > 0 ? '+' : ''}${deg(look.x)}°`;
+  $('compass').style.transform = `rotate(${heading}deg)`;
+  const moved = viewChanged();
+  if (moved) {
+    if (!clean) hover(pick(new THREE.Vector2(0, 0))?.target ?? null);
+    if (selected) followFace();
+  }
+  renderer.render(scene, camera);
+  // Part numbers only near the crosshair: within 350 px of the centre and 8 m of the eye, fading out towards the edge.
+  for (const l of labels) {
+    let near = 0;
+    if (labelsOn && shown(l.parent) && l.parent !== selected) {
+      l.getWorldPosition(labelPos);
+      const dist = labelPos.distanceTo(camera.position), world = labelPos.clone();
+      labelPos.project(camera);
+      const px = Math.hypot(labelPos.x * innerWidth / 2, labelPos.y * innerHeight / 2);
+      if (labelPos.z < 1 && dist < 8 && px < 350) {
+        if (moved || !hiddenBehind.has(l)) hiddenBehind.set(l, behindSomething(l, world, dist));
+        if (!hiddenBehind.get(l)) near = 1 - px / 350;
+      }
+    }
+    l.visible = near > 0;
+    l.element.style.opacity = Math.min(1, near * 2);
+  }
+  labelRenderer.render(scene, camera);
+  // CSS2DRenderer sets z-index by depth; selection and distance labels always sit above the part numbers.
+  dimsLabel.element.style.zIndex = distLabel.element.style.zIndex = 100000;
+});
+</script>
+</body>
+</html>
