@@ -42958,9 +42958,9 @@
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.33,
-     0.2,
-     0.13,
+     0.14,
+     0.053,
+     0.026,
      1
     ],
     "roughnessFactor": 0.55,
@@ -58379,9 +58379,9 @@
     "omschrijving": "IKEA HELMER ladekast op wielen, 28 x 44 x 69 cm"
    },
    "translation": [
-    4.343199998807908,
+    4.177218608168129,
     0.010000000000000177,
-    -0.6477999999999999
+    -0.7477999999999999
    ],
    "rotation": [
     -6.462110182878971e-17,
@@ -58473,9 +58473,9 @@
     "omschrijving": "IKEA HELMER ladekast op wielen, 28 x 44 x 69 cm"
    },
    "translation": [
-    5.222699998807908,
+    5.389218608168129,
     0.010000000000000177,
-    -0.6477999999999999
+    -0.7477999999999999
    ],
    "rotation": [
     -6.462110182878971e-17,
