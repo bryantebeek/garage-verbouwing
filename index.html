@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Garage verbouwing</title>
 <style>
   :root {
@@ -10,7 +11,7 @@
     font-family: Inter, ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
   }
   body { margin: 0; overflow: hidden; background: #e7e5e1; }
-  canvas { cursor: grab; }
+  canvas { cursor: grab; touch-action: none; -webkit-user-select: none; user-select: none; }
   canvas:active { cursor: grabbing; }
   .panel {
     position: fixed; z-index: 2; color: var(--text); background: var(--panel); border: 1px solid var(--line);
@@ -110,6 +111,27 @@
   .dist { background: var(--blue); }
   /* U: clean view, nothing but the model */
   body.clean .panel, body.clean #cross, body.clean .labels { display: none !important; }
+  /* Touch: joystick to walk, drag to look, tap to select; compact panels. */
+  #stick, #updown, #help .touch { display: none; }
+  #layers .heading { cursor: pointer; }
+  #layers.collapsed #layer-list { display: none; }
+  #layers.collapsed .heading { margin: 0; }
+  #layers .heading::after { content: ' ▾'; }
+  #layers.collapsed .heading::after { content: ' ▸'; }
+  @media (pointer: coarse) {
+    #stick { display: block; position: fixed; z-index: 2; left: calc(24px + env(safe-area-inset-left)); bottom: calc(24px + env(safe-area-inset-bottom));
+      width: 120px; height: 120px; border-radius: 50%; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(16px); touch-action: none; }
+    #stick i { position: absolute; left: 50%; top: 50%; width: 52px; height: 52px; margin: -26px; border-radius: 50%; background: rgba(255, 255, 255, .85);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+    #updown { display: flex; flex-direction: column; gap: 10px; position: fixed; z-index: 2; right: calc(24px + env(safe-area-inset-right)); bottom: calc(24px + env(safe-area-inset-bottom)); }
+    #updown button { width: 52px; height: 52px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--text);
+      font-size: 18px; backdrop-filter: blur(16px); touch-action: none; }
+    #brand, #pos, #help .keys, #help .heading kbd { display: none; }
+    #help .touch { display: grid; }
+    #help { bottom: auto; top: calc(16px + env(safe-area-inset-top)); left: calc(16px + env(safe-area-inset-left)); }
+    #layers { top: calc(16px + env(safe-area-inset-top)); right: calc(16px + env(safe-area-inset-right)); max-height: 70vh; overflow-y: auto; }
+    #info { bottom: calc(160px + env(safe-area-inset-bottom)); max-width: calc(100vw - 32px); box-sizing: border-box; }
+  }
   .dims u { text-decoration: underline 1px rgba(255, 255, 255, .65); text-underline-offset: 3px; }
 </style>
 <script type="importmap">
@@ -136,10 +158,16 @@
   </div>
 </div>
 <div id="brand" class="panel"><b>Garage verbouwing</b><span>3D-model</span></div>
-<div id="layers" class="panel"><p class="heading">Lagen</p><div id="layer-list"></div></div>
+<div id="layers" class="panel"><p class="heading" id="layers-toggle">Lagen</p><div id="layer-list"></div></div>
 <div id="help" class="panel">
-  <p class="heading">Besturing <kbd>H</kbd></p>
-  <dl>
+  <p class="heading" id="help-toggle">Besturing <kbd>H</kbd></p>
+  <dl class="touch">
+    <dt>Joystick</dt><dd>Lopen</dd>
+    <dt>Slepen</dt><dd>Rondkijken</dd>
+    <dt>▲ ▼</dt><dd>Omhoog / omlaag</dd>
+    <dt>Tik</dt><dd>Selecteer onder het vizier (nog eens: deur open)</dd>
+  </dl>
+  <dl class="keys">
     <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>Lopen</dd>
     <dt><kbd>Shift</kbd></dt><dd>Rennen</dd>
     <dt><kbd>Spatie</kbd><kbd>C</kbd></dt><dd>Omhoog / omlaag</dd>
@@ -162,6 +190,8 @@
   <span id="heading"></span>
 </div>
 <div id="cross"></div>
+<div id="stick"><i></i></div>
+<div id="updown"><button data-dir="1">▲</button><button data-dir="-1">▼</button></div>
 <script type="module">
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -204,6 +234,52 @@ renderer.domElement.addEventListener('mousemove', e => {
   look.x = THREE.MathUtils.clamp(look.x - e.movementY * 0.0025, -1.5, 1.5);
   camera.quaternion.setFromEuler(look);
 });
+
+// Touch: one finger on the canvas drags the view; a short tap selects under the crosshair (like E).
+const touchLook = new Map();
+renderer.domElement.addEventListener('pointerdown', e => {
+  if (e.pointerType !== 'touch') return;
+  touchLook.set(e.pointerId, { x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, t: performance.now() });
+});
+renderer.domElement.addEventListener('pointermove', e => {
+  const t = touchLook.get(e.pointerId);
+  if (!t) return;
+  look.setFromQuaternion(camera.quaternion);
+  look.y += (e.clientX - t.x) * 0.005;
+  look.x = THREE.MathUtils.clamp(look.x + (e.clientY - t.y) * 0.005, -1.5, 1.5);
+  camera.quaternion.setFromEuler(look);
+  t.x = e.clientX; t.y = e.clientY;
+});
+const touchEnd = e => {
+  const t = touchLook.get(e.pointerId);
+  if (!t) return;
+  touchLook.delete(e.pointerId);
+  if (e.type === 'pointerup' && Math.hypot(e.clientX - t.x0, e.clientY - t.y0) < 10 && performance.now() - t.t < 350) identify();
+};
+renderer.domElement.addEventListener('pointerup', touchEnd);
+renderer.domElement.addEventListener('pointercancel', touchEnd);
+// Joystick: knob offset within 50 px gives forward/side in -1..1.
+const joy = { x: 0, y: 0, id: null };
+const stick = $('stick'), knob = stick.firstElementChild;
+const moveStick = e => {
+  const r = stick.getBoundingClientRect(), dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+  const len = Math.hypot(dx, dy), k = len > 50 ? 50 / len : 1;
+  joy.x = dx * k / 50; joy.y = dy * k / 50;
+  knob.style.transform = `translate(${dx * k}px, ${dy * k}px)`;
+};
+stick.addEventListener('pointerdown', e => { joy.id = e.pointerId; stick.setPointerCapture(e.pointerId); moveStick(e); });
+stick.addEventListener('pointermove', e => { if (e.pointerId === joy.id) moveStick(e); });
+const releaseStick = e => { if (e.pointerId !== joy.id) return; joy.id = null; joy.x = joy.y = 0; knob.style.transform = ''; };
+stick.addEventListener('pointerup', releaseStick);
+stick.addEventListener('pointercancel', releaseStick);
+let lift = 0; // ▲ / ▼ held
+for (const b of document.querySelectorAll('#updown button')) {
+  b.addEventListener('pointerdown', e => { lift = Number(b.dataset.dir); b.setPointerCapture(e.pointerId); });
+  for (const end of ['pointerup', 'pointercancel']) b.addEventListener(end, () => { lift = 0; });
+}
+$('layers-toggle').onclick = () => $('layers').classList.toggle('collapsed');
+$('help-toggle').onclick = () => $('help').classList.toggle('collapsed');
+if (matchMedia('(pointer: coarse)').matches) { $('layers').classList.add('collapsed'); $('help').classList.add('collapsed'); }
 
 const labelRenderer = new CSS2DRenderer();
 labelRenderer.domElement.style.cssText = 'position: fixed; top: 0; pointer-events: none';
@@ -538,14 +614,14 @@ renderer.setAnimationLoop(() => {
   const dt = Math.min(clock.getDelta(), 0.1);
   for (const d of doors) d.pivot.rotation.y += ((d.open ? d.angle : 0) - d.pivot.rotation.y) * Math.min(1, dt * 6);
   const speed = (keys.has('ShiftLeft') || keys.has('ShiftRight') ? 4 : 1.5) * dt;
-  const fwd = (keys.has('KeyW') ? 1 : 0) - (keys.has('KeyS') ? 1 : 0);
-  const side = (keys.has('KeyD') ? 1 : 0) - (keys.has('KeyA') ? 1 : 0);
+  const fwd = (keys.has('KeyW') ? 1 : 0) - (keys.has('KeyS') ? 1 : 0) - joy.y;
+  const side = (keys.has('KeyD') ? 1 : 0) - (keys.has('KeyA') ? 1 : 0) + joy.x;
   camera.getWorldDirection(forward);
   forward.y = 0;
   forward.normalize();
   right.crossVectors(forward, camera.up);
   camera.position.addScaledVector(forward, fwd * speed).addScaledVector(right, side * speed);
-  camera.position.y += ((keys.has('Space') ? 1 : 0) - (keys.has('KeyC') ? 1 : 0)) * speed;
+  camera.position.y += ((keys.has('Space') ? 1 : 0) - (keys.has('KeyC') ? 1 : 0) + lift) * speed;
   const p = camera.position;
   look.setFromQuaternion(camera.quaternion);
   const deg = r => Math.round(THREE.MathUtils.radToDeg(r));
