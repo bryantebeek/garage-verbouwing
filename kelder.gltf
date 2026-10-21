@@ -59661,7 +59661,7 @@
   {
    "name": "Plant",
    "translation": [
-    3.050324261835816,
+    2.9828242618359466,
     0.010000000000000273,
     -0.17174849557353714
    ],
@@ -59818,24 +59818,29 @@
   {
    "name": "Bureau",
    "extras": {
-    "omschrijving": "Secretlab MAGNUS Pro zit-sta bureau, zwart (Stealth), 150 x 70 cm",
+    "omschrijving": "Secretlab MAGNUS Pro XL zit-sta bureau, zwart (Stealth), 177 x 80 cm",
     "product": {
      "winkel": "Secretlab",
-     "naam": "Secretlab MAGNUS Pro, Stealth (zwart), 150 x 70 cm",
+     "naam": "Secretlab MAGNUS Pro XL, Stealth (zwart), 177 x 80 cm",
      "artikel": "–",
-     "url": "https://secretlab.eu/nl/products/magnus-pro"
+     "url": "https://secretlab.eu/nl/pages/magnus-pro"
     }
    },
    "translation": [
-    5.393218607274317,
+    5.528218607274058,
     0.01,
-    -0.7498033696106149
+    -0.8478033694915608
    ],
    "rotation": [
     2.0194748525646156e-33,
     1,
     -2.4266356950351365e-32,
     4.163336342344337e-17
+   ],
+   "scale": [
+    1.1799999999995905,
+    1,
+    1.1396011394315098
    ],
    "children": [
     33
@@ -60101,7 +60106,7 @@
    "translation": [
     5.004710868318809,
     0.009999987888336183,
-    -1.1543450716308208
+    -1.2523450716308209
    ],
    "rotation": [
     0,
