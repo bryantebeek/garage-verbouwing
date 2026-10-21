@@ -34259,14 +34259,14 @@
    "componentType": 5126,
    "count": 112,
    "max": [
-    5.5912184715271,
+    0.06300000101327896,
     0.7699999809265137,
-    -0.5889999866485596
+    0.03099999949336052
    ],
    "min": [
-    5.468218803405762,
+    -0.05999999865889549,
     0.7289999723434448,
-    -0.6510000228881836
+    -0.03099999949336052
    ],
    "bufferView": 1088,
    "byteOffset": 0
@@ -34283,14 +34283,14 @@
    "componentType": 5126,
    "count": 1944,
    "max": [
-    5.570718765258789,
+    0.042500000447034836,
     0.7599111199378967,
-    -0.5400254130363464
+    0.07997460663318634
    ],
    "min": [
-    5.545718669891357,
+    0.017500000074505806,
     0.6542035937309265,
-    -0.6999745965003967
+    -0.07997460663318634
    ],
    "bufferView": 1089,
    "byteOffset": 0
@@ -34307,14 +34307,14 @@
    "componentType": 5126,
    "count": 616,
    "max": [
-    5.588218688964844,
+    0.05999999865889549,
     0.6549999713897705,
-    -0.5425000190734863
+    0.07750000059604645
    ],
    "min": [
-    5.528218746185303,
+    0,
     0.5649999976158142,
-    -0.6974999904632568
+    -0.07750000059604645
    ],
    "bufferView": 1090,
    "byteOffset": 0
@@ -34331,14 +34331,14 @@
    "componentType": 5126,
    "count": 616,
    "max": [
-    5.58521842956543,
+    0.05700000002980232,
     0.6499999761581421,
-    -0.5619999766349792
+    0.057999998331069946
    ],
    "min": [
-    5.531218528747559,
+    0.003000000026077032,
     0.5699999928474426,
-    -0.6779999732971191
+    -0.057999998331069946
    ],
    "bufferView": 1091,
    "byteOffset": 0
@@ -74005,7 +74005,7 @@
   {
    "name": "Koptelefoonhanger",
    "extras": {
-    "omschrijving": "Secretlab magnetische koptelefoonhanger, onder de linkerrand van het bureau",
+    "omschrijving": "Secretlab magnetische koptelefoonhanger, linksvoor onder het bureau",
     "product": {
      "winkel": "Secretlab",
      "naam": "Secretlab magnetische koptelefoonhanger",
@@ -74013,6 +74013,17 @@
      "url": "https://secretlab.eu/nl/products/magnetic-headphone-hanger"
     }
    },
+   "translation": [
+    5.44821860727401,
+    0,
+    -0.8478033696104283
+   ],
+   "rotation": [
+    0,
+    0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
    "mesh": 1012
   },
   {
@@ -74026,6 +74037,17 @@
      "url": "https://www.bose.nl/nl_nl/p/headphones/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN.html"
     }
    },
+   "translation": [
+    5.44821860727401,
+    0,
+    -0.8478033696104283
+   ],
+   "rotation": [
+    0,
+    0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
    "children": [
     1211,
     1212,
