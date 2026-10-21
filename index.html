@@ -181,7 +181,7 @@ function showInfo(title, sub, product) {
   }
 }
 const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setPixelRatio(devicePixelRatio);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); // 3x phones: 9x the pixels with MSAA, too much GPU memory on iOS
 document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xe7e5e1);
