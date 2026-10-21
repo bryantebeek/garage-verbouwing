@@ -245,8 +245,8 @@ renderer.domElement.addEventListener('pointermove', e => {
   const t = touchLook.get(e.pointerId);
   if (!t) return;
   look.setFromQuaternion(camera.quaternion);
-  look.y += (e.clientX - t.x) * 0.005;
-  look.x = THREE.MathUtils.clamp(look.x + (e.clientY - t.y) * 0.005, -1.5, 1.5);
+  look.y -= (e.clientX - t.x) * 0.005;
+  look.x = THREE.MathUtils.clamp(look.x - (e.clientY - t.y) * 0.005, -1.5, 1.5);
   camera.quaternion.setFromEuler(look);
   t.x = e.clientX; t.y = e.clientY;
 });
