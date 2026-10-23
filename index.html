@@ -217,7 +217,8 @@ renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); // 3x phones: 9x the pixe
 document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xe7e5e1);
-scene.add(new THREE.HemisphereLight(0xffffff, 0x888888, 2.5));
+const hemi = new THREE.HemisphereLight(0xffffff, 0x888888, 2.5);
+scene.add(hemi);
 const sun = new THREE.DirectionalLight(0xffffff, 1.5);
 sun.position.set(5, 10, 3);
 scene.add(sun);
@@ -396,12 +397,13 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
   off: layers.flatMap((l, i) => l.visible ? [] : [i]),
 })));
 
-// Beamer (B): the retro-tv-loop projected on the TV wall around the LG TV. Additive blending, so the black in the image
+// Beamer (B): the retro-tv-loop projected on the TV wall around the LG TV. With the beamer on the room goes to evening
+// light: added on top of a fully lit pale wall every colour clips to near-white, just like a real projector in daylight. Additive blending, so the black in the image
 // adds no light and the masked TV stays unlit. Image width = lens-to-wall distance / throw ratio 1.3 (16:9), centred on
 // the TV, bottom edge on the Kallax top (the beamer's keystone/shift puts it there).
 const THROW = 1.3;
 const byName = name => { let found = null; scene.traverse(o => { if (!found && displayName(o) === name) found = o; }); return found; };
-const beamer = { on: true, plane: null, draw: null, texture: null };
+const beamer = { on: false, plane: null, draw: null, texture: null };
 {
   const tv = byName('TV'), lens = byName('Beamer lens'), kallax = byName('Kallax bovenblad');
   if (tv && lens) {
@@ -420,11 +422,15 @@ const beamer = { on: true, plane: null, draw: null, texture: null };
     beamer.plane.raycast = () => {};                                       // not selectable, never in the way of picking
     scene.add(beamer.plane);
     tv.parent.attach(beamer.plane);                                        // hides with its layer (Meubels)
+    beamer.plane.visible = beamer.on;
   }
 }
 function toggleBeamer() {
   beamer.on = !beamer.on;
   if (beamer.plane) beamer.plane.visible = beamer.on;
+  const dim = beamer.on ? 0.12 : 1;                                        // evening light while projecting
+  hemi.intensity = 2.5 * dim;
+  sun.intensity = 1.5 * dim;
   renderLayers();
 }
 
