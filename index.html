@@ -177,6 +177,7 @@
     <dt><kbd>L</kbd><kbd>N</kbd></dt><dd>Lijnen / nummers</dd>
     <dt><kbd>R</kbd></dt><dd>Terug naar start</dd>
     <dt><kbd>U</kbd></dt><dd>Alles verbergen, vrij rondlopen</dd>
+    <dt><kbd>B</kbd></dt><dd>Beamer-projectie aan / uit</dd>
     <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
   </dl>
 </div>
@@ -196,6 +197,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+import { retroLoop } from './beamer.js';
 
 const $ = id => document.getElementById(id);
 const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
@@ -394,6 +396,38 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
   off: layers.flatMap((l, i) => l.visible ? [] : [i]),
 })));
 
+// Beamer (B): the retro-tv-loop projected on the TV wall around the LG TV. Additive blending, so the black in the image
+// adds no light and the masked TV stays unlit. Image width = lens-to-wall distance / throw ratio 1.3 (16:9), centred on
+// the TV, bottom edge on the Kallax top (the beamer's keystone/shift puts it there).
+const THROW = 1.3;
+const byName = name => { let found = null; scene.traverse(o => { if (!found && displayName(o) === name) found = o; }); return found; };
+const beamer = { on: true, plane: null, draw: null, texture: null };
+{
+  const tv = byName('TV'), lens = byName('Beamer lens'), kallax = byName('Kallax bovenblad');
+  if (tv && lens) {
+    const tvBox = new THREE.Box3().setFromObject(tv), lensAt = lens.getWorldPosition(new THREE.Vector3());
+    const wallZ = tvBox.min.z, w = (lensAt.z - wallZ) / THROW, h = w * 9 / 16;
+    const bottom = kallax ? new THREE.Box3().setFromObject(kallax).max.y : (tvBox.min.y + tvBox.max.y) / 2 - h / 2;
+    const left = (tvBox.min.x + tvBox.max.x) / 2 - w / 2, top = bottom + h, px = 320 / w;
+    const canvas = Object.assign(document.createElement('canvas'), { width: 320, height: 180 });
+    beamer.draw = retroLoop(canvas, { x: Math.round((tvBox.min.x - left) * px), y: Math.round((top - tvBox.max.y) * px),
+      w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) });
+    beamer.texture = Object.assign(new THREE.CanvasTexture(canvas), { colorSpace: THREE.SRGBColorSpace,
+      magFilter: THREE.NearestFilter, minFilter: THREE.NearestFilter, generateMipmaps: false });
+    beamer.plane = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: beamer.texture,
+      blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, toneMapped: false }));
+    beamer.plane.position.set(left + w / 2, bottom + h / 2, wallZ + 0.002); // just in front of the paint, facing the room
+    beamer.plane.raycast = () => {};                                       // not selectable, never in the way of picking
+    scene.add(beamer.plane);
+    tv.parent.attach(beamer.plane);                                        // hides with its layer (Meubels)
+  }
+}
+function toggleBeamer() {
+  beamer.on = !beamer.on;
+  if (beamer.plane) beamer.plane.visible = beamer.on;
+  renderLayers();
+}
+
 function toggleLayer(i) {
   layers[i].visible = !layers[i].visible;
   renderLayers();
@@ -407,7 +441,9 @@ function renderLayers() {
     row.onclick = () => toggleLayer(i);
     row.onmousedown = e => e.preventDefault(); // keep focus off the button so Space still flies up
     return row;
-  }));
+  }), ...(beamer.plane ? [Object.assign(document.createElement('button'), {
+    className: beamer.on ? 'on' : 'off', innerHTML: '<kbd>B</kbd><span class="name">Beamer-projectie</span><span class="switch"></span>',
+    onclick: toggleBeamer, onmousedown: e => e.preventDefault() })] : []));
 }
 renderLayers();
 
@@ -419,6 +455,7 @@ addEventListener('keydown', e => {
   const n = digit < 0 ? -1 : digit + (e.shiftKey ? 10 : 0);
   if (layers[n]) toggleLayer(n);
   if (e.code === 'KeyE') identify();
+  if (e.code === 'KeyB') toggleBeamer();
   if (e.code === 'Escape') { select(null); showInfo(null); }
   if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
   if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
@@ -636,6 +673,7 @@ renderer.setAnimationLoop(() => {
     if (!clean) hover(pick(new THREE.Vector2(0, 0))?.target ?? null);
     if (selected) followFace();
   }
+  if (beamer.on && beamer.plane?.parent.visible) { beamer.draw(performance.now()); beamer.texture.needsUpdate = true; }
   renderer.render(scene, camera);
   // Part numbers only near the crosshair: within 350 px of the centre and 8 m of the eye, fading out towards the edge.
   for (const l of labels) {
