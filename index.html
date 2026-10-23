@@ -400,8 +400,9 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
 
 // Beamer (B): a real projection from the lens of the BenQ TH671ST, upside down on the ceiling. Spot lights with a light map
 // (SpotLight.map, which needs shadows): one plays the retro loop. The 16:9 image is zoomed (throw ratio 0.69-0.83) to the
-// wall width; with the 102.5% offset of an inverted projector its top edge sits just below the lens. The loop fills it from
-// that edge down to the Kallax top (the LG TV masked black); below that the image is black. A second one ("what if", K)
+// wall width; with the 102.5% offset of an inverted projector its top edge would sit just below the lens (±2.19 m), so the
+// beamer is tilted up ±3° and keystone-corrected: the loop fills the wall from the ceiling down to the Kallax top (the LG
+// TV masked black), below that the image is black. The result on the wall is that rectangle, which is what is drawn. A second one ("what if", K)
 // puts name/year labels on the white Kallax edge below each console; from the ceiling the image can't reach them. Light lands on whatever
 // is in the beam and the shadows keep it off what's behind, just like a projector. The beam is perpendicular to the wall;
 // the image is placed inside a larger symmetric frustum (lens shift).
@@ -423,6 +424,8 @@ const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: nu
     const imgW = d / throwRatio, imgH = imgW * 9 / 16;
     const top = at.y - (OFFSET - 1) * imgH;
     const img = { left: at.x - imgW / 2, right: at.x + imgW / 2, bottom: top - imgH, top };
+    const tilt = Math.max(0, wallBox.max.y - img.top);                     // raised by tilting up + keystone
+    img.top += tilt; img.bottom += tilt;
     const area = { left: Math.max(img.left, wallBox.min.x), right: Math.min(img.right, wallBox.max.x), bottom: kb.max.y, top: Math.min(img.top, wallBox.max.y) };
     const reach = Math.hypot(Math.max(at.x - img.left, img.right - at.x), Math.max(at.y - img.bottom, img.top - at.y));
     // Spot from the lens towards `aim`, its cone reaching `radius` metres around it (square frustum around the cone).
