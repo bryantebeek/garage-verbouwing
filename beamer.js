@@ -1,8 +1,9 @@
-// Retro gaming loop (from retro-tv-loop.html) for the beamer projection: draws one frame into a 320 x 180 canvas.
+// Retro gaming loop (from retro-tv-loop.html) for the beamer projection: draws one frame into the canvas (320 wide,
+// any height; rows are laid out from the top for the invaders and from the bottom for the ground strip).
 // `mask` (canvas pixels) is the TV on the wall; it stays black so the projector doesn't light the TV itself.
 export function retroLoop(canvas, mask) {
   const g = canvas.getContext('2d')
-  const W = 320, H = 180
+  const W = canvas.width, H = canvas.height, MID = Math.round(H * 0.44)
   const PAL = { R: '#e83b3b', S: '#f5c08a', B: '#3b6cf0', K: '#111', G: '#5ad15a', W: '#fff', Y: '#ffd23f', O: '#e09a20', D: '#a0521c' }
 
   const SPR = {
@@ -81,37 +82,37 @@ export function retroLoop(canvas, mask) {
     g.fillStyle = '#ffd9a0'
     for (let dx = 4; dx < W; dx += 8) {
       if (dx < chompX + 4) { eaten++; continue }
-      g.fillRect(dx, 83, 2, 2)
+      g.fillRect(dx, MID + 3, 2, 2)
     }
-    draw(Math.floor(t * 7) % 2 ? SPR.chompOpen : SPR.chompShut, chompX, 80)
+    draw(Math.floor(t * 7) % 2 ? SPR.chompOpen : SPR.chompShut, chompX, MID)
     const ghostColors = ['#ff6fb5', '#4fe0ff', '#ffa53b']
     ghostColors.forEach((color, i) => {
       const gx = fleeing ? chompX + 16 + i * 12 : chompX - 18 - i * 12
       const tint = fleeing ? (Math.floor(t * 4) % 2 ? '#2b3bff' : '#fff') : color
-      draw(Math.floor(t * 5 + i) % 2 ? SPR.ghostA : SPR.ghostB, gx, 79, tint)
+      draw(Math.floor(t * 5 + i) % 2 ? SPR.ghostA : SPR.ghostB, gx, MID - 1, tint)
     })
 
     g.fillStyle = PAL.D
-    g.fillRect(0, 168, W, 12)
+    g.fillRect(0, H - 12, W, 12)
     g.fillStyle = '#5a2a0a'
-    g.fillRect(0, 174, W, 1)
+    g.fillRect(0, H - 6, W, 1)
     for (let bx = 0; bx < W; bx += 8) {
-      g.fillRect(bx, 168, 1, 6)
-      g.fillRect(bx + 4, 175, 1, 5)
+      g.fillRect(bx, H - 12, 1, 6)
+      g.fillRect(bx + 4, H - 5, 1, 5)
     }
     g.fillStyle = PAL.G
-    g.fillRect(0, 167, W, 1)
+    g.fillRect(0, H - 13, W, 1)
 
     const heroX = ((t * 25) % 380) - 20
     const slimeX = 340 - ((t * 18) % 400)
     const gap = slimeX - heroX
     const jumping = gap > -10 && gap < 18
-    const heroY = 158 - (jumping ? Math.sin(Math.PI * (18 - gap) / 28) * 16 : 0)
+    const heroY = H - 22 - (jumping ? Math.sin(Math.PI * (18 - gap) / 28) * 16 : 0)
     draw(jumping || Math.floor(t * 7) % 2 ? SPR.heroA : SPR.heroB, heroX, heroY)
-    if (Math.floor(t * 3) % 2) draw(SPR.slimeA, slimeX, 161)
-    else draw(SPR.slimeB, slimeX, 162)
+    if (Math.floor(t * 3) % 2) draw(SPR.slimeA, slimeX, H - 19)
+    else draw(SPR.slimeB, slimeX, H - 18)
 
-    ;[[24, 148], [40, 144], [272, 144], [288, 148]].forEach(([cx, cy], i) => {
+    ;[[24, H - 32], [40, H - 36], [W - 48, H - 36], [W - 32, H - 32]].forEach(([cx, cy], i) => {
       const f = [0, 1, 2, 1][Math.floor(t * 8 + i) % 4]
       draw(SPR.coin[f], cx + f, cy + Math.sin(t * 2 + i) * 2)
     })
@@ -124,7 +125,15 @@ export function retroLoop(canvas, mask) {
 
     g.fillStyle = '#000'
     g.fillRect(mask.x, mask.y, mask.w, mask.h)
-    if (Math.floor(t * 1.5) % 2) text('INSERT COIN', Math.round(mask.x + mask.w / 2 - 21), mask.y + mask.h + 8, '#ffd23f')
+    if (Math.floor(t * 1.5) % 2) text('INSERT COIN', Math.round(mask.x + mask.w / 2 - 21), mask.y + mask.h + 13 <= H - 13 ? mask.y + mask.h + 8 : mask.y - 8, '#ffd23f')
   }
   return frame
+}
+
+// Labels the beamer puts on the console fronts: model name in the scene -> [text, year of first release, colour].
+export const CONSOLES = {
+  'NES': ['NES', 1985, '#ff4a4a'], 'SNES': ['SUPER NINTENDO', 1990, '#ff4a4a'], 'PlayStation': ['PLAYSTATION', 1994, '#4fa3ff'],
+  'Nintendo 64': ['NINTENDO 64', 1996, '#ff4a4a'], 'PlayStation 2': ['PLAYSTATION 2', 2000, '#4fa3ff'], 'GameCube': ['GAMECUBE', 2001, '#b28cff'],
+  'Dreamcast': ['DREAMCAST', 1998, '#ff8a3a'], 'Wii': ['WII', 2006, '#4fe0ff'], 'Xbox 360': ['XBOX 360', 2005, '#7cfc5a'],
+  'Wii U': ['WII U', 2012, '#4fe0ff'], 'PlayStation 3': ['PLAYSTATION 3', 2006, '#4fa3ff'], 'PlayStation 4': ['PLAYSTATION 4', 2013, '#4fa3ff'],
 }
