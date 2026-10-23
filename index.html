@@ -399,7 +399,7 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
 
 // Beamer (B): a real projection from the beamer lens. Two spot lights with a light map (SpotLight.map, which needs shadows):
 // one plays the retro loop over the whole TV wall above the Kallax (the LG TV masked black), one puts static name/year
-// labels on the console fronts. Light lands on whatever is in the beam and the shadows keep it off what's behind, just like
+// labels on the white Kallax edge below each console. Light lands on whatever is in the beam and the shadows keep it off what's behind, just like
 // a projector. The beam is perpendicular to the wall; the image is placed inside a larger symmetric frustum (lens shift).
 // The frustum is square and holds the whole cone: outside its map a spot light shines plain white.
 // With the beamer on the room goes to evening light, otherwise the pale wall is already near white and colours wash out.
@@ -415,15 +415,16 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
     const at = lens.getWorldPosition(new THREE.Vector3()), wallZ = tvBox.min.z + 0.001, d = at.z - wallZ;
     // Frustum (at the wall plane): the full wall width, and from the lowest console (seen through to the wall) to as far up.
     const reach = Math.hypot(Math.max(at.x - wallBox.min.x, wallBox.max.x - at.x), at.y - 0.10);
-    const spot = (intensity, mapSize) => {
+    // Spot from the lens towards `aim`, its cone reaching `radius` metres around it (square frustum around the cone).
+    const spot = (intensity, aim, radius) => {
       const l = new THREE.SpotLight(0xffffff, 0, 0, 0, 0, 0);
       l.position.copy(at);
-      l.target.position.set(at.x, at.y, wallZ);
-      l.angle = Math.atan(reach / d);                                      // cone wide enough for the corners
+      l.target.position.copy(aim);
+      l.angle = Math.atan(radius / at.distanceTo(aim));                    // cone wide enough for the corners
       l.shadow.focus = 1;                                                  // square frustum around the cone
       l.shadow.mapSize.set(1536, 1536);
       l.shadow.camera.near = 0.1; l.shadow.camera.far = 12;            // beyond far a spot map shines white too
-      l.shadow.bias = -0.0005; l.shadow.normalBias = 0.01;
+      l.shadow.bias = -0.0005; l.shadow.normalBias = 0;                  // normalBias also shifts where the map is sampled
       l.castShadow = true;
       l.userData.intensity = intensity;
       scene.add(l, l.target);
@@ -431,11 +432,16 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
       beamer.lights.push(l);
       return l;
     };
-    const animLight = spot(9), labelLight = spot(9);
-    // World point -> pixel in a canvas covering the frustum.
-    const toCanvas = (p, cw, ch) => { const n = p.clone().project(animLight.shadow.camera); return [(n.x + 1) / 2 * cw, (1 - n.y) / 2 * ch]; };
-    const texture = canvas => Object.assign(new THREE.CanvasTexture(canvas), { colorSpace: THREE.SRGBColorSpace,
-      magFilter: THREE.NearestFilter, minFilter: THREE.NearestFilter, generateMipmaps: false });
+    // The label light only covers the Kallax front, tilted down towards it, for sharper text.
+    const kallaxFront = new THREE.Box3();
+    for (const k of ['Kallax 2', 'Kallax 1', 'Kallax 3']) { const o = byName(k); if (o) kallaxFront.expandByObject(o); }
+    const labelAim = new THREE.Vector3((kallaxFront.min.x + kallaxFront.max.x) / 2, 0.49, kallaxFront.max.z);
+    const animLight = spot(9, new THREE.Vector3(at.x, at.y, wallZ), reach);
+    const labelLight = spot(9, labelAim, Math.hypot((kallaxFront.max.x - kallaxFront.min.x) / 2 + 0.05, 0.15));
+    // World point -> pixel in a canvas covering a light's frustum.
+    const toCanvas = (p, cw, ch, light = animLight) => { const n = p.clone().project(light.shadow.camera); return [(n.x + 1) / 2 * cw, (1 - n.y) / 2 * ch]; };
+    const texture = (canvas, smooth) => Object.assign(new THREE.CanvasTexture(canvas), { colorSpace: THREE.SRGBColorSpace, generateMipmaps: false,
+      magFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter, minFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter });
 
     // Animation: 320 px over the wall width, from the Kallax top to the top of the wall.
     const v = (x, y) => new THREE.Vector3(x, y, wallZ);
@@ -451,35 +457,54 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
     beamer.draw = now => { loop(now); fg.fillStyle = '#000'; fg.fillRect(0, 0, frame.width, frame.height); fg.drawImage(anim, x0, y0, x1 - x0, y1 - y0); };
     beamer.texture = animLight.map = texture(frame);
 
-    // Labels: name and year on the front face of each console, fitted to its width and height.
-    const labels = Object.assign(document.createElement('canvas'), { width: 2048, height: 2048 });
-    const beam = new THREE.Raycaster();
-    const lg = labels.getContext('2d');
-    lg.fillStyle = '#000'; lg.fillRect(0, 0, labels.width, labels.height);
-    lg.textAlign = 'center'; lg.textBaseline = 'middle';
-    for (const [name, [label, year, colour]] of Object.entries(CONSOLES)) {
-      const c = byName(name);
-      if (!c) continue;
-      // Depth of the real front: where the beam towards the middle of the bounding box front first hits the console.
-      const b = new THREE.Box3().setFromObject(c), aim = new THREE.Vector3((b.min.x + b.max.x) / 2, (b.min.y + b.max.y) / 2, b.max.z);
-      beam.set(at, aim.clone().sub(at).normalize());
-      const z = beam.intersectObject(c, true)[0]?.point.z ?? b.max.z;
-      const [ax, ay] = toCanvas(new THREE.Vector3(b.min.x, b.max.y, z), labels.width, labels.height);
-      const [bx, by] = toCanvas(new THREE.Vector3(b.max.x, b.min.y, z), labels.width, labels.height);
-      const text = `${label}  ${year}`, w = (bx - ax) * 0.86, h = (by - ay) * 0.42;
-      lg.font = `bold 100px ui-monospace, Menlo, monospace`;
-      const size = Math.min(h, 100 * w / lg.measureText(text).width);
-      lg.font = `bold ${size.toFixed(1)}px ui-monospace, Menlo, monospace`;
-      lg.fillStyle = colour;
-      lg.fillText(text, (ax + bx) / 2, (ay + by) / 2);
-    }
-    labelLight.map = texture(labels);
+    // Labels: name and year on the white front edge of the Kallax (or the shelf insert) right below each console, found by
+    // stepping the beam down from the console's base and keeping what lands on the Kallax front plane. The edges are only
+    // 1-1.6 cm high, so the label map is large (3072 px); it is drawn on the first B, keeping it out of memory until then.
+    const black = Object.assign(document.createElement('canvas'), { width: 1, height: 1 });
+    black.getContext('2d').fillRect(0, 0, 1, 1);
+    labelLight.map = texture(black, true);                                // same map count from the start: no shader recompile later
+    beamer.buildLabels = () => {
+      const labels = Object.assign(document.createElement('canvas'), { width: 3072, height: 3072 });
+      const beam = new THREE.Raycaster(), kallaxParts = [];
+      for (const k of ['Kallax 2', 'Kallax 1', 'Kallax 3']) byName(k)?.traverse(o => { if (o.isMesh) kallaxParts.push(o); });
+      scene.traverse(o => { if (/^Kallax \d (plank|lades) /.test(displayName(o))) o.traverse(m => { if (m.isMesh) kallaxParts.push(m); }); });
+      const lg = labels.getContext('2d');
+      lg.fillStyle = '#000'; lg.fillRect(0, 0, labels.width, labels.height);
+      lg.textAlign = 'center'; lg.textBaseline = 'alphabetic';
+      const front = kallaxFront.max.z;
+      for (const [name, [label, year, colour]] of Object.entries(CONSOLES)) {
+        const c = byName(name);
+        if (!c) continue;
+        const b = new THREE.Box3().setFromObject(c), cx = (b.min.x + b.max.x) / 2;
+        let top = null, bottom = null;
+        for (let y = b.min.y + 0.004; y > b.min.y - 0.06; y -= 0.0005) {
+          beam.set(at, new THREE.Vector3(cx, y, front).sub(at).normalize());
+          const hit = beam.intersectObjects(kallaxParts, false)[0];
+          const onEdge = hit && Math.abs(hit.point.z - front) < 0.002 && Math.abs(hit.point.y - y) < 0.002;
+          if (onEdge) { top ??= y; bottom = y; } else if (top !== null) break;
+        }
+        if (top === null) continue;
+        const half = 0.15;                                                  // compartment is ~33 cm wide
+        const [ax, ay] = toCanvas(new THREE.Vector3(cx - half, top, front), labels.width, labels.height, labelLight);
+        const [bx, by] = toCanvas(new THREE.Vector3(cx + half, bottom, front), labels.width, labels.height, labelLight);
+        const text = `${label}  ${year}`;
+        lg.font = 'bold 100px ui-monospace, Menlo, monospace';
+        const m = lg.measureText(text), inkH = m.actualBoundingBoxAscent + m.actualBoundingBoxDescent;
+        const k = Math.min((by - ay) * 0.7 / inkH, (bx - ax) * 0.92 / m.width); // ink height 70% of the edge
+        lg.font = `bold ${(100 * k).toFixed(2)}px ui-monospace, Menlo, monospace`;
+        lg.fillStyle = colour;
+        lg.fillText(text, (ax + bx) / 2, (ay + by) / 2 + k * (m.actualBoundingBoxAscent - m.actualBoundingBoxDescent) / 2);
+      }
+      labelLight.map.dispose();
+      labelLight.map = texture(labels, true);
+      beamer.buildLabels = null;
+    };
   }
 }
 function toggleBeamer() {
   beamer.on = !beamer.on;
   for (const l of beamer.lights) l.intensity = beamer.on ? l.userData.intensity : 0;
-  if (beamer.on) renderer.shadowMap.needsUpdate = true;
+  if (beamer.on) { beamer.buildLabels?.(); renderer.shadowMap.needsUpdate = true; }
   const dim = beamer.on ? 0.12 : 1;                                        // evening light while projecting
   hemi.intensity = 2.5 * dim;
   sun.intensity = 1.5 * dim;
