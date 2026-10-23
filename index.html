@@ -178,6 +178,7 @@
     <dt><kbd>R</kbd></dt><dd>Terug naar start</dd>
     <dt><kbd>U</kbd></dt><dd>Alles verbergen, vrij rondlopen</dd>
     <dt><kbd>B</kbd></dt><dd>Beamer-projectie aan / uit</dd>
+    <dt><kbd>K</kbd></dt><dd>Consolenamen projecteren (wat als)</dd>
     <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
   </dl>
 </div>
@@ -397,24 +398,29 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
   off: layers.flatMap((l, i) => l.visible ? [] : [i]),
 })));
 
-// Beamer (B): a real projection from the beamer lens. Two spot lights with a light map (SpotLight.map, which needs shadows):
-// one plays the retro loop over the whole TV wall above the Kallax (the LG TV masked black), one puts static name/year
-// labels on the white Kallax edge below each console. Light lands on whatever is in the beam and the shadows keep it off what's behind, just like
-// a projector. The beam is perpendicular to the wall; the image is placed inside a larger symmetric frustum (lens shift).
+// Beamer (B): a real projection from the lens of the XGIMI Horizon 20. Spot lights with a light map (SpotLight.map, which
+// needs shadows): one plays the retro loop as a 16:9 image at the widest zoom (throw ratio 1.2), centred on the TV with its
+// bottom edge on the Kallax top (lens shift), the LG TV masked black. A second one ("what if", K) puts name/year labels on
+// the white Kallax edge below each console; the Horizon 20's image doesn't reach that far down. Light lands on whatever
+// is in the beam and the shadows keep it off what's behind, just like a projector. The beam is perpendicular to the wall;
+// the image is placed inside a larger symmetric frustum (lens shift).
 // The frustum is square and holds the whole cone: outside its map a spot light shines plain white.
 // With the beamer on the room goes to evening light, otherwise the pale wall is already near white and colours wash out.
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.autoUpdate = false;                                   // the scene is static: redraw shadows on change only
 gltf.scene.traverse(o => { if (o.isMesh) o.castShadow = o.receiveShadow = true; });
 const byName = name => { let found = null; scene.traverse(o => { if (!found && displayName(o) === name) found = o; }); return found; };
-const beamer = { on: false, lights: [], draw: null, texture: null };
+const THROW = 1.2;
+const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: null };
 {
   const tv = byName('TV'), lens = byName('Beamer lens'), kallax = byName('Kallax bovenblad'), wall = byName('VF3');
   if (tv && lens && kallax && wall) {
     const tvBox = new THREE.Box3().setFromObject(tv), wallBox = new THREE.Box3().setFromObject(wall), kb = new THREE.Box3().setFromObject(kallax);
     const at = lens.getWorldPosition(new THREE.Vector3()), wallZ = tvBox.min.z + 0.001, d = at.z - wallZ;
-    // Frustum (at the wall plane): the full wall width, and from the lowest console (seen through to the wall) to as far up.
-    const reach = Math.hypot(Math.max(at.x - wallBox.min.x, wallBox.max.x - at.x), at.y - 0.10);
+    // The image on the wall: 16:9, width = distance / throw ratio, centred on the TV, bottom on the Kallax top.
+    const imgW = d / THROW, imgH = imgW * 9 / 16, cx = (tvBox.min.x + tvBox.max.x) / 2;
+    const img = { left: cx - imgW / 2, right: cx + imgW / 2, bottom: kb.max.y, top: kb.max.y + imgH };
+    const reach = Math.hypot(Math.max(at.x - img.left, img.right - at.x), Math.max(at.y - img.bottom, img.top - at.y));
     // Spot from the lens towards `aim`, its cone reaching `radius` metres around it (square frustum around the cone).
     const spot = (intensity, aim, radius) => {
       const l = new THREE.SpotLight(0xffffff, 0, 0, 0, 0, 0);
@@ -443,14 +449,14 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
     const texture = (canvas, smooth) => Object.assign(new THREE.CanvasTexture(canvas), { colorSpace: THREE.SRGBColorSpace, generateMipmaps: false,
       magFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter, minFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter });
 
-    // Animation: 320 px over the wall width, from the Kallax top to the top of the wall.
+    // Animation: the original 320 x 180 loop over the image rectangle.
     const v = (x, y) => new THREE.Vector3(x, y, wallZ);
-    const W = 320, size = Math.round(W * 2 * reach / (wallBox.max.x - wallBox.min.x));
+    const W = 320, size = Math.round(W * 2 * reach / imgW);
     const frame = Object.assign(document.createElement('canvas'), { width: size, height: size });
-    const [x0, y0] = toCanvas(v(wallBox.min.x, wallBox.max.y), frame.width, frame.height), [x1, y1] = toCanvas(v(wallBox.max.x, kb.max.y), frame.width, frame.height);
-    const anim = Object.assign(document.createElement('canvas'), { width: W, height: Math.round(W * (y1 - y0) / (x1 - x0)) });
-    const px = anim.width / (wallBox.max.x - wallBox.min.x);
-    const loop = retroLoop(anim, { x: Math.round((tvBox.min.x - wallBox.min.x) * px), y: Math.round((wallBox.max.y - tvBox.max.y) * px),
+    const [x0, y0] = toCanvas(v(img.left, img.top), frame.width, frame.height), [x1, y1] = toCanvas(v(img.right, img.bottom), frame.width, frame.height);
+    const anim = Object.assign(document.createElement('canvas'), { width: W, height: Math.round(W * 9 / 16) });
+    const px = anim.width / imgW;
+    const loop = retroLoop(anim, { x: Math.round((tvBox.min.x - img.left) * px), y: Math.round((img.top - tvBox.max.y) * px),
       w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) });
     const fg = frame.getContext('2d');
     fg.imageSmoothingEnabled = false;
@@ -462,7 +468,8 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
     // 1-1.6 cm high, so the label map is large (3072 px); it is drawn on the first B, keeping it out of memory until then.
     const black = Object.assign(document.createElement('canvas'), { width: 1, height: 1 });
     black.getContext('2d').fillRect(0, 0, 1, 1);
-    labelLight.map = texture(black, true);                                // same map count from the start: no shader recompile later
+    labelLight.map = texture(black, true);
+    labelLight.userData.labels = true;                                // same map count from the start: no shader recompile later
     beamer.buildLabels = () => {
       const labels = Object.assign(document.createElement('canvas'), { width: 3072, height: 3072 });
       const beam = new THREE.Raycaster(), kallaxParts = [];
@@ -501,10 +508,19 @@ const beamer = { on: false, lights: [], draw: null, texture: null };
     };
   }
 }
+function setBeamerLights() {
+  for (const l of beamer.lights) l.intensity = beamer.on && (!l.userData.labels || beamer.labelsOn) ? l.userData.intensity : 0;
+  if (beamer.on && beamer.labelsOn) beamer.buildLabels?.();
+  if (beamer.on) renderer.shadowMap.needsUpdate = true;
+}
+function toggleLabels() {
+  beamer.labelsOn = !beamer.labelsOn;
+  setBeamerLights();
+  renderLayers();
+}
 function toggleBeamer() {
   beamer.on = !beamer.on;
-  for (const l of beamer.lights) l.intensity = beamer.on ? l.userData.intensity : 0;
-  if (beamer.on) { beamer.buildLabels?.(); renderer.shadowMap.needsUpdate = true; }
+  setBeamerLights();
   const dim = beamer.on ? 0.12 : 1;                                        // evening light while projecting
   hemi.intensity = 2.5 * dim;
   sun.intensity = 1.5 * dim;
@@ -527,7 +543,9 @@ function renderLayers() {
     return row;
   }), ...(beamer.lights.length ? [Object.assign(document.createElement('button'), {
     className: beamer.on ? 'on' : 'off', innerHTML: '<kbd>B</kbd><span class="name">Beamer-projectie</span><span class="switch"></span>',
-    onclick: toggleBeamer, onmousedown: e => e.preventDefault() })] : []));
+    onclick: toggleBeamer, onmousedown: e => e.preventDefault() }), Object.assign(document.createElement('button'), {
+    className: beamer.labelsOn ? 'on' : 'off', innerHTML: '<kbd>K</kbd><span class="name">Consolenamen (wat als)</span><span class="switch"></span>',
+    onclick: toggleLabels, onmousedown: e => e.preventDefault() })] : []));
 }
 renderLayers();
 
@@ -540,6 +558,7 @@ addEventListener('keydown', e => {
   if (layers[n]) toggleLayer(n);
   if (e.code === 'KeyE') identify();
   if (e.code === 'KeyB') toggleBeamer();
+  if (e.code === 'KeyK') toggleLabels();
   if (e.code === 'Escape') { select(null); showInfo(null); }
   if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
   if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
