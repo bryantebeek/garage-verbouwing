@@ -398,10 +398,11 @@ addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.str
   off: layers.flatMap((l, i) => l.visible ? [] : [i]),
 })));
 
-// Beamer (B): a real projection from the lens of the XGIMI Horizon 20. Spot lights with a light map (SpotLight.map, which
-// needs shadows): one plays the retro loop as a 16:9 image at the widest zoom (throw ratio 1.2), centred on the TV with its
-// bottom edge on the Kallax top (lens shift), the LG TV masked black. A second one ("what if", K) puts name/year labels on
-// the white Kallax edge below each console; the Horizon 20's image doesn't reach that far down. Light lands on whatever
+// Beamer (B): a real projection from the lens of the BenQ TH671ST, upside down on the ceiling. Spot lights with a light map
+// (SpotLight.map, which needs shadows): one plays the retro loop. The 16:9 image is zoomed (throw ratio 0.69-0.83) to the
+// wall width; with the 102.5% offset of an inverted projector its top edge sits just below the lens. The loop fills it from
+// that edge down to the Kallax top (the LG TV masked black); below that the image is black. A second one ("what if", K)
+// puts name/year labels on the white Kallax edge below each console; from the ceiling the image can't reach them. Light lands on whatever
 // is in the beam and the shadows keep it off what's behind, just like a projector. The beam is perpendicular to the wall;
 // the image is placed inside a larger symmetric frustum (lens shift).
 // The frustum is square and holds the whole cone: outside its map a spot light shines plain white.
@@ -410,16 +411,19 @@ renderer.shadowMap.enabled = true;
 renderer.shadowMap.autoUpdate = false;                                   // the scene is static: redraw shadows on change only
 gltf.scene.traverse(o => { if (o.isMesh) o.castShadow = o.receiveShadow = true; });
 const byName = name => { let found = null; scene.traverse(o => { if (!found && displayName(o) === name) found = o; }); return found; };
-const THROW = 1.2;
+const ZOOM = [0.69, 0.83], OFFSET = 1.025;                                // TH671ST throw ratio range, projection offset
 const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: null };
 {
   const tv = byName('TV'), lens = byName('Beamer lens'), kallax = byName('Kallax bovenblad'), wall = byName('VF3');
   if (tv && lens && kallax && wall) {
     const tvBox = new THREE.Box3().setFromObject(tv), wallBox = new THREE.Box3().setFromObject(wall), kb = new THREE.Box3().setFromObject(kallax);
     const at = lens.getWorldPosition(new THREE.Vector3()), wallZ = tvBox.min.z + 0.001, d = at.z - wallZ;
-    // The image on the wall: 16:9, width = distance / throw ratio, centred on the TV, bottom on the Kallax top.
-    const imgW = d / THROW, imgH = imgW * 9 / 16, cx = (tvBox.min.x + tvBox.max.x) / 2;
-    const img = { left: cx - imgW / 2, right: cx + imgW / 2, bottom: kb.max.y, top: kb.max.y + imgH };
+    // The image on the wall: 16:9, zoomed to the wall width, centred on the lens; inverted, so it hangs below the lens axis.
+    const throwRatio = THREE.MathUtils.clamp(d / (wallBox.max.x - wallBox.min.x), ...ZOOM);
+    const imgW = d / throwRatio, imgH = imgW * 9 / 16;
+    const top = at.y - (OFFSET - 1) * imgH;
+    const img = { left: at.x - imgW / 2, right: at.x + imgW / 2, bottom: top - imgH, top };
+    const area = { left: Math.max(img.left, wallBox.min.x), right: Math.min(img.right, wallBox.max.x), bottom: kb.max.y, top: Math.min(img.top, wallBox.max.y) };
     const reach = Math.hypot(Math.max(at.x - img.left, img.right - at.x), Math.max(at.y - img.bottom, img.top - at.y));
     // Spot from the lens towards `aim`, its cone reaching `radius` metres around it (square frustum around the cone).
     const spot = (intensity, aim, radius) => {
@@ -449,14 +453,14 @@ const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: nu
     const texture = (canvas, smooth) => Object.assign(new THREE.CanvasTexture(canvas), { colorSpace: THREE.SRGBColorSpace, generateMipmaps: false,
       magFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter, minFilter: smooth ? THREE.LinearFilter : THREE.NearestFilter });
 
-    // Animation: the original 320 x 180 loop over the image rectangle.
+    // Animation: 320 px across the lit wall, from the image's top edge down to the Kallax top.
     const v = (x, y) => new THREE.Vector3(x, y, wallZ);
-    const W = 320, size = Math.round(W * 2 * reach / imgW);
+    const areaW = area.right - area.left, W = 320, size = Math.round(W * 2 * reach / areaW);
     const frame = Object.assign(document.createElement('canvas'), { width: size, height: size });
-    const [x0, y0] = toCanvas(v(img.left, img.top), frame.width, frame.height), [x1, y1] = toCanvas(v(img.right, img.bottom), frame.width, frame.height);
-    const anim = Object.assign(document.createElement('canvas'), { width: W, height: Math.round(W * 9 / 16) });
-    const px = anim.width / imgW;
-    const loop = retroLoop(anim, { x: Math.round((tvBox.min.x - img.left) * px), y: Math.round((img.top - tvBox.max.y) * px),
+    const [x0, y0] = toCanvas(v(area.left, area.top), frame.width, frame.height), [x1, y1] = toCanvas(v(area.right, area.bottom), frame.width, frame.height);
+    const anim = Object.assign(document.createElement('canvas'), { width: W, height: Math.round(W * (area.top - area.bottom) / areaW) });
+    const px = anim.width / areaW;
+    const loop = retroLoop(anim, { x: Math.round((tvBox.min.x - area.left) * px), y: Math.round((area.top - tvBox.max.y) * px),
       w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) });
     const fg = frame.getContext('2d');
     fg.imageSmoothingEnabled = false;
