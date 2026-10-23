@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beamer-animaties</title>
+<style>
+  html, body { margin: 0; background: #000; color: #ddd; font: 14px Inter, ui-sans-serif, system-ui, sans-serif; }
+  h1 { font-size: 18px; font-weight: 650; margin: 20px 24px 4px; }
+  p.hint { margin: 0 24px 16px; color: #888; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(560px, 1fr)); gap: 20px; padding: 0 24px 24px; }
+  figure { margin: 0; cursor: pointer; }
+  figure canvas { width: 100%; image-rendering: pixelated; display: block; border: 1px solid #222; border-radius: 6px; }
+  figcaption { margin-top: 6px; } figcaption kbd { color: #888; margin-right: 6px; }
+  #full { position: fixed; inset: 0; background: #000; display: none; }
+  #full canvas { width: 100vw; height: 100vh; object-fit: contain; image-rendering: pixelated; display: block; outline: none; }
+  #full p { position: fixed; left: 0; right: 0; bottom: 8px; margin: 0; text-align: center; font-size: 13px; color: #666; }
+</style>
+</head>
+<body>
+<h1>Beamer-animaties rond de tv</h1>
+<p class="hint">Zoals in het 3D-model: de muur boven de Kallax, het zwarte vlak is de tv. Klik er een voor schermvullend (voor de beamer).</p>
+<div id="grid"></div>
+<div id="full"><canvas width="320" height="180" tabindex="0"></canvas><p>1–6 andere animatie · pijltjes verschuiven de tv, Shift + pijltjes maken hem groter/kleiner · F schermvullend · Esc terug</p></div>
+<script type="module">
+import { VARIANTS } from './beamer.js';
+// The model's wall: 320 x 160 with the LG TV at these canvas pixels.
+const WALL = { w: 320, h: 160, mask: { x: 84, y: 59, w: 152, h: 85 } };
+const loops = VARIANTS.map((v, i) => {
+  const fig = document.createElement('figure');
+  const canvas = Object.assign(document.createElement('canvas'), { width: WALL.w, height: WALL.h });
+  fig.append(canvas, Object.assign(document.createElement('figcaption'), { innerHTML: `<kbd>${i + 1}</kbd>${v.name}` }));
+  fig.onclick = () => open(i);
+  document.getElementById('grid').append(fig);
+  return v.make(canvas, WALL.mask);
+});
+// Fullscreen: a 16:9 frame for the real projector, with a TV mask you can move and size (kept per browser).
+const full = document.getElementById('full'), fc = full.querySelector('canvas');
+let mask = { x: 110, y: 45, w: 100, h: 75 }, current = -1, loop = null;
+try { Object.assign(mask, JSON.parse(localStorage.getItem('tvMask') || '{}')); } catch {}
+function open(i) { current = i; loop = VARIANTS[i].make(fc, mask); full.style.display = 'block'; fc.focus(); }
+fc.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { full.style.display = 'none'; current = -1; return; }
+  if (e.key === 'f') document.documentElement.requestFullscreen?.();
+  if (/^[1-9]$/.test(e.key) && VARIANTS[e.key - 1]) open(e.key - 1);
+  const d = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] }[e.key];
+  if (!d) return;
+  e.preventDefault();
+  if (e.shiftKey) { mask.w = Math.max(10, mask.w + d[0] * 2); mask.h = Math.max(10, mask.h + d[1] * 2); }
+  else { mask.x += d[0]; mask.y += d[1]; }
+  localStorage.setItem('tvMask', JSON.stringify(mask));
+  loop = VARIANTS[current].make(fc, mask);
+});
+fc.addEventListener('dblclick', () => document.documentElement.requestFullscreen?.());
+function frame(now) {
+  if (current >= 0) loop(now); else loops.forEach(l => l(now));
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

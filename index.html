@@ -179,6 +179,7 @@
     <dt><kbd>U</kbd></dt><dd>Alles verbergen, vrij rondlopen</dd>
     <dt><kbd>B</kbd></dt><dd>Beamer-projectie aan / uit</dd>
     <dt><kbd>K</kbd></dt><dd>Consolenamen projecteren (wat als)</dd>
+    <dt><kbd>V</kbd></dt><dd>Volgende beamer-animatie</dd>
     <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
   </dl>
 </div>
@@ -198,7 +199,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
-import { retroLoop, CONSOLES } from './beamer.js';
+import { VARIANTS, CONSOLES } from './beamer.js';
 
 const $ = id => document.getElementById(id);
 const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
@@ -413,7 +414,7 @@ renderer.shadowMap.autoUpdate = false;                                   // the 
 gltf.scene.traverse(o => { if (o.isMesh) o.castShadow = o.receiveShadow = true; });
 const byName = name => { let found = null; scene.traverse(o => { if (!found && displayName(o) === name) found = o; }); return found; };
 const ZOOM = [0.69, 0.83], OFFSET = 1.025;                                // TH671ST throw ratio range, projection offset
-const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: null };
+const beamer = { on: false, labelsOn: false, variant: Number(sessionStorage.getItem('beamerVariant')) || 0, lights: [], draw: null, texture: null };
 {
   const tv = byName('TV'), lens = byName('Beamer lens'), kallax = byName('Kallax bovenblad'), wall = byName('VF3');
   if (tv && lens && kallax && wall) {
@@ -463,8 +464,10 @@ const beamer = { on: false, labelsOn: false, lights: [], draw: null, texture: nu
     const [x0, y0] = toCanvas(v(area.left, area.top), frame.width, frame.height), [x1, y1] = toCanvas(v(area.right, area.bottom), frame.width, frame.height);
     const anim = Object.assign(document.createElement('canvas'), { width: W, height: Math.round(W * (area.top - area.bottom) / areaW) });
     const px = anim.width / areaW;
-    const loop = retroLoop(anim, { x: Math.round((tvBox.min.x - area.left) * px), y: Math.round((area.top - tvBox.max.y) * px),
-      w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) });
+    const mask = { x: Math.round((tvBox.min.x - area.left) * px), y: Math.round((area.top - tvBox.max.y) * px),
+      w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) };
+    let loop = VARIANTS[beamer.variant % VARIANTS.length].make(anim, mask);
+    beamer.setVariant = i => { beamer.variant = i % VARIANTS.length; sessionStorage.setItem('beamerVariant', beamer.variant); loop = VARIANTS[beamer.variant].make(anim, mask); };
     const fg = frame.getContext('2d');
     fg.imageSmoothingEnabled = false;
     beamer.draw = now => { loop(now); fg.fillStyle = '#000'; fg.fillRect(0, 0, frame.width, frame.height); fg.drawImage(anim, x0, y0, x1 - x0, y1 - y0); };
@@ -520,6 +523,10 @@ function setBeamerLights() {
   if (beamer.on && beamer.labelsOn) beamer.buildLabels?.();
   if (beamer.on) renderer.shadowMap.needsUpdate = true;
 }
+function nextVariant() {
+  beamer.setVariant?.(beamer.variant + 1);
+  renderLayers();
+}
 function toggleLabels() {
   beamer.labelsOn = !beamer.labelsOn;
   setBeamerLights();
@@ -552,7 +559,9 @@ function renderLayers() {
     className: beamer.on ? 'on' : 'off', innerHTML: '<kbd>B</kbd><span class="name">Beamer-projectie</span><span class="switch"></span>',
     onclick: toggleBeamer, onmousedown: e => e.preventDefault() }), Object.assign(document.createElement('button'), {
     className: beamer.labelsOn ? 'on' : 'off', innerHTML: '<kbd>K</kbd><span class="name">Consolenamen (wat als)</span><span class="switch"></span>',
-    onclick: toggleLabels, onmousedown: e => e.preventDefault() })] : []));
+    onclick: toggleLabels, onmousedown: e => e.preventDefault() }), Object.assign(document.createElement('button'), {
+    className: 'on', innerHTML: `<kbd>V</kbd><span class="name">Animatie: ${VARIANTS[beamer.variant].name}</span>`,
+    onclick: nextVariant, onmousedown: e => e.preventDefault() })] : []));
 }
 renderLayers();
 
@@ -566,6 +575,7 @@ addEventListener('keydown', e => {
   if (e.code === 'KeyE') identify();
   if (e.code === 'KeyB') toggleBeamer();
   if (e.code === 'KeyK') toggleLabels();
+  if (e.code === 'KeyV') nextVariant();
   if (e.code === 'Escape') { select(null); showInfo(null); }
   if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
   if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
