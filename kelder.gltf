@@ -43604,145 +43604,361 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 24,
+   "count": 36,
    "bufferView": 1398,
    "byteOffset": 0,
    "max": [
-    4.107500076293945,
-    2.3187999725341797,
-    -0.7425000071525574
+    0.014999999664723873,
+    2.3010001182556152,
+    0.014999999664723873
    ],
    "min": [
-    0.29249998927116394,
-    2.3187999725341797,
-    -2.557499885559082
+    -0.014999999664723873,
+    2.2809998989105225,
+    -0.014999999664723873
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 24,
+   "count": 36,
    "bufferView": 1399,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 24,
+   "count": 384,
    "bufferView": 1400,
    "byteOffset": 0,
    "max": [
-    5.507500171661377,
-    2.3187999725341797,
-    -0.4925000071525574
+    0.027000000700354576,
+    2.2809998989105225,
+    0.027000000700354576
    ],
    "min": [
-    3.192500114440918,
-    2.3187999725341797,
-    -3.307499885559082
+    -0.027000000700354576,
+    2.197000026702881,
+    -0.027000000700354576
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 24,
+   "count": 384,
    "bufferView": 1401,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 30,
+   "count": 384,
    "bufferView": 1402,
    "byteOffset": 0,
    "max": [
-    3.257499933242798,
-    2.3187999725341797,
-    -0.7425000071525574
+    0.02199999988079071,
+    2.197000026702881,
+    0.02199999988079071
    ],
    "min": [
-    0.7425000071525574,
-    2.3187999725341797,
-    -2.8575000762939453
+    -0.02199999988079071,
+    2.196500062942505,
+    -0.02199999988079071
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 30,
+   "count": 384,
    "bufferView": 1403,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 30,
+   "count": 384,
    "bufferView": 1404,
    "byteOffset": 0,
    "max": [
-    5.257500171661377,
-    2.3187999725341797,
-    -0.4424999952316284
+    0.03799999877810478,
+    2.3889999389648438,
+    0.03799999877810478
    ],
    "min": [
-    2.742500066757202,
-    2.3187999725341797,
-    -2.6575000286102295
+    -0.03799999877810478,
+    2.325000047683716,
+    -0.03799999877810478
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 30,
+   "count": 384,
    "bufferView": 1405,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 12,
+   "count": 36,
    "bufferView": 1406,
    "byteOffset": 0,
    "max": [
-    4.207499980926514,
-    2.3187999725341797,
-    -0.7425000071525574
+    0.5139999985694885,
+    2.319999933242798,
+    -0.699999988079071
    ],
    "min": [
-    0.4424999952316284,
-    2.3187999725341797,
-    -2.307499885559082
+    0.47999998927116394,
+    2.3010001182556152,
+    -2.200000047683716
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 12,
+   "count": 36,
    "bufferView": 1407,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 12,
+   "count": 36,
    "bufferView": 1408,
    "byteOffset": 0,
    "max": [
-    5.40749979019165,
-    2.3187999725341797,
-    -0.9925000071525574
+    0.5149999856948853,
+    2.319999933242798,
+    -0.6399999856948853
    ],
    "min": [
-    1.9424999952316284,
-    2.3187999725341797,
-    -2.557499885559082
+    0.4790000021457672,
+    2.2950000762939453,
+    -0.777999997138977
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 12,
+   "count": 36,
    "bufferView": 1409,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1410,
+   "byteOffset": 0,
+   "max": [
+    0.5139999985694885,
+    2.319999933242798,
+    -2.200000047683716
+   ],
+   "min": [
+    0.47999998927116394,
+    2.299999952316284,
+    -2.2300000190734863
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1411,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1412,
+   "byteOffset": 0,
+   "max": [
+    3.0139999389648438,
+    2.319999933242798,
+    -0.699999988079071
+   ],
+   "min": [
+    2.9800000190734863,
+    2.3010001182556152,
+    -2.200000047683716
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1413,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1414,
+   "byteOffset": 0,
+   "max": [
+    3.015000104904175,
+    2.319999933242798,
+    -0.6399999856948853
+   ],
+   "min": [
+    2.9790000915527344,
+    2.2950000762939453,
+    -0.777999997138977
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1415,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1416,
+   "byteOffset": 0,
+   "max": [
+    3.0139999389648438,
+    2.319999933242798,
+    -2.200000047683716
+   ],
+   "min": [
+    2.9800000190734863,
+    2.299999952316284,
+    -2.2300000190734863
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1417,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1418,
+   "byteOffset": 0,
+   "max": [
+    4.513999938964844,
+    2.319999933242798,
+    -0.550000011920929
+   ],
+   "min": [
+    4.480000019073486,
+    2.3010001182556152,
+    -2.049999952316284
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1419,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1420,
+   "byteOffset": 0,
+   "max": [
+    4.513999938964844,
+    2.319999933242798,
+    -2.049999952316284
+   ],
+   "min": [
+    4.480000019073486,
+    2.3010001182556152,
+    -3.049999952316284
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1421,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1422,
+   "byteOffset": 0,
+   "max": [
+    4.514999866485596,
+    2.319999933242798,
+    -1.996000051498413
+   ],
+   "min": [
+    4.479000091552734,
+    2.2990000247955322,
+    -2.1040000915527344
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1423,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1424,
+   "byteOffset": 0,
+   "max": [
+    4.514999866485596,
+    2.319999933242798,
+    -0.49000000953674316
+   ],
+   "min": [
+    4.479000091552734,
+    2.2950000762939453,
+    -0.628000020980835
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1425,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1426,
+   "byteOffset": 0,
+   "max": [
+    4.513999938964844,
+    2.319999933242798,
+    -3.049999952316284
+   ],
+   "min": [
+    4.480000019073486,
+    2.299999952316284,
+    -3.0799999237060547
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1427,
    "byteOffset": 0
   }
  ],
@@ -53523,73 +53739,181 @@
   {
    "buffer": 0,
    "byteOffset": 37314460,
-   "byteLength": 288,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37314748,
-   "byteLength": 288,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37315036,
-   "byteLength": 288,
+   "byteOffset": 37314892,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37315324,
-   "byteLength": 288,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37315612,
-   "byteLength": 360,
+   "byteOffset": 37319932,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37315972,
-   "byteLength": 360,
+   "byteOffset": 37324540,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316332,
-   "byteLength": 360,
+   "byteOffset": 37329148,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316692,
-   "byteLength": 360,
+   "byteOffset": 37333756,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37317052,
-   "byteLength": 144,
+   "byteOffset": 37338364,
+   "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37317196,
-   "byteLength": 144,
+   "byteOffset": 37342972,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37317340,
-   "byteLength": 144,
+   "byteOffset": 37343404,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37317484,
-   "byteLength": 144,
+   "byteOffset": 37343836,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37344268,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37344700,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37345132,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37345564,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37345996,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37346428,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37346860,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37347292,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37347724,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37348156,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37348588,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37349020,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37349452,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37349884,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37350316,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37350748,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37351180,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37351612,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37352044,
+   "byteLength": 432,
    "target": 34962
   }
  ],
@@ -53971,7 +54295,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37317628
+   "byteLength": 37352476
   }
  ],
  "materials": [
@@ -58437,33 +58761,17 @@
    }
   },
   {
-   "name": "LED-lijn warm wit (2700K)",
+   "name": "Taros wit",
+   "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     1.0,
-     0.6724,
-     0.3515,
+     0.91,
+     0.91,
+     0.9,
      1
     ],
+    "roughnessFactor": 0.35,
     "metallicFactor": 0
-   },
-   "extensions": {
-    "KHR_materials_unlit": {}
-   }
-  },
-  {
-   "name": "LED-lijn neutraal wit (4000K)",
-   "pbrMetallicRoughness": {
-    "baseColorFactor": [
-     1.0,
-     0.8879,
-     0.7305,
-     1
-    ],
-    "metallicFactor": 0
-   },
-   "extensions": {
-    "KHR_materials_unlit": {}
    }
   }
  ],
@@ -78576,7 +78884,7 @@
    ]
   },
   {
-   "name": "LED-lijnen D bank/game",
+   "name": "Taros railspot adapter",
    "primitives": [
     {
      "attributes": {
@@ -78588,43 +78896,43 @@
    ]
   },
   {
-   "name": "LED-lijnen D werkplek",
+   "name": "Taros railspot huis",
    "primitives": [
     {
      "attributes": {
       "POSITION": 4253,
       "NORMAL": 4254
      },
-     "material": 268
+     "material": 267
     }
    ]
   },
   {
-   "name": "LED-lijnen E bank/game",
+   "name": "Taros railspot lamp",
    "primitives": [
     {
      "attributes": {
       "POSITION": 4255,
       "NORMAL": 4256
      },
-     "material": 267
+     "material": 64
     }
    ]
   },
   {
-   "name": "LED-lijnen E werkplek",
+   "name": "Attema CH60R",
    "primitives": [
     {
      "attributes": {
       "POSITION": 4257,
       "NORMAL": 4258
      },
-     "material": 268
+     "material": 61
     }
    ]
   },
   {
-   "name": "LED-lijnen F bank/game",
+   "name": "R1 rail 1",
    "primitives": [
     {
      "attributes": {
@@ -78636,14 +78944,122 @@
    ]
   },
   {
-   "name": "LED-lijnen F werkplek",
+   "name": "R1 voeding",
    "primitives": [
     {
      "attributes": {
       "POSITION": 4261,
       "NORMAL": 4262
      },
-     "material": 268
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R1 eindstuk",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4263,
+      "NORMAL": 4264
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R2 rail 1",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4265,
+      "NORMAL": 4266
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R2 voeding",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4267,
+      "NORMAL": 4268
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R2 eindstuk",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4269,
+      "NORMAL": 4270
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R3 rail 1",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4271,
+      "NORMAL": 4272
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R3 rail 2",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4273,
+      "NORMAL": 4274
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R3 koppelstuk",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4275,
+      "NORMAL": 4276
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R3 voeding",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4277,
+      "NORMAL": 4278
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "R3 eindstuk",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4279,
+      "NORMAL": 4280
+     },
+     "material": 267
     }
    ]
   }
@@ -89707,7 +90123,8 @@
     1804,
     1823,
     1849,
-    1861
+    1861,
+    1875
    ]
   },
   {
@@ -89750,7 +90167,10 @@
     1822,
     1832,
     1848,
-    1874
+    1874,
+    1892,
+    1909,
+    1932
    ]
   },
   {
@@ -103495,84 +103915,575 @@
    }
   },
   {
-   "name": "LED-lijnen D (schets)",
+   "name": "Railverlichting",
    "extras": {
-    "visible": false,
-    "omschrijving": "Schets D. Open kaders: elk zone een kader van losse rechte lijnen met open hoeken; de bank-lijn langs de beamer loopt door de open hoek van het werkkader, en bij de tv-muur staan de zijlijnen van beide kaders als dubbele lijn naast elkaar. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "omschrijving": "Taros 1-fase railverlichting wit (into-led) met Philips Hue GU10-lampen; rails onder de plafondbalken, vaste voeding uit een centraaldoos"
    },
    "children": [
     1876,
-    1877
+    1893,
+    1910
    ]
   },
   {
-   "name": "LED-lijnen D bank/game",
-   "mesh": 1278,
+   "name": "R1",
    "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring bank/game: 8,8 m lijn"
-   }
-  },
-  {
-   "name": "LED-lijnen D werkplek",
-   "mesh": 1279,
-   "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring werkplek: 7,5 m lijn"
-   }
-  },
-  {
-   "name": "LED-lijnen E (schets)",
-   "extras": {
-    "visible": false,
-    "omschrijving": "Schets E. Ritme: alleen lijnen evenwijdig aan de balken, midden tussen twee balken (geen inkepingen); bij de tv-muur grijpen de zones in elkaar: de bank loopt aan de tv-kant een vak door, de werkplek aan de raamkant een vak terug. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "omschrijving": "Taros rail bank/game, Billy-kant: 1,5 m, 3 railspots, voeding uit CD1"
    },
    "children": [
+    1877,
+    1878,
     1879,
-    1880
+    1880,
+    1884,
+    1888
    ]
   },
   {
-   "name": "LED-lijnen E bank/game",
-   "mesh": 1280,
+   "name": "R1 rail 1",
+   "mesh": 1282,
    "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring bank/game: 8,3 m lijn"
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros 1-fase spanningsrail 1,5 meter, wit",
+     "artikel": "8720722738761",
+     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+    }
    }
   },
   {
-   "name": "LED-lijnen E werkplek",
-   "mesh": 1281,
+   "name": "R1 voeding",
+   "mesh": 1283,
    "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring werkplek: 9,7 m lijn"
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros voeding 1-fase railverlichting, wit",
+     "artikel": "8720722738846",
+     "url": "https://www.into-led.com/nl/taros-voeding-1-fase-railverlichting-wit-3-jaar-garantie-2738846.html"
+    }
    }
   },
   {
-   "name": "LED-lijnen F (schets)",
+   "name": "R1 eindstuk",
+   "mesh": 1284,
    "extras": {
-    "visible": false,
-    "omschrijving": "Schets F. Passerende lijnen: twee lange lijnen per zone over de lengte van de kamer, die rond de tv-muur een stuk naast elkaar doorlopen. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros eindstuk 1-fase railverlichting, wit",
+     "artikel": "8720722738853",
+     "url": "https://www.into-led.com/nl/taros-eindstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738853.html"
+    }
+   }
+  },
+  {
+   "name": "R1 spot 1",
+   "translation": [
+    0.497,
+    0,
+    -1.0
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
    },
    "children": [
+    1881,
     1882,
     1883
    ]
   },
   {
-   "name": "LED-lijnen F bank/game",
-   "mesh": 1282,
+   "name": "R1 spot 1 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R1 spot 1 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R1 spot 1 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R1 spot 2",
+   "translation": [
+    0.497,
+    0,
+    -1.5
+   ],
    "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring bank/game: 7,5 m lijn"
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1885,
+    1886,
+    1887
+   ]
+  },
+  {
+   "name": "R1 spot 2 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R1 spot 2 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R1 spot 2 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R1 spot 3",
+   "translation": [
+    0.497,
+    0,
+    -2.0
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1889,
+    1890,
+    1891
+   ]
+  },
+  {
+   "name": "R1 spot 3 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R1 spot 3 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R1 spot 3 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "CD1",
+   "translation": [
+    0.582,
+    0,
+    -0.7
+   ],
+   "mesh": 1281,
+   "extras": {
+    "omschrijving": "Centraaldoos voor rail R1 (bank/game, Billy-kant), naast plafondbalk; aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
+     "artikel": "CH60R",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r/"
+    }
    }
   },
   {
-   "name": "LED-lijnen F werkplek",
-   "mesh": 1283,
+   "name": "R2",
    "extras": {
-    "omlijning": false,
-    "omschrijving": "Kring werkplek: 6,9 m lijn"
+    "omschrijving": "Taros rail bank/game, deurkant: 1,5 m, 3 railspots, voeding uit CD2"
+   },
+   "children": [
+    1894,
+    1895,
+    1896,
+    1897,
+    1901,
+    1905
+   ]
+  },
+  {
+   "name": "R2 rail 1",
+   "mesh": 1285,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros 1-fase spanningsrail 1,5 meter, wit",
+     "artikel": "8720722738761",
+     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+    }
+   }
+  },
+  {
+   "name": "R2 voeding",
+   "mesh": 1286,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros voeding 1-fase railverlichting, wit",
+     "artikel": "8720722738846",
+     "url": "https://www.into-led.com/nl/taros-voeding-1-fase-railverlichting-wit-3-jaar-garantie-2738846.html"
+    }
+   }
+  },
+  {
+   "name": "R2 eindstuk",
+   "mesh": 1287,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros eindstuk 1-fase railverlichting, wit",
+     "artikel": "8720722738853",
+     "url": "https://www.into-led.com/nl/taros-eindstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738853.html"
+    }
+   }
+  },
+  {
+   "name": "R2 spot 1",
+   "translation": [
+    2.997,
+    0,
+    -1.0
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1898,
+    1899,
+    1900
+   ]
+  },
+  {
+   "name": "R2 spot 1 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R2 spot 1 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R2 spot 1 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R2 spot 2",
+   "translation": [
+    2.997,
+    0,
+    -1.5
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1902,
+    1903,
+    1904
+   ]
+  },
+  {
+   "name": "R2 spot 2 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R2 spot 2 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R2 spot 2 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R2 spot 3",
+   "translation": [
+    2.997,
+    0,
+    -2.0
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1906,
+    1907,
+    1908
+   ]
+  },
+  {
+   "name": "R2 spot 3 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R2 spot 3 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R2 spot 3 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "CD2",
+   "translation": [
+    2.912,
+    0,
+    -0.7
+   ],
+   "mesh": 1281,
+   "extras": {
+    "omschrijving": "Centraaldoos voor rail R2 (bank/game, deurkant), naast plafondbalk; aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
+     "artikel": "CH60R",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r/"
+    }
+   }
+  },
+  {
+   "name": "R3",
+   "extras": {
+    "omschrijving": "Taros rail werkplek, boven het bureau: 1,5+1,0 m, 4 railspots, voeding uit CD3"
+   },
+   "children": [
+    1911,
+    1912,
+    1913,
+    1914,
+    1915,
+    1916,
+    1920,
+    1924,
+    1928
+   ]
+  },
+  {
+   "name": "R3 rail 1",
+   "mesh": 1288,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros 1-fase spanningsrail 1,5 meter, wit",
+     "artikel": "8720722738761",
+     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+    }
+   }
+  },
+  {
+   "name": "R3 rail 2",
+   "mesh": 1289,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros 1-fase spanningsrail 1 meter, wit",
+     "artikel": "8720722738754",
+     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-meter-wit-3-jaar-garantie-2738754.html"
+    }
+   }
+  },
+  {
+   "name": "R3 koppelstuk",
+   "mesh": 1290,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros I-vorm koppelstuk (recht) 1-fase railverlichting, wit",
+     "artikel": "8720722738792",
+     "url": "https://www.into-led.com/nl/taros-i-vorm-koppelstuk-recht-1-fase-railverlichting-wit-3-jaar-garantie-2738792.html"
+    }
+   }
+  },
+  {
+   "name": "R3 voeding",
+   "mesh": 1291,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros voeding 1-fase railverlichting, wit",
+     "artikel": "8720722738846",
+     "url": "https://www.into-led.com/nl/taros-voeding-1-fase-railverlichting-wit-3-jaar-garantie-2738846.html"
+    }
+   }
+  },
+  {
+   "name": "R3 eindstuk",
+   "mesh": 1292,
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros eindstuk 1-fase railverlichting, wit",
+     "artikel": "8720722738853",
+     "url": "https://www.into-led.com/nl/taros-eindstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738853.html"
+    }
+   }
+  },
+  {
+   "name": "R3 spot 1",
+   "translation": [
+    4.497,
+    0,
+    -0.65
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1917,
+    1918,
+    1919
+   ]
+  },
+  {
+   "name": "R3 spot 1 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R3 spot 1 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R3 spot 1 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R3 spot 2",
+   "translation": [
+    4.497,
+    0,
+    -1.45
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1921,
+    1922,
+    1923
+   ]
+  },
+  {
+   "name": "R3 spot 2 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R3 spot 2 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R3 spot 2 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R3 spot 3",
+   "translation": [
+    4.497,
+    0,
+    -2.25
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1925,
+    1926,
+    1927
+   ]
+  },
+  {
+   "name": "R3 spot 3 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R3 spot 3 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R3 spot 3 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "R3 spot 4",
+   "translation": [
+    4.497,
+    0,
+    -2.95
+   ],
+   "extras": {
+    "product": {
+     "winkel": "Into-LED",
+     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
+     "artikel": "8720722738877",
+     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+    }
+   },
+   "children": [
+    1929,
+    1930,
+    1931
+   ]
+  },
+  {
+   "name": "R3 spot 4 adapter",
+   "mesh": 1278
+  },
+  {
+   "name": "R3 spot 4 huis",
+   "mesh": 1279
+  },
+  {
+   "name": "R3 spot 4 lamp",
+   "mesh": 1280
+  },
+  {
+   "name": "CD3",
+   "translation": [
+    4.582,
+    0,
+    -0.55
+   ],
+   "mesh": 1281,
+   "extras": {
+    "omschrijving": "Centraaldoos voor rail R3 (werkplek, boven het bureau), naast plafondbalk; aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
+     "artikel": "CH60R",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r/"
+    }
    }
   }
  ],
@@ -103593,10 +104504,7 @@
     814,
     822,
     777,
-    618,
-    1875,
-    1878,
-    1881
+    618
    ]
   }
  ],
