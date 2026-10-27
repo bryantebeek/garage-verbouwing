@@ -43600,6 +43600,150 @@
    "count": 480,
    "bufferView": 1397,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 24,
+   "bufferView": 1398,
+   "byteOffset": 0,
+   "max": [
+    4.40749979019165,
+    2.3187999725341797,
+    -0.5924999713897705
+   ],
+   "min": [
+    0.29249998927116394,
+    2.3187999725341797,
+    -2.6075000762939453
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 24,
+   "bufferView": 1399,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 24,
+   "bufferView": 1400,
+   "byteOffset": 0,
+   "max": [
+    5.507500171661377,
+    2.3187999725341797,
+    -0.39250001311302185
+   ],
+   "min": [
+    1.8925000429153442,
+    2.3187999725341797,
+    -2.757499933242798
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 24,
+   "bufferView": 1401,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1402,
+   "byteOffset": 0,
+   "max": [
+    3.9075000286102295,
+    2.3187999725341797,
+    -0.8424999713897705
+   ],
+   "min": [
+    0.39250001311302185,
+    2.3187999725341797,
+    -2.4574999809265137
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1403,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1404,
+   "byteOffset": 0,
+   "max": [
+    5.457499980926514,
+    2.3187999725341797,
+    -0.4424999952316284
+   ],
+   "min": [
+    2.2925000190734863,
+    2.3187999725341797,
+    -2.057499885559082
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1405,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 42,
+   "bufferView": 1406,
+   "byteOffset": 0,
+   "max": [
+    5.40749979019165,
+    2.3187999725341797,
+    -0.5924999713897705
+   ],
+   "min": [
+    0.29249998927116394,
+    2.3187999725341797,
+    -3.3606066703796387
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 42,
+   "bufferView": 1407,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1408,
+   "byteOffset": 0,
+   "max": [
+    5.607500076293945,
+    2.3187999725341797,
+    -0.24250000715255737
+   ],
+   "min": [
+    3.109393358230591,
+    2.3187999725341797,
+    -2.7406065464019775
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 18,
+   "bufferView": 1409,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -53375,6 +53519,78 @@
    "byteOffset": 37308700,
    "byteLength": 5760,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37314460,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37314748,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37315036,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37315324,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37315612,
+   "byteLength": 216,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37315828,
+   "byteLength": 216,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37316044,
+   "byteLength": 216,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37316260,
+   "byteLength": 216,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37316476,
+   "byteLength": 504,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37316980,
+   "byteLength": 504,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37317484,
+   "byteLength": 216,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37317700,
+   "byteLength": 216,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -53755,7 +53971,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37314460
+   "byteLength": 37317916
   }
  ],
  "materials": [
@@ -58218,6 +58434,36 @@
     ],
     "roughnessFactor": 0.5,
     "metallicFactor": 0
+   }
+  },
+  {
+   "name": "LED-lijn warm wit (2700K)",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     1.0,
+     0.6724,
+     0.3515,
+     1
+    ],
+    "metallicFactor": 0
+   },
+   "extensions": {
+    "KHR_materials_unlit": {}
+   }
+  },
+  {
+   "name": "LED-lijn neutraal wit (4000K)",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     1.0,
+     0.8879,
+     0.7305,
+     1
+    ],
+    "metallicFactor": 0
+   },
+   "extensions": {
+    "KHR_materials_unlit": {}
    }
   }
  ],
@@ -78326,6 +78572,78 @@
       "NORMAL": 4250
      },
      "material": 58
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen A bank/game",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4251,
+      "NORMAL": 4252
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen A werkplek",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4253,
+      "NORMAL": 4254
+     },
+     "material": 268
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen B bank/game",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4255,
+      "NORMAL": 4256
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen B werkplek",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4257,
+      "NORMAL": 4258
+     },
+     "material": 268
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen C bank/game",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4259,
+      "NORMAL": 4260
+     },
+     "material": 267
+    }
+   ]
+  },
+  {
+   "name": "LED-lijnen C werkplek",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4261,
+      "NORMAL": 4262
+     },
+     "material": 268
     }
    ]
   }
@@ -103175,6 +103493,87 @@
    "extras": {
     "omschrijving": "Plafond -> koof buiten, Buitenlamp 1-2-3 doorgelust, schakeldraad/nul/aarde (geschakeld op W9)"
    }
+  },
+  {
+   "name": "LED-lijnen A (schets)",
+   "extras": {
+    "visible": false,
+    "omschrijving": "Schets A. Haakse kaders: twee kaders met overlopende hoeken; de bank-lijn loopt door de open hoek van het werkkader, de werk-lijn haakt onder het bankkader door. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+   },
+   "children": [
+    1876,
+    1877
+   ]
+  },
+  {
+   "name": "LED-lijnen A bank/game",
+   "mesh": 1278,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring bank/game: 10,7 m lijn"
+   }
+  },
+  {
+   "name": "LED-lijnen A werkplek",
+   "mesh": 1279,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring werkplek: 9,9 m lijn"
+   }
+  },
+  {
+   "name": "LED-lijnen B (schets)",
+   "extras": {
+    "visible": false,
+    "omschrijving": "Schets B. Rits: lange lijnen over de lengte van de kamer, om en om bank en werkplek, die in het midden in elkaar grijpen. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+   },
+   "children": [
+    1879,
+    1880
+   ]
+  },
+  {
+   "name": "LED-lijnen B bank/game",
+   "mesh": 1280,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring bank/game: 10,5 m lijn"
+   }
+  },
+  {
+   "name": "LED-lijnen B werkplek",
+   "mesh": 1281,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring werkplek: 9,5 m lijn"
+   }
+  },
+  {
+   "name": "LED-lijnen C (schets)",
+   "extras": {
+    "visible": false,
+    "omschrijving": "Schets C. Diagonaal: een dubbele schuine lijn onder 45 graden, evenwijdig aan de schuine muur bij de deur, scheidt bank en werkplek. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+   },
+   "children": [
+    1882,
+    1883
+   ]
+  },
+  {
+   "name": "LED-lijnen C bank/game",
+   "mesh": 1282,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring bank/game: 14,0 m lijn"
+   }
+  },
+  {
+   "name": "LED-lijnen C werkplek",
+   "mesh": 1283,
+   "extras": {
+    "omlijning": false,
+    "omschrijving": "Kring werkplek: 8,3 m lijn"
+   }
   }
  ],
  "scenes": [
@@ -103194,7 +103593,10 @@
     814,
     822,
     777,
-    618
+    618,
+    1875,
+    1878,
+    1881
    ]
   }
  ],

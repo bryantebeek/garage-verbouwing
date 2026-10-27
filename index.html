@@ -349,12 +349,13 @@ window.kelder = { THREE, camera, scene, layers }; // handle for headless screens
 const displayName = o => o.userData.name ?? o.name;
 
 // SketchUp-style outlines: edges where faces meet at > 20°. Instances share geometry, so cache per geometry.
+// extras.omlijning = false skips it (LED lines would turn into dark stripes).
 const edgeCache = new Map();
 const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x222222 });
 const outlines = [];
 const labels = [];
 gltf.scene.traverse(o => {
-  if (o.isMesh) {
+  if (o.isMesh && o.userData.omlijning !== false) {
     if (!edgeCache.has(o.geometry)) edgeCache.set(o.geometry, new THREE.EdgesGeometry(o.geometry, 20));
     const lines = new THREE.LineSegments(edgeCache.get(o.geometry), edgeMaterial);
     lines.raycast = () => {};
