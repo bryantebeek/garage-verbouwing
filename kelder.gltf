@@ -89641,7 +89641,8 @@
     1848,
     1874,
     1880,
-    1885
+    1885,
+    1890
    ]
   },
   {
@@ -103388,11 +103389,12 @@
   {
    "name": "Plafondverlichting",
    "extras": {
-    "omschrijving": "2x Olucia Elena 4-lichts opbouwspot zwart (GU10, 50 mm-lampen, ook Hue/Zigbee) midden in het tv-deel en midden in het voorste deel; elk op een eigen centraaldoos"
+    "omschrijving": "3x Olucia Elena 4-lichts opbouwspot zwart (GU10, 50 mm-lampen, ook Hue/Zigbee) midden in het tv-deel en midden in het voorste deel en midden in de hal; elk op een eigen centraaldoos"
    },
    "children": [
     1876,
-    1881
+    1881,
+    1886
    ]
   },
   {
@@ -103491,6 +103493,58 @@
    "mesh": 1281,
    "extras": {
     "omschrijving": "Centraaldoos voor plafondspot L2 (voorste deel, tussen balk P11 en P13; 5 cm uit het midden van de spot, want balk P13 loopt door het midden); aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
+     "artikel": "CH60R",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r/"
+    }
+   }
+  },
+  {
+   "name": "L3",
+   "translation": [
+    2.13,
+    0,
+    -4.56
+   ],
+   "extras": {
+    "omschrijving": "Plafondspot hal",
+    "product": {
+     "winkel": "Lampgigant",
+     "naam": "Olucia Elena moderne plafondspot zwart, 4x GU10 (plaat 20 x 20 cm, 15 cm hoog)",
+     "artikel": "Q79591",
+     "url": "https://lampgigant.nl/moderne-plafondspot-zwart-elena-q79591"
+    }
+   },
+   "children": [
+    1887,
+    1888,
+    1889
+   ]
+  },
+  {
+   "name": "L3 plaat",
+   "mesh": 1278
+  },
+  {
+   "name": "L3 koppen",
+   "mesh": 1279
+  },
+  {
+   "name": "L3 lampen",
+   "mesh": 1280
+  },
+  {
+   "name": "CD3",
+   "translation": [
+    2.13,
+    0,
+    -4.56
+   ],
+   "mesh": 1281,
+   "extras": {
+    "omschrijving": "Centraaldoos voor plafondspot L3 (hal, tussen balk P6 en P8); aanvoer nog te leggen vanuit de koof bij de meterkast",
     "product": {
      "winkel": "Elektramat",
      "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
