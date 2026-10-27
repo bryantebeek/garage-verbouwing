@@ -43608,14 +43608,14 @@
    "bufferView": 1398,
    "byteOffset": 0,
    "max": [
-    0.014999999664723873,
-    2.3010001182556152,
-    0.014999999664723873
+    0.10000000149011612,
+    2.319999933242798,
+    0.10000000149011612
    ],
    "min": [
-    -0.014999999664723873,
-    2.2809998989105225,
-    -0.014999999664723873
+    -0.10000000149011612,
+    2.2950000762939453,
+    -0.10000000149011612
    ]
   },
   {
@@ -43628,48 +43628,48 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 384,
+   "count": 1680,
    "bufferView": 1400,
    "byteOffset": 0,
    "max": [
-    0.027000000700354576,
-    2.2809998989105225,
-    0.027000000700354576
+    0.07999999821186066,
+    2.2950000762939453,
+    0.07999999821186066
    ],
    "min": [
-    -0.027000000700354576,
-    2.197000026702881,
-    -0.027000000700354576
+    -0.07999999821186066,
+    2.1700000762939453,
+    -0.07999999821186066
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 384,
+   "count": 1680,
    "bufferView": 1401,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 384,
+   "count": 1536,
    "bufferView": 1402,
    "byteOffset": 0,
    "max": [
-    0.02199999988079071,
-    2.197000026702881,
-    0.02199999988079071
+    0.07400000095367432,
+    2.1700000762939453,
+    0.07400000095367432
    ],
    "min": [
-    -0.02199999988079071,
-    2.196500062942505,
-    -0.02199999988079071
+    -0.07400000095367432,
+    2.1695001125335693,
+    -0.07400000095367432
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 384,
+   "count": 1536,
    "bufferView": 1403,
    "byteOffset": 0
   },
@@ -43695,222 +43695,6 @@
    "componentType": 5126,
    "count": 384,
    "bufferView": 1405,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1406,
-   "byteOffset": 0,
-   "max": [
-    0.5139999985694885,
-    2.319999933242798,
-    -0.6200000047683716
-   ],
-   "min": [
-    0.47999998927116394,
-    2.3010001182556152,
-    -2.299999952316284
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1407,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1408,
-   "byteOffset": 0,
-   "max": [
-    5.497000217437744,
-    2.319999933242798,
-    -0.6029999852180481
-   ],
-   "min": [
-    0.4970000088214874,
-    2.3010001182556152,
-    -0.6370000243186951
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1409,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1410,
-   "byteOffset": 0,
-   "max": [
-    5.513999938964844,
-    2.319999933242798,
-    -0.6200000047683716
-   ],
-   "min": [
-    5.480000019073486,
-    2.3010001182556152,
-    -3.3499999046325684
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1411,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1412,
-   "byteOffset": 0,
-   "max": [
-    5.497000217437744,
-    2.319999933242798,
-    -3.3329999446868896
-   ],
-   "min": [
-    3.8499999046325684,
-    2.3010001182556152,
-    -3.367000102996826
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1413,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1414,
-   "byteOffset": 0,
-   "max": [
-    0.6000000238418579,
-    2.319999933242798,
-    -0.6019999980926514
-   ],
-   "min": [
-    0.4790000021457672,
-    2.2990000247955322,
-    -0.7229999899864197
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1415,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1416,
-   "byteOffset": 0,
-   "max": [
-    5.514999866485596,
-    2.319999933242798,
-    -0.6019999980926514
-   ],
-   "min": [
-    5.394000053405762,
-    2.2990000247955322,
-    -0.7229999899864197
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1417,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1418,
-   "byteOffset": 0,
-   "max": [
-    5.514999866485596,
-    2.319999933242798,
-    -3.246999979019165
-   ],
-   "min": [
-    5.394000053405762,
-    2.2990000247955322,
-    -3.368000030517578
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 72,
-   "bufferView": 1419,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1420,
-   "byteOffset": 0,
-   "max": [
-    0.5139999985694885,
-    2.319999933242798,
-    -2.2699999809265137
-   ],
-   "min": [
-    0.47999998927116394,
-    2.299999952316284,
-    -2.299999952316284
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1421,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1422,
-   "byteOffset": 0,
-   "max": [
-    3.927999973297119,
-    2.319999933242798,
-    -3.3320000171661377
-   ],
-   "min": [
-    3.7899999618530273,
-    2.2950000762939453,
-    -3.368000030517578
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1423,
    "byteOffset": 0
   }
  ],
@@ -53703,145 +53487,37 @@
   {
    "buffer": 0,
    "byteOffset": 37315324,
+   "byteLength": 20160,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37335484,
+   "byteLength": 20160,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37355644,
+   "byteLength": 18432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37374076,
+   "byteLength": 18432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37392508,
    "byteLength": 4608,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37319932,
+   "byteOffset": 37397116,
    "byteLength": 4608,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37324540,
-   "byteLength": 4608,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37329148,
-   "byteLength": 4608,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37333756,
-   "byteLength": 4608,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37338364,
-   "byteLength": 4608,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37342972,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37343404,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37343836,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37344268,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37344700,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37345132,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37345564,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37345996,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37346428,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37347292,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37348156,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37349020,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37349884,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37350748,
-   "byteLength": 864,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37351612,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37352044,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37352476,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37352908,
-   "byteLength": 432,
    "target": 34962
   }
  ],
@@ -54223,7 +53899,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37353340
+   "byteLength": 37401724
   }
  ],
  "materials": [
@@ -58689,7 +58365,7 @@
    }
   },
   {
-   "name": "Taros zwart",
+   "name": "Elena zwart",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
@@ -78812,7 +78488,7 @@
    ]
   },
   {
-   "name": "Taros railspot adapter",
+   "name": "Elena plaat",
    "primitives": [
     {
      "attributes": {
@@ -78824,7 +78500,7 @@
    ]
   },
   {
-   "name": "Taros railspot huis",
+   "name": "Elena koppen",
    "primitives": [
     {
      "attributes": {
@@ -78836,7 +78512,7 @@
    ]
   },
   {
-   "name": "Taros railspot lamp",
+   "name": "Elena lampen",
    "primitives": [
     {
      "attributes": {
@@ -78856,114 +78532,6 @@
       "NORMAL": 4258
      },
      "material": 61
-    }
-   ]
-  },
-  {
-   "name": "R1 rail 1",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4259,
-      "NORMAL": 4260
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 rail 2",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4261,
-      "NORMAL": 4262
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 rail 3",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4263,
-      "NORMAL": 4264
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 rail 4",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4265,
-      "NORMAL": 4266
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 hoek 1",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4267,
-      "NORMAL": 4268
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 hoek 2",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4269,
-      "NORMAL": 4270
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 hoek 3",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4271,
-      "NORMAL": 4272
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 eindstuk",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4273,
-      "NORMAL": 4274
-     },
-     "material": 267
-    }
-   ]
-  },
-  {
-   "name": "R1 voeding",
-   "primitives": [
-    {
-     "attributes": {
-      "POSITION": 4275,
-      "NORMAL": 4276
-     },
-     "material": 267
     }
    ]
   }
@@ -90072,7 +89640,8 @@
     1832,
     1848,
     1874,
-    1930
+    1880,
+    1885
    ]
   },
   {
@@ -103817,527 +103386,111 @@
    }
   },
   {
-   "name": "Railverlichting",
+   "name": "Plafondverlichting",
    "extras": {
-    "omschrijving": "Taros 1-fase railverlichting zwart (into-led) met Philips Hue GU10-lampen; rail rondom, vaste voeding uit een centraaldoos; zones (bank/game, werkplek) via Hue"
+    "omschrijving": "2x Olucia Elena 4-lichts opbouwspot zwart (GU10, 50 mm-lampen, ook Hue/Zigbee) midden in het tv-deel en midden in het voorste deel; elk op een eigen centraaldoos"
    },
    "children": [
-    1876
+    1876,
+    1881
    ]
   },
   {
-   "name": "R1",
+   "name": "L1",
+   "translation": [
+    1.575,
+    0,
+    -1.527
+   ],
    "extras": {
-    "omschrijving": "Taros rail rondom (U-vorm, open aan de tv-muur): 11,06 m rail in 4 stukken (op maat zagen), 3 L-koppelstukken, 11 railspots, voeding uit CD1 bij de deur"
+    "omschrijving": "Plafondspot tv-deel",
+    "product": {
+     "winkel": "Lampgigant",
+     "naam": "Olucia Elena moderne plafondspot zwart, 4x GU10 (plaat 20 x 20 cm, 15 cm hoog)",
+     "artikel": "Q79591",
+     "url": "https://lampgigant.nl/moderne-plafondspot-zwart-elena-q79591"
+    }
    },
    "children": [
     1877,
     1878,
-    1879,
-    1880,
-    1881,
-    1882,
-    1883,
-    1884,
-    1885,
-    1886,
-    1890,
-    1894,
-    1898,
-    1902,
-    1906,
-    1910,
-    1914,
-    1918,
-    1922,
-    1926
+    1879
    ]
   },
   {
-   "name": "R1 rail 1",
-   "mesh": 1282,
-   "extras": {
-    "omschrijving": "1,68 m",
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
-     "artikel": "87207222724436",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
-    }
-   }
-  },
-  {
-   "name": "R1 rail 2",
-   "mesh": 1283,
-   "extras": {
-    "omschrijving": "5,00 m",
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
-     "artikel": "87207222724436",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
-    }
-   }
-  },
-  {
-   "name": "R1 rail 3",
-   "mesh": 1284,
-   "extras": {
-    "omschrijving": "2,73 m",
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
-     "artikel": "87207222724436",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
-    }
-   }
-  },
-  {
-   "name": "R1 rail 4",
-   "mesh": 1285,
-   "extras": {
-    "omschrijving": "1,65 m",
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
-     "artikel": "87207222724436",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
-    }
-   }
-  },
-  {
-   "name": "R1 hoek 1",
-   "mesh": 1286,
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
-     "artikel": "87207222724481",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
-    }
-   }
-  },
-  {
-   "name": "R1 hoek 2",
-   "mesh": 1287,
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
-     "artikel": "87207222724481",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
-    }
-   }
-  },
-  {
-   "name": "R1 hoek 3",
-   "mesh": 1288,
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
-     "artikel": "87207222724481",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
-    }
-   }
-  },
-  {
-   "name": "R1 eindstuk",
-   "mesh": 1289,
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros eindstuk 1-fase railverlichting, zwart",
-     "artikel": "87207222724535",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-endcap-3-jaar-garantie-zwart-ip20-2724535.html"
-    }
-   }
-  },
-  {
-   "name": "R1 voeding",
-   "mesh": 1290,
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros voeding 1-fase railverlichting, zwart",
-     "artikel": "87207222724528",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-adapter-220-240v-ac-3-jaar-garantie-zwart-ip20-2724528.html"
-    }
-   }
-  },
-  {
-   "name": "R1 spot 1",
-   "translation": [
-    0.497,
-    0,
-    -1.2
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1887,
-    1888,
-    1889
-   ]
-  },
-  {
-   "name": "R1 spot 1 adapter",
+   "name": "L1 plaat",
    "mesh": 1278
   },
   {
-   "name": "R1 spot 1 huis",
+   "name": "L1 koppen",
    "mesh": 1279
   },
   {
-   "name": "R1 spot 1 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 2",
-   "translation": [
-    0.497,
-    0,
-    -1.95
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1891,
-    1892,
-    1893
-   ]
-  },
-  {
-   "name": "R1 spot 2 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 2 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 2 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 3",
-   "translation": [
-    1.0,
-    0,
-    -0.62
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1895,
-    1896,
-    1897
-   ]
-  },
-  {
-   "name": "R1 spot 3 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 3 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 3 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 4",
-   "translation": [
-    2.25,
-    0,
-    -0.62
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1899,
-    1900,
-    1901
-   ]
-  },
-  {
-   "name": "R1 spot 4 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 4 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 4 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 5",
-   "translation": [
-    3.3,
-    0,
-    -0.62
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1903,
-    1904,
-    1905
-   ]
-  },
-  {
-   "name": "R1 spot 5 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 5 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 5 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 6",
-   "translation": [
-    4.25,
-    0,
-    -0.62
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1907,
-    1908,
-    1909
-   ]
-  },
-  {
-   "name": "R1 spot 6 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 6 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 6 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 7",
-   "translation": [
-    5.0,
-    0,
-    -0.62
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1911,
-    1912,
-    1913
-   ]
-  },
-  {
-   "name": "R1 spot 7 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 7 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 7 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 8",
-   "translation": [
-    5.497,
-    0,
-    -1.45
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1915,
-    1916,
-    1917
-   ]
-  },
-  {
-   "name": "R1 spot 8 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 8 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 8 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 9",
-   "translation": [
-    5.497,
-    0,
-    -2.45
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1919,
-    1920,
-    1921
-   ]
-  },
-  {
-   "name": "R1 spot 9 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 9 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 9 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 10",
-   "translation": [
-    5.0,
-    0,
-    -3.35
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1923,
-    1924,
-    1925
-   ]
-  },
-  {
-   "name": "R1 spot 10 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 10 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 10 lamp",
-   "mesh": 1280
-  },
-  {
-   "name": "R1 spot 11",
-   "translation": [
-    4.3,
-    0,
-    -3.35
-   ],
-   "extras": {
-    "product": {
-     "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
-     "artikel": "87207222724559",
-     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
-    }
-   },
-   "children": [
-    1927,
-    1928,
-    1929
-   ]
-  },
-  {
-   "name": "R1 spot 11 adapter",
-   "mesh": 1278
-  },
-  {
-   "name": "R1 spot 11 huis",
-   "mesh": 1279
-  },
-  {
-   "name": "R1 spot 11 lamp",
+   "name": "L1 lampen",
    "mesh": 1280
   },
   {
    "name": "CD1",
    "translation": [
-    3.85,
+    1.575,
     0,
-    -3.35
+    -1.527
    ],
    "mesh": 1281,
    "extras": {
-    "omschrijving": "Centraaldoos voor railverlichting R1 (voeding), tussen balk P10 en P11; aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "omschrijving": "Centraaldoos voor plafondspot L1 (tv-deel, tussen balk P5 en P6); aanvoer nog te leggen vanuit de koof bij de meterkast",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
+     "artikel": "CH60R",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r/"
+    }
+   }
+  },
+  {
+   "name": "L2",
+   "translation": [
+    4.473,
+    0,
+    -1.9
+   ],
+   "extras": {
+    "omschrijving": "Plafondspot voorste deel",
+    "product": {
+     "winkel": "Lampgigant",
+     "naam": "Olucia Elena moderne plafondspot zwart, 4x GU10 (plaat 20 x 20 cm, 15 cm hoog)",
+     "artikel": "Q79591",
+     "url": "https://lampgigant.nl/moderne-plafondspot-zwart-elena-q79591"
+    }
+   },
+   "children": [
+    1882,
+    1883,
+    1884
+   ]
+  },
+  {
+   "name": "L2 plaat",
+   "mesh": 1278
+  },
+  {
+   "name": "L2 koppen",
+   "mesh": 1279
+  },
+  {
+   "name": "L2 lampen",
+   "mesh": 1280
+  },
+  {
+   "name": "CD2",
+   "translation": [
+    4.42,
+    0,
+    -1.9
+   ],
+   "mesh": 1281,
+   "extras": {
+    "omschrijving": "Centraaldoos voor plafondspot L2 (voorste deel, tussen balk P11 en P13; 5 cm uit het midden van de spot, want balk P13 loopt door het midden); aanvoer nog te leggen vanuit de koof bij de meterkast",
     "product": {
      "winkel": "Elektramat",
      "naam": "Attema centraaldoos hol plafond Ø16/19 mm grijs (CH60R)",
