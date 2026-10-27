@@ -43608,14 +43608,14 @@
    "bufferView": 1398,
    "byteOffset": 0,
    "max": [
-    4.40749979019165,
+    4.107500076293945,
     2.3187999725341797,
-    -0.5924999713897705
+    -0.7425000071525574
    ],
    "min": [
     0.29249998927116394,
     2.3187999725341797,
-    -2.6075000762939453
+    -2.557499885559082
    ]
   },
   {
@@ -43634,12 +43634,12 @@
    "max": [
     5.507500171661377,
     2.3187999725341797,
-    -0.39250001311302185
+    -0.4925000071525574
    ],
    "min": [
-    1.8925000429153442,
+    3.192500114440918,
     2.3187999725341797,
-    -2.757499933242798
+    -3.307499885559082
    ]
   },
   {
@@ -43652,96 +43652,96 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 30,
    "bufferView": 1402,
    "byteOffset": 0,
    "max": [
-    3.9075000286102295,
+    3.257499933242798,
     2.3187999725341797,
-    -0.8424999713897705
+    -0.7425000071525574
    ],
    "min": [
-    0.39250001311302185,
+    0.7425000071525574,
     2.3187999725341797,
-    -2.4574999809265137
+    -2.8575000762939453
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 30,
    "bufferView": 1403,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 30,
    "bufferView": 1404,
    "byteOffset": 0,
    "max": [
-    5.457499980926514,
+    5.257500171661377,
     2.3187999725341797,
     -0.4424999952316284
    ],
    "min": [
-    2.2925000190734863,
+    2.742500066757202,
     2.3187999725341797,
-    -2.057499885559082
+    -2.6575000286102295
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 30,
    "bufferView": 1405,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 42,
+   "count": 12,
    "bufferView": 1406,
    "byteOffset": 0,
    "max": [
-    5.40749979019165,
+    4.207499980926514,
     2.3187999725341797,
-    -0.5924999713897705
+    -0.7425000071525574
    ],
    "min": [
-    0.29249998927116394,
+    0.4424999952316284,
     2.3187999725341797,
-    -3.3606066703796387
+    -2.307499885559082
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 42,
+   "count": 12,
    "bufferView": 1407,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 12,
    "bufferView": 1408,
    "byteOffset": 0,
    "max": [
-    5.607500076293945,
+    5.40749979019165,
     2.3187999725341797,
-    -0.24250000715255737
+    -0.9925000071525574
    ],
    "min": [
-    3.109393358230591,
+    1.9424999952316284,
     2.3187999725341797,
-    -2.7406065464019775
+    -2.557499885559082
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 18,
+   "count": 12,
    "bufferView": 1409,
    "byteOffset": 0
   }
@@ -53547,49 +53547,49 @@
   {
    "buffer": 0,
    "byteOffset": 37315612,
-   "byteLength": 216,
+   "byteLength": 360,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37315828,
-   "byteLength": 216,
+   "byteOffset": 37315972,
+   "byteLength": 360,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316044,
-   "byteLength": 216,
+   "byteOffset": 37316332,
+   "byteLength": 360,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316260,
-   "byteLength": 216,
+   "byteOffset": 37316692,
+   "byteLength": 360,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316476,
-   "byteLength": 504,
+   "byteOffset": 37317052,
+   "byteLength": 144,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37316980,
-   "byteLength": 504,
+   "byteOffset": 37317196,
+   "byteLength": 144,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37317340,
+   "byteLength": 144,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37317484,
-   "byteLength": 216,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37317700,
-   "byteLength": 216,
+   "byteLength": 144,
    "target": 34962
   }
  ],
@@ -53971,7 +53971,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37317916
+   "byteLength": 37317628
   }
  ],
  "materials": [
@@ -78576,7 +78576,7 @@
    ]
   },
   {
-   "name": "LED-lijnen A bank/game",
+   "name": "LED-lijnen D bank/game",
    "primitives": [
     {
      "attributes": {
@@ -78588,7 +78588,7 @@
    ]
   },
   {
-   "name": "LED-lijnen A werkplek",
+   "name": "LED-lijnen D werkplek",
    "primitives": [
     {
      "attributes": {
@@ -78600,7 +78600,7 @@
    ]
   },
   {
-   "name": "LED-lijnen B bank/game",
+   "name": "LED-lijnen E bank/game",
    "primitives": [
     {
      "attributes": {
@@ -78612,7 +78612,7 @@
    ]
   },
   {
-   "name": "LED-lijnen B werkplek",
+   "name": "LED-lijnen E werkplek",
    "primitives": [
     {
      "attributes": {
@@ -78624,7 +78624,7 @@
    ]
   },
   {
-   "name": "LED-lijnen C bank/game",
+   "name": "LED-lijnen F bank/game",
    "primitives": [
     {
      "attributes": {
@@ -78636,7 +78636,7 @@
    ]
   },
   {
-   "name": "LED-lijnen C werkplek",
+   "name": "LED-lijnen F werkplek",
    "primitives": [
     {
      "attributes": {
@@ -103495,10 +103495,10 @@
    }
   },
   {
-   "name": "LED-lijnen A (schets)",
+   "name": "LED-lijnen D (schets)",
    "extras": {
     "visible": false,
-    "omschrijving": "Schets A. Haakse kaders: twee kaders met overlopende hoeken; de bank-lijn loopt door de open hoek van het werkkader, de werk-lijn haakt onder het bankkader door. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "omschrijving": "Schets D. Open kaders: elk zone een kader van losse rechte lijnen met open hoeken; de bank-lijn langs de beamer loopt door de open hoek van het werkkader, en bij de tv-muur staan de zijlijnen van beide kaders als dubbele lijn naast elkaar. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
    },
    "children": [
     1876,
@@ -103506,26 +103506,26 @@
    ]
   },
   {
-   "name": "LED-lijnen A bank/game",
+   "name": "LED-lijnen D bank/game",
    "mesh": 1278,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring bank/game: 10,7 m lijn"
+    "omschrijving": "Kring bank/game: 8,8 m lijn"
    }
   },
   {
-   "name": "LED-lijnen A werkplek",
+   "name": "LED-lijnen D werkplek",
    "mesh": 1279,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring werkplek: 9,9 m lijn"
+    "omschrijving": "Kring werkplek: 7,5 m lijn"
    }
   },
   {
-   "name": "LED-lijnen B (schets)",
+   "name": "LED-lijnen E (schets)",
    "extras": {
     "visible": false,
-    "omschrijving": "Schets B. Rits: lange lijnen over de lengte van de kamer, om en om bank en werkplek, die in het midden in elkaar grijpen. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "omschrijving": "Schets E. Ritme: alleen lijnen evenwijdig aan de balken, midden tussen twee balken (geen inkepingen); bij de tv-muur grijpen de zones in elkaar: de bank loopt aan de tv-kant een vak door, de werkplek aan de raamkant een vak terug. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
    },
    "children": [
     1879,
@@ -103533,26 +103533,26 @@
    ]
   },
   {
-   "name": "LED-lijnen B bank/game",
+   "name": "LED-lijnen E bank/game",
    "mesh": 1280,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring bank/game: 10,5 m lijn"
+    "omschrijving": "Kring bank/game: 8,3 m lijn"
    }
   },
   {
-   "name": "LED-lijnen B werkplek",
+   "name": "LED-lijnen E werkplek",
    "mesh": 1281,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring werkplek: 9,5 m lijn"
+    "omschrijving": "Kring werkplek: 9,7 m lijn"
    }
   },
   {
-   "name": "LED-lijnen C (schets)",
+   "name": "LED-lijnen F (schets)",
    "extras": {
     "visible": false,
-    "omschrijving": "Schets C. Diagonaal: een dubbele schuine lijn onder 45 graden, evenwijdig aan de schuine muur bij de deur, scheidt bank en werkplek. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
+    "omschrijving": "Schets F. Passerende lijnen: twee lange lijnen per zone over de lengte van de kamer, die rond de tv-muur een stuk naast elkaar doorlopen. Ingestucte aluminium profielen met COB-strip, 15 mm zichtbaar, Hue via Zigbee-controller."
    },
    "children": [
     1882,
@@ -103560,19 +103560,19 @@
    ]
   },
   {
-   "name": "LED-lijnen C bank/game",
+   "name": "LED-lijnen F bank/game",
    "mesh": 1282,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring bank/game: 14,0 m lijn"
+    "omschrijving": "Kring bank/game: 7,5 m lijn"
    }
   },
   {
-   "name": "LED-lijnen C werkplek",
+   "name": "LED-lijnen F werkplek",
    "mesh": 1283,
    "extras": {
     "omlijning": false,
-    "omschrijving": "Kring werkplek: 8,3 m lijn"
+    "omschrijving": "Kring werkplek: 6,9 m lijn"
    }
   }
  ],
