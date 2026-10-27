@@ -43504,6 +43504,102 @@
    "componentType": 5123,
    "count": 1152,
    "type": "SCALAR"
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1390,
+   "byteOffset": 0,
+   "max": [
+    0.04100000113248825,
+    0.0,
+    0.04100000113248825
+   ],
+   "min": [
+    -0.04100000113248825,
+    -0.004000000189989805,
+    -0.04100000113248825
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1391,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1392,
+   "byteOffset": 0,
+   "max": [
+    0.03400000184774399,
+    0.05999999865889549,
+    0.03400000184774399
+   ],
+   "min": [
+    -0.03400000184774399,
+    0.0,
+    -0.03400000184774399
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1393,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1394,
+   "byteOffset": 0,
+   "max": [
+    0.02500000037252903,
+    -0.004000000189989805,
+    0.02500000037252903
+   ],
+   "min": [
+    -0.02500000037252903,
+    -0.0044999998062849045,
+    -0.02500000037252903
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1395,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 480,
+   "bufferView": 1396,
+   "byteOffset": 0,
+   "max": [
+    6.015999794006348,
+    2.369999885559082,
+    -0.5569999814033508
+   ],
+   "min": [
+    5.796000003814697,
+    2.140000104904175,
+    -2.9539999961853027
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 480,
+   "bufferView": 1397,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -53231,6 +53327,54 @@
    "byteOffset": 37272988,
    "byteLength": 2304,
    "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37275292,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37279900,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37284508,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37289116,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37293724,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37298332,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37302940,
+   "byteLength": 5760,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37308700,
+   "byteLength": 5760,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -53611,7 +53755,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37275292
+   "byteLength": 37314460
   }
  ],
  "materials": [
@@ -78122,6 +78266,54 @@
      "mode": 4
     }
    ]
+  },
+  {
+   "name": "GU10 inbouwspot ring",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4243,
+      "NORMAL": 4244
+     },
+     "material": 63
+    }
+   ]
+  },
+  {
+   "name": "GU10 inbouwspot huis",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4245,
+      "NORMAL": 4246
+     },
+     "material": 61
+    }
+   ]
+  },
+  {
+   "name": "GU10 inbouwspot lamp",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4247,
+      "NORMAL": 4248
+     },
+     "material": 64
+    }
+   ]
+  },
+  {
+   "name": "Leiding 12",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4249,
+      "NORMAL": 4250
+     },
+     "material": 58
+    }
+   ]
   }
  ],
  "nodes": [
@@ -85969,7 +86161,8 @@
     816,
     835,
     934,
-    1831
+    1831,
+    1860
    ]
   },
   {
@@ -89180,7 +89373,9 @@
     1758,
     1788,
     1804,
-    1823
+    1823,
+    1849,
+    1861
    ]
   },
   {
@@ -89220,7 +89415,10 @@
     1793,
     1803,
     1812,
-    1822
+    1822,
+    1832,
+    1848,
+    1874
    ]
   },
   {
@@ -102549,6 +102747,420 @@
     -0.04399999976158142
    ],
    "mesh": 1269
+  },
+  {
+   "name": "W9 inbouwdozen",
+   "extras": {
+    "omschrijving": "2x Attema U50, gekoppeld 71 mm"
+   },
+   "translation": [
+    5.8045,
+    1.05,
+    -2.994
+   ],
+   "rotation": [
+    0,
+    -0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    -1,
+    1,
+    1
+   ],
+   "children": [
+    1833,
+    1838,
+    1842
+   ]
+  },
+  {
+   "name": "W9 inbouwdoos 1",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    1834,
+    1835,
+    1836,
+    1837
+   ]
+  },
+  {
+   "name": "W9 inbouwdoos 1 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W9 inbouwdoos 1 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W9 inbouwdoos 1 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W9 inbouwdoos 1 buiktuit",
+   "mesh": 1273,
+   "translation": [
+    -0.012500000417232517,
+    0,
+    -0.031000000424683094
+   ]
+  },
+  {
+   "name": "W9 inbouwdoos 2",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    1839,
+    1840,
+    1841
+   ]
+  },
+  {
+   "name": "W9 inbouwdoos 2 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W9 inbouwdoos 2 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W9 inbouwdoos 2 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W9 draden",
+   "extras": {
+    "omschrijving": "Uit Leiding 11"
+   },
+   "children": [
+    1843,
+    1844,
+    1845,
+    1846,
+    1847
+   ]
+  },
+  {
+   "name": "W9 schakelaar fase schakelaar",
+   "mesh": 1139
+  },
+  {
+   "name": "W9 schakelaar schakeldraad",
+   "mesh": 1140
+  },
+  {
+   "name": "W9 stopcontact fase",
+   "mesh": 1141
+  },
+  {
+   "name": "W9 stopcontact nul",
+   "mesh": 1142
+  },
+  {
+   "name": "W9 stopcontact aarde",
+   "mesh": 1143
+  },
+  {
+   "name": "Leiding 11",
+   "translation": [
+    5.8045,
+    1.05,
+    -2.994
+   ],
+   "rotation": [
+    0,
+    -0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    -1,
+    1,
+    1
+   ],
+   "mesh": 1144,
+   "extras": {
+    "omschrijving": "W9 -> plafond (buitenlampen), fase/nul/aarde/schakeldraad"
+   }
+  },
+  {
+   "name": "W9",
+   "extras": {
+    "omschrijving": "schakelaar (buitenlampen) + stopcontact"
+   },
+   "translation": [
+    5.7995,
+    1.05,
+    -2.994
+   ],
+   "rotation": [
+    0,
+    -0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
+   "children": [
+    1850,
+    1851,
+    1854
+   ]
+  },
+  {
+   "name": "W9 afdekraam",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG afdekraam 2-voudig A550 alpinwit glanzend",
+     "artikel": "401181307",
+     "url": "https://www.elektramat.nl/jung-afdekraam-2-voudig-a550-alpine-glanzend-a5582bfww/"
+    }
+   },
+   "mesh": 1145
+  },
+  {
+   "name": "W9 schakelaar",
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    1852,
+    1853
+   ]
+  },
+  {
+   "name": "W9 wisselschakelaar",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG sokkel inbouw wisselschakelaar 506U",
+     "artikel": "401028202",
+     "url": "https://www.elektramat.nl/jung-sokkel-inbouw-wisselschakelaar-506eu/"
+    }
+   },
+   "mesh": 1146
+  },
+  {
+   "name": "W9 schakelwip",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG schakelwip A500 alpinwit",
+     "artikel": "401070074",
+     "url": "https://www.elektramat.nl/jung-schakelwip-a500-alpin-wit-a590bfww/"
+    },
+    "stand": "uit"
+   },
+   "translation": [
+    0,
+    0,
+    0.0095
+   ],
+   "rotation": [
+    -0.03489949670250097,
+    0,
+    0,
+    0.9993908270190958
+   ],
+   "mesh": 1147
+  },
+  {
+   "name": "W9 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    1855,
+    1856,
+    1857,
+    1858,
+    1859
+   ]
+  },
+  {
+   "name": "W9 stopcontact sokkel",
+   "mesh": 1148
+  },
+  {
+   "name": "W9 stopcontact plaat",
+   "mesh": 1149
+  },
+  {
+   "name": "W9 stopcontact kom",
+   "mesh": 1150
+  },
+  {
+   "name": "W9 stopcontact gaten",
+   "mesh": 1151
+  },
+  {
+   "name": "W9 randaarde",
+   "mesh": 1152
+  },
+  {
+   "name": "K9",
+   "translation": [
+    5.817000000000001,
+    0.9470000000000003,
+    -2.864325251647433
+   ],
+   "rotation": [
+    0,
+    0.7071067811865476,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.5939675174013921,
+    1,
+    1
+   ],
+   "mesh": 1269,
+   "extras": {
+    "omschrijving": "Klos voor W9",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   }
+  },
+  {
+   "name": "Buitenlampen",
+   "extras": {
+    "omschrijving": "3x GU10 inbouwspot in de kunststof koof boven het voorkozijn, geschakeld op W9; positie voorlopig tot de koof is opgemeten"
+   },
+   "children": [
+    1862,
+    1866,
+    1870
+   ]
+  },
+  {
+   "name": "Buitenlamp 1",
+   "translation": [
+    6.008,
+    2.08,
+    -2.085
+   ],
+   "extras": {
+    "omschrijving": "GU10 inbouwspot boven de deur (fitting en lamp: zelf)"
+   },
+   "children": [
+    1863,
+    1864,
+    1865
+   ]
+  },
+  {
+   "name": "Buitenlamp 1 ring",
+   "mesh": 1274
+  },
+  {
+   "name": "Buitenlamp 1 huis",
+   "mesh": 1275
+  },
+  {
+   "name": "Buitenlamp 1 lamp",
+   "mesh": 1276
+  },
+  {
+   "name": "Buitenlamp 2",
+   "translation": [
+    6.008,
+    2.08,
+    -1.26
+   ],
+   "extras": {
+    "omschrijving": "GU10 inbouwspot boven het vaste glas (fitting en lamp: zelf)"
+   },
+   "children": [
+    1867,
+    1868,
+    1869
+   ]
+  },
+  {
+   "name": "Buitenlamp 2 ring",
+   "mesh": 1274
+  },
+  {
+   "name": "Buitenlamp 2 huis",
+   "mesh": 1275
+  },
+  {
+   "name": "Buitenlamp 2 lamp",
+   "mesh": 1276
+  },
+  {
+   "name": "Buitenlamp 3",
+   "translation": [
+    6.008,
+    2.08,
+    -0.565
+   ],
+   "extras": {
+    "omschrijving": "GU10 inbouwspot boven het draai-kiepraam (fitting en lamp: zelf)"
+   },
+   "children": [
+    1871,
+    1872,
+    1873
+   ]
+  },
+  {
+   "name": "Buitenlamp 3 ring",
+   "mesh": 1274
+  },
+  {
+   "name": "Buitenlamp 3 huis",
+   "mesh": 1275
+  },
+  {
+   "name": "Buitenlamp 3 lamp",
+   "mesh": 1276
+  },
+  {
+   "name": "Leiding 12",
+   "mesh": 1277,
+   "extras": {
+    "omschrijving": "Plafond -> koof buiten, Buitenlamp 1-2-3 doorgelust, schakeldraad/nul/aarde (geschakeld op W9)"
+   }
   }
  ],
  "scenes": [
