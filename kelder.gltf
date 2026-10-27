@@ -58689,16 +58689,16 @@
    }
   },
   {
-   "name": "Taros wit",
+   "name": "Taros zwart",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.91,
-     0.91,
-     0.9,
+     0.025,
+     0.025,
+     0.025,
      1
     ],
-    "roughnessFactor": 0.35,
+    "roughnessFactor": 0.5,
     "metallicFactor": 0
    }
   }
@@ -103819,7 +103819,7 @@
   {
    "name": "Railverlichting",
    "extras": {
-    "omschrijving": "Taros 1-fase railverlichting wit (into-led) met Philips Hue GU10-lampen; rail rondom, vaste voeding uit een centraaldoos; zones (bank/game, werkplek) via Hue"
+    "omschrijving": "Taros 1-fase railverlichting zwart (into-led) met Philips Hue GU10-lampen; rail rondom, vaste voeding uit een centraaldoos; zones (bank/game, werkplek) via Hue"
    },
    "children": [
     1876
@@ -103860,9 +103860,9 @@
     "omschrijving": "1,68 m",
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail wit (1 m of 1,5 m, op maat zagen)",
-     "artikel": "8720722738761",
-     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
+     "artikel": "87207222724436",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
     }
    }
   },
@@ -103873,9 +103873,9 @@
     "omschrijving": "5,00 m",
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail wit (1 m of 1,5 m, op maat zagen)",
-     "artikel": "8720722738761",
-     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
+     "artikel": "87207222724436",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
     }
    }
   },
@@ -103886,9 +103886,9 @@
     "omschrijving": "2,73 m",
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail wit (1 m of 1,5 m, op maat zagen)",
-     "artikel": "8720722738761",
-     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
+     "artikel": "87207222724436",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
     }
    }
   },
@@ -103899,9 +103899,9 @@
     "omschrijving": "1,65 m",
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros 1-fase spanningsrail wit (1 m of 1,5 m, op maat zagen)",
-     "artikel": "8720722738761",
-     "url": "https://www.into-led.com/nl/taros-1-fase-spanningsrail-1-5-meter-wit-3-jaar-garantie-2738761.html"
+     "naam": "Taros 1-fase spanningsrail zwart (1 m of 1,5 m, op maat zagen)",
+     "artikel": "87207222724436",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-track-1-5-meter-ip20-zwart-3-jaar-garantie-2724436.html"
     }
    }
   },
@@ -103911,9 +103911,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, wit",
-     "artikel": "8720722738808",
-     "url": "https://www.into-led.com/nl/taros-l-vorm-koppelstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738808.html"
+     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
+     "artikel": "87207222724481",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
     }
    }
   },
@@ -103923,9 +103923,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, wit",
-     "artikel": "8720722738808",
-     "url": "https://www.into-led.com/nl/taros-l-vorm-koppelstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738808.html"
+     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
+     "artikel": "87207222724481",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
     }
    }
   },
@@ -103935,9 +103935,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, wit",
-     "artikel": "8720722738808",
-     "url": "https://www.into-led.com/nl/taros-l-vorm-koppelstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738808.html"
+     "naam": "Taros L-vorm koppelstuk 1-fase railverlichting, zwart",
+     "artikel": "87207222724481",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-koppelstuk-l-vorm-3-jaar-garantie-zwart-ip20-2724481.html"
     }
    }
   },
@@ -103947,9 +103947,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros eindstuk 1-fase railverlichting, wit",
-     "artikel": "8720722738853",
-     "url": "https://www.into-led.com/nl/taros-eindstuk-1-fase-railverlichting-wit-3-jaar-garantie-2738853.html"
+     "naam": "Taros eindstuk 1-fase railverlichting, zwart",
+     "artikel": "87207222724535",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-endcap-3-jaar-garantie-zwart-ip20-2724535.html"
     }
    }
   },
@@ -103959,9 +103959,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros voeding 1-fase railverlichting, wit",
-     "artikel": "8720722738846",
-     "url": "https://www.into-led.com/nl/taros-voeding-1-fase-railverlichting-wit-3-jaar-garantie-2738846.html"
+     "naam": "Taros voeding 1-fase railverlichting, zwart",
+     "artikel": "87207222724528",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-adapter-220-240v-ac-3-jaar-garantie-zwart-ip20-2724528.html"
     }
    }
   },
@@ -103975,9 +103975,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104008,9 +104008,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104041,9 +104041,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104074,9 +104074,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104107,9 +104107,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104140,9 +104140,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104173,9 +104173,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104206,9 +104206,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104239,9 +104239,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104272,9 +104272,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
@@ -104305,9 +104305,9 @@
    "extras": {
     "product": {
      "winkel": "Into-LED",
-     "naam": "Taros railspot GU10 1-fase, wit (Ø54 x 104 mm)",
-     "artikel": "8720722738877",
-     "url": "https://www.into-led.com/nl/taros-railspot-gu10-1-fase-railverlichting-wit-3-jaar-garantie-2738877.html"
+     "naam": "Taros railspot GU10 1-fase, zwart (Ø54 x 104 mm)",
+     "artikel": "87207222724559",
+     "url": "https://www.into-led.com/nl/taros-led-tracklights-spot-gu10-3-jaar-garantie-zwart-ip20-2724559.html"
     }
    },
    "children": [
