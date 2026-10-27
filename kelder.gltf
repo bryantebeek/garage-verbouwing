@@ -54608,13 +54608,13 @@
    }
   },
   {
-   "name": "Elektrabuis",
+   "name": "Elektrabuis crème",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.55,
-     0.57,
-     0.6,
+     0.815,
+     0.745,
+     0.644,
      1
     ],
     "roughnessFactor": 0.5,
@@ -58200,6 +58200,20 @@
      0.04,
      0.04,
      0.045,
+     1
+    ],
+    "roughnessFactor": 0.5,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Elektrabuis grijs (UTP)",
+   "doubleSided": true,
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.597,
+     0.631,
+     0.604,
      1
     ],
     "roughnessFactor": 0.5,
@@ -76694,7 +76708,7 @@
       "NORMAL": 4014
      },
      "mode": 4,
-     "material": 58,
+     "material": 266,
      "indices": 1270
     }
    ]
@@ -77016,7 +77030,7 @@
       "NORMAL": 4060
      },
      "mode": 4,
-     "material": 58,
+     "material": 266,
      "indices": 1293
     }
    ]
