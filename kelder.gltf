@@ -44272,6 +44272,30 @@
    "count": 384,
    "bufferView": 1453,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 576,
+   "bufferView": 1454,
+   "byteOffset": 0,
+   "max": [
+    6.01800012588501,
+    2.378000020980835,
+    -0.5649999976158142
+   ],
+   "min": [
+    5.742000102996826,
+    2.0169999599456787,
+    -2.930999994277954
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 576,
+   "bufferView": 1455,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54383,6 +54407,18 @@
    "byteOffset": 37463356,
    "byteLength": 4608,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37467964,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37474876,
+   "byteLength": 6912,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -54763,7 +54799,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37467964
+   "byteLength": 37481788
   }
  ],
  "materials": [
@@ -79708,6 +79744,18 @@
      "material": 268
     }
    ]
+  },
+  {
+   "name": "Leiding 12",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4307,
+      "NORMAL": 4308
+     },
+     "material": 58
+    }
+   ]
   }
  ],
  "nodes": [
@@ -88425,7 +88473,8 @@
     608,
     605,
     597,
-    606
+    606,
+    2517
    ]
   },
   {
@@ -104364,7 +104413,7 @@
   },
   {
    "name": "Leiding 12",
-   "mesh": 1302,
+   "mesh": 1304,
    "extras": {
     "omschrijving": "W9 -> plafond, langs de voorgevel tot het midden van het voorkozijn, daar binnen omlaag en door de bovenregel van het kozijn naar buiten (bestaande doorvoer), in de koof naar Buitenlamp 1-2-3 doorgelust; schakeldraad/nul/aarde (geschakeld op W9)"
    }
@@ -114199,6 +114248,23 @@
    "extras": {
     "omschrijving": "21x inbouwspot rond zwart, Ø 85 mm, zaagmaat Ø 75 mm, inbouwdiepte max. 60 mm (holle plafond 69 mm + 9,5 mm plaat), GU10 met korte LED-lamp; elke spot midden tussen twee plafondbalken. Type en bedrading nog te kiezen."
    }
+  },
+  {
+   "name": "P17",
+   "extras": {
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 360 cm, uit 2 delen",
+     "artikel": "575921",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807733788998"
+    },
+    "omschrijving": "Extra ligger tegen P16, voor de stucplaten van het plafond"
+   },
+   "translation": [
+    5.773,
+    0.013000000000000293,
+    0
+   ],
+   "mesh": 498
   }
  ],
  "scenes": [
