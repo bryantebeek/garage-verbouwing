@@ -57973,6 +57973,28 @@
    "componentType": 5126,
    "count": 108,
    "type": "VEC3"
+  },
+  {
+   "bufferView": 2311,
+   "componentType": 5126,
+   "count": 540,
+   "type": "VEC3",
+   "min": [
+    0.056,
+    0.727,
+    -2.994
+   ],
+   "max": [
+    3.093,
+    2.1109999999999998,
+    -2.664
+   ]
+  },
+  {
+   "bufferView": 2312,
+   "componentType": 5126,
+   "count": 540,
+   "type": "VEC3"
   }
  ],
  "bufferViews": [
@@ -73288,6 +73310,18 @@
    "byteOffset": 41911264,
    "byteLength": 1296,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41912560,
+   "byteLength": 6480,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41919040,
+   "byteLength": 6480,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -73766,7 +73800,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41912560
+   "byteLength": 41925520
   }
  ],
  "materials": [
@@ -108162,6 +108196,18 @@
       "NORMAL": 5469
      },
      "material": 71
+    }
+   ]
+  },
+  {
+   "name": "Wandkast rondom",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5470,
+      "NORMAL": 5471
+     },
+     "material": 401
     }
    ]
   }
@@ -175958,6 +176004,22 @@
     0,
     -2.6571367200818274
    ]
+  },
+  {
+   "name": "Wandkast rondom vakken",
+   "mesh": 1720,
+   "extras": {
+    "omschrijving": "Vakken rondom de tv, bovenop de Wandkast: naast de tv een smalle kolom van 26,7 cm met 4 vakken (0,727–1,82 m), boven de tv een brug op 1,82 m en over de hele breedte een extra rij tot 2,11 m (boven de tv twee vakken van 64 cm). Staanders 25 mm, planken 18 mm, 33 cm diep, in de muurkleur. Alleen de 55 inch past (5 cm vrij aan elke kant)."
+   }
+  },
+  {
+   "name": "Wandkast rondom",
+   "children": [
+    4854
+   ],
+   "extras": {
+    "visible": false
+   }
   }
  ],
  "scenes": [
@@ -175984,7 +176046,8 @@
     2073,
     2781,
     3467,
-    4154
+    4154,
+    4855
    ]
   }
  ],

@@ -1,7 +1,7 @@
 # Agents
 
 - Na elke wijziging: altijd committen en pushen naar `main`. GitHub Pages publiceert `main` direct op https://bryantebeek.github.io/garage-verbouwing/.
-- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld; een andere tv-muurvariant met `--tv-muur Wandkast`, `Consoletrap` of `Kallax tv-meubel`). Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
+- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld; een andere tv-muurvariant met `--tv-muur Wandkast`, `Consoletrap` of `Kallax tv-meubel`, meerdere lagen met komma's). De gebruiker werkt soms remote (MacBook): lokale afbeeldingen komen dan niet door, zet de renders dan op een Artifact-pagina.. Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
 
 ## Model-conventies (`kelder.gltf`)
 
@@ -45,6 +45,12 @@
 - Planken in 6 gelijke stappen van 27,3 cm van 0,18 tot 1,82 (bovenkant 0,18, 0,453, 0,727, 1,0, 1,273, 1,547, 1,82); op 1,82 de bovenplaat van de zijkolommen; boven de tv geen plank. De vakken naast de Sony hebben bovenin de plank op 0,727; boven de Sony geen plank, zijn vak loopt door in de tv-opening. 55, 65 en 75 inch passen.
 - Sony: recht (niet kantelen: Sony vraagt 10 cm ventilatie rondom en kantelen verschuift het beeld door het aardmagnetisch veld), hoger dan de rest: op een eigen plank op 0,33 m (Sony 0,33–0,83; ±5,5 cm onder de 55 inch, de onderrand van de 65 inch valt 6 mm achter de bovenkant van de Sony), 3 cm van de achterkant voor stekkers; erboven open. Alleen het voetstuk onder de Sony (plank met de rollade eronder) komt naar voren tot 54 cm, 2 cm voorbij de voorkant van de Sony; zijkanten van het vak blijven 33 cm.
 - Alle consolevakken hebben een schuine vloer van 15° met randje (zoals de kazen); niet het Sony-vak. Plank, schuine vloer en randje zijn één stuk met één doorlopende voorkant (anders tekent de viewer 3–4 lijnen per vak). Consoles schuin tegen het randje, midden in het vak; indeling op kabellengte (naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger).
+
+## Wandkast rondom (laag "Wandkast rondom", aanvulling op de Wandkast)
+
+- Losse laag, standaard uit, alleen samen met de Wandkast: vakken rondom de tv. Naast de tv een smalle kolom (staander x 0,8855–0,9105, gespiegeld 2,2385–2,2635; vakken 26,7 cm breed, planken op 1,0 / 1,273 / 1,547) van de kolom naast de Sony (0,727) tot 1,82; boven de tv een brug op 1,82 (plank 1,802–1,82); over de hele breedte een extra rij 1,82–2,093 met bovenplaat tot 2,111 (boven de tv twee vakken, tussenschot op het midden). Staanders 25 mm, planken 18 mm, 33 cm diep, vlakke planken (geen schuine vloer).
+- Alleen de 55 inch past (5 cm aan elke kant); de beamer projecteert boven de tv dan op de kast.
+- Renderen: `--tv-muur "Wandkast,Wandkast rondom"`.
 
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)
 

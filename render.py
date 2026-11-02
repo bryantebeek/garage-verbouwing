@@ -1,6 +1,6 @@
 # Realistic renders of kelder.gltf with Blender Cycles.
 #
-#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast]
+#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast,Wandkast rondom]
 #
 # Shows the finished room (paint, floor, furniture, fittings; no framework, plates or wiring), lights it as day
 # (sky and sun through the front frame) or evening (the 21 recessed spots, 2700 K), and writes renders/<view>-<mode>.png.
@@ -14,11 +14,10 @@ args = argparse.ArgumentParser()
 args.add_argument('--draft', action='store_true', help='small and quick, for checking light and framing')
 args.add_argument('--mode', default='beide', choices=['dag', 'avond', 'beide'])
 args.add_argument('--views', default='all')
-args.add_argument('--tv-muur', default='Consoles aan de muur', choices=['Consoles aan de muur', 'Wandkast', 'Consoletrap', 'Kallax tv-meubel'],
-                  help='which tv-wall variant to show')
+args.add_argument('--tv-muur', default='Consoles aan de muur', help='tv-wall layer(s) to show, comma-separated (e.g. Wandkast,Wandkast rondom)')
 opt = args.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
-SHOW = {'Vloer, muren, plafond', 'Verf', 'Vloer (visgraat)', 'Plint', 'Trap', 'Deur', 'Meubels', 'Elektra materiaal', opt.tv_muur, 'Tv'}
+SHOW = {'Vloer, muren, plafond', 'Verf', 'Vloer (visgraat)', 'Plint', 'Trap', 'Deur', 'Meubels', 'Elektra materiaal', 'Tv', *opt.tv_muur.split(',')}
 VIEWS = {                                    # name: (eye, look at[, modes]), glTF coordinates
     'kamer': ((5.55, 1.55, -3.35), (0.4, 1.05, -1.0)),
     'tv-muur': ((1.75, 1.25, -0.25), (1.6, 1.0, -3.0)),
@@ -132,7 +131,7 @@ for mode in (['dag', 'avond'] if opt.mode == 'beide' else [opt.mode]):
             continue
         cam.location = to_blender(eye)
         cam.rotation_euler = (to_blender(at) - to_blender(eye)).to_track_quat('-Z', 'Y').to_euler()
-        variant = '' if opt.tv_muur == 'Consoles aan de muur' else '-' + opt.tv_muur.lower().replace(' ', '-')
+        variant = '' if opt.tv_muur == 'Consoles aan de muur' else '-' + opt.tv_muur.lower().replace(' ', '-').replace(',', '-')
         scene.render.filepath = str(out / f'{name}{variant}-{mode}{"-draft" if opt.draft else ""}.png')
         t = time.time()
         bpy.ops.render.render(write_still=True)
