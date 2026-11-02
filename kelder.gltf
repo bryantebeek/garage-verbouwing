@@ -44464,6 +44464,294 @@
    "count": 36,
    "bufferView": 1469,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1470,
+   "byteOffset": 0,
+   "max": [
+    4.209000110626221,
+    2.0220000743865967,
+    -4.572999954223633
+   ],
+   "min": [
+    3.628999948501587,
+    0.009999999776482582,
+    -5.572999954223633
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1471,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1472,
+   "byteOffset": 0,
+   "max": [
+    3.628999948501587,
+    2.0190000534057617,
+    -5.07450008392334
+   ],
+   "min": [
+    3.6089999675750732,
+    0.013000000268220901,
+    -5.571499824523926
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1473,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1474,
+   "byteOffset": 0,
+   "max": [
+    3.628999948501587,
+    2.0190000534057617,
+    -4.57450008392334
+   ],
+   "min": [
+    3.6089999675750732,
+    0.013000000268220901,
+    -5.071499824523926
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1475,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1476,
+   "byteOffset": 0,
+   "max": [
+    4.209000110626221,
+    2.0220000743865967,
+    -3.822999954223633
+   ],
+   "min": [
+    3.628999948501587,
+    0.009999999776482582,
+    -4.572999954223633
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1477,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1478,
+   "byteOffset": 0,
+   "max": [
+    3.628999948501587,
+    2.0190000534057617,
+    -4.07450008392334
+   ],
+   "min": [
+    3.6089999675750732,
+    0.013000000268220901,
+    -4.571499824523926
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1479,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1480,
+   "byteOffset": 0,
+   "max": [
+    3.628999948501587,
+    2.0190000534057617,
+    -3.82450008392334
+   ],
+   "min": [
+    3.6089999675750732,
+    0.013000000268220901,
+    -4.071499824523926
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1481,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 216,
+   "bufferView": 1482,
+   "byteOffset": 0,
+   "max": [
+    4.209000110626221,
+    2.0220000743865967,
+    -3.822999954223633
+   ],
+   "min": [
+    3.6089999675750732,
+    0.009999999776482582,
+    -5.572999954223633
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 216,
+   "bufferView": 1483,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1484,
+   "byteOffset": 0,
+   "max": [
+    3.6089999675750732,
+    1.149999976158142,
+    -5.10699987411499
+   ],
+   "min": [
+    3.5840001106262207,
+    0.949999988079071,
+    -5.11899995803833
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1485,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1486,
+   "byteOffset": 0,
+   "max": [
+    3.6089999675750732,
+    1.149999976158142,
+    -5.0269999504089355
+   ],
+   "min": [
+    3.5840001106262207,
+    0.949999988079071,
+    -5.039000034332275
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1487,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1488,
+   "byteOffset": 0,
+   "max": [
+    3.6089999675750732,
+    1.149999976158142,
+    -4.10699987411499
+   ],
+   "min": [
+    3.5840001106262207,
+    0.949999988079071,
+    -4.11899995803833
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1489,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1490,
+   "byteOffset": 0,
+   "max": [
+    3.6089999675750732,
+    1.149999976158142,
+    -4.0269999504089355
+   ],
+   "min": [
+    3.5840001106262207,
+    0.949999988079071,
+    -4.039000034332275
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1491,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 144,
+   "bufferView": 1492,
+   "byteOffset": 0,
+   "max": [
+    3.6089999675750732,
+    1.149999976158142,
+    -4.0269999504089355
+   ],
+   "min": [
+    3.5840001106262207,
+    0.949999988079071,
+    -5.11899995803833
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 144,
+   "bufferView": 1493,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54671,6 +54959,150 @@
    "byteOffset": 37537516,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37537948,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37538380,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37538812,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37539244,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37539676,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37540108,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37540540,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37540972,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37541404,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37541836,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37542268,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37542700,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37543132,
+   "byteLength": 2592,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37545724,
+   "byteLength": 2592,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37548316,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37548748,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37549180,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37549612,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37550044,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37550476,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37550908,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37551340,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37551772,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37553500,
+   "byteLength": 1728,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -55051,7 +55483,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37537948
+   "byteLength": 37555228
   }
  ],
  "materials": [
@@ -80072,6 +80504,25 @@
      "material": 12
     }
    ]
+  },
+  {
+   "name": "PAX",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4335,
+      "NORMAL": 4336
+     },
+     "material": 93
+    },
+    {
+     "attributes": {
+      "POSITION": 4345,
+      "NORMAL": 4346
+     },
+     "material": 88
+    }
+   ]
   }
  ],
  "nodes": [
@@ -89153,7 +89604,8 @@
     945,
     950,
     951,
-    1572
+    1572,
+    2551
    ]
   },
   {
@@ -115002,6 +115454,19 @@
     0,
     0.0017
    ]
+  },
+  {
+   "name": "PAX",
+   "mesh": 1308,
+   "extras": {
+    "omschrijving": "IKEA PAX kast wit, 100 + 75 cm breed, 201 cm hoog, 58 cm diep (60 cm met deuren), tegen de voorzetwand in de hal; deuren 2x 50 cm en 50 + 25 cm. Plint achter de kast weglaten.",
+    "product": {
+     "winkel": "IKEA",
+     "naam": "PAX kastframe wit 100x58x201 + 75x58x201 cm, met draaideuren",
+     "artikel": "–",
+     "url": "https://www.ikea.com/nl/nl/cat/pax-kasten-19086/"
+    }
+   }
   }
  ],
  "scenes": [
