@@ -38,6 +38,8 @@
   #sidebar section { padding: 16px 12px; border-bottom: 1px solid var(--sb-border); }
   #info { flex: none; max-height: 45vh; overflow-y: auto; scrollbar-gutter: stable; }   /* stays put while the layers scroll */
   #layers { border-bottom: 0 !important; }
+  #layers { padding-top: 0 !important; }
+  #layers .sec-head { position: sticky; top: 0; z-index: 1; margin: 0 -12px 0; padding: 16px 20px 8px; background: var(--sb-bg); }   /* title stays while the list scrolls */
   .sec-head { display: flex; align-items: center; justify-content: space-between; min-height: 28px; padding: 0 8px; margin-bottom: 8px; }
   .sec-head h2 { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
   kbd {
