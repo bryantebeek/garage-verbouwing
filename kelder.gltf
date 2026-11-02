@@ -44368,6 +44368,78 @@
    "count": 384,
    "bufferView": 1461,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1462,
+   "byteOffset": 0,
+   "max": [
+    0.04500000178813934,
+    0.004999999888241291,
+    0.04500000178813934
+   ],
+   "min": [
+    -0.04500000178813934,
+    0.0,
+    -0.04500000178813934
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1463,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1464,
+   "byteOffset": 0,
+   "max": [
+    0.02500000037252903,
+    0.006000000052154064,
+    0.02500000037252903
+   ],
+   "min": [
+    -0.02500000037252903,
+    -0.0005000000237487257,
+    -0.02500000037252903
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1465,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1466,
+   "byteOffset": 0,
+   "max": [
+    0.03750000149011612,
+    0.05999999865889549,
+    0.03750000149011612
+   ],
+   "min": [
+    -0.03750000149011612,
+    0.004999999888241291,
+    -0.03750000149011612
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1467,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54527,6 +54599,42 @@
    "byteOffset": 37504828,
    "byteLength": 4608,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37509436,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37514044,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37518652,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37523260,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37527868,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37532476,
+   "byteLength": 4608,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -54907,7 +55015,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37509436
+   "byteLength": 37537084
   }
  ],
  "materials": [
@@ -79886,6 +79994,32 @@
      "attributes": {
       "POSITION": 4313,
       "NORMAL": 4314
+     },
+     "material": 268
+    }
+   ]
+  },
+  {
+   "name": "Inbouwspot Pittsburg",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4315,
+      "NORMAL": 4316
+     },
+     "material": 268
+    },
+    {
+     "attributes": {
+      "POSITION": 4317,
+      "NORMAL": 4318
+     },
+     "material": 269
+    },
+    {
+     "attributes": {
+      "POSITION": 4319,
+      "NORMAL": 4320
      },
      "material": 268
     }
@@ -114104,10 +114238,10 @@
   },
   {
    "name": "SP1",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     0.747,
-    0,
+    2.315,
     -0.538
    ],
    "extras": {
@@ -114122,10 +114256,10 @@
   },
   {
    "name": "SP2",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     1.747,
-    0,
+    2.315,
     -0.538
    ],
    "extras": {
@@ -114140,10 +114274,10 @@
   },
   {
    "name": "SP3",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     2.747,
-    0,
+    2.315,
     -0.538
    ],
    "extras": {
@@ -114158,10 +114292,10 @@
   },
   {
    "name": "SP4",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     3.747,
-    0,
+    2.315,
     -0.538
    ],
    "extras": {
@@ -114176,10 +114310,10 @@
   },
   {
    "name": "SP5",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     4.747,
-    0,
+    2.315,
     -0.538
    ],
    "extras": {
@@ -114194,10 +114328,10 @@
   },
   {
    "name": "SP6",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     0.747,
-    0,
+    2.315,
     -1.52
    ],
    "extras": {
@@ -114212,10 +114346,10 @@
   },
   {
    "name": "SP7",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     1.747,
-    0,
+    2.315,
     -1.52
    ],
    "extras": {
@@ -114230,10 +114364,10 @@
   },
   {
    "name": "SP8",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     2.747,
-    0,
+    2.315,
     -1.52
    ],
    "extras": {
@@ -114248,10 +114382,10 @@
   },
   {
    "name": "SP9",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     3.747,
-    0,
+    2.315,
     -1.52
    ],
    "extras": {
@@ -114266,10 +114400,10 @@
   },
   {
    "name": "SP10",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     4.747,
-    0,
+    2.315,
     -1.52
    ],
    "extras": {
@@ -114284,10 +114418,10 @@
   },
   {
    "name": "SP11",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     0.747,
-    0,
+    2.315,
     -2.503
    ],
    "extras": {
@@ -114302,10 +114436,10 @@
   },
   {
    "name": "SP12",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     1.747,
-    0,
+    2.315,
     -2.503
    ],
    "extras": {
@@ -114320,10 +114454,10 @@
   },
   {
    "name": "SP13",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     2.747,
-    0,
+    2.315,
     -2.503
    ],
    "extras": {
@@ -114338,10 +114472,10 @@
   },
   {
    "name": "SP14",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     3.747,
-    0,
+    2.315,
     -2.503
    ],
    "extras": {
@@ -114356,10 +114490,10 @@
   },
   {
    "name": "SP15",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     4.747,
-    0,
+    2.315,
     -2.503
    ],
    "extras": {
@@ -114374,10 +114508,10 @@
   },
   {
    "name": "SP16",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     4.747,
-    0,
+    2.315,
     -3.35
    ],
    "extras": {
@@ -114392,10 +114526,10 @@
   },
   {
    "name": "SP17",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     0.747,
-    0,
+    2.315,
     -4.03
    ],
    "extras": {
@@ -114410,10 +114544,10 @@
   },
   {
    "name": "SP18",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     1.747,
-    0,
+    2.315,
     -4.03
    ],
    "extras": {
@@ -114428,10 +114562,10 @@
   },
   {
    "name": "SP19",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     2.747,
-    0,
+    2.315,
     -4.03
    ],
    "extras": {
@@ -114446,10 +114580,10 @@
   },
   {
    "name": "SP20",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     3.747,
-    0,
+    2.315,
     -4.03
    ],
    "extras": {
@@ -114464,10 +114598,10 @@
   },
   {
    "name": "SP21",
-   "mesh": 1305,
+   "mesh": 1306,
    "translation": [
     2.747,
-    0,
+    2.315,
     -5.5
    ],
    "extras": {
