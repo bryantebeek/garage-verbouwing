@@ -47,3 +47,10 @@
 - Consoles die rechtop horen (PS2, Xbox 360, PS4, Wii, Wii U) staan rechtop op hun zijkant; de Switch in zijn dock. Zo passen alle 16 op twee treden met 6 cm ertussen (4 cm van de nis).
 - Midden een nis van 70 cm met een voetstuk van 29 cm hoog dat maar tot 2 cm vóór de Sony loopt (nis ±7 cm terug ten opzichte van de trap). De Sony staat zo ver mogelijk naar achteren: 3 cm van de muur voor stekkers (0,29–0,79 m; de taps toelopende achterkant komt tot ±0,69 m en past onder elke tv).
 - Van de Sony naar buiten. Trede 1 (kortste kabels): Mega Drive + Mega CD, NES, SNES links; Atari, PS1, N64 rechts. Trede 2: Dreamcast, PS2, Xbox, Xbox 360, Wii links; GameCube, PS3, PS4, Wii U, Switch rechts (bedraad naar binnen, draadloos naar buiten).
+
+## Kallax tv-meubel (laag "Kallax tv-meubel", alternatief)
+
+- IKEA KALLAX 2x4 liggend (146,8 × 76,6 × 39 cm) midden onder de tv, met tegen beide kanten een staande KALLAX 1x4 (41,5 × 146,8 cm); samen x 0,425–2,724, achterkant tegen de plint (z −2,982). Echte maten: vakken 33,5 × 33,5 cm, buitenrand 40 mm, tussenschotten 16 mm, wit.
+- Eén console per vak (16 vakken), plat, 2 cm achter de voorkant. 2x4 (onder, kortste kabels): NES, Mega Drive + Mega CD, Atari, SNES | Dreamcast, PS1, N64, GameCube. 1x4 links van onder naar boven: PS2, Wii, Xbox 360, Wii U; rechts: Xbox, PS3, PS4, Switch.
+- Atari (34,6 cm) en Mega Drive + Mega CD (47,2 cm) zijn breder dan een vak en liggen een kwartslag gedraaid; de Mega Drive + Mega CD steekt dan 8,7 cm uit. De Sony heeft in deze opstelling (nog) geen plek.
+- Tv past tussen de 1x4's: 55 inch met 12 cm aan elke kant, 65 inch met ±1 cm; de 75 inch valt achter de 1x4's.
