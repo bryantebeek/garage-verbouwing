@@ -51686,12 +51686,12 @@
    "min": [
     2.296099999830127,
     0.2728540676832199,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     2.3459000001698733,
-    0.3680037049538694,
-    -2.799206876631925
+    0.4769360279429894,
+    -2.805863559432098
    ]
   },
   {
@@ -51708,12 +51708,12 @@
    "min": [
     0.7755000008940697,
     0.2681696864962578,
-    -2.9845
+    -3.0099807621135333
    ],
    "max": [
     0.8804999991059302,
-    0.3380399137212535,
-    -2.813682580670727
+    0.4399946288997624,
+    -2.8204554254498966
    ]
   },
   {
@@ -51730,12 +51730,12 @@
    "min": [
     2.700100001215935,
     0.26459798246622085,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     2.7738999987840653,
-    0.35306005917604183,
-    -2.82328532812897
+    0.4555525470729309,
+    -2.829245729873593
    ]
   },
   {
@@ -51752,12 +51752,12 @@
    "min": [
     0.3669999982118606,
     0.274709075987339,
-    -2.9845
+    -3.0099807621135337
    ],
    "max": [
     0.45700000178813927,
-    0.3493230981075333,
-    -2.80248879753399
+    0.4562930238739782,
+    -2.809013696461741
    ]
   },
   {
@@ -51774,12 +51774,12 @@
    "min": [
     0.781499999642372,
     0.5812333300709724,
-    -2.9845
+    -3.0099807621135333
    ],
    "max": [
     0.8745000003576279,
-    0.654623774722197,
-    -2.8117895942245648
+    0.7523996381504944,
+    -2.820016581367149
    ]
   },
   {
@@ -51796,12 +51796,12 @@
    "min": [
     2.2739000028967857,
     0.5807156935334206,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     2.3680999971032146,
-    0.6353733703582785,
-    -2.828127200609888
+    0.737083525638111,
+    -2.8351123660366095
    ]
   },
   {
@@ -51818,12 +51818,12 @@
    "min": [
     0.3688000018596649,
     0.5827344805002213,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     0.45519999814033507,
-    0.6569825550597461,
-    -2.8098465154569423
+    0.7575558659143103,
+    -2.817917832784513
    ]
   },
   {
@@ -51840,12 +51840,12 @@
    "min": [
     2.6920000026822093,
     0.5737275779247284,
-    -2.9845
+    -3.0099807621135337
    ],
    "max": [
     2.781999997317791,
-    0.6830592778040818,
-    -2.822845239487173
+    0.7818285753781071,
+    -2.8303869330761686
    ]
   },
   {
@@ -51862,12 +51862,12 @@
    "min": [
     0.3649000028967857,
     0.8991627764701843,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     0.45909999710321425,
-    0.9719835780971964,
-    -2.8263662352743024
+    1.0747104271875627,
+    -2.833351400701024
    ]
   },
   {
@@ -51884,12 +51884,12 @@
    "min": [
     2.6605000014305116,
     0.9177033376693725,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     2.8134999985694886,
-    1.0046719422181996,
-    -2.7649151541788317
+    1.116126707674686,
+    -2.7743855661081893
    ]
   },
   {
@@ -51906,12 +51906,12 @@
    "min": [
     0.3660999986231327,
     1.5603859415650367,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     0.45790000137686726,
-    1.6194917639730155,
-    -2.7879294599588342
+    1.74484508527728,
+    -2.794874213391494
    ]
   },
   {
@@ -51928,12 +51928,12 @@
    "min": [
     0.40103112914413214,
     1.227807334959507,
-    -2.9845
+    -3.0099807621135333
    ],
    "max": [
     0.4229688708558678,
-    1.2690022082059227,
-    -2.808701389768136
+    1.3704238476512012,
+    -2.81675531652103
    ]
   },
   {
@@ -51950,12 +51950,12 @@
    "min": [
     0.33550000143051145,
     1.8815506237745285,
-    -2.9845
+    -3.009980762113533
    ],
    "max": [
     0.4884999985694885,
-    1.9162607309706616,
-    -2.785421382721855
+    2.0343325420173466,
+    -2.7931771405189827
    ]
   },
   {
@@ -51972,12 +51972,12 @@
    "min": [
     2.6898999984264376,
     1.247115238904953,
-    -2.9845
+    -3.0099807621135333
    ],
    "max": [
     2.7841000015735626,
-    1.2924695881521944,
-    -2.7793122307520584
+    1.4243016266236763,
+    -2.786117298652053
    ]
   },
   {
@@ -51993,13 +51993,13 @@
    "type": "VEC3",
    "min": [
     2.6883999998569488,
-    1.5639599762560155,
-    -2.9845
+    1.566597602367401,
+    -3.009980762113533
    ],
    "max": [
     2.7856000001430514,
-    1.5875979433590424,
-    -2.7860721144750955
+    1.714485898179838,
+    -2.7929739191912146
    ]
   },
   {
@@ -167144,16 +167144,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.3210000018626453,
-    0.34356319905662697,
-    -2.8213069284344785,
+    0.3721254224736228,
+    -2.825577442864749,
     1
    ],
    "extras": {
@@ -167175,16 +167175,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.8280000074505806,
-    0.31562780709625604,
-    -2.8369057912394866,
+    0.34419003096248635,
+    -2.8411763054836783,
     1
    ],
    "extras": {
@@ -167206,16 +167206,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.737,
-    0.33219454563786927,
-    -2.838653119373343,
+    0.36075676950409963,
+    -2.8429236336175348,
     1
    ],
    "extras": {
@@ -167237,16 +167237,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.41199998509883873,
-    0.3240793517802322,
-    -2.8233146478574054,
+    0.3526415756464626,
+    -2.8275851621015966,
     1
    ],
    "extras": {
@@ -167268,16 +167268,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.828,
-    0.6350574076599018,
-    -2.849072738367509,
+    0.6636196306276632,
+    -2.853343252983858,
     1
    ],
    "extras": {
@@ -167299,16 +167299,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.321,
-    0.6222415538372179,
-    -2.8534033153784852,
+    0.6508037777034482,
+    -2.857673829622677,
     1
    ],
    "extras": {
@@ -167330,16 +167330,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.412,
-    0.6382227984205981,
-    -2.8456245094568686,
+    0.6667850222868285,
+    -2.8498950237010603,
     1
    ],
    "extras": {
@@ -167361,16 +167361,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.7369999925494195,
-    0.6670437880427867,
-    -2.8535023617782613,
+    0.6956060119090172,
+    -2.857772876022453,
     1
    ],
    "extras": {
@@ -167392,16 +167392,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.412,
-    0.9588517615761358,
-    -2.8516423500428996,
+    0.9874139854423661,
+    -2.8559128642870912,
     1
    ],
    "extras": {
@@ -167423,16 +167423,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.737,
-    0.9786627211302878,
-    -2.814220838401514,
+    1.0072249458949871,
+    -2.818491352273548,
     1
    ],
    "extras": {
@@ -167454,16 +167454,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.4120000037252903,
-    1.6065693433558224,
-    -2.8128148339526016,
+    1.6351315667728181,
+    -2.8170853483828724,
     1
    ],
    "extras": {
@@ -167485,16 +167485,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.4119999990686774,
-    1.2503325615346514,
-    -2.8443112362788696,
+    1.2788947854008819,
+    -2.8485817505230613,
     1
    ],
    "extras": {
@@ -167516,16 +167516,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     0.412,
-    1.8991360588345474,
-    -2.818148267501785,
+    1.9276982827007778,
+    -2.8224187817459767,
     1
    ],
    "extras": {
@@ -167547,16 +167547,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.737,
-    1.280270954268891,
-    -2.8028470030122303,
+    1.3088331781351215,
+    -2.807117517256422,
     1
    ],
    "extras": {
@@ -167578,16 +167578,16 @@
     0.0,
     0,
     0.0,
-    0.9659258262890683,
-    0.25881904510252074,
+    0.8660254037844387,
+    0.49999999999999994,
     0.0,
     0.0,
-    -0.25881904510252074,
-    0.9659258262890683,
+    -0.49999999999999994,
+    0.8660254037844387,
     0.0,
     2.737,
-    1.574898063258185,
-    -2.810542222212008,
+    1.6034602866751808,
+    -2.8148127366422786,
     1
    ],
    "extras": {
@@ -167604,105 +167604,105 @@
    "name": "Controllerhouder Atari 2600",
    "mesh": 1353,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Atari 2600, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Atari 2600, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Mega Drive + Mega CD",
    "mesh": 1354,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Mega Drive + Mega CD, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Mega Drive + Mega CD, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder NES",
    "mesh": 1355,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de NES, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de NES, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder SNES",
    "mesh": 1356,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de SNES, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de SNES, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Nintendo 64",
    "mesh": 1357,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Nintendo 64, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Nintendo 64, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder PlayStation",
    "mesh": 1358,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Dreamcast",
    "mesh": 1359,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Dreamcast, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Dreamcast, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder GameCube",
    "mesh": 1360,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de GameCube, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de GameCube, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder PlayStation 2",
    "mesh": 1361,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 2, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 2, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Xbox",
    "mesh": 1362,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Xbox, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Xbox 360",
    "mesh": 1363,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Xbox 360, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox 360, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Wii",
    "mesh": 1364,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Wii, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder Wii U",
    "mesh": 1365,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Wii U, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii U, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder PlayStation 3",
    "mesh": 1366,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 3, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 3, 30° gekanteld naar de bank"
    }
   },
   {
    "name": "Controllerhouder PlayStation 4",
    "mesh": 1367,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 4, even schuin (15°)"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 4, 30° gekanteld naar de bank"
    }
   }
  ],
