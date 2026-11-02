@@ -43700,13 +43700,13 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 60,
+   "count": 36,
    "bufferView": 1406,
    "byteOffset": 0,
    "max": [
     0.1550000011920929,
-    0.10919106751680374,
-    0.30000001192092896
+    0.1146322637796402,
+    0.25999999046325684
    ],
    "min": [
     -0.1550000011920929,
@@ -43717,7 +43717,7 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 60,
+   "count": 36,
    "bufferView": 1407,
    "byteOffset": 0
   }
@@ -53547,13 +53547,13 @@
   {
    "buffer": 0,
    "byteOffset": 37401724,
-   "byteLength": 720,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37402444,
-   "byteLength": 720,
+   "byteOffset": 37402156,
+   "byteLength": 432,
    "target": 34962
   }
  ],
@@ -53935,7 +53935,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37403164
+   "byteLength": 37402588
   }
  ],
  "materials": [
@@ -103575,12 +103575,12 @@
    "name": "Consoleblok NES",
    "mesh": 1282,
    "translation": [
-    0.2703333333333333,
-    1.59,
+    0.5740000000000001,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de NES"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de NES"
    }
   },
   {
@@ -103635,15 +103635,15 @@
     0.0,
     0.0,
     0.10159821773860425,
-    0.03697872711134842,
+    -0.03697872711134842,
     0.0,
     0.0,
-    -0.031174130365805464,
+    0.031174130365805464,
     0.08565021925118518,
     0.0,
-    0.32465744340895286,
-    1.5834010860839787,
-    -2.8274938736572017,
+    0.6283241100756196,
+    0.7369254029889473,
+    -2.850823145227396,
     1.0
    ]
   },
@@ -103651,12 +103651,12 @@
    "name": "Consoleblok SNES",
    "mesh": 1282,
    "translation": [
-    0.6396666666666666,
-    1.59,
+    0.974,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de SNES"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de SNES"
    }
   },
   {
@@ -104151,15 +104151,15 @@
     0.0,
     0.0,
     0.09552967500223507,
-    0.034769958189937666,
-    0.0,
-    0.0,
     -0.034769958189937666,
+    0.0,
+    0.0,
+    0.034769958189937666,
     0.09552967500223507,
     0.0,
-    0.5121340290450711,
-    1.5914955010133194,
-    -2.6981088552648673,
+    0.8464673623784045,
+    0.8377151814412861,
+    -2.725529745452155,
     1.0
    ]
   },
@@ -104167,12 +104167,12 @@
    "name": "Consoleblok PlayStation",
    "mesh": 1282,
    "translation": [
-    0.2703333333333333,
-    1.27,
+    1.374,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation"
    }
   },
   {
@@ -104222,20 +104222,20 @@
    ],
    "matrix": [
     -4.354724134620453e-18,
-    -0.006707676474145822,
+    0.006707676474145822,
     0.018429189649722642,
     0.0,
     0.0,
     0.03032233206760188,
-    0.011036426306142636,
+    -0.011036426306142636,
     0.0,
     -0.019911069544814343,
-    1.512120841758948e-18,
+    -1.512120841758948e-18,
     -4.154517868219426e-18,
     0.0,
-    0.07890840198409688,
-    1.384527673258736,
-    -3.008895646788891,
+    1.1825750686507637,
+    0.704370568315023,
+    -3.091657608414639,
     1.0
    ]
   },
@@ -104243,12 +104243,12 @@
    "name": "Consoleblok Nintendo 64",
    "mesh": 1282,
    "translation": [
-    0.6396666666666666,
-    1.27,
+    1.774,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Nintendo 64"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Nintendo 64"
    }
   },
   {
@@ -104292,15 +104292,15 @@
     0.0,
     0.0,
     0.7884016132436577,
-    0.2869547198681459,
+    -0.2869547198681459,
     0.0,
     0.0,
-    -0.25120378526306625,
+    0.25120378526306625,
     0.6901767276918024,
     0.0,
-    0.4128232424048792,
-    1.2522642302614382,
-    -2.6451625607863973,
+    1.5471565757382126,
+    0.8391563609532318,
+    -2.7216789496259617,
     1.0
    ]
   },
@@ -104308,12 +104308,12 @@
    "name": "Consoleblok Dreamcast",
    "mesh": 1282,
    "translation": [
-    0.2703333333333333,
-    0.95,
+    2.1740000000000004,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Dreamcast"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Dreamcast"
    }
   },
   {
@@ -104503,15 +104503,15 @@
     0.0,
     0.0,
     0.09213869358282016,
-    0.03353574188832089,
+    -0.03353574188832089,
     0.0,
     0.0,
-    -0.0339936781875048,
+    0.0339936781875048,
     0.09339686322437658,
     0.0,
-    0.17533333333333334,
-    0.9557994902841537,
-    -2.709933968600059,
+    2.0790000000000006,
+    0.8175061506654901,
+    -2.7810536011777183,
     1.0
    ]
   },
@@ -104519,12 +104519,12 @@
    "name": "Consoleblok PlayStation 2",
    "mesh": 1282,
    "translation": [
-    0.6396666666666666,
-    0.95,
+    2.574,
+    0.72,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 2"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 2"
    }
   },
   {
@@ -105334,15 +105334,15 @@
     0.0,
     0.0,
     1.0737377813651634,
-    0.39080859182395083,
+    -0.39080859182395083,
     0.0,
     0.0,
-    -0.37674027669618065,
+    0.37674027669618065,
     1.0350854032218428,
     0.0,
-    0.41296143069308866,
-    0.26909373826186356,
-    -2.928772561746234,
+    2.347294764026422,
+    0.14641896356097492,
+    -2.519303353595671,
     1.0
    ]
   },
@@ -105350,12 +105350,12 @@
    "name": "Consoleblok GameCube",
    "mesh": 1282,
    "translation": [
-    2.5083333333333333,
-    1.59,
+    0.5740000000000001,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de GameCube"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de GameCube"
    }
   },
   {
@@ -105450,15 +105450,15 @@
     0.0,
     0.0,
     0.9229128042309365,
-    0.3359127895632117,
+    -0.3359127895632117,
     0.0,
     0.0,
-    -0.298793416259238,
+    0.298793416259238,
     0.820928164253962,
     0.0,
-    0.43942160646061024,
-    -1.13686138117464,
-    -3.8478553890119915,
+    -1.494911726872723,
+    -2.3145429418104517,
+    -1.9161990737701653,
     1.0
    ]
   },
@@ -105466,12 +105466,12 @@
    "name": "Consoleblok Xbox 360",
    "mesh": 1282,
    "translation": [
-    2.8776666666666664,
-    1.59,
+    0.974,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Xbox 360"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Xbox 360"
    }
   },
   {
@@ -111497,20 +111497,20 @@
    ],
    "matrix": [
     2.3343984761198633e-16,
-    0.35957248393911895,
+    -0.35957248393911895,
     -0.9879172802799392,
     0.0,
     0.0,
     0.9814416376349576,
-    0.3572155427686008,
+    -0.3572155427686008,
     0.0,
     0.9966651207760362,
-    -7.569046444178324e-17,
+    7.569046444178324e-17,
     2.079578419218325e-16,
     0.0,
-    5.800211927265595,
-    -0.8186223367699683,
-    1.6465779235552236,
+    3.896545260598929,
+    1.4918675463727944,
+    2.1730398906306814,
     1.0
    ]
   },
@@ -111518,12 +111518,12 @@
    "name": "Consoleblok Wii",
    "mesh": 1282,
    "translation": [
-    2.5083333333333333,
-    1.27,
+    1.374,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Wii"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Wii"
    }
   },
   {
@@ -112033,15 +112033,15 @@
     0.0,
     0.0,
     0.01264321559949854,
-    0.004601754143627588,
+    -0.004601754143627588,
     0.0,
     0.0,
-    -0.005314809528307259,
+    0.005314809528307259,
     0.014602319167726469,
     0.0,
-    2.585358167013747,
-    1.2802068179292965,
-    -2.716108815220516,
+    1.4510248336804137,
+    0.5200354939006936,
+    -2.780038474317658,
     1.0
    ]
   },
@@ -112049,12 +112049,12 @@
    "name": "Consoleblok PlayStation 3",
    "mesh": 1282,
    "translation": [
-    2.8776666666666664,
-    1.27,
+    1.774,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 3"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 3"
    }
   },
   {
@@ -112359,15 +112359,15 @@
     0.0,
     0.0,
     0.9315730337645145,
-    0.33906485533534714,
+    -0.33906485533534714,
     0.0,
     0.0,
-    -0.34199065888897495,
+    0.34199065888897495,
     0.939611612961867,
     0.0,
-    2.6925874188700005,
-    1.268284646115807,
-    -2.689287103936807,
+    1.5889207522033342,
+    0.5562721349938108,
+    -2.674544934592725,
     1.0
    ]
   },
@@ -112375,12 +112375,12 @@
    "name": "Consoleblok Wii U",
    "mesh": 1282,
    "translation": [
-    2.5083333333333333,
-    0.95,
+    2.1740000000000004,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Wii U"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Wii U"
    }
   },
   {
@@ -112430,20 +112430,20 @@
    ],
    "matrix": [
     -2.11585429689767e-16,
-    -0.3259096478049999,
+    0.3259096478049999,
     0.8954293981266461,
     0.0,
     0.0,
     0.9029364218276165,
-    0.328641980980084,
+    -0.328641980980084,
     0.0,
     -0.9661059801373033,
-    7.336968938939006e-17,
+    -7.336968938939006e-17,
     -2.0158156486974862e-16,
     0.0,
-    2.4669620341598253,
-    1.0228535361845874,
-    -2.8269159443908243,
+    2.1326287008264924,
+    0.5152104545175707,
+    -2.854608475709807,
     1.0
    ]
   },
@@ -112451,12 +112451,12 @@
    "name": "Consoleblok PlayStation 4",
    "mesh": 1282,
    "translation": [
-    2.8776666666666664,
-    0.95,
+    2.574,
+    0.42,
     -2.994
    ],
    "extras": {
-    "omschrijving": "Driehoekig blok walnoot geolied, 31 x 30 x 11 cm, schuin vlak 20° met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 4"
+    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 4"
    }
   },
   {
@@ -112516,15 +112516,15 @@
     0.0,
     0.0,
     0.6663275239233065,
-    0.24252338498038442,
+    -0.24252338498038442,
     0.0,
     0.0,
-    -0.27983467004752927,
+    0.27983467004752927,
     0.7688394371361214,
     0.0,
-    0.6717572859956547,
-    0.43681543242799103,
-    -1.2840369885833218,
+    0.3680906193289881,
+    1.063820694451035,
+    -1.2800667282072788,
     1.0
    ]
   },
