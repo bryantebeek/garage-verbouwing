@@ -55311,6 +55311,462 @@
    "count": 36,
    "bufferView": 2088,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 2436,
+   "bufferView": 2089,
+   "byteOffset": 0,
+   "max": [
+    3.0929999351501465,
+    2.2899999618530273,
+    -2.4019999504089355
+   ],
+   "min": [
+    0.06800000369548798,
+    0.009999999776482582,
+    -2.9820001125335693
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 2436,
+   "bufferView": 2090,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 30,
+   "bufferView": 2091,
+   "byteOffset": 0,
+   "max": [
+    1.8504999876022339,
+    0.20444874465465546,
+    -2.3585290908813477
+   ],
+   "min": [
+    1.3105000257492065,
+    0.03999999910593033,
+    -2.8199291229248047
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 30,
+   "bufferView": 2092,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2093,
+   "byteOffset": 0,
+   "max": [
+    2.5940001010894775,
+    0.8569999933242798,
+    -2.6519999504089355
+   ],
+   "min": [
+    0.5669999718666077,
+    0.7429999709129333,
+    -2.9719998836517334
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2094,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2095,
+   "byteOffset": 0,
+   "max": [
+    0.012000000104308128,
+    0.10499999672174454,
+    0.0
+   ],
+   "min": [
+    -0.012000000104308128,
+    0.0,
+    -0.07999999821186066
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2096,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2097,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2098,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2099,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2100,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2101,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.11599999666213989,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.07500000298023224
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2102,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2103,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2104,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2105,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13300000131130219,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.11999999731779099
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2106,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2107,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2108,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2109,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13500000536441803,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.10999999940395355
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2110,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2111,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2112,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2113,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2114,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2115,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2116,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2117,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2118,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2119,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2120,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2121,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2122,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2123,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2124,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2125,
+   "byteOffset": 0,
+   "max": [
+    0.005499999970197678,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.005499999970197678,
+    0.0,
+    -0.10499999672174454
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2126,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -69294,6 +69750,234 @@
    "byteOffset": 41138128,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41138560,
+   "byteLength": 29232,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41167792,
+   "byteLength": 29232,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41197024,
+   "byteLength": 360,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41197384,
+   "byteLength": 360,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41197744,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41198176,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41198608,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41199040,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41199472,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41199904,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41200336,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41200768,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41201200,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41201632,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41202064,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41202496,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41202928,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41203360,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41203792,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41204224,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41204656,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41205088,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41205520,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41205952,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41206384,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41206816,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41207248,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41207680,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41208112,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41208544,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41208976,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41209408,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41209840,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41210272,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41210704,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41211136,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41211568,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41212000,
+   "byteLength": 432,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -69772,7 +70456,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41138560
+   "byteLength": 41212432
   }
  ],
  "materials": [
@@ -76186,6 +76870,214 @@
      1
     ],
     "roughnessFactor": 0.85,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Atari 2600",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.08,
+     0.07,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.04,
+     0.04,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.22,
+     0.22,
+     0.24,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Dreamcast",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.85,
+     0.85,
+     0.87,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel NES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.36,
+     0.36,
+     0.38,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel GameCube",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel SNES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.55,
+     0.55,
+     0.57,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.06,
+     0.2,
+     0.08,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.9,
+     0.9,
+     0.92,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.08,
+     0.1,
+     0.2,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox 360",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.42,
+     0.12,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.02,
+     0.28,
+     0.65,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii U",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.45,
+     0.75,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.8,
+     0.06,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.4,
     "metallicFactor": 0
    }
   },
@@ -102006,6 +102898,234 @@
      "material": 465
     }
    ]
+  },
+  {
+   "name": "Wandkast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5248,
+      "NORMAL": 5249
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast wig Sony",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5250,
+      "NORMAL": 5251
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast lade",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5252,
+      "NORMAL": 5253
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Spel Atari 2600",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5254,
+      "NORMAL": 5255
+     },
+     "material": 466
+    }
+   ]
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5256,
+      "NORMAL": 5257
+     },
+     "material": 467
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5258,
+      "NORMAL": 5259
+     },
+     "material": 468
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5260,
+      "NORMAL": 5261
+     },
+     "material": 469
+    }
+   ]
+  },
+  {
+   "name": "Spel Dreamcast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5262,
+      "NORMAL": 5263
+     },
+     "material": 470
+    }
+   ]
+  },
+  {
+   "name": "Spel NES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5264,
+      "NORMAL": 5265
+     },
+     "material": 471
+    }
+   ]
+  },
+  {
+   "name": "Spel GameCube",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5266,
+      "NORMAL": 5267
+     },
+     "material": 472
+    }
+   ]
+  },
+  {
+   "name": "Spel SNES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5268,
+      "NORMAL": 5269
+     },
+     "material": 473
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5270,
+      "NORMAL": 5271
+     },
+     "material": 474
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5272,
+      "NORMAL": 5273
+     },
+     "material": 475
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5274,
+      "NORMAL": 5275
+     },
+     "material": 476
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5276,
+      "NORMAL": 5277
+     },
+     "material": 477
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox 360",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5278,
+      "NORMAL": 5279
+     },
+     "material": 478
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5280,
+      "NORMAL": 5281
+     },
+     "material": 479
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii U",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5282,
+      "NORMAL": 5283
+     },
+     "material": 480
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5284,
+      "NORMAL": 5285
+     },
+     "material": 481
+    }
+   ]
   }
  ],
  "nodes": [
@@ -102810,7 +103930,7 @@
    "name": "TV",
    "translation": [
     2.188499970803727,
-    0.9670000007574804,
+    0.9470000007574801,
     -2.9940000009915133
    ],
    "rotation": [
@@ -140853,47 +141973,223 @@
     "visible": false
    },
    "children": [
-    2837,
-    2838,
-    2843,
     2847,
     2848,
-    2852,
-    2856,
+    2849,
+    2850,
+    2855,
+    2859,
     2860,
-    2863,
-    2867,
-    2884,
-    2888,
-    2892,
+    2864,
+    2868,
+    2872,
+    2875,
+    2879,
     2896,
-    2905,
-    2909,
-    2966,
-    2970,
-    3025,
-    3029,
-    3039,
-    3043,
-    3077,
-    3081,
-    3111,
-    3115,
-    3487,
-    3491,
-    3495,
+    2900,
+    2904,
+    2908,
+    2917,
+    2921,
+    2978,
+    2982,
+    3037,
+    3041,
+    3051,
+    3055,
+    3089,
+    3093,
+    3123,
+    3127,
     3499,
     3503,
     3507,
-    3581,
-    3585
+    3511,
+    3515,
+    3519,
+    3593,
+    3597
+   ]
+  },
+  {
+   "name": "Component_927386",
+   "mesh": 23
+  },
+  {
+   "name": "skp43A5",
+   "translation": [
+    1.4399999999999944,
+    -0.022426039688198483,
+    -0.07662990131791644
+   ],
+   "rotation": [
+    7.396292836446782e-32,
+    1,
+    1.2328641747507416e-32,
+    6.5782289384435e-14
+   ],
+   "scale": [
+    0.9931035208751469,
+    0.9793246627069114,
+    0.9999999999999997
+   ],
+   "children": [
+    2837
+   ]
+  },
+  {
+   "name": "Component_928559",
+   "translation": [
+    1.2164246954192075,
+    0.2094242019781507,
+    -0.05424895663624685
+   ],
+   "rotation": [
+    7.3962928364467e-32,
+    1,
+    1.2328641747512358e-32,
+    -2.470305381947138e-15
+   ],
+   "scale": [
+    0.9931035208751469,
+    0.9793246627069114,
+    0.9999999999999997
+   ],
+   "mesh": 24
+  },
+  {
+   "name": "LG OLED65CS",
+   "translation": [
+    2.2989999655493487,
+    0.8850000008901462,
+    -2.9920000009915135
+   ],
+   "rotation": [
+    -6.462110182878968e-17,
+    1,
+    1.6080530799599775e-16,
+    -4.579669976578771e-16
+   ],
+   "children": [
+    2838,
+    2839
+   ],
+   "extras": {
+    "omschrijving": "LG OLED CS 65 inch (OLED65CS6LA), 144,9 x 83,2 x 4,7 cm, 24 kg: de grotere variant, 2 mm vóór de 55 inch",
+    "product": {
+     "winkel": "LG",
+     "naam": "LG OLED65CS6LA, 65\" 4K OLED",
+     "artikel": "OLED65CS6LA",
+     "url": "https://tvsfaq.com/en/specifications/lg-oled65cs6la"
+    }
+   },
+   "scale": [
+    1.006249976075938,
+    1.0271604859643064,
+    0.645740216300784
+   ]
+  },
+  {
+   "name": "LG 65 inch",
+   "extras": {
+    "visible": false
+   },
+   "children": [
+    2840
+   ]
+  },
+  {
+   "name": "Component_927386",
+   "mesh": 23
+  },
+  {
+   "name": "skp43A5",
+   "translation": [
+    1.4399999999999944,
+    -0.022426039688198483,
+    -0.07662990131791644
+   ],
+   "rotation": [
+    7.396292836446782e-32,
+    1,
+    1.2328641747507416e-32,
+    6.5782289384435e-14
+   ],
+   "scale": [
+    0.9931035208751469,
+    0.9793246627069114,
+    0.9999999999999997
+   ],
+   "children": [
+    2842
+   ]
+  },
+  {
+   "name": "Component_928559",
+   "translation": [
+    1.2164246954192075,
+    0.2094242019781507,
+    -0.05424895663624685
+   ],
+   "rotation": [
+    7.3962928364467e-32,
+    1,
+    1.2328641747512358e-32,
+    -2.470305381947138e-15
+   ],
+   "scale": [
+    0.9931035208751469,
+    0.9793246627069114,
+    0.9999999999999997
+   ],
+   "mesh": 24
+  },
+  {
+   "name": "LG 75 inch tv",
+   "translation": [
+    2.412999960128542,
+    0.8185000010324408,
+    -2.990000001096994
+   ],
+   "rotation": [
+    -6.462110182878968e-17,
+    1,
+    1.6080530799599775e-16,
+    -4.579669976578771e-16
+   ],
+   "extras": {
+    "omschrijving": "LG 75 inch (bijv. 75QNED82A6B), 167,7 x 96,5 x 5,2 cm, 32 kg: de grootste variant, 4 mm vóór de 55 inch. Een LG OLED bestaat niet in 75 inch (wel 77)",
+    "product": {
+     "winkel": "EE",
+     "naam": "LG 75QNED82A6B, 75\" 4K QNED (maten)",
+     "artikel": "75QNED82A6B",
+     "url": "https://ee.co.uk/help/tech/device/LG/202575QNED82A6BQNEDHDR4KUltraHDSmartTV"
+    }
+   },
+   "scale": [
+    1.1645833056448225,
+    1.191358015571582,
+    0.7144359839923545
+   ],
+   "children": [
+    2843,
+    2844
+   ]
+  },
+  {
+   "name": "LG 75 inch",
+   "extras": {
+    "visible": false
+   },
+   "children": [
+    2845
    ]
   },
   {
    "name": "Wandkast casco",
-   "mesh": 1592,
+   "mesh": 1609,
    "extras": {
-    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 229 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 45 cm diep; zijkolommen 46 cm, naast de Sony 62,3 cm, Sony-vak 75 cm breed; tv-opening 203 x 110 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 28 cm; onderin een gesloten lat van 20 cm; plaat 18 mm in de muurkleur (Skimming Stone)"
+    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 229 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 58 cm diep; zijkolommen 46 cm, naast de Sony 62,3 cm, Sony-vak 75 cm breed; tv-opening 203 x 100 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 34 cm; onderin een gesloten lat van 5 cm; plaat 18 mm in de muurkleur (Skimming Stone)"
    }
   },
   {
@@ -140914,18 +142210,32 @@
     0.0,
     0.0,
     0.0,
-    1.0,
+    0.9513404566348144,
+    -0.30814174590578114,
     0.0,
     0.0,
-    0.0,
-    0.0,
-    1.0,
+    0.30814174590578114,
+    0.9513404566348144,
     0.0,
     1.5805,
-    0.21000000000000002,
-    -2.4669999856948857,
+    0.20444875117230688,
+    -2.3585289919701906,
     1.0
    ]
+  },
+  {
+   "name": "Wandkast wig Sony",
+   "mesh": 1610,
+   "extras": {
+    "omschrijving": "Wig onder de Sony: 18° achterover, zodat het scherm recht naar de ogen van iemand van 1,80 m op de bank kijkt (ooghoogte ±1,20 m); 16 cm hoog aan de voorkant; Sony 2 cm van de muur"
+   }
+  },
+  {
+   "name": "Wandkast lade",
+   "mesh": 1611,
+   "extras": {
+    "omschrijving": "Lade over de hele tv-opening (203 cm breed, 12 cm hoog), greeploos (tip-on), in de kastkleur"
+   }
   },
   {
    "mesh": 1368
@@ -140933,7 +142243,7 @@
   {
    "name": "Edge",
    "children": [
-    2839
+    2851
    ]
   },
   {
@@ -140960,8 +142270,8 @@
     1
    ],
    "children": [
-    2840,
-    2841
+    2852,
+    2853
    ]
   },
   {
@@ -140976,7 +142286,7 @@
     }
    },
    "children": [
-    2842
+    2854
    ],
    "matrix": [
     0.9997832957787018,
@@ -140992,14 +142302,14 @@
     0.9657165060850506,
     0.0,
     0.6597500000000001,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 1",
-   "mesh": 1593,
+   "mesh": 1612,
    "matrix": [
     1.0,
     0.0,
@@ -141014,14 +142324,14 @@
     0.9659258262890683,
     0.0,
     1.0277500000000002,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 2",
-   "mesh": 1593,
+   "mesh": 1612,
    "matrix": [
     1.0,
     0.0,
@@ -141036,14 +142346,14 @@
     0.9659258262890683,
     0.0,
     1.0537500000000002,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 3",
-   "mesh": 1593,
+   "mesh": 1612,
    "matrix": [
     1.0,
     0.0,
@@ -141058,7 +142368,7 @@
     0.9659258262890683,
     0.0,
     1.0797500000000002,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -141066,9 +142376,9 @@
   {
    "name": "Spellen Atari 2600 (wandkast)",
    "children": [
-    2844,
-    2845,
-    2846
+    2856,
+    2857,
+    2858
    ]
   },
   {
@@ -141097,14 +142407,14 @@
     0.9659258262890683,
     0.0,
     0.6027499985694885,
-    0.23448511215964873,
+    0.0844851121596486,
     -2.6687386664574544,
     1.0
    ]
   },
   {
    "name": "Mega Drive + Mega CD spel 1",
-   "mesh": 1594,
+   "mesh": 1613,
    "matrix": [
     1.0,
     0.0,
@@ -141119,14 +142429,14 @@
     0.9659258262890683,
     0.0,
     1.0947500014305116,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Mega Drive + Mega CD spel 2",
-   "mesh": 1594,
+   "mesh": 1613,
    "matrix": [
     1.0,
     0.0,
@@ -141141,14 +142451,14 @@
     0.9659258262890683,
     0.0,
     1.1167500014305116,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Mega Drive + Mega CD spel 3",
-   "mesh": 1594,
+   "mesh": 1613,
    "matrix": [
     1.0,
     0.0,
@@ -141163,7 +142473,7 @@
     0.9659258262890683,
     0.0,
     1.1387500014305116,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
@@ -141171,9 +142481,9 @@
   {
    "name": "Spellen Mega Drive + Mega CD (wandkast)",
    "children": [
-    2849,
-    2850,
-    2851
+    2861,
+    2862,
+    2863
    ]
   },
   {
@@ -141187,7 +142497,7 @@
     0.0974173248
    ],
    "children": [
-    2853
+    2865
    ]
   },
   {
@@ -141204,7 +142514,7 @@
     0.0253999997
    ],
    "children": [
-    2854
+    2866
    ]
   },
   {
@@ -141219,7 +142529,7 @@
     }
    },
    "children": [
-    2855
+    2867
    ],
    "matrix": [
     -4.354724134620453e-18,
@@ -141235,14 +142545,14 @@
     -4.2704986885353286e-18,
     0.0,
     2.0718250686507638,
-    0.5965346926643403,
+    0.5065346926643404,
     -2.9752603662983317,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 1",
-   "mesh": 1595,
+   "mesh": 1614,
    "matrix": [
     1.0,
     0.0,
@@ -141257,14 +142567,14 @@
     0.9659258262890683,
     0.0,
     2.4132499999999997,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 2",
-   "mesh": 1595,
+   "mesh": 1614,
    "matrix": [
     1.0,
     0.0,
@@ -141279,14 +142589,14 @@
     0.9659258262890683,
     0.0,
     2.4252499999999997,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 3",
-   "mesh": 1595,
+   "mesh": 1614,
    "matrix": [
     1.0,
     0.0,
@@ -141301,7 +142611,7 @@
     0.9659258262890683,
     0.0,
     2.4372499999999997,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -141309,9 +142619,9 @@
   {
    "name": "Spellen PlayStation (wandkast)",
    "children": [
-    2857,
-    2858,
-    2859
+    2869,
+    2870,
+    2871
    ]
   },
   {
@@ -141331,7 +142641,7 @@
     0.0253999997
    ],
    "children": [
-    2861
+    2873
    ]
   },
   {
@@ -141346,7 +142656,7 @@
     }
    },
    "children": [
-    2862
+    2874
    ],
    "matrix": [
     0.7577633737221329,
@@ -141362,14 +142672,14 @@
     0.7094442493585097,
     0.0,
     2.0214065757382125,
-    0.21647597927151752,
+    0.0664759792715175,
     -2.6013838758893066,
     1.0
    ]
   },
   {
    "name": "Nintendo 64 spel 1",
-   "mesh": 1596,
+   "mesh": 1615,
    "matrix": [
     1.0,
     0.0,
@@ -141384,14 +142694,14 @@
     0.9659258262890683,
     0.0,
     2.3982499999999995,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo 64 spel 2",
-   "mesh": 1596,
+   "mesh": 1615,
    "matrix": [
     1.0,
     0.0,
@@ -141406,14 +142716,14 @@
     0.9659258262890683,
     0.0,
     2.4202499999999993,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo 64 spel 3",
-   "mesh": 1596,
+   "mesh": 1615,
    "matrix": [
     1.0,
     0.0,
@@ -141428,7 +142738,7 @@
     0.9659258262890683,
     0.0,
     2.4422499999999996,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
@@ -141436,9 +142746,9 @@
   {
    "name": "Spellen Nintendo 64 (wandkast)",
    "children": [
-    2864,
-    2865,
-    2866
+    2876,
+    2877,
+    2878
    ]
   },
   {
@@ -141458,7 +142768,7 @@
     0
    ],
    "children": [
-    2868
+    2880
    ]
   },
   {
@@ -141478,7 +142788,7 @@
     0
    ],
    "children": [
-    2870
+    2882
    ]
   },
   {
@@ -141498,7 +142808,7 @@
     0
    ],
    "children": [
-    2872
+    2884
    ]
   },
   {
@@ -141518,7 +142828,7 @@
     0
    ],
    "children": [
-    2874
+    2886
    ]
   },
   {
@@ -141543,7 +142853,7 @@
     1
    ],
    "children": [
-    2876
+    2888
    ]
   },
   {
@@ -141568,7 +142878,7 @@
     1
    ],
    "children": [
-    2878
+    2890
    ]
   },
   {
@@ -141577,7 +142887,7 @@
   {
    "name": "Edge",
    "children": [
-    2880
+    2892
    ]
   },
   {
@@ -141597,14 +142907,14 @@
     0.0253999997
    ],
    "children": [
-    2869,
-    2871,
-    2873,
-    2875,
-    2877,
-    2879,
     2881,
-    2882
+    2883,
+    2885,
+    2887,
+    2889,
+    2891,
+    2893,
+    2894
    ]
   },
   {
@@ -141619,7 +142929,7 @@
     }
    },
    "children": [
-    2883
+    2895
    ],
    "matrix": [
     0.10052910455710473,
@@ -141635,14 +142945,14 @@
     0.09600420423368072,
     0.0,
     0.19900000000000007,
-    0.5142764803675463,
+    0.4242764803675463,
     -2.6679600420092533,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 1",
-   "mesh": 1597,
+   "mesh": 1616,
    "matrix": [
     1.0,
     0.0,
@@ -141657,14 +142967,14 @@
     0.9659258262890683,
     0.0,
     0.404,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 2",
-   "mesh": 1597,
+   "mesh": 1616,
    "matrix": [
     1.0,
     0.0,
@@ -141679,14 +142989,14 @@
     0.9659258262890683,
     0.0,
     0.41600000000000004,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 3",
-   "mesh": 1597,
+   "mesh": 1616,
    "matrix": [
     1.0,
     0.0,
@@ -141701,7 +143011,7 @@
     0.9659258262890683,
     0.0,
     0.42800000000000005,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -141709,9 +143019,9 @@
   {
    "name": "Spellen Dreamcast (wandkast)",
    "children": [
-    2885,
-    2886,
-    2887
+    2897,
+    2898,
+    2899
    ]
   },
   {
@@ -141725,7 +143035,7 @@
     18.8836746
    ],
    "children": [
-    2889
+    2901
    ]
   },
   {
@@ -141742,7 +143052,7 @@
     0.0253999997
    ],
    "children": [
-    2890
+    2902
    ]
   },
   {
@@ -141757,7 +143067,7 @@
     }
    },
    "children": [
-    2891
+    2903
    ],
    "matrix": [
     0.10285399714575649,
@@ -141773,14 +143083,14 @@
     0.08804129879497033,
     0.0,
     0.3333241100756196,
-    0.2116792349959341,
+    0.061679234995934085,
     -2.783992004008396,
     1.0
    ]
   },
   {
    "name": "NES spel 1",
-   "mesh": 1598,
+   "mesh": 1617,
    "matrix": [
     1.0,
     0.0,
@@ -141795,14 +143105,14 @@
     0.9659258262890683,
     0.0,
     0.426,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "NES spel 2",
-   "mesh": 1598,
+   "mesh": 1617,
    "matrix": [
     1.0,
     0.0,
@@ -141817,14 +143127,14 @@
     0.9659258262890683,
     0.0,
     0.448,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "NES spel 3",
-   "mesh": 1598,
+   "mesh": 1617,
    "matrix": [
     1.0,
     0.0,
@@ -141839,7 +143149,7 @@
     0.9659258262890683,
     0.0,
     0.47,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
@@ -141847,9 +143157,9 @@
   {
    "name": "Spellen NES (wandkast)",
    "children": [
-    2893,
-    2894,
-    2895
+    2905,
+    2906,
+    2907
    ]
   },
   {
@@ -141863,7 +143173,7 @@
     120.697777
    ],
    "children": [
-    2897
+    2909
    ]
   },
   {
@@ -141877,7 +143187,7 @@
     119.628082
    ],
    "children": [
-    2899
+    2911
    ]
   },
   {
@@ -141897,7 +143207,7 @@
     -4.857225735e-16
    ],
    "children": [
-    2901
+    2913
    ]
   },
   {
@@ -141917,10 +143227,10 @@
     0.0253999997
    ],
    "children": [
-    2898,
-    2900,
-    2902,
-    2903
+    2910,
+    2912,
+    2914,
+    2915
    ]
   },
   {
@@ -141935,7 +143245,7 @@
     }
    },
    "children": [
-    2904
+    2916
    ],
    "matrix": [
     0.9374993290201014,
@@ -141951,14 +143261,14 @@
     0.8438458468661707,
     0.0,
     0.7480882731272767,
-    -2.307162178046945,
+    -2.397162178046945,
     -3.563384239939195,
     1.0
    ]
   },
   {
    "name": "GameCube spel 1",
-   "mesh": 1599,
+   "mesh": 1618,
    "matrix": [
     1.0,
     0.0,
@@ -141973,14 +143283,14 @@
     0.9659258262890683,
     0.0,
     2.909,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "GameCube spel 2",
-   "mesh": 1599,
+   "mesh": 1618,
    "matrix": [
     1.0,
     0.0,
@@ -141995,14 +143305,14 @@
     0.9659258262890683,
     0.0,
     2.925,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "GameCube spel 3",
-   "mesh": 1599,
+   "mesh": 1618,
    "matrix": [
     1.0,
     0.0,
@@ -142017,7 +143327,7 @@
     0.9659258262890683,
     0.0,
     2.941,
-    0.5140192378864669,
+    0.4240192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -142025,9 +143335,9 @@
   {
    "name": "Spellen GameCube (wandkast)",
    "children": [
-    2906,
-    2907,
-    2908
+    2918,
+    2919,
+    2920
    ]
   },
   {
@@ -142041,83 +143351,11 @@
     12.1911869
    ],
    "children": [
-    2910
-   ]
-  },
-  {
-   "mesh": 823
-  },
-  {
-   "name": "Edge",
-   "children": [
-    2912
-   ]
-  },
-  {
-   "mesh": 822
-  },
-  {
-   "name": "vis#1",
-   "translation": [
-    21.7040768,
-    61.0878296,
-    3.68724966
-   ],
-   "children": [
-    2913,
-    2914
-   ]
-  },
-  {
-   "mesh": 824
-  },
-  {
-   "name": "Edge",
-   "children": [
-    2916
-   ]
-  },
-  {
-   "mesh": 822
-  },
-  {
-   "name": "vis#1",
-   "translation": [
-    17.0985603,
-    87.7209396,
-    8.09669876
-   ],
-   "children": [
-    2917,
-    2918
-   ]
-  },
-  {
-   "mesh": 825
-  },
-  {
-   "name": "Edge",
-   "children": [
-    2920
-   ]
-  },
-  {
-   "mesh": 822
-  },
-  {
-   "name": "vis#1",
-   "translation": [
-    79.8212433,
-    89.9392471,
-    11.9549665
-   ],
-   "children": [
-    2921,
     2922
    ]
   },
   {
-   "mesh": 826
+   "mesh": 823
   },
   {
    "name": "Edge",
@@ -142131,7 +143369,7 @@
   {
    "name": "vis#1",
    "translation": [
-    75.0505371,
+    21.7040768,
     61.0878296,
     3.68724966
    ],
@@ -142141,7 +143379,7 @@
    ]
   },
   {
-   "mesh": 827
+   "mesh": 824
   },
   {
    "name": "Edge",
@@ -142155,13 +143393,85 @@
   {
    "name": "vis#1",
    "translation": [
+    17.0985603,
+    87.7209396,
+    8.09669876
+   ],
+   "children": [
+    2929,
+    2930
+   ]
+  },
+  {
+   "mesh": 825
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2932
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    79.8212433,
+    89.9392471,
+    11.9549665
+   ],
+   "children": [
+    2933,
+    2934
+   ]
+  },
+  {
+   "mesh": 826
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2936
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    75.0505371,
+    61.0878296,
+    3.68724966
+   ],
+   "children": [
+    2937,
+    2938
+   ]
+  },
+  {
+   "mesh": 827
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2940
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
     73.2820282,
     8.0341835,
     12.1911869
    ],
    "children": [
-    2929,
-    2930
+    2941,
+    2942
    ]
   },
   {
@@ -142186,7 +143496,7 @@
     9.977851743266035
    ],
    "children": [
-    2932
+    2944
    ]
   },
   {
@@ -142211,7 +143521,7 @@
     9.977851743266035
    ],
    "children": [
-    2934
+    2946
    ]
   },
   {
@@ -142236,7 +143546,7 @@
     9.977851743266035
    ],
    "children": [
-    2936
+    2948
    ]
   },
   {
@@ -142245,7 +143555,7 @@
   {
    "name": "Edge",
    "children": [
-    2938
+    2950
    ]
   },
   {
@@ -142265,8 +143575,8 @@
     0.7071067811865476
    ],
    "children": [
-    2939,
-    2940
+    2951,
+    2952
    ]
   },
   {
@@ -142286,7 +143596,7 @@
     0.7071067811865476
    ],
    "children": [
-    2942
+    2954
    ]
   },
   {
@@ -142306,7 +143616,7 @@
     0.7071067811865476
    ],
    "children": [
-    2944
+    2956
    ]
   },
   {
@@ -142326,7 +143636,7 @@
     0.7071067811865476
    ],
    "children": [
-    2946
+    2958
    ]
   },
   {
@@ -142335,7 +143645,7 @@
   {
    "name": "Edge",
    "children": [
-    2948
+    2960
    ]
   },
   {
@@ -142355,8 +143665,8 @@
     0.7071067811865476
    ],
    "children": [
-    2949,
-    2950
+    2961,
+    2962
    ]
   },
   {
@@ -142365,7 +143675,7 @@
   {
    "name": "Edge",
    "children": [
-    2952
+    2964
    ]
   },
   {
@@ -142385,9 +143695,9 @@
     0.7071067811865476
    ],
    "children": [
-    2951,
-    2953,
-    2954
+    2963,
+    2965,
+    2966
    ]
   },
   {
@@ -142412,7 +143722,7 @@
     9.977851743266035
    ],
    "children": [
-    2956
+    2968
    ]
   },
   {
@@ -142437,7 +143747,7 @@
     9.977851743266035
    ],
    "children": [
-    2958
+    2970
    ]
   },
   {
@@ -142451,7 +143761,7 @@
     14.6844549
    ],
    "children": [
-    2960
+    2972
    ]
   },
   {
@@ -142460,7 +143770,7 @@
   {
    "name": "Edge",
    "children": [
-    2962
+    2974
    ]
   },
   {
@@ -142480,25 +143790,25 @@
     0.0253999997
    ],
    "children": [
-    2911,
-    2915,
-    2919,
     2923,
     2927,
     2931,
-    2933,
     2935,
-    2937,
-    2941,
+    2939,
     2943,
     2945,
     2947,
+    2949,
+    2953,
     2955,
     2957,
     2959,
-    2961,
-    2963,
-    2964
+    2967,
+    2969,
+    2971,
+    2973,
+    2975,
+    2976
    ]
   },
   {
@@ -142513,7 +143823,7 @@
     }
    },
    "children": [
-    2965
+    2977
    ],
    "matrix": [
     0.10166055674922633,
@@ -142529,14 +143839,14 @@
     0.09819655727900317,
     0.0,
     2.6804673623784043,
-    0.23101949561110124,
+    0.08101949561110122,
     -2.655804809418724,
     1.0
    ]
   },
   {
    "name": "SNES spel 1",
-   "mesh": 1600,
+   "mesh": 1619,
    "matrix": [
     1.0,
     0.0,
@@ -142551,14 +143861,14 @@
     0.9659258262890683,
     0.0,
     2.927999999999999,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "SNES spel 2",
-   "mesh": 1600,
+   "mesh": 1619,
    "matrix": [
     1.0,
     0.0,
@@ -142573,14 +143883,14 @@
     0.9659258262890683,
     0.0,
     2.949999999999999,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "SNES spel 3",
-   "mesh": 1600,
+   "mesh": 1619,
    "matrix": [
     1.0,
     0.0,
@@ -142595,7 +143905,7 @@
     0.9659258262890683,
     0.0,
     2.971999999999999,
-    0.23401923788646684,
+    0.08401923788646684,
     -2.6670000000000003,
     1.0
    ]
@@ -142603,9 +143913,9 @@
   {
    "name": "Spellen SNES (wandkast)",
    "children": [
-    2967,
-    2968,
-    2969
+    2979,
+    2980,
+    2981
    ]
   },
   {
@@ -142637,7 +143947,7 @@
     1
    ],
    "children": [
-    2971
+    2983
    ]
   },
   {
@@ -142669,7 +143979,7 @@
     1
    ],
    "children": [
-    2973
+    2985
    ]
   },
   {
@@ -142701,7 +144011,7 @@
     1
    ],
    "children": [
-    2975
+    2987
    ]
   },
   {
@@ -142733,7 +144043,7 @@
     1
    ],
    "children": [
-    2977
+    2989
    ]
   },
   {
@@ -142765,7 +144075,7 @@
     1
    ],
    "children": [
-    2979
+    2991
    ]
   },
   {
@@ -142797,7 +144107,7 @@
     1
    ],
    "children": [
-    2981
+    2993
    ]
   },
   {
@@ -142829,7 +144139,7 @@
     1
    ],
    "children": [
-    2983
+    2995
    ]
   },
   {
@@ -142861,7 +144171,7 @@
     1
    ],
    "children": [
-    2985
+    2997
    ]
   },
   {
@@ -142893,7 +144203,7 @@
     1
    ],
    "children": [
-    2987
+    2999
    ]
   },
   {
@@ -142925,7 +144235,7 @@
     1
    ],
    "children": [
-    2989
+    3001
    ]
   },
   {
@@ -142957,7 +144267,7 @@
     1
    ],
    "children": [
-    2991
+    3003
    ]
   },
   {
@@ -142989,7 +144299,7 @@
     1
    ],
    "children": [
-    2993
+    3005
    ]
   },
   {
@@ -143021,7 +144331,7 @@
     1
    ],
    "children": [
-    2995
+    3007
    ]
   },
   {
@@ -143053,7 +144363,7 @@
     0.08855000138282776
    ],
    "children": [
-    2997
+    3009
    ]
   },
   {
@@ -143085,7 +144395,7 @@
     1.0000000145452543
    ],
    "children": [
-    2999
+    3011
    ]
   },
   {
@@ -143117,7 +144427,7 @@
     0.9999999917151965
    ],
    "children": [
-    3001
+    3013
    ]
   },
   {
@@ -143189,11 +144499,11 @@
     1
    ],
    "children": [
-    3003,
-    3004,
-    3005,
-    3006,
-    3007
+    3015,
+    3016,
+    3017,
+    3018,
+    3019
    ]
   },
   {
@@ -143350,12 +144660,6 @@
     0.02539999969303608
    ],
    "children": [
-    2972,
-    2974,
-    2976,
-    2978,
-    2980,
-    2982,
     2984,
     2986,
     2988,
@@ -143366,21 +144670,27 @@
     2998,
     3000,
     3002,
+    3004,
+    3006,
     3008,
-    3009,
     3010,
-    3011,
     3012,
-    3013,
     3014,
-    3015,
-    3016,
-    3017,
-    3018,
-    3019,
     3020,
     3021,
-    3022
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034
    ]
   },
   {
@@ -143391,7 +144701,7 @@
     0.7071067812024209
    ],
    "children": [
-    3023
+    3035
    ]
   },
   {
@@ -143406,7 +144716,7 @@
     }
    },
    "children": [
-    3024
+    3036
    ],
    "matrix": [
     0.6629591138531606,
@@ -143422,14 +144732,14 @@
     1.0639816694001702,
     0.0,
     0.06129476402642209,
-    0.09111081092632844,
+    0.06111081092632842,
     -2.8261155383727377,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 1",
-   "mesh": 1601,
+   "mesh": 1620,
    "matrix": [
     1.0,
     0.0,
@@ -143444,14 +144754,14 @@
     0.9659258262890683,
     0.0,
     0.4555000000000001,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 2",
-   "mesh": 1601,
+   "mesh": 1620,
    "matrix": [
     1.0,
     0.0,
@@ -143466,14 +144776,14 @@
     0.9659258262890683,
     0.0,
     0.47150000000000014,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 3",
-   "mesh": 1601,
+   "mesh": 1620,
    "matrix": [
     1.0,
     0.0,
@@ -143488,7 +144798,7 @@
     0.9659258262890683,
     0.0,
     0.48750000000000016,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -143496,9 +144806,9 @@
   {
    "name": "Spellen PlayStation 2 (wandkast)",
    "children": [
-    3026,
-    3027,
-    3028
+    3038,
+    3039,
+    3040
    ]
   },
   {
@@ -143594,13 +144904,13 @@
     0.02539999969303608
    ],
    "children": [
-    3030,
-    3031,
-    3032,
-    3033,
-    3034,
-    3035,
-    3036
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047,
+    3048
    ]
   },
   {
@@ -143623,7 +144933,7 @@
     1.0
    ],
    "children": [
-    3037
+    3049
    ]
   },
   {
@@ -143638,7 +144948,7 @@
     }
    },
    "children": [
-    3038
+    3050
    ],
    "matrix": [
     0.01809040196859216,
@@ -143654,14 +144964,14 @@
     0.017473986469413772,
     0.0,
     2.687164969191854,
-    0.8541647536603861,
+    0.8241647536603861,
     -2.89146612067539,
     1.0
    ]
   },
   {
    "name": "Xbox spel 1",
-   "mesh": 1602,
+   "mesh": 1621,
    "matrix": [
     1.0,
     0.0,
@@ -143676,14 +144986,14 @@
     0.9659258262890683,
     0.0,
     2.996,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox spel 2",
-   "mesh": 1602,
+   "mesh": 1621,
    "matrix": [
     1.0,
     0.0,
@@ -143698,14 +145008,14 @@
     0.9659258262890683,
     0.0,
     3.012,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox spel 3",
-   "mesh": 1602,
+   "mesh": 1621,
    "matrix": [
     1.0,
     0.0,
@@ -143720,7 +145030,7 @@
     0.9659258262890683,
     0.0,
     3.028,
-    0.7940192378864669,
+    0.7640192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -143728,9 +145038,9 @@
   {
    "name": "Spellen Xbox (wandkast)",
    "children": [
-    3040,
-    3041,
-    3042
+    3052,
+    3053,
+    3054
    ]
   },
   {
@@ -143842,7 +145152,7 @@
     0.27000001072883606
    ],
    "children": [
-    3052
+    3064
    ]
   },
   {
@@ -143874,7 +145184,7 @@
     0.39899998903274536
    ],
    "children": [
-    3054
+    3066
    ]
   },
   {
@@ -143906,7 +145216,7 @@
     0.5
    ],
    "children": [
-    3056
+    3068
    ]
   },
   {
@@ -143938,7 +145248,7 @@
     0.5899999737739563
    ],
    "children": [
-    3058
+    3070
    ]
   },
   {
@@ -143970,7 +145280,7 @@
     0.3100000023841858
    ],
    "children": [
-    3060
+    3072
    ]
   },
   {
@@ -144002,7 +145312,7 @@
     6.420000076293945
    ],
    "children": [
-    3062
+    3074
    ]
   },
   {
@@ -144034,7 +145344,7 @@
     0.5
    ],
    "children": [
-    3064
+    3076
    ]
   },
   {
@@ -144066,7 +145376,7 @@
     0.33000001311302185
    ],
    "children": [
-    3066
+    3078
    ]
   },
   {
@@ -144098,7 +145408,7 @@
     0.3199999928474426
    ],
    "children": [
-    3068
+    3080
    ]
   },
   {
@@ -144110,23 +145420,23 @@
     -1
    ],
    "children": [
-    3044,
-    3045,
-    3046,
-    3047,
-    3048,
-    3049,
-    3050,
-    3051,
-    3053,
-    3055,
+    3056,
     3057,
+    3058,
     3059,
+    3060,
     3061,
+    3062,
     3063,
     3065,
     3067,
-    3069
+    3069,
+    3071,
+    3073,
+    3075,
+    3077,
+    3079,
+    3081
    ]
   },
   {
@@ -144158,7 +145468,7 @@
     1.440000057220459
    ],
    "children": [
-    3071
+    3083
    ]
   },
   {
@@ -144175,8 +145485,8 @@
     -1
    ],
    "children": [
-    3070,
-    3072
+    3082,
+    3084
    ]
   },
   {
@@ -144193,7 +145503,7 @@
     0.02539999969303608
    ],
    "children": [
-    3073
+    3085
    ]
   },
   {
@@ -144204,7 +145514,7 @@
     0.7071067812024209
    ],
    "children": [
-    3074
+    3086
    ]
   },
   {
@@ -144216,7 +145526,7 @@
     0.7071067811865476
    ],
    "children": [
-    3075
+    3087
    ]
   },
   {
@@ -144231,7 +145541,7 @@
     }
    },
    "children": [
-    3076
+    3088
    ],
    "matrix": [
     0.01360385835163322,
@@ -144247,14 +145557,14 @@
     0.015009969106734529,
     0.0,
     0.3650248336804136,
-    1.0781288634568318,
+    1.1081288634568318,
     -2.674495515388527,
     1.0
    ]
   },
   {
    "name": "Wii spel 1",
-   "mesh": 1603,
+   "mesh": 1622,
    "matrix": [
     1.0,
     0.0,
@@ -144269,14 +145579,14 @@
     0.9659258262890683,
     0.0,
     0.3835000000002776,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii spel 2",
-   "mesh": 1603,
+   "mesh": 1622,
    "matrix": [
     1.0,
     0.0,
@@ -144291,14 +145601,14 @@
     0.9659258262890683,
     0.0,
     0.39950000000027763,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii spel 3",
-   "mesh": 1603,
+   "mesh": 1622,
    "matrix": [
     1.0,
     0.0,
@@ -144313,7 +145623,7 @@
     0.9659258262890683,
     0.0,
     0.41550000000027765,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -144321,9 +145631,9 @@
   {
    "name": "Spellen Wii (wandkast)",
    "children": [
-    3078,
-    3079,
-    3080
+    3090,
+    3091,
+    3092
    ]
   },
   {
@@ -144332,7 +145642,7 @@
   {
    "name": "Edge",
    "children": [
-    3082
+    3094
    ]
   },
   {
@@ -144349,7 +145659,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3083
+    3095
    ]
   },
   {
@@ -144358,7 +145668,7 @@
   {
    "name": "Edge",
    "children": [
-    3085
+    3097
    ]
   },
   {
@@ -144375,7 +145685,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3086
+    3098
    ]
   },
   {
@@ -144384,7 +145694,7 @@
   {
    "name": "Edge",
    "children": [
-    3088
+    3100
    ]
   },
   {
@@ -144401,7 +145711,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3089
+    3101
    ]
   },
   {
@@ -144410,7 +145720,7 @@
   {
    "name": "Edge",
    "children": [
-    3091
+    3103
    ]
   },
   {
@@ -144435,8 +145745,8 @@
     1
    ],
    "children": [
-    3092,
-    3093
+    3104,
+    3105
    ]
   },
   {
@@ -144445,7 +145755,7 @@
   {
    "name": "Edge",
    "children": [
-    3095
+    3107
    ]
   },
   {
@@ -144462,7 +145772,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3096
+    3108
    ]
   },
   {
@@ -144487,7 +145797,7 @@
     1
    ],
    "children": [
-    3098
+    3110
    ]
   },
   {
@@ -144496,7 +145806,7 @@
   {
    "name": "Edge",
    "children": [
-    3100
+    3112
    ]
   },
   {
@@ -144513,7 +145823,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3101
+    3113
    ]
   },
   {
@@ -144522,7 +145832,7 @@
   {
    "name": "Edge",
    "children": [
-    3103
+    3115
    ]
   },
   {
@@ -144539,7 +145849,7 @@
     3.2506564441977754e-17
    ],
    "children": [
-    3104
+    3116
    ]
   },
   {
@@ -144564,7 +145874,7 @@
     0.08249999813256943
    ],
    "children": [
-    3106
+    3118
    ]
   },
   {
@@ -144578,16 +145888,16 @@
     0
    ],
    "children": [
-    3084,
-    3087,
-    3090,
-    3094,
-    3097,
+    3096,
     3099,
     3102,
-    3105,
-    3107,
-    3108
+    3106,
+    3109,
+    3111,
+    3114,
+    3117,
+    3119,
+    3120
    ]
   },
   {
@@ -144604,7 +145914,7 @@
     0.0253999997
    ],
    "children": [
-    3109
+    3121
    ]
   },
   {
@@ -144619,7 +145929,7 @@
     }
    },
    "children": [
-    3110
+    3122
    ],
    "matrix": [
     0.9999999874758864,
@@ -144635,14 +145945,14 @@
     0.9658425569862747,
     0.0,
     2.634920752203334,
-    1.0685897252751897,
+    1.0985897252751897,
     -2.6467367830743784,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 1",
-   "mesh": 1604,
+   "mesh": 1623,
    "matrix": [
     1.0,
     0.0,
@@ -144657,14 +145967,14 @@
     0.9659258262890683,
     0.0,
     2.9809999999999994,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 2",
-   "mesh": 1604,
+   "mesh": 1623,
    "matrix": [
     1.0,
     0.0,
@@ -144679,14 +145989,14 @@
     0.9659258262890683,
     0.0,
     2.994999999999999,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 3",
-   "mesh": 1604,
+   "mesh": 1623,
    "matrix": [
     1.0,
     0.0,
@@ -144701,7 +146011,7 @@
     0.9659258262890683,
     0.0,
     3.0089999999999995,
-    1.0740192378864668,
+    1.1040192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -144709,9 +146019,9 @@
   {
    "name": "Spellen PlayStation 3 (wandkast)",
    "children": [
-    3112,
-    3113,
-    3114
+    3124,
+    3125,
+    3126
    ]
   },
   {
@@ -144743,7 +146053,7 @@
     2.859999895095825
    ],
    "children": [
-    3116
+    3128
    ]
   },
   {
@@ -144780,7 +146090,7 @@
     -1
    ],
    "children": [
-    3119
+    3131
    ]
   },
   {
@@ -144817,8 +146127,8 @@
     -1
    ],
    "children": [
-    3121,
-    3122
+    3133,
+    3134
    ]
   },
   {
@@ -144835,9 +146145,9 @@
     -1
    ],
    "children": [
-    3118,
-    3120,
-    3123
+    3130,
+    3132,
+    3135
    ]
   },
   {
@@ -144934,14 +146244,14 @@
     -1
    ],
    "children": [
-    3125,
-    3126,
-    3127,
-    3128,
-    3129,
-    3130,
-    3131,
-    3132
+    3137,
+    3138,
+    3139,
+    3140,
+    3141,
+    3142,
+    3143,
+    3144
    ]
   },
   {
@@ -144993,8 +146303,8 @@
     -0.4755244851112366
    ],
    "children": [
-    3135,
-    3136
+    3147,
+    3148
    ]
   },
   {
@@ -145036,8 +146346,8 @@
     -0.4755244851112366
    ],
    "children": [
-    3138,
-    3139
+    3150,
+    3151
    ]
   },
   {
@@ -145079,8 +146389,8 @@
     -0.4755244851112366
    ],
    "children": [
-    3141,
-    3142
+    3153,
+    3154
    ]
   },
   {
@@ -145122,8 +146432,8 @@
     -0.4755244851112366
    ],
    "children": [
-    3144,
-    3145
+    3156,
+    3157
    ]
   },
   {
@@ -145145,11 +146455,11 @@
     -2.859999895095825
    ],
    "children": [
-    3134,
-    3137,
-    3140,
-    3143,
-    3146
+    3146,
+    3149,
+    3152,
+    3155,
+    3158
    ]
   },
   {
@@ -145231,10 +146541,10 @@
     0.3496503531932831
    ],
    "children": [
-    3150,
-    3151,
-    3152,
-    3153
+    3162,
+    3163,
+    3164,
+    3165
    ]
   },
   {
@@ -145266,7 +146576,7 @@
     0.3496503531932831
    ],
    "children": [
-    3155
+    3167
    ]
   },
   {
@@ -145288,10 +146598,10 @@
     2.859999895095825
    ],
    "children": [
-    3148,
-    3149,
-    3154,
-    3156
+    3160,
+    3161,
+    3166,
+    3168
    ]
   },
   {
@@ -145323,7 +146633,7 @@
     1
    ],
    "children": [
-    3158
+    3170
    ]
   },
   {
@@ -145355,7 +146665,7 @@
     1
    ],
    "children": [
-    3160
+    3172
    ]
   },
   {
@@ -145387,7 +146697,7 @@
     1
    ],
    "children": [
-    3162
+    3174
    ]
   },
   {
@@ -145419,7 +146729,7 @@
     1
    ],
    "children": [
-    3164
+    3176
    ]
   },
   {
@@ -145451,7 +146761,7 @@
     1
    ],
    "children": [
-    3166
+    3178
    ]
   },
   {
@@ -145483,7 +146793,7 @@
     1
    ],
    "children": [
-    3168
+    3180
    ]
   },
   {
@@ -145515,7 +146825,7 @@
     1
    ],
    "children": [
-    3170
+    3182
    ]
   },
   {
@@ -145547,7 +146857,7 @@
     1
    ],
    "children": [
-    3172
+    3184
    ]
   },
   {
@@ -145579,7 +146889,7 @@
     1
    ],
    "children": [
-    3174
+    3186
    ]
   },
   {
@@ -145611,7 +146921,7 @@
     1
    ],
    "children": [
-    3176
+    3188
    ]
   },
   {
@@ -145643,7 +146953,7 @@
     1
    ],
    "children": [
-    3178
+    3190
    ]
   },
   {
@@ -145675,7 +146985,7 @@
     1
    ],
    "children": [
-    3180
+    3192
    ]
   },
   {
@@ -145707,7 +147017,7 @@
     1
    ],
    "children": [
-    3182
+    3194
    ]
   },
   {
@@ -145739,7 +147049,7 @@
     1
    ],
    "children": [
-    3184
+    3196
    ]
   },
   {
@@ -145771,7 +147081,7 @@
     1
    ],
    "children": [
-    3186
+    3198
    ]
   },
   {
@@ -145803,7 +147113,7 @@
     1
    ],
    "children": [
-    3188
+    3200
    ]
   },
   {
@@ -145835,7 +147145,7 @@
     1
    ],
    "children": [
-    3190
+    3202
    ]
   },
   {
@@ -145867,7 +147177,7 @@
     1
    ],
    "children": [
-    3192
+    3204
    ]
   },
   {
@@ -145899,7 +147209,7 @@
     1
    ],
    "children": [
-    3194
+    3206
    ]
   },
   {
@@ -145931,7 +147241,7 @@
     1
    ],
    "children": [
-    3196
+    3208
    ]
   },
   {
@@ -145963,7 +147273,7 @@
     1
    ],
    "children": [
-    3198
+    3210
    ]
   },
   {
@@ -145995,7 +147305,7 @@
     1
    ],
    "children": [
-    3200
+    3212
    ]
   },
   {
@@ -146027,7 +147337,7 @@
     1
    ],
    "children": [
-    3202
+    3214
    ]
   },
   {
@@ -146059,7 +147369,7 @@
     1
    ],
    "children": [
-    3204
+    3216
    ]
   },
   {
@@ -146091,7 +147401,7 @@
     1
    ],
    "children": [
-    3206
+    3218
    ]
   },
   {
@@ -146123,7 +147433,7 @@
     1
    ],
    "children": [
-    3208
+    3220
    ]
   },
   {
@@ -146155,7 +147465,7 @@
     1
    ],
    "children": [
-    3210
+    3222
    ]
   },
   {
@@ -146187,7 +147497,7 @@
     1
    ],
    "children": [
-    3212
+    3224
    ]
   },
   {
@@ -146219,7 +147529,7 @@
     1
    ],
    "children": [
-    3214
+    3226
    ]
   },
   {
@@ -146251,7 +147561,7 @@
     1
    ],
    "children": [
-    3216
+    3228
    ]
   },
   {
@@ -146283,7 +147593,7 @@
     1
    ],
    "children": [
-    3218
+    3230
    ]
   },
   {
@@ -146315,7 +147625,7 @@
     1
    ],
    "children": [
-    3220
+    3232
    ]
   },
   {
@@ -146347,7 +147657,7 @@
     1
    ],
    "children": [
-    3222
+    3234
    ]
   },
   {
@@ -146379,7 +147689,7 @@
     1
    ],
    "children": [
-    3224
+    3236
    ]
   },
   {
@@ -146411,7 +147721,7 @@
     1
    ],
    "children": [
-    3226
+    3238
    ]
   },
   {
@@ -146443,7 +147753,7 @@
     1
    ],
    "children": [
-    3228
+    3240
    ]
   },
   {
@@ -146475,7 +147785,7 @@
     1
    ],
    "children": [
-    3230
+    3242
    ]
   },
   {
@@ -146507,7 +147817,7 @@
     1
    ],
    "children": [
-    3232
+    3244
    ]
   },
   {
@@ -146539,7 +147849,7 @@
     1
    ],
    "children": [
-    3234
+    3246
    ]
   },
   {
@@ -146571,7 +147881,7 @@
     -1
    ],
    "children": [
-    3236
+    3248
    ]
   },
   {
@@ -146603,7 +147913,7 @@
     -1
    ],
    "children": [
-    3238
+    3250
    ]
   },
   {
@@ -146635,7 +147945,7 @@
     -1
    ],
    "children": [
-    3240
+    3252
    ]
   },
   {
@@ -146667,7 +147977,7 @@
     -1
    ],
    "children": [
-    3242
+    3254
    ]
   },
   {
@@ -146699,7 +148009,7 @@
     -1
    ],
    "children": [
-    3244
+    3256
    ]
   },
   {
@@ -146731,7 +148041,7 @@
     -1
    ],
    "children": [
-    3246
+    3258
    ]
   },
   {
@@ -146763,7 +148073,7 @@
     -1
    ],
    "children": [
-    3248
+    3260
    ]
   },
   {
@@ -146795,7 +148105,7 @@
     -1
    ],
    "children": [
-    3250
+    3262
    ]
   },
   {
@@ -146827,7 +148137,7 @@
     -1
    ],
    "children": [
-    3252
+    3264
    ]
   },
   {
@@ -146859,7 +148169,7 @@
     -1
    ],
    "children": [
-    3254
+    3266
    ]
   },
   {
@@ -146891,7 +148201,7 @@
     -1
    ],
    "children": [
-    3256
+    3268
    ]
   },
   {
@@ -146923,7 +148233,7 @@
     -1
    ],
    "children": [
-    3258
+    3270
    ]
   },
   {
@@ -146955,7 +148265,7 @@
     -1
    ],
    "children": [
-    3260
+    3272
    ]
   },
   {
@@ -146987,7 +148297,7 @@
     -1
    ],
    "children": [
-    3262
+    3274
    ]
   },
   {
@@ -147019,7 +148329,7 @@
     -1
    ],
    "children": [
-    3264
+    3276
    ]
   },
   {
@@ -147051,7 +148361,7 @@
     -1
    ],
    "children": [
-    3266
+    3278
    ]
   },
   {
@@ -147083,7 +148393,7 @@
     -1
    ],
    "children": [
-    3268
+    3280
    ]
   },
   {
@@ -147115,7 +148425,7 @@
     -1
    ],
    "children": [
-    3270
+    3282
    ]
   },
   {
@@ -147147,7 +148457,7 @@
     -1
    ],
    "children": [
-    3272
+    3284
    ]
   },
   {
@@ -147179,7 +148489,7 @@
     -1
    ],
    "children": [
-    3274
+    3286
    ]
   },
   {
@@ -147211,7 +148521,7 @@
     -1
    ],
    "children": [
-    3276
+    3288
    ]
   },
   {
@@ -147243,7 +148553,7 @@
     -1
    ],
    "children": [
-    3278
+    3290
    ]
   },
   {
@@ -147275,7 +148585,7 @@
     -1
    ],
    "children": [
-    3280
+    3292
    ]
   },
   {
@@ -147307,7 +148617,7 @@
     -1
    ],
    "children": [
-    3282
+    3294
    ]
   },
   {
@@ -147339,7 +148649,7 @@
     -1
    ],
    "children": [
-    3284
+    3296
    ]
   },
   {
@@ -147371,7 +148681,7 @@
     -1
    ],
    "children": [
-    3286
+    3298
    ]
   },
   {
@@ -147403,7 +148713,7 @@
     -1
    ],
    "children": [
-    3288
+    3300
    ]
   },
   {
@@ -147435,7 +148745,7 @@
     -1
    ],
    "children": [
-    3290
+    3302
    ]
   },
   {
@@ -147467,7 +148777,7 @@
     -1
    ],
    "children": [
-    3292
+    3304
    ]
   },
   {
@@ -147499,7 +148809,7 @@
     -1
    ],
    "children": [
-    3294
+    3306
    ]
   },
   {
@@ -147531,7 +148841,7 @@
     -1
    ],
    "children": [
-    3296
+    3308
    ]
   },
   {
@@ -147563,7 +148873,7 @@
     -1
    ],
    "children": [
-    3298
+    3310
    ]
   },
   {
@@ -147595,7 +148905,7 @@
     -1
    ],
    "children": [
-    3300
+    3312
    ]
   },
   {
@@ -147627,7 +148937,7 @@
     -1
    ],
    "children": [
-    3302
+    3314
    ]
   },
   {
@@ -147659,7 +148969,7 @@
     -1
    ],
    "children": [
-    3304
+    3316
    ]
   },
   {
@@ -147691,7 +149001,7 @@
     -1
    ],
    "children": [
-    3306
+    3318
    ]
   },
   {
@@ -147723,7 +149033,7 @@
     -1
    ],
    "children": [
-    3308
+    3320
    ]
   },
   {
@@ -147755,7 +149065,7 @@
     -1
    ],
    "children": [
-    3310
+    3322
    ]
   },
   {
@@ -147787,7 +149097,7 @@
     -1
    ],
    "children": [
-    3312
+    3324
    ]
   },
   {
@@ -147819,7 +149129,7 @@
     -1
    ],
    "children": [
-    3314
+    3326
    ]
   },
   {
@@ -147851,7 +149161,7 @@
     0.3496503531932831
    ],
    "children": [
-    3316
+    3328
    ]
   },
   {
@@ -147893,8 +149203,8 @@
     0.3496503531932831
    ],
    "children": [
-    3318,
-    3319
+    3330,
+    3331
    ]
   },
   {
@@ -147926,7 +149236,7 @@
     1
    ],
    "children": [
-    3321
+    3333
    ]
   },
   {
@@ -147958,7 +149268,7 @@
     1
    ],
    "children": [
-    3323
+    3335
    ]
   },
   {
@@ -147990,7 +149300,7 @@
     -1
    ],
    "children": [
-    3325
+    3337
    ]
   },
   {
@@ -148022,7 +149332,7 @@
     1
    ],
    "children": [
-    3327
+    3339
    ]
   },
   {
@@ -148054,7 +149364,7 @@
     1
    ],
    "children": [
-    3329
+    3341
    ]
   },
   {
@@ -148086,7 +149396,7 @@
     -1
    ],
    "children": [
-    3331
+    3343
    ]
   },
   {
@@ -148118,7 +149428,7 @@
     1
    ],
    "children": [
-    3333
+    3345
    ]
   },
   {
@@ -148150,7 +149460,7 @@
     1
    ],
    "children": [
-    3335
+    3347
    ]
   },
   {
@@ -148182,7 +149492,7 @@
     -1
    ],
    "children": [
-    3337
+    3349
    ]
   },
   {
@@ -148214,7 +149524,7 @@
     1
    ],
    "children": [
-    3339
+    3351
    ]
   },
   {
@@ -148246,7 +149556,7 @@
     1
    ],
    "children": [
-    3341
+    3353
    ]
   },
   {
@@ -148278,7 +149588,7 @@
     -1
    ],
    "children": [
-    3343
+    3355
    ]
   },
   {
@@ -148310,7 +149620,7 @@
     -1
    ],
    "children": [
-    3345
+    3357
    ]
   },
   {
@@ -148342,7 +149652,7 @@
     -1
    ],
    "children": [
-    3347
+    3359
    ]
   },
   {
@@ -148384,8 +149694,8 @@
     -0.3496503531932831
    ],
    "children": [
-    3349,
-    3350
+    3361,
+    3362
    ]
   },
   {
@@ -148417,7 +149727,7 @@
     -1
    ],
    "children": [
-    3352
+    3364
    ]
   },
   {
@@ -148449,7 +149759,7 @@
     1
    ],
    "children": [
-    3354
+    3366
    ]
   },
   {
@@ -148481,7 +149791,7 @@
     -1
    ],
    "children": [
-    3356
+    3368
    ]
   },
   {
@@ -148513,7 +149823,7 @@
     -1
    ],
    "children": [
-    3358
+    3370
    ]
   },
   {
@@ -148545,7 +149855,7 @@
     -1
    ],
    "children": [
-    3360
+    3372
    ]
   },
   {
@@ -148577,7 +149887,7 @@
     -1
    ],
    "children": [
-    3362
+    3374
    ]
   },
   {
@@ -148609,7 +149919,7 @@
     1
    ],
    "children": [
-    3364
+    3376
    ]
   },
   {
@@ -148641,7 +149951,7 @@
     1
    ],
    "children": [
-    3366
+    3378
    ]
   },
   {
@@ -148673,7 +149983,7 @@
     1
    ],
    "children": [
-    3368
+    3380
    ]
   },
   {
@@ -148705,7 +150015,7 @@
     -1
    ],
    "children": [
-    3370
+    3382
    ]
   },
   {
@@ -148737,7 +150047,7 @@
     -1
    ],
    "children": [
-    3372
+    3384
    ]
   },
   {
@@ -148769,7 +150079,7 @@
     -1
    ],
    "children": [
-    3374
+    3386
    ]
   },
   {
@@ -148801,7 +150111,7 @@
     -0.3496503531932831
    ],
    "children": [
-    3376
+    3388
    ]
   },
   {
@@ -148833,7 +150143,7 @@
     1
    ],
    "children": [
-    3378
+    3390
    ]
   },
   {
@@ -148865,7 +150175,7 @@
     1
    ],
    "children": [
-    3380
+    3392
    ]
   },
   {
@@ -148897,7 +150207,7 @@
     -1
    ],
    "children": [
-    3382
+    3394
    ]
   },
   {
@@ -148929,7 +150239,7 @@
     1
    ],
    "children": [
-    3384
+    3396
    ]
   },
   {
@@ -148961,7 +150271,7 @@
     1
    ],
    "children": [
-    3386
+    3398
    ]
   },
   {
@@ -148993,7 +150303,7 @@
     1
    ],
    "children": [
-    3388
+    3400
    ]
   },
   {
@@ -149025,7 +150335,7 @@
     1
    ],
    "children": [
-    3390
+    3402
    ]
   },
   {
@@ -149057,7 +150367,7 @@
     -1
    ],
    "children": [
-    3392
+    3404
    ]
   },
   {
@@ -149089,7 +150399,7 @@
     1
    ],
    "children": [
-    3394
+    3406
    ]
   },
   {
@@ -149121,7 +150431,7 @@
     -1
    ],
    "children": [
-    3396
+    3408
    ]
   },
   {
@@ -149153,7 +150463,7 @@
     -1
    ],
    "children": [
-    3398
+    3410
    ]
   },
   {
@@ -149185,7 +150495,7 @@
     -1
    ],
    "children": [
-    3400
+    3412
    ]
   },
   {
@@ -149217,7 +150527,7 @@
     1
    ],
    "children": [
-    3402
+    3414
    ]
   },
   {
@@ -149249,7 +150559,7 @@
     -1
    ],
    "children": [
-    3404
+    3416
    ]
   },
   {
@@ -149281,7 +150591,7 @@
     -1
    ],
    "children": [
-    3406
+    3418
    ]
   },
   {
@@ -149313,7 +150623,7 @@
     -1
    ],
    "children": [
-    3408
+    3420
    ]
   },
   {
@@ -149345,7 +150655,7 @@
     -1
    ],
    "children": [
-    3410
+    3422
    ]
   },
   {
@@ -149377,7 +150687,7 @@
     1
    ],
    "children": [
-    3412
+    3424
    ]
   },
   {
@@ -149409,7 +150719,7 @@
     1
    ],
    "children": [
-    3414
+    3426
    ]
   },
   {
@@ -149441,7 +150751,7 @@
     1
    ],
    "children": [
-    3416
+    3428
    ]
   },
   {
@@ -149473,7 +150783,7 @@
     -1
    ],
    "children": [
-    3418
+    3430
    ]
   },
   {
@@ -149505,7 +150815,7 @@
     -1
    ],
    "children": [
-    3420
+    3432
    ]
   },
   {
@@ -149537,7 +150847,7 @@
     -1
    ],
    "children": [
-    3422
+    3434
    ]
   },
   {
@@ -149569,7 +150879,7 @@
     -1
    ],
    "children": [
-    3424
+    3436
    ]
   },
   {
@@ -149601,7 +150911,7 @@
     -1
    ],
    "children": [
-    3426
+    3438
    ]
   },
   {
@@ -149633,7 +150943,7 @@
     1
    ],
    "children": [
-    3428
+    3440
    ]
   },
   {
@@ -149665,7 +150975,7 @@
     1
    ],
    "children": [
-    3430
+    3442
    ]
   },
   {
@@ -149697,7 +151007,7 @@
     1
    ],
    "children": [
-    3432
+    3444
    ]
   },
   {
@@ -149729,7 +151039,7 @@
     -1
    ],
    "children": [
-    3434
+    3446
    ]
   },
   {
@@ -149761,7 +151071,7 @@
     -1
    ],
    "children": [
-    3436
+    3448
    ]
   },
   {
@@ -149793,7 +151103,7 @@
     1
    ],
    "children": [
-    3438
+    3450
    ]
   },
   {
@@ -149825,7 +151135,7 @@
     1
    ],
    "children": [
-    3440
+    3452
    ]
   },
   {
@@ -149857,7 +151167,7 @@
     -1
    ],
    "children": [
-    3442
+    3454
    ]
   },
   {
@@ -149889,7 +151199,7 @@
     1
    ],
    "children": [
-    3444
+    3456
    ]
   },
   {
@@ -149921,7 +151231,7 @@
     1
    ],
    "children": [
-    3446
+    3458
    ]
   },
   {
@@ -149953,7 +151263,7 @@
     -1
    ],
    "children": [
-    3448
+    3460
    ]
   },
   {
@@ -149985,7 +151295,7 @@
     -1
    ],
    "children": [
-    3450
+    3462
    ]
   },
   {
@@ -150017,7 +151327,7 @@
     -1
    ],
    "children": [
-    3452
+    3464
    ]
   },
   {
@@ -150049,7 +151359,7 @@
     1
    ],
    "children": [
-    3454
+    3466
    ]
   },
   {
@@ -150081,7 +151391,7 @@
     1
    ],
    "children": [
-    3456
+    3468
    ]
   },
   {
@@ -150113,7 +151423,7 @@
     1
    ],
    "children": [
-    3458
+    3470
    ]
   },
   {
@@ -150145,7 +151455,7 @@
     1
    ],
    "children": [
-    3460
+    3472
    ]
   },
   {
@@ -150177,7 +151487,7 @@
     1
    ],
    "children": [
-    3462
+    3474
    ]
   },
   {
@@ -150209,7 +151519,7 @@
     1
    ],
    "children": [
-    3464
+    3476
    ]
   },
   {
@@ -150241,7 +151551,7 @@
     -1
    ],
    "children": [
-    3466
+    3478
    ]
   },
   {
@@ -150273,7 +151583,7 @@
     1
    ],
    "children": [
-    3468
+    3480
    ]
   },
   {
@@ -150305,7 +151615,7 @@
     -1
    ],
    "children": [
-    3470
+    3482
    ]
   },
   {
@@ -150337,7 +151647,7 @@
     0.3496503531932831
    ],
    "children": [
-    3472
+    3484
    ]
   },
   {
@@ -150369,7 +151679,7 @@
     -0.3496503531932831
    ],
    "children": [
-    3474
+    3486
    ]
   },
   {
@@ -150401,7 +151711,7 @@
     0.3496503531932831
    ],
    "children": [
-    3476
+    3488
    ]
   },
   {
@@ -150433,7 +151743,7 @@
     0.3496503531932831
    ],
    "children": [
-    3478
+    3490
    ]
   },
   {
@@ -150465,7 +151775,7 @@
     0.3496503531932831
    ],
    "children": [
-    3480
+    3492
    ]
   },
   {
@@ -150486,12 +151796,6 @@
     2.859999895095825
    ],
    "children": [
-    3159,
-    3161,
-    3163,
-    3165,
-    3167,
-    3169,
     3171,
     3173,
     3175,
@@ -150566,12 +151870,12 @@
     3313,
     3315,
     3317,
-    3320,
-    3322,
-    3324,
-    3326,
-    3328,
-    3330,
+    3319,
+    3321,
+    3323,
+    3325,
+    3327,
+    3329,
     3332,
     3334,
     3336,
@@ -150581,12 +151885,12 @@
     3344,
     3346,
     3348,
-    3351,
-    3353,
-    3355,
-    3357,
-    3359,
-    3361,
+    3350,
+    3352,
+    3354,
+    3356,
+    3358,
+    3360,
     3363,
     3365,
     3367,
@@ -150646,7 +151950,13 @@
     3475,
     3477,
     3479,
-    3481
+    3481,
+    3483,
+    3485,
+    3487,
+    3489,
+    3491,
+    3493
    ]
   },
   {
@@ -150663,12 +151973,12 @@
     -1
    ],
    "children": [
-    3117,
-    3124,
-    3133,
-    3147,
-    3157,
-    3482
+    3129,
+    3136,
+    3145,
+    3159,
+    3169,
+    3494
    ]
   },
   {
@@ -150690,7 +152000,7 @@
     0.3313125669956207
    ],
    "children": [
-    3483
+    3495
    ]
   },
   {
@@ -150707,7 +152017,7 @@
     0.02539999969303608
    ],
    "children": [
-    3484
+    3496
    ]
   },
   {
@@ -150718,7 +152028,7 @@
     0.7071067812024209
    ],
    "children": [
-    3485
+    3497
    ]
   },
   {
@@ -150733,7 +152043,7 @@
     }
    },
    "children": [
-    3486
+    3498
    ],
    "matrix": [
     2.3343984761198633e-16,
@@ -150749,14 +152059,14 @@
     2.137633581964697e-16,
     0.0,
     3.210545260598929,
-    -0.6712627129509562,
+    -0.5812627129509563,
     1.8824047347725372,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 1",
-   "mesh": 1605,
+   "mesh": 1624,
    "matrix": [
     1.0,
     0.0,
@@ -150771,14 +152081,14 @@
     0.9659258262890683,
     0.0,
     0.4400000001223049,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 2",
-   "mesh": 1605,
+   "mesh": 1624,
    "matrix": [
     1.0,
     0.0,
@@ -150793,14 +152103,14 @@
     0.9659258262890683,
     0.0,
     0.4560000001223049,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 3",
-   "mesh": 1605,
+   "mesh": 1624,
    "matrix": [
     1.0,
     0.0,
@@ -150815,7 +152125,7 @@
     0.9659258262890683,
     0.0,
     0.4720000001223049,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
@@ -150823,9 +152133,9 @@
   {
    "name": "Spellen Xbox 360 (wandkast)",
    "children": [
-    3488,
-    3489,
-    3490
+    3500,
+    3501,
+    3502
    ]
   },
   {
@@ -150844,7 +152154,7 @@
     0.00999999978
    ],
    "children": [
-    3492
+    3504
    ]
   },
   {
@@ -150861,7 +152171,7 @@
     0.0253999997
    ],
    "children": [
-    3493
+    3505
    ]
   },
   {
@@ -150876,7 +152186,7 @@
     }
    },
    "children": [
-    3494
+    3506
    ],
    "matrix": [
     0.9137931212666316,
@@ -150892,14 +152202,14 @@
     0.7903029694733843,
     0.0,
     0.6140906193289877,
-    0.9615424239120985,
+    1.0515424239120983,
     -1.2022565894549007,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 1",
-   "mesh": 1606,
+   "mesh": 1625,
    "matrix": [
     1.0,
     0.0,
@@ -150914,14 +152224,14 @@
     0.9659258262890683,
     0.0,
     2.9684999999999993,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 2",
-   "mesh": 1606,
+   "mesh": 1625,
    "matrix": [
     1.0,
     0.0,
@@ -150936,14 +152246,14 @@
     0.9659258262890683,
     0.0,
     2.982499999999999,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 3",
-   "mesh": 1606,
+   "mesh": 1625,
    "matrix": [
     1.0,
     0.0,
@@ -150958,7 +152268,7 @@
     0.9659258262890683,
     0.0,
     2.9964999999999993,
-    1.3540192378864668,
+    1.4440192378864667,
     -2.6670000000000003,
     1.0
    ]
@@ -150966,9 +152276,9 @@
   {
    "name": "Spellen PlayStation 4 (wandkast)",
    "children": [
-    3496,
-    3497,
-    3498
+    3508,
+    3509,
+    3510
    ]
   },
   {
@@ -150982,7 +152292,7 @@
     0
    ],
    "children": [
-    3500
+    3512
    ]
   },
   {
@@ -150999,7 +152309,7 @@
     0.0253999997
    ],
    "children": [
-    3501
+    3513
    ]
   },
   {
@@ -151014,7 +152324,7 @@
     }
    },
    "children": [
-    3502
+    3514
    ],
    "matrix": [
     -2.11585429689767e-16,
@@ -151030,14 +152340,14 @@
     -2.072090759301781e-16,
     0.0,
     0.24662870082649202,
-    1.6908797143910264,
+    1.8408797143910263,
     -2.7903410112389984,
     1.0
    ]
   },
   {
    "name": "Wii U spel 1",
-   "mesh": 1607,
+   "mesh": 1626,
    "matrix": [
     1.0,
     0.0,
@@ -151052,14 +152362,14 @@
     0.9659258262890683,
     0.0,
     0.3909999999999999,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii U spel 2",
-   "mesh": 1607,
+   "mesh": 1626,
    "matrix": [
     1.0,
     0.0,
@@ -151074,14 +152384,14 @@
     0.9659258262890683,
     0.0,
     0.4069999999999999,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii U spel 3",
-   "mesh": 1607,
+   "mesh": 1626,
    "matrix": [
     1.0,
     0.0,
@@ -151096,7 +152406,7 @@
     0.9659258262890683,
     0.0,
     0.42299999999999993,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -151104,9 +152414,9 @@
   {
    "name": "Spellen Wii U (wandkast)",
    "children": [
-    3504,
-    3505,
-    3506
+    3516,
+    3517,
+    3518
    ]
   },
   {
@@ -151145,11 +152455,11 @@
     1
    ],
    "children": [
-    3508,
-    3509,
-    3510,
-    3511,
-    3512
+    3520,
+    3521,
+    3522,
+    3523,
+    3524
    ]
   },
   {
@@ -151176,7 +152486,7 @@
     1
    ],
    "children": [
-    3514
+    3526
    ]
   },
   {
@@ -151185,7 +152495,7 @@
   {
    "name": "Edge",
    "children": [
-    3516
+    3528
    ]
   },
   {
@@ -151212,8 +152522,8 @@
     1
    ],
    "children": [
-    3517,
-    3518
+    3529,
+    3530
    ]
   },
   {
@@ -151240,7 +152550,7 @@
     1
    ],
    "children": [
-    3520
+    3532
    ]
   },
   {
@@ -151249,7 +152559,7 @@
   {
    "name": "Polyline",
    "children": [
-    3522
+    3534
    ]
   },
   {
@@ -151258,7 +152568,7 @@
   {
    "name": "Polyline",
    "children": [
-    3524
+    3536
    ]
   },
   {
@@ -151267,7 +152577,7 @@
   {
    "name": "Polyline",
    "children": [
-    3526
+    3538
    ]
   },
   {
@@ -151276,7 +152586,7 @@
   {
    "name": "Polyline",
    "children": [
-    3528
+    3540
    ]
   },
   {
@@ -151285,7 +152595,7 @@
   {
    "name": "Edge",
    "children": [
-    3530
+    3542
    ]
   },
   {
@@ -151312,12 +152622,12 @@
     1
    ],
    "children": [
-    3523,
-    3525,
-    3527,
-    3529,
-    3531,
-    3532
+    3535,
+    3537,
+    3539,
+    3541,
+    3543,
+    3544
    ]
   },
   {
@@ -151344,7 +152654,7 @@
     1
    ],
    "children": [
-    3534
+    3546
    ]
   },
   {
@@ -151371,7 +152681,7 @@
     1
    ],
    "children": [
-    3536
+    3548
    ]
   },
   {
@@ -151398,7 +152708,7 @@
     1
    ],
    "children": [
-    3538
+    3550
    ]
   },
   {
@@ -151425,13 +152735,13 @@
     1
    ],
    "children": [
-    3519,
-    3521,
+    3531,
     3533,
-    3535,
-    3537,
-    3539,
-    3540
+    3545,
+    3547,
+    3549,
+    3551,
+    3552
    ]
   },
   {
@@ -151458,7 +152768,7 @@
     1
    ],
    "children": [
-    3542
+    3554
    ]
   },
   {
@@ -151467,7 +152777,7 @@
   {
    "name": "Polyline",
    "children": [
-    3544
+    3556
    ]
   },
   {
@@ -151476,7 +152786,7 @@
   {
    "name": "Polyline",
    "children": [
-    3546
+    3558
    ]
   },
   {
@@ -151485,7 +152795,7 @@
   {
    "name": "Edge",
    "children": [
-    3548
+    3560
    ]
   },
   {
@@ -151512,11 +152822,11 @@
     1
    ],
    "children": [
-    3543,
-    3545,
-    3547,
-    3549,
-    3550
+    3555,
+    3557,
+    3559,
+    3561,
+    3562
    ]
   },
   {
@@ -151525,7 +152835,7 @@
   {
    "name": "Edge",
    "children": [
-    3552
+    3564
    ]
   },
   {
@@ -151552,8 +152862,8 @@
     1
    ],
    "children": [
-    3553,
-    3554
+    3565,
+    3566
    ]
   },
   {
@@ -151580,7 +152890,7 @@
     1
    ],
    "children": [
-    3556
+    3568
    ]
   },
   {
@@ -151604,8 +152914,8 @@
     1
    ],
    "children": [
-    3555,
-    3557
+    3567,
+    3569
    ]
   },
   {
@@ -151632,7 +152942,7 @@
     1
    ],
    "children": [
-    3559
+    3571
    ]
   },
   {
@@ -151659,7 +152969,7 @@
     1
    ],
    "children": [
-    3561
+    3573
    ]
   },
   {
@@ -151686,7 +152996,7 @@
     1
    ],
    "children": [
-    3563
+    3575
    ]
   },
   {
@@ -151695,7 +153005,7 @@
   {
    "name": "Polyline",
    "children": [
-    3565
+    3577
    ]
   },
   {
@@ -151704,7 +153014,7 @@
   {
    "name": "Polyline",
    "children": [
-    3567
+    3579
    ]
   },
   {
@@ -151713,7 +153023,7 @@
   {
    "name": "Polyline",
    "children": [
-    3569
+    3581
    ]
   },
   {
@@ -151722,7 +153032,7 @@
   {
    "name": "Polyline",
    "children": [
-    3571
+    3583
    ]
   },
   {
@@ -151731,7 +153041,7 @@
   {
    "name": "Edge",
    "children": [
-    3573
+    3585
    ]
   },
   {
@@ -151758,16 +153068,16 @@
     1
    ],
    "children": [
-    3558,
-    3560,
-    3562,
-    3564,
-    3566,
-    3568,
     3570,
     3572,
     3574,
-    3575
+    3576,
+    3578,
+    3580,
+    3582,
+    3584,
+    3586,
+    3587
    ]
   },
   {
@@ -151791,9 +153101,9 @@
     1
    ],
    "children": [
-    3541,
-    3551,
-    3576
+    3553,
+    3563,
+    3588
    ]
   },
   {
@@ -151817,8 +153127,8 @@
     1
    ],
    "children": [
-    3515,
-    3577
+    3527,
+    3589
    ]
   },
   {
@@ -151842,7 +153152,7 @@
     1
    ],
    "children": [
-    3578
+    3590
    ]
   },
   {
@@ -151866,8 +153176,8 @@
     1
    ],
    "children": [
-    3513,
-    3579
+    3525,
+    3591
    ]
   },
   {
@@ -151882,7 +153192,7 @@
     }
    },
    "children": [
-    3580
+    3592
    ],
    "matrix": [
     1.0009977220548334,
@@ -151898,14 +153208,14 @@
     0.96688955178929,
     0.0,
     2.7025000047925776,
-    1.6249586033815504,
+    1.7749586033815503,
     -2.63318525167884,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 1",
-   "mesh": 1608,
+   "mesh": 1627,
    "matrix": [
     1.0,
     0.0,
@@ -151920,14 +153230,14 @@
     0.9659258262890683,
     0.0,
     2.9559999999999995,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 2",
-   "mesh": 1608,
+   "mesh": 1627,
    "matrix": [
     1.0,
     0.0,
@@ -151942,14 +153252,14 @@
     0.9659258262890683,
     0.0,
     2.9689999999999994,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 3",
-   "mesh": 1608,
+   "mesh": 1627,
    "matrix": [
     1.0,
     0.0,
@@ -151964,7 +153274,7 @@
     0.9659258262890683,
     0.0,
     2.9819999999999993,
-    1.6340192378864669,
+    1.7840192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -151972,183 +153282,9 @@
   {
    "name": "Spellen Nintendo Switch (wandkast)",
    "children": [
-    3582,
-    3583,
-    3584
-   ]
-  },
-  {
-   "name": "Component_927386",
-   "mesh": 23
-  },
-  {
-   "name": "skp43A5",
-   "translation": [
-    1.4399999999999944,
-    -0.022426039688198483,
-    -0.07662990131791644
-   ],
-   "rotation": [
-    7.396292836446782e-32,
-    1,
-    1.2328641747507416e-32,
-    6.5782289384435e-14
-   ],
-   "scale": [
-    0.9931035208751469,
-    0.9793246627069114,
-    0.9999999999999997
-   ],
-   "children": [
-    3586
-   ]
-  },
-  {
-   "name": "Component_928559",
-   "translation": [
-    1.2164246954192075,
-    0.2094242019781507,
-    -0.05424895663624685
-   ],
-   "rotation": [
-    7.3962928364467e-32,
-    1,
-    1.2328641747512358e-32,
-    -2.470305381947138e-15
-   ],
-   "scale": [
-    0.9931035208751469,
-    0.9793246627069114,
-    0.9999999999999997
-   ],
-   "mesh": 24
-  },
-  {
-   "name": "LG OLED65CS",
-   "translation": [
-    2.2989999655493487,
-    0.9050000008901462,
-    -2.9920000009915135
-   ],
-   "rotation": [
-    -6.462110182878968e-17,
-    1,
-    1.6080530799599775e-16,
-    -4.579669976578771e-16
-   ],
-   "children": [
-    3587,
-    3588
-   ],
-   "extras": {
-    "omschrijving": "LG OLED CS 65 inch (OLED65CS6LA), 144,9 x 83,2 x 4,7 cm, 24 kg: de grotere variant, 2 mm vóór de 55 inch",
-    "product": {
-     "winkel": "LG",
-     "naam": "LG OLED65CS6LA, 65\" 4K OLED",
-     "artikel": "OLED65CS6LA",
-     "url": "https://tvsfaq.com/en/specifications/lg-oled65cs6la"
-    }
-   },
-   "scale": [
-    1.006249976075938,
-    1.0271604859643064,
-    0.645740216300784
-   ]
-  },
-  {
-   "name": "LG 65 inch",
-   "extras": {
-    "visible": false
-   },
-   "children": [
-    3589
-   ]
-  },
-  {
-   "name": "Component_927386",
-   "mesh": 23
-  },
-  {
-   "name": "skp43A5",
-   "translation": [
-    1.4399999999999944,
-    -0.022426039688198483,
-    -0.07662990131791644
-   ],
-   "rotation": [
-    7.396292836446782e-32,
-    1,
-    1.2328641747507416e-32,
-    6.5782289384435e-14
-   ],
-   "scale": [
-    0.9931035208751469,
-    0.9793246627069114,
-    0.9999999999999997
-   ],
-   "children": [
-    3591
-   ]
-  },
-  {
-   "name": "Component_928559",
-   "translation": [
-    1.2164246954192075,
-    0.2094242019781507,
-    -0.05424895663624685
-   ],
-   "rotation": [
-    7.3962928364467e-32,
-    1,
-    1.2328641747512358e-32,
-    -2.470305381947138e-15
-   ],
-   "scale": [
-    0.9931035208751469,
-    0.9793246627069114,
-    0.9999999999999997
-   ],
-   "mesh": 24
-  },
-  {
-   "name": "LG 75 inch tv",
-   "translation": [
-    2.412999960128542,
-    0.838500001032441,
-    -2.990000001096994
-   ],
-   "rotation": [
-    -6.462110182878968e-17,
-    1,
-    1.6080530799599775e-16,
-    -4.579669976578771e-16
-   ],
-   "extras": {
-    "omschrijving": "LG 75 inch (bijv. 75QNED82A6B), 167,7 x 96,5 x 5,2 cm, 32 kg: de grootste variant, 4 mm vóór de 55 inch. Een LG OLED bestaat niet in 75 inch (wel 77)",
-    "product": {
-     "winkel": "EE",
-     "naam": "LG 75QNED82A6B, 75\" 4K QNED (maten)",
-     "artikel": "75QNED82A6B",
-     "url": "https://ee.co.uk/help/tech/device/LG/202575QNED82A6BQNEDHDR4KUltraHDSmartTV"
-    }
-   },
-   "scale": [
-    1.1645833056448225,
-    1.191358015571582,
-    0.7144359839923545
-   ],
-   "children": [
-    3592,
-    3593
-   ]
-  },
-  {
-   "name": "LG 75 inch",
-   "extras": {
-    "visible": false
-   },
-   "children": [
-    3594
+    3594,
+    3595,
+    3596
    ]
   }
  ],
@@ -152174,8 +153310,8 @@
     1840,
     1908,
     2836,
-    3590,
-    3595
+    2841,
+    2846
    ]
   }
  ],
