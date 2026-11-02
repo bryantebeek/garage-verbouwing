@@ -43700,13 +43700,13 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1406,
    "byteOffset": 0,
    "max": [
     0.1550000011920929,
-    0.1146322637796402,
-    0.25999999046325684
+    0.07466136664152145,
+    0.3100000023841858
    ],
    "min": [
     -0.1550000011920929,
@@ -43717,7 +43717,7 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1407,
    "byteOffset": 0
   }
@@ -53547,13 +53547,13 @@
   {
    "buffer": 0,
    "byteOffset": 37401724,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37402156,
-   "byteLength": 432,
+   "byteOffset": 37402588,
+   "byteLength": 864,
    "target": 34962
   }
  ],
@@ -53935,7 +53935,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37402588
+   "byteLength": 37403452
   }
  ],
  "materials": [
@@ -103580,7 +103580,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de NES"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de NES"
    }
   },
   {
@@ -103634,16 +103634,16 @@
     0.0,
     0.0,
     0.0,
-    0.10159821773860425,
-    -0.03697872711134842,
+    0.10647600109652827,
+    0.018774591791262035,
     0.0,
     0.0,
-    0.031174130365805464,
-    0.08565021925118518,
+    -0.01582752078791718,
+    0.08976233089413607,
     0.0,
     0.6283241100756196,
-    0.7369254029889473,
-    -2.850823145227396,
+    0.7101933872708351,
+    -2.813599754567383,
     1.0
    ]
   },
@@ -103656,7 +103656,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de SNES"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de SNES"
    }
   },
   {
@@ -104150,16 +104150,16 @@
     0.0,
     0.0,
     0.0,
-    0.09552967500223507,
-    -0.034769958189937666,
+    0.10011610446217564,
+    0.017653170420108708,
     0.0,
     0.0,
-    0.034769958189937666,
-    0.09552967500223507,
+    -0.017653170420108708,
+    0.10011610446217564,
     0.0,
     0.8464673623784045,
-    0.8377151814412861,
-    -2.725529745452155,
+    0.7406323025105788,
+    -2.6875859657327448,
     1.0
    ]
   },
@@ -104172,7 +104172,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation"
    }
   },
   {
@@ -104222,20 +104222,20 @@
    ],
    "matrix": [
     -4.354724134620453e-18,
-    0.006707676474145822,
-    0.018429189649722642,
+    -0.0034055765978838054,
+    0.019313984644893957,
     0.0,
     0.0,
-    0.03032233206760188,
-    -0.011036426306142636,
+    0.03177812302560207,
+    0.005603340485686562,
     0.0,
     -0.019911069544814343,
-    -1.512120841758948e-18,
-    -4.154517868219426e-18,
+    7.677238715545546e-19,
+    -4.353978435233868e-18,
     0.0,
     1.1825750686507637,
-    0.704370568315023,
-    -3.091657608414639,
+    0.7979797020865773,
+    -3.0132790382875436,
     1.0
    ]
   },
@@ -104248,7 +104248,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Nintendo 64"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Nintendo 64"
    }
   },
   {
@@ -104291,16 +104291,16 @@
     0.0,
     0.0,
     0.0,
-    0.7884016132436577,
-    -0.2869547198681459,
+    0.8262531853877144,
+    0.14569072948016723,
     0.0,
     0.0,
-    0.25120378526306625,
-    0.6901767276918024,
+    -0.12753950428127478,
+    0.7233124719134487,
     0.0,
     1.5471565757382126,
-    0.8391563609532318,
-    -2.7216789496259617,
+    0.7308872255242521,
+    -2.6321045693167973,
     1.0
    ]
   },
@@ -104313,7 +104313,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Dreamcast"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Dreamcast"
    }
   },
   {
@@ -104502,16 +104502,16 @@
     0.0,
     0.0,
     0.0,
-    0.09213869358282016,
-    -0.03353574188832089,
+    0.09656232025839294,
+    0.017026542381366267,
     0.0,
     0.0,
-    0.0339936781875048,
-    0.09339686322437658,
+    -0.017259042733736175,
+    0.09788089527984312,
     0.0,
     2.0790000000000006,
-    0.8175061506654901,
-    -2.7810536011777183,
+    0.7428174951320168,
+    -2.6999788089190684,
     1.0
    ]
   },
@@ -104524,7 +104524,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 2"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 2"
    }
   },
   {
@@ -105333,16 +105333,16 @@
     0.0,
     0.0,
     0.0,
-    1.0737377813651634,
-    -0.39080859182395083,
+    1.1252884915773482,
+    0.19841872214581674,
     0.0,
     0.0,
-    0.37674027669618065,
-    1.0350854032218428,
+    -0.1912760513632504,
+    1.0847803926246653,
     0.0,
     2.347294764026422,
-    0.14641896356097492,
-    -2.519303353595671,
+    0.02854342359935852,
+    -2.7962475496756363,
     1.0
    ]
   },
@@ -105355,7 +105355,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de GameCube"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de GameCube"
    }
   },
   {
@@ -105449,16 +105449,16 @@
     0.0,
     0.0,
     0.0,
-    0.9229128042309365,
-    -0.3359127895632117,
+    0.9672223287235311,
+    0.17054739289763063,
     0.0,
     0.0,
-    0.298793416259238,
-    0.820928164253962,
+    -0.15170139316294254,
+    0.8603413530556744,
     0.0,
     -1.494911726872723,
-    -2.3145429418104517,
-    -1.9161990737701653,
+    -2.4459260984163973,
+    -3.3460910655488587,
     1.0
    ]
   },
@@ -105471,7 +105471,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Xbox 360"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Xbox 360"
    }
   },
   {
@@ -111497,20 +111497,20 @@
    ],
    "matrix": [
     2.3343984761198633e-16,
-    -0.35957248393911895,
-    -0.9879172802799392,
+    0.18255973454682048,
+    -1.0353477035296181,
     0.0,
     0.0,
-    0.9814416376349576,
-    -0.3572155427686008,
+    1.028561161907975,
+    0.18136308415322386,
     0.0,
     0.9966651207760362,
-    7.569046444178324e-17,
-    2.079578419218325e-16,
+    -3.8429055930089207e-17,
+    2.1794200624138707e-16,
     0.0,
     3.896545260598929,
-    1.4918675463727944,
-    2.1730398906306814,
+    -1.1784234881357079,
+    2.009607828952547,
     1.0
    ]
   },
@@ -111523,7 +111523,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Wii"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Wii"
    }
   },
   {
@@ -112032,16 +112032,16 @@
     0.0,
     0.0,
     0.0,
-    0.01264321559949854,
-    -0.004601754143627588,
+    0.01325022296650323,
+    0.0023363718093974747,
     0.0,
     0.0,
-    0.005314809528307259,
-    0.014602319167726469,
+    -0.0026983995160735573,
+    0.015303384117573192,
     0.0,
     1.4510248336804137,
-    0.5200354939006936,
-    -2.780038474317658,
+    0.4460856147040034,
+    -2.7068251701585155,
     1.0
    ]
   },
@@ -112054,7 +112054,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 3"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 3"
    }
   },
   {
@@ -112358,16 +112358,16 @@
     0.0,
     0.0,
     0.0,
-    0.9315730337645145,
-    -0.33906485533534714,
+    0.9762983403882817,
+    0.1721477386313509,
     0.0,
     0.0,
-    0.34199065888897495,
-    0.939611612961867,
+    -0.1736332080261027,
+    0.9847228559603359,
     0.0,
     1.5889207522033342,
-    0.5562721349938108,
-    -2.674544934592725,
+    0.43900210875566004,
+    -2.6783406775280194,
     1.0
    ]
   },
@@ -112380,7 +112380,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de Wii U"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de Wii U"
    }
   },
   {
@@ -112430,20 +112430,20 @@
    ],
    "matrix": [
     -2.11585429689767e-16,
-    0.3259096478049999,
-    0.8954293981266461,
+    -0.16546866472575375,
+    0.9384194299755855,
     0.0,
     0.0,
-    0.9029364218276165,
-    -0.328641980980084,
+    0.9462868697949797,
+    0.16685590663501307,
     0.0,
     -0.9661059801373033,
-    -7.336968938939006e-17,
-    -2.0158156486974862e-16,
+    3.725076755588892e-17,
+    -2.1125960080651808e-16,
     0.0,
     2.1326287008264924,
-    0.5152104545175707,
-    -2.854608475709807,
+    0.48853913248965725,
+    -2.826827378516305,
     1.0
    ]
   },
@@ -112456,7 +112456,7 @@
     -2.994
    ],
    "extras": {
-    "omschrijving": "Blok walnoot geolied, 31 x 26 cm, 2 cm hoog aan de muur en 11,5 cm aan de voorkant (schuin vlak 20°), onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 4"
+    "omschrijving": "Blok walnoot geolied, 31 x 31 cm, 7,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 10°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers), voor de PlayStation 4"
    }
   },
   {
@@ -112515,16 +112515,16 @@
     0.0,
     0.0,
     0.0,
-    0.6663275239233065,
-    -0.24252338498038442,
+    0.6983182554485589,
+    0.12313234955684696,
     0.0,
     0.0,
-    0.27983467004752927,
-    0.7688394371361214,
+    -0.14207578544726399,
+    0.8057518190149746,
     0.0,
     0.3680906193289881,
-    1.063820694451035,
-    -1.2800667282072788,
+    0.17932238338621725,
+    -1.2056237721169807,
     1.0
    ]
   },
