@@ -88742,7 +88742,7 @@
     605,
     597,
     606,
-    2517
+    2516
    ]
   },
   {
@@ -91068,7 +91068,7 @@
     1817,
     1829,
     2482,
-    2516
+    2515
    ]
   },
   {
@@ -114579,24 +114579,6 @@
    }
   },
   {
-   "name": "SP20",
-   "mesh": 1306,
-   "translation": [
-    3.747,
-    2.315,
-    -4.03
-   ],
-   "extras": {
-    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken",
-    "product": {
-     "winkel": "into-led",
-     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
-     "artikel": "7439628571549 (EAN)",
-     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
-    }
-   }
-  },
-  {
    "name": "SP21",
    "mesh": 1306,
    "translation": [
@@ -114636,11 +114618,10 @@
     2511,
     2512,
     2513,
-    2514,
-    2515
+    2514
    ],
    "extras": {
-    "omschrijving": "21x HOFTRONIC Pittsburg inbouwspot wit (RAL 9016), Ø 90 mm, zaagmaat 75 mm, inbouwdiepte 60 mm incl. GU10-lamp (past in ±83 mm tot het beton), kantelbaar tot 45°; GU10 4 W 345 lm 2700K, dimbaar. Elke spot midden tussen twee plafondbalken.",
+    "omschrijving": "20x HOFTRONIC Pittsburg inbouwspot wit (RAL 9016), Ø 90 mm, zaagmaat 75 mm, inbouwdiepte 60 mm incl. GU10-lamp (past in ±83 mm tot het beton), kantelbaar tot 45°; GU10 4 W 345 lm 2700K, dimbaar. Elke spot midden tussen twee plafondbalken.",
     "product": {
      "winkel": "into-led",
      "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
