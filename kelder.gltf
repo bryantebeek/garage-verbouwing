@@ -53607,6 +53607,438 @@
    "count": 36,
    "bufferView": 1946,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1908,
+   "bufferView": 1947,
+   "byteOffset": 0,
+   "max": [
+    3.0929999351501465,
+    2.318000078201294,
+    -2.4739999771118164
+   ],
+   "min": [
+    0.0560000017285347,
+    0.0,
+    -2.99399995803833
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1908,
+   "bufferView": 1948,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 180,
+   "bufferView": 1949,
+   "byteOffset": 0,
+   "max": [
+    3.072999954223633,
+    0.2160000056028366,
+    -2.4739999771118164
+   ],
+   "min": [
+    0.07599999755620956,
+    0.11999999731779099,
+    -2.6519999504089355
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 180,
+   "bufferView": 1950,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1951,
+   "byteOffset": 0,
+   "max": [
+    0.012000000104308128,
+    0.10499999672174454,
+    0.0
+   ],
+   "min": [
+    -0.012000000104308128,
+    0.0,
+    -0.07999999821186066
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1952,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1953,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1954,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1955,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1956,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1957,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.11599999666213989,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.07500000298023224
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1958,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1959,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1960,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1961,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13300000131130219,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.11999999731779099
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1962,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1963,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1964,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1965,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13500000536441803,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.10999999940395355
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1966,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1967,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1968,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1969,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1970,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1971,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1972,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1973,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1974,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1975,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1976,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1977,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1978,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1979,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1980,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1981,
+   "byteOffset": 0,
+   "max": [
+    0.005499999970197678,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.005499999970197678,
+    0.0,
+    -0.10499999672174454
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1982,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -66738,6 +67170,222 @@
    "byteOffset": 40801168,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40801600,
+   "byteLength": 22896,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40824496,
+   "byteLength": 22896,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40847392,
+   "byteLength": 2160,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40849552,
+   "byteLength": 2160,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40851712,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40852144,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40852576,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40853008,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40853440,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40853872,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40854304,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40854736,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40855168,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40855600,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40856032,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40856464,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40856896,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40857328,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40857760,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40858192,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40858624,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40859056,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40859488,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40859920,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40860352,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40860784,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40861216,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40861648,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40862080,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40862512,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40862944,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40863376,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40863808,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40864240,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40864672,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40865104,
+   "byteLength": 432,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -67216,7 +67864,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 40801600
+   "byteLength": 40865536
   }
  ],
  "materials": [
@@ -73613,6 +74261,228 @@
      0.06,
      0.2,
      0.08,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Wandkast Ammonite",
+   "doubleSided": true,
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.6867,
+     0.6724,
+     0.624,
+     1
+    ],
+    "roughnessFactor": 0.85,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Atari 2600",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.08,
+     0.07,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.04,
+     0.04,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.22,
+     0.22,
+     0.24,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Dreamcast",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.85,
+     0.85,
+     0.87,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel NES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.36,
+     0.36,
+     0.38,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel GameCube",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel SNES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.55,
+     0.55,
+     0.57,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.06,
+     0.2,
+     0.08,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.9,
+     0.9,
+     0.92,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.08,
+     0.1,
+     0.2,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox 360",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.42,
+     0.12,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.02,
+     0.28,
+     0.65,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii U",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.45,
+     0.75,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.8,
+     0.06,
+     0.05,
      1
     ],
     "roughnessFactor": 0.4,
@@ -97750,6 +98620,222 @@
       "NORMAL": 5105
      },
      "material": 400
+    }
+   ]
+  },
+  {
+   "name": "Wandkast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5106,
+      "NORMAL": 5107
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast lades",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5108,
+      "NORMAL": 5109
+     },
+     "material": 95
+    }
+   ]
+  },
+  {
+   "name": "Spel Atari 2600",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5110,
+      "NORMAL": 5111
+     },
+     "material": 402
+    }
+   ]
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5112,
+      "NORMAL": 5113
+     },
+     "material": 403
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5114,
+      "NORMAL": 5115
+     },
+     "material": 404
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5116,
+      "NORMAL": 5117
+     },
+     "material": 405
+    }
+   ]
+  },
+  {
+   "name": "Spel Dreamcast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5118,
+      "NORMAL": 5119
+     },
+     "material": 406
+    }
+   ]
+  },
+  {
+   "name": "Spel NES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5120,
+      "NORMAL": 5121
+     },
+     "material": 407
+    }
+   ]
+  },
+  {
+   "name": "Spel GameCube",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5122,
+      "NORMAL": 5123
+     },
+     "material": 408
+    }
+   ]
+  },
+  {
+   "name": "Spel SNES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5124,
+      "NORMAL": 5125
+     },
+     "material": 409
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5126,
+      "NORMAL": 5127
+     },
+     "material": 410
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5128,
+      "NORMAL": 5129
+     },
+     "material": 411
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5130,
+      "NORMAL": 5131
+     },
+     "material": 412
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5132,
+      "NORMAL": 5133
+     },
+     "material": 413
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox 360",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5134,
+      "NORMAL": 5135
+     },
+     "material": 414
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5136,
+      "NORMAL": 5137
+     },
+     "material": 415
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii U",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5138,
+      "NORMAL": 5139
+     },
+     "material": 416
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5140,
+      "NORMAL": 5141
+     },
+     "material": 417
     }
    ]
   }
@@ -136578,6 +137664,11144 @@
    "extras": {
     "omschrijving": "3 spellen voor de Xbox, rechtop met de rug naar voren"
    }
+  },
+  {
+   "name": "Wandkast casco",
+   "mesh": 1538,
+   "extras": {
+    "omschrijving": "Kast op maat over de hele tv-muur (3,04 m breed, tot 2,32 m hoog): 5 kolommen met vakken van 58,6 cm breed (past de Mega Drive 2 + Mega-CD 2 met spellen), 36 cm diep, midden onder de LG 52 cm diep voor de Sony; plaatmateriaal 18 mm in de muurkleur (Ammonite)"
+   }
+  },
+  {
+   "name": "Wandkast lades",
+   "mesh": 1539,
+   "extras": {
+    "omschrijving": "5 lades onderin (controllers, kabels), fronten walnoot geolied"
+   }
+  },
+  {
+   "name": "Sony Trinitron",
+   "mesh": 1315,
+   "extras": {
+    "omschrijving": "Sony KV-X2501D, 25\" Trinitron beeldbuis-tv op de verhoging midden onder de LG (chassis BE-3B, ±1992). Maten van zustermodel KV-X2501B: 57,5 x 50 x 48,5 cm, 28 kg",
+    "product": {
+     "winkel": "Radiomuseum",
+     "naam": "Sony KV-X2501B (zustermodel, maten en gewicht)",
+     "artikel": "KV-X2501B",
+     "url": "https://www.radiomuseum.org/r/sonyire_kv_x2501b.html"
+    }
+   },
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.5745,
+    0.236,
+    -2.4955000000130387,
+    1.0
+   ]
+  },
+  {
+   "mesh": 1368
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2839
+   ]
+  },
+  {
+   "mesh": 1367
+  },
+  {
+   "name": "Root Node",
+   "matrix": [
+    0.0253999997,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.0253999997,
+    0,
+    0,
+    0.0253999997,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "children": [
+    2840,
+    2841
+   ]
+  },
+  {
+   "name": "Atari 2600",
+   "extras": {
+    "omschrijving": "Atari 2600 (Video Computer System), 34.6 x 23.5 x 9.6 cm. Model: \"Atari 2600\" door mrhoeivo, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Atari 2600 (model door mrhoeivo)",
+     "artikel": "220a09ff7c26e78e9158c664299f7d25",
+     "url": "https://3dwarehouse.sketchup.com/model/220a09ff7c26e78e9158c664299f7d25"
+    }
+   },
+   "children": [
+    2842
+   ],
+   "matrix": [
+    0.9997832957787018,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9997832957787018,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9997832957787018,
+    0.0,
+    0.7537,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Atari 2600 spel 1",
+   "mesh": 1540,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.1237000000000001,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Atari 2600 spel 2",
+   "mesh": 1540,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.1497000000000002,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Atari 2600 spel 3",
+   "mesh": 1540,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.1757000000000002,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Atari 2600 (wandkast)",
+   "children": [
+    2844,
+    2845,
+    2846
+   ]
+  },
+  {
+   "name": "Mega Drive + Mega CD",
+   "mesh": 1505,
+   "extras": {
+    "omschrijving": "Sega Mega Drive 2 met de Mega-CD 2 ernaast (op de koppelplaat), samen 47,2 x 21,5 x 6,7 cm (Mega Drive 2: 22 x 21 x 5,5 cm, Mega-CD 2: 25,2 x 21,5 x 6,3 cm). Zelf gemodelleerd: geen 3D Warehouse-model van deze versie",
+    "product": {
+     "winkel": "Retro Tech Collection",
+     "naam": "Sega CD (Model 2): maten",
+     "artikel": "Mega-CD 2",
+     "url": "https://wiki.retrotechcollection.com/Sega_CD_(Model_2)"
+    }
+   },
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.6966999985694886,
+    0.236,
+    -2.4957999999690803,
+    1.0
+   ]
+  },
+  {
+   "name": "Mega Drive + Mega CD spel 1",
+   "mesh": 1541,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.1907000014305116,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Mega Drive + Mega CD spel 2",
+   "mesh": 1541,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.2127000014305116,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Mega Drive + Mega CD spel 3",
+   "mesh": 1541,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.2347000014305116,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Mega Drive + Mega CD (wandkast)",
+   "children": [
+    2849,
+    2850,
+    2851
+   ]
+  },
+  {
+   "mesh": 846
+  },
+  {
+   "name": "Component#22",
+   "translation": [
+    263.203918,
+    111.568794,
+    0.0974173248
+   ],
+   "children": [
+    2853
+   ]
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2854
+   ]
+  },
+  {
+   "name": "PlayStation",
+   "extras": {
+    "omschrijving": "Sony PlayStation (SCPH-1002), 27 x 6 x 18,8 cm. Model: \"PlayStation 1 Orginal Full Detal\" door Tomaszek, Tomixon, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PlayStation 1 (model door Tomaszek, Tomixon)",
+     "artikel": "e93fb2ca5e924abf8f2991a13cd7020",
+     "url": "https://3dwarehouse.sketchup.com/model/e93fb2ca5e924abf8f2991a13cd7020/PlayStation-1-Orginal-Full-Detal"
+    }
+   },
+   "children": [
+    2855
+   ],
+   "matrix": [
+    -4.354724134620453e-18,
+    0.0,
+    0.019611933989977976,
+    0.0,
+    0.0,
+    0.03226835179597549,
+    0.0,
+    0.0,
+    -0.019911069544814343,
+    0.0,
+    -4.421145570713124e-18,
+    0.0,
+    1.9638750686507631,
+    0.5149201551896483,
+    -2.8131132202406963,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation spel 1",
+   "mesh": 1542,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.3072999999999997,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation spel 2",
+   "mesh": 1542,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.3192999999999997,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation spel 3",
+   "mesh": 1542,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.3312999999999997,
+    0.515,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen PlayStation (wandkast)",
+   "children": [
+    2857,
+    2858,
+    2859
+   ]
+  },
+  {
+   "mesh": 847
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2861
+   ]
+  },
+  {
+   "name": "Nintendo 64",
+   "extras": {
+    "omschrijving": "Nintendo 64 (PAL), 26 x 7,3 x 19 cm. Model: \"Nintendo 64\" door Broken Robot, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Nintendo 64 (model door Broken Robot)",
+     "artikel": "2c8684ad-be7a-4f5a-8a66-2983b571275c",
+     "url": "https://3dwarehouse.sketchup.com/model/2c8684ad-be7a-4f5a-8a66-2983b571275c/Nintendo-64"
+    }
+   },
+   "children": [
+    2862
+   ],
+   "matrix": [
+    0.7577633737221329,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.8389994725980512,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.7344707326897764,
+    0.0,
+    1.9134565757382125,
+    0.2360372160122105,
+    -2.4260791616577846,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo 64 spel 1",
+   "mesh": 1543,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.2923,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo 64 spel 2",
+   "mesh": 1543,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.3143,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo 64 spel 3",
+   "mesh": 1543,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.3363,
+    0.236,
+    -2.494,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Nintendo 64 (wandkast)",
+   "children": [
+    2864,
+    2865,
+    2866
+   ]
+  },
+  {
+   "mesh": 905
+  },
+  {
+   "name": "LINE",
+   "translation": [
+    70.2258987,
+    76.7716522,
+    16.383955
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "children": [
+    2868
+   ]
+  },
+  {
+   "mesh": 906
+  },
+  {
+   "name": "AC IN",
+   "translation": [
+    17.2041416,
+    76.7716522,
+    18.9360733
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "children": [
+    2870
+   ]
+  },
+  {
+   "mesh": 907
+  },
+  {
+   "name": "SERIAL",
+   "translation": [
+    18.0691471,
+    76.7716522,
+    11.385603
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "children": [
+    2872
+   ]
+  },
+  {
+   "mesh": 908
+  },
+  {
+   "name": "AV OUT",
+   "translation": [
+    29.9316139,
+    76.7716522,
+    6.61203957
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "children": [
+    2874
+   ]
+  },
+  {
+   "mesh": 909
+  },
+  {
+   "name": "SEGA",
+   "translation": [
+    31.0292263,
+    0,
+    21.8998928
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    2.41000009,
+    2.41000009,
+    1
+   ],
+   "children": [
+    2876
+   ]
+  },
+  {
+   "mesh": 910
+  },
+  {
+   "name": "WINDOWS CE",
+   "translation": [
+    67.0312347,
+    0,
+    14.2805061
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.419999987,
+    0.419999987,
+    1
+   ],
+   "children": [
+    2878
+   ]
+  },
+  {
+   "mesh": 912
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2880
+   ]
+  },
+  {
+   "mesh": 911
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2869,
+    2871,
+    2873,
+    2875,
+    2877,
+    2879,
+    2881,
+    2882
+   ]
+  },
+  {
+   "name": "Dreamcast",
+   "extras": {
+    "omschrijving": "Sega Dreamcast (PAL), 19 x 7,6 x 19,6 cm. Model: \"Dreamcast\" door David A., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Dreamcast (model door David A.)",
+     "artikel": "f128cddab5cacba93ca8b71b28ce88bb",
+     "url": "https://3dwarehouse.sketchup.com/model/f128cddab5cacba93ca8b71b28ce88bb/Dreamcast"
+    }
+   },
+   "children": [
+    2883
+   ],
+   "matrix": [
+    0.10052910455710473,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.09805194969580618,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0993908658623545,
+    0.0,
+    0.2488999999999999,
+    0.515,
+    -2.6549939086243732,
+    1.0
+   ]
+  },
+  {
+   "name": "Dreamcast spel 1",
+   "mesh": 1544,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.45589999999999997,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Dreamcast spel 2",
+   "mesh": 1544,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4679,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Dreamcast spel 3",
+   "mesh": 1544,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4799,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Dreamcast (wandkast)",
+   "children": [
+    2885,
+    2886,
+    2887
+   ]
+  },
+  {
+   "mesh": 845
+  },
+  {
+   "name": "skp3E73",
+   "translation": [
+    -20.440836,
+    0,
+    18.8836746
+   ],
+   "children": [
+    2889
+   ]
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2890
+   ]
+  },
+  {
+   "name": "NES",
+   "extras": {
+    "omschrijving": "Nintendo Entertainment System (Europese versie), 25,4 x 8,9 x 20,3 cm. Model: \"NES\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "NES (model door Modelfundgrube)",
+     "artikel": "ccdde48b-84ed-48c2-9a93-3f9305215dad",
+     "url": "https://3dwarehouse.sketchup.com/model/ccdde48b-84ed-48c2-9a93-3f9305215dad/NES"
+    }
+   },
+   "children": [
+    2891
+   ],
+   "matrix": [
+    0.10285399714575649,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10811856504059057,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.09114705953479973,
+    0.0,
+    0.3832241100756195,
+    0.18414145548657868,
+    -2.761223579925309,
+    1.0
+   ]
+  },
+  {
+   "name": "NES spel 1",
+   "mesh": 1545,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4779,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "NES spel 2",
+   "mesh": 1545,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4999,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "NES spel 3",
+   "mesh": 1545,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5219,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen NES (wandkast)",
+   "children": [
+    2893,
+    2894,
+    2895
+   ]
+  },
+  {
+   "mesh": 866
+  },
+  {
+   "name": "8587",
+   "translation": [
+    84.9550934,
+    -6.07448912,
+    120.697777
+   ],
+   "children": [
+    2897
+   ]
+  },
+  {
+   "mesh": 867
+  },
+  {
+   "name": "8605",
+   "translation": [
+    84.7440338,
+    -6.07448912,
+    119.628082
+   ],
+   "children": [
+    2899
+   ]
+  },
+  {
+   "mesh": 868
+  },
+  {
+   "name": "8626",
+   "translation": [
+    90.0331039,
+    1.46549439e-14,
+    119.628082
+   ],
+   "rotation": [
+    -4.79922934e-30,
+    3.622147605e-30,
+    1,
+    -4.857225735e-16
+   ],
+   "children": [
+    2901
+   ]
+  },
+  {
+   "mesh": 869
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2898,
+    2900,
+    2902,
+    2903
+   ]
+  },
+  {
+   "name": "GameCube",
+   "extras": {
+    "omschrijving": "Nintendo GameCube (indigo), 15 x 11 x 16,1 cm. Model: \"Gamecube\" door Frozen_Fish, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "GameCube (model door Frozen_Fish)",
+     "artikel": "1d0b29077ba1588b3372ade7d2428f1f",
+     "url": "https://3dwarehouse.sketchup.com/model/1d0b29077ba1588b3372ade7d2428f1f/Gamecube"
+    }
+   },
+   "children": [
+    2904
+   ],
+   "matrix": [
+    0.9374993290201014,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9821432921959755,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.873613505198521,
+    0.0,
+    0.6841882731272768,
+    -2.4420533033228558,
+    -2.7896652075029023,
+    1.0
+   ]
+  },
+  {
+   "name": "GameCube spel 1",
+   "mesh": 1546,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8471,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "GameCube spel 2",
+   "mesh": 1546,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8631,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "GameCube spel 3",
+   "mesh": 1546,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8791,
+    0.515,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen GameCube (wandkast)",
+   "children": [
+    2906,
+    2907,
+    2908
+   ]
+  },
+  {
+   "mesh": 821
+  },
+  {
+   "name": "vis",
+   "translation": [
+    23.4689388,
+    8.0341835,
+    12.1911869
+   ],
+   "children": [
+    2910
+   ]
+  },
+  {
+   "mesh": 823
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2912
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    21.7040768,
+    61.0878296,
+    3.68724966
+   ],
+   "children": [
+    2913,
+    2914
+   ]
+  },
+  {
+   "mesh": 824
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2916
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    17.0985603,
+    87.7209396,
+    8.09669876
+   ],
+   "children": [
+    2917,
+    2918
+   ]
+  },
+  {
+   "mesh": 825
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2920
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    79.8212433,
+    89.9392471,
+    11.9549665
+   ],
+   "children": [
+    2921,
+    2922
+   ]
+  },
+  {
+   "mesh": 826
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2924
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    75.0505371,
+    61.0878296,
+    3.68724966
+   ],
+   "children": [
+    2925,
+    2926
+   ]
+  },
+  {
+   "mesh": 827
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2928
+   ]
+  },
+  {
+   "mesh": 822
+  },
+  {
+   "name": "vis#1",
+   "translation": [
+    73.2820282,
+    8.0341835,
+    12.1911869
+   ],
+   "children": [
+    2929,
+    2930
+   ]
+  },
+  {
+   "mesh": 828
+  },
+  {
+   "name": "26947",
+   "translation": [
+    59.6426926,
+    27.1898937,
+    21.6386127
+   ],
+   "rotation": [
+    0.03700711206994442,
+    -0.03700711206994442,
+    0.7061377157865473,
+    0.7061377157865473
+   ],
+   "scale": [
+    9.977851743266035,
+    9.97785187,
+    9.977851743266035
+   ],
+   "children": [
+    2932
+   ]
+  },
+  {
+   "mesh": 829
+  },
+  {
+   "name": "26948",
+   "translation": [
+    34.4336281,
+    26.6633301,
+    25.606184
+   ],
+   "rotation": [
+    0.03700711206994442,
+    -0.03700711206994442,
+    0.7061377157865473,
+    0.7061377157865473
+   ],
+   "scale": [
+    9.977851743266035,
+    9.97785187,
+    9.977851743266035
+   ],
+   "children": [
+    2934
+   ]
+  },
+  {
+   "mesh": 830
+  },
+  {
+   "name": "27093",
+   "translation": [
+    74.6418304,
+    25.6770153,
+    25.5178318
+   ],
+   "rotation": [
+    0.03700711206994442,
+    -0.03700711206994442,
+    0.7061377157865473,
+    0.7061377157865473
+   ],
+   "scale": [
+    9.977851743266035,
+    9.97785187,
+    9.977851743266035
+   ],
+   "children": [
+    2936
+   ]
+  },
+  {
+   "mesh": 832
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2938
+   ]
+  },
+  {
+   "mesh": 831
+  },
+  {
+   "name": "50059",
+   "translation": [
+    28.3539772,
+    81.8161774,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2939,
+    2940
+   ]
+  },
+  {
+   "mesh": 833
+  },
+  {
+   "name": "50453",
+   "translation": [
+    29.5058002,
+    53.7948036,
+    27.6478157
+   ],
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2942
+   ]
+  },
+  {
+   "mesh": 834
+  },
+  {
+   "name": "53418",
+   "translation": [
+    70.1267395,
+    53.7948036,
+    27.6478157
+   ],
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2944
+   ]
+  },
+  {
+   "mesh": 835
+  },
+  {
+   "name": "53419",
+   "translation": [
+    70.9454117,
+    11.3455391,
+    23.6933098
+   ],
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2946
+   ]
+  },
+  {
+   "mesh": 837
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2948
+   ]
+  },
+  {
+   "mesh": 836
+  },
+  {
+   "name": "19793",
+   "translation": [
+    0.589243233,
+    57.939743,
+    -0.393700778
+   ],
+   "rotation": [
+    0,
+    0,
+    -0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2949,
+    2950
+   ]
+  },
+  {
+   "mesh": 839
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2952
+   ]
+  },
+  {
+   "mesh": 838
+  },
+  {
+   "name": "53455",
+   "translation": [
+    80.2509308,
+    4.74989843,
+    10.95259
+   ],
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    2951,
+    2953,
+    2954
+   ]
+  },
+  {
+   "mesh": 840
+  },
+  {
+   "name": "55172",
+   "translation": [
+    35.6339302,
+    25.6809044,
+    25.5153923
+   ],
+   "rotation": [
+    0.03700711206994442,
+    -0.03700711206994442,
+    0.7061377157865473,
+    0.7061377157865473
+   ],
+   "scale": [
+    9.977851743266035,
+    9.97785187,
+    9.977851743266035
+   ],
+   "children": [
+    2956
+   ]
+  },
+  {
+   "mesh": 841
+  },
+  {
+   "name": "58088",
+   "translation": [
+    73.3650284,
+    26.8105717,
+    24.9906406
+   ],
+   "rotation": [
+    0.03700711206994442,
+    -0.03700711206994442,
+    0.7061377157865473,
+    0.7061377157865473
+   ],
+   "scale": [
+    9.977851743266035,
+    9.97785187,
+    9.977851743266035
+   ],
+   "children": [
+    2958
+   ]
+  },
+  {
+   "mesh": 842
+  },
+  {
+   "name": "59530",
+   "translation": [
+    10.6631212,
+    4.50108528,
+    14.6844549
+   ],
+   "children": [
+    2960
+   ]
+  },
+  {
+   "mesh": 844
+  },
+  {
+   "name": "Edge",
+   "children": [
+    2962
+   ]
+  },
+  {
+   "mesh": 843
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    2911,
+    2915,
+    2919,
+    2923,
+    2927,
+    2931,
+    2933,
+    2935,
+    2937,
+    2941,
+    2943,
+    2945,
+    2947,
+    2955,
+    2957,
+    2959,
+    2961,
+    2963,
+    2964
+   ]
+  },
+  {
+   "name": "SNES",
+   "extras": {
+    "omschrijving": "Super Nintendo Entertainment System (PAL), 20 x 24,2 x 7,2 cm. Model: \"Super Nintendo\" door Obirwan, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Super Nintendo (model door Obirwan)",
+     "artikel": "79c4e868e57f58c03f38473b5a794cfb",
+     "url": "https://3dwarehouse.sketchup.com/model/79c4e868e57f58c03f38473b5a794cfb/Super-Nintendo"
+    }
+   },
+   "children": [
+    2965
+   ],
+   "matrix": [
+    0.10166055674922633,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10166055674922633,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10166055674922633,
+    0.0,
+    2.6165673623784045,
+    0.236,
+    -2.642409885856053,
+    1.0
+   ]
+  },
+  {
+   "name": "SNES spel 1",
+   "mesh": 1547,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8661,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "SNES spel 2",
+   "mesh": 1547,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8880999999999997,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "SNES spel 3",
+   "mesh": 1547,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9101,
+    0.236,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen SNES (wandkast)",
+   "children": [
+    2967,
+    2968,
+    2969
+   ]
+  },
+  {
+   "name": "Geom3D_MEMORY CARD",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 870
+  },
+  {
+   "name": "MEMORY CARD",
+   "translation": [
+    5.428874969482422,
+    1.0140713453292847,
+    27.12993812561035
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.06857945024967194,
+    0.06857945024967194,
+    1
+   ],
+   "children": [
+    2971
+   ]
+  },
+  {
+   "name": "Geom3D_MEMORY CARD",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 871
+  },
+  {
+   "name": "MEMORY CARD_1",
+   "translation": [
+    7.428874969482422,
+    1.0140713453292847,
+    27.12993812561035
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.06857945024967194,
+    0.06857945024967194,
+    1
+   ],
+   "children": [
+    2973
+   ]
+  },
+  {
+   "name": "Geom3D_MagicGate",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 872
+  },
+  {
+   "name": "MagicGate",
+   "translation": [
+    6.3961029052734375,
+    1.0765713453292847,
+    27.28907012939453
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.10399965196847916,
+    0.08524561673402786,
+    1
+   ],
+   "children": [
+    2975
+   ]
+  },
+  {
+   "name": "Geom3D_1               ",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 873
+  },
+  {
+   "name": "1               ",
+   "translation": [
+    5.552627086639404,
+    1.0765713453292847,
+    27.28907012939453
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.20167136192321777,
+    0.11067740619182587,
+    1
+   ],
+   "children": [
+    2977
+   ]
+  },
+  {
+   "name": "Geom3D_RESET",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 874
+  },
+  {
+   "name": "RESET",
+   "translation": [
+    22.02016830444336,
+    1.0140713453292847,
+    27.24150276184082
+   ],
+   "rotation": [
+    0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.041280001401901245,
+    0.041280001401901245,
+    1
+   ],
+   "children": [
+    2979
+   ]
+  },
+  {
+   "name": "Geom3D_SONY",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 875
+  },
+  {
+   "name": "SONY",
+   "translation": [
+    22.053762435913086,
+    1.0140713453292847,
+    27.21904754638672
+   ],
+   "rotation": [
+    0.5000000000000043,
+    0.4999999999999958,
+    -0.4999999999999958,
+    0.5000000000000042
+   ],
+   "scale": [
+    0.15600000321865082,
+    0.15600000321865082,
+    1
+   ],
+   "children": [
+    2981
+   ]
+  },
+  {
+   "name": "Geom3D_SONY#1",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 876
+  },
+  {
+   "name": "SONY#1",
+   "translation": [
+    20.79874038696289,
+    7.264071464538574,
+    26.998899459838867
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.2443011999130249,
+    0.2443011999130249,
+    1
+   ],
+   "children": [
+    2983
+   ]
+  },
+  {
+   "name": "Geom3D_model NO",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 877
+  },
+  {
+   "name": "model NO",
+   "translation": [
+    19.80548667907715,
+    7.264071464538574,
+    26.995817184448242
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.09459999948740005,
+    0.09459999948740005,
+    1
+   ],
+   "children": [
+    2985
+   ]
+  },
+  {
+   "name": "Geom3D_SCPH-50004",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 878
+  },
+  {
+   "name": "SCPH-50004",
+   "translation": [
+    19.18528175354004,
+    7.264071464538574,
+    26.993236541748047
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.14720000326633453,
+    0.14720000326633453,
+    1
+   ],
+   "children": [
+    2987
+   ]
+  },
+  {
+   "name": "Geom3D_20-27204151-8252",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 879
+  },
+  {
+   "name": "20-27204151-8252",
+   "translation": [
+    17.1700439453125,
+    7.264071464538574,
+    26.995445251464844
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.1067306399345398,
+    0.06205269694328308,
+    1
+   ],
+   "children": [
+    2989
+   ]
+  },
+  {
+   "name": "Geom3D_PlayStation 2",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 880
+  },
+  {
+   "name": "PlayStation 2",
+   "translation": [
+    20.80630874633789,
+    7.264071464538574,
+    26.723793029785156
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.12999999523162842,
+    0.12999999523162842,
+    1
+   ],
+   "children": [
+    2991
+   ]
+  },
+  {
+   "name": "Geom3D_Sony Computer En",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 881
+  },
+  {
+   "name": "Sony Computer En",
+   "translation": [
+    20.794307708740234,
+    7.264071464538574,
+    26.557043075561523
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.08664102107286453,
+    0.08664102107286453,
+    1
+   ],
+   "children": [
+    2993
+   ]
+  },
+  {
+   "name": "Geom3D_P A L",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 882
+  },
+  {
+   "name": "P A L",
+   "translation": [
+    19.070117950439453,
+    7.264071464538574,
+    26.78049087524414
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.11999999731779099,
+    0.11999999731779099,
+    1
+   ],
+   "children": [
+    2995
+   ]
+  },
+  {
+   "name": "Geom3D_EXPANSION BAY",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 883
+  },
+  {
+   "name": "EXPANSION BAY",
+   "translation": [
+    19.635515213012695,
+    7.264071464538574,
+    25.095012664794922
+   ],
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0.7071067811865476,
+    0
+   ],
+   "scale": [
+    0.3100000023841858,
+    0.4291999936103821,
+    0.08855000138282776
+   ],
+   "children": [
+    2997
+   ]
+  },
+  {
+   "name": "Geom3D_o",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 884
+  },
+  {
+   "name": "o",
+   "translation": [
+    7.006465911865234,
+    7.470492362976074,
+    26.968477249145508
+   ],
+   "rotation": [
+    -0.15266971542065255,
+    0.6904288217809413,
+    0.6904288218466123,
+    -0.152669715279419
+   ],
+   "scale": [
+    0.2199999998692991,
+    0.2199999988079071,
+    1.0000000145452543
+   ],
+   "children": [
+    2999
+   ]
+  },
+  {
+   "name": "Geom3D_l",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 885
+  },
+  {
+   "name": "l",
+   "translation": [
+    7.328610897064209,
+    7.2819037437438965,
+    26.9453067779541
+   ],
+   "rotation": [
+    0.10839897827476044,
+    0.6987486398142678,
+    0.6987486396279795,
+    0.10839897886072582
+   ],
+   "scale": [
+    0.20905925749228504,
+    0.20905926823616028,
+    0.9999999917151965
+   ],
+   "children": [
+    3001
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 886
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 887
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 888
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 889
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 890
+  },
+  {
+   "name": "Logo PS2",
+   "translation": [
+    19.81259536743164,
+    1.0140713453292847,
+    26.771760940551758
+   ],
+   "rotation": [
+    0.707106781186411,
+    0,
+    0,
+    0.707106781186684
+   ],
+   "scale": [
+    0.5226655602455139,
+    0.5226655602455139,
+    1
+   ],
+   "children": [
+    3003,
+    3004,
+    3005,
+    3006,
+    3007
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 891
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 892
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 893
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 894
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 895
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 896
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 897
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 898
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 899
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 900
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 901
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 902
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 903
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 904
+  },
+  {
+   "name": "Assembly-18",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.02539999969303608,
+    0.02539999969303608,
+    0.02539999969303608
+   ],
+   "children": [
+    2972,
+    2974,
+    2976,
+    2978,
+    2980,
+    2982,
+    2984,
+    2986,
+    2988,
+    2990,
+    2992,
+    2994,
+    2996,
+    2998,
+    3000,
+    3002,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022
+   ]
+  },
+  {
+   "rotation": [
+    -0.7071067811706742,
+    0,
+    0,
+    0.7071067812024209
+   ],
+   "children": [
+    3023
+   ]
+  },
+  {
+   "name": "PlayStation 2",
+   "extras": {
+    "omschrijving": "Sony PlayStation 2 (SCPH-50004, PAL), 30,1 x 7,8 x 18,2 cm. Model: \"PlayStation 2\" door lolo, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PlayStation 2 (model door lolo)",
+     "artikel": "6ab70068c3f252659d639d6bd20282c",
+     "url": "https://3dwarehouse.sketchup.com/model/6ab70068c3f252659d639d6bd20282c/PlayStation-2"
+    }
+   },
+   "children": [
+    3024
+   ],
+   "matrix": [
+    0.6629591138531606,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.1426478803964075,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.101514878722952,
+    0.0,
+    0.11119476402642192,
+    0.055860465180373686,
+    -2.625767720017779,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 2 spel 1",
+   "mesh": 1548,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5074000000000001,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 2 spel 2",
+   "mesh": 1548,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5234000000000001,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 2 spel 3",
+   "mesh": 1548,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5394000000000001,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen PlayStation 2 (wandkast)",
+   "children": [
+    3026,
+    3027,
+    3028
+   ]
+  },
+  {
+   "name": "Active View",
+   "rotation": [
+    -0.5182027816772461,
+    0.1361343264579773,
+    0.21453626453876495,
+    -0.8166440725326538
+   ],
+   "scale": [
+    39.370079040527344,
+    39.370079040527344,
+    39.370079040527344
+   ],
+   "translation": [
+    -170.43829345703125,
+    -1069.349853515625,
+    496.5761413574219
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1408,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1409,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1410,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1411,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1412,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "mesh": 1413,
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "Assembly-1",
+   "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "scale": [
+    0.02539999969303608,
+    0.02539999969303608,
+    0.02539999969303608
+   ],
+   "children": [
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036
+   ]
+  },
+  {
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    4.4896593387466766e-11,
+    -1.0,
+    0.0,
+    0.0,
+    1.0,
+    4.4896593387466766e-11,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "children": [
+    3037
+   ]
+  },
+  {
+   "name": "Xbox",
+   "extras": {
+    "omschrijving": "Microsoft Xbox (eerste model), 32.4 x 25.4 x 8.9 cm. Model: \"Xbox console\" door CloakMonkey, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox console (model door CloakMonkey)",
+     "artikel": "a4bbe6309ca8c8bcb076dfc62064d8df",
+     "url": "https://3dwarehouse.sketchup.com/model/a4bbe6309ca8c8bcb076dfc62064d8df"
+    }
+   },
+   "children": [
+    3038
+   ],
+   "matrix": [
+    0.01809040196859216,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01809040196859216,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01809040196859216,
+    0.0,
+    2.6232649691918546,
+    0.7760000000104336,
+    -2.8863844280470823,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox spel 1",
+   "mesh": 1549,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9341,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox spel 2",
+   "mesh": 1549,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9501,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox spel 3",
+   "mesh": 1549,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9661,
+    0.776,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Xbox (wandkast)",
+   "children": [
+    3040,
+    3041,
+    3042
+   ]
+  },
+  {
+   "name": "Geom3D_Wii",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 913
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 914
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 915
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 916
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 917
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 918
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 919
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 920
+  },
+  {
+   "name": "Geom3D_AV MULTI OUT",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 921
+  },
+  {
+   "name": "AV MULTI OUT",
+   "translation": [
+    40.515953063964844,
+    541.6729736328125,
+    225.6180877685547
+   ],
+   "rotation": [
+    0,
+    0.6979938745498657,
+    0.716103732585907,
+    0
+   ],
+   "scale": [
+    0.27000001072883606,
+    0.27000001072883606,
+    0.27000001072883606
+   ],
+   "children": [
+    3052
+   ]
+  },
+  {
+   "name": "Geom3D_EJECT",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 922
+  },
+  {
+   "name": "EJECT",
+   "translation": [
+    40.33121871948242,
+    12.826455116271973,
+    27.369979858398438
+   ],
+   "rotation": [
+    -0.716103732585907,
+    1.831696678217926e-15,
+    1.785374140398483e-15,
+    -0.6979938745498657
+   ],
+   "scale": [
+    0.39899998903274536,
+    0.39899998903274536,
+    0.39899998903274536
+   ],
+   "children": [
+    3054
+   ]
+  },
+  {
+   "name": "Geom3D_RESET",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 923
+  },
+  {
+   "name": "RESET",
+   "translation": [
+    39.34725570678711,
+    3.9916718006134033,
+    372.2434387207031
+   ],
+   "rotation": [
+    -0.716103732585907,
+    1.831696678217926e-15,
+    1.785374140398483e-15,
+    -0.6979938745498657
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "children": [
+    3056
+   ]
+  },
+  {
+   "name": "Geom3D_USB",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 924
+  },
+  {
+   "name": "USB",
+   "translation": [
+    79.6856918334961,
+    536.4825439453125,
+    428.23028564453125
+   ],
+   "rotation": [
+    5.03624804822218e-34,
+    0.6979938745498657,
+    0.716103732585907,
+    5.166916183930578e-34
+   ],
+   "scale": [
+    0.5899999737739563,
+    0.5899999737739563,
+    0.5899999737739563
+   ],
+   "children": [
+    3058
+   ]
+  },
+  {
+   "name": "Geom3D_12=IN",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 925
+  },
+  {
+   "name": "12=IN",
+   "translation": [
+    80.08023071289062,
+    545.0673828125,
+    93.11335754394531
+   ],
+   "rotation": [
+    -3.582600296667193e-17,
+    0.6979938745498657,
+    0.716103732585907,
+    -3.675552898205492e-17
+   ],
+   "scale": [
+    0.3100000023841858,
+    0.3100000023841858,
+    0.3100000023841858
+   ],
+   "children": [
+    3060
+   ]
+  },
+  {
+   "name": "Geom3D_Nintendo'",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 926
+  },
+  {
+   "name": "Nintendo'",
+   "translation": [
+    128.75,
+    420.81072998046875,
+    397.549072265625
+   ],
+   "rotation": [
+    -0.5,
+    0.5,
+    0.5,
+    -0.5
+   ],
+   "scale": [
+    -1.2999999523162842,
+    1.2000000476837158,
+    6.420000076293945
+   ],
+   "children": [
+    3062
+   ]
+  },
+  {
+   "name": "Geom3D_POWER",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 927
+  },
+  {
+   "name": "POWER",
+   "translation": [
+    38.075252532958984,
+    3.3482437133789062,
+    397.3601989746094
+   ],
+   "rotation": [
+    -0.716103732585907,
+    1.831696678217926e-15,
+    1.785374140398483e-15,
+    -0.6979938745498657
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "children": [
+    3064
+   ]
+  },
+  {
+   "name": "Geom3D_+",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 928
+  },
+  {
+   "name": "+",
+   "translation": [
+    43.30461883544922,
+    536.3265991210938,
+    434.3179931640625
+   ],
+   "rotation": [
+    0,
+    0.6979938745498657,
+    0.716103732585907,
+    0
+   ],
+   "scale": [
+    0.33000001311302185,
+    0.33000001311302185,
+    0.33000001311302185
+   ],
+   "children": [
+    3066
+   ]
+  },
+  {
+   "name": "Geom3D_SENSOR BAR",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 929
+  },
+  {
+   "name": "SENSOR BAR",
+   "translation": [
+    73.58354187011719,
+    542.077392578125,
+    209.83059692382812
+   ],
+   "rotation": [
+    -3.582600296667193e-17,
+    0.6979938745498657,
+    0.716103732585907,
+    -3.675552898205492e-17
+   ],
+   "scale": [
+    0.3199999928474426,
+    0.3199999928474426,
+    0.3199999928474426
+   ],
+   "children": [
+    3068
+   ]
+  },
+  {
+   "name": "Wii",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3044,
+    3045,
+    3046,
+    3047,
+    3048,
+    3049,
+    3050,
+    3051,
+    3053,
+    3055,
+    3057,
+    3059,
+    3061,
+    3063,
+    3065,
+    3067,
+    3069
+   ]
+  },
+  {
+   "name": "Geom3D_Wii#1",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 930
+  },
+  {
+   "name": "Wii#1",
+   "translation": [
+    64.16460418701172,
+    13.341540336608887,
+    7.263176441192627
+   ],
+   "rotation": [
+    -0.716103732585907,
+    1.831696678217926e-15,
+    1.785374140398483e-15,
+    -0.6979938745498657
+   ],
+   "scale": [
+    1.440000057220459,
+    1.440000057220459,
+    1.440000057220459
+   ],
+   "children": [
+    3071
+   ]
+  },
+  {
+   "name": "Nintendo Wii",
+   "translation": [
+    -5.938919544219971,
+    -21.03803253173828,
+    -4.269186973571777
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3070,
+    3072
+   ]
+  },
+  {
+   "name": "Assembly-13",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.02539999969303608,
+    0.02539999969303608,
+    0.02539999969303608
+   ],
+   "children": [
+    3073
+   ]
+  },
+  {
+   "rotation": [
+    -0.7071067811706742,
+    0,
+    0,
+    0.7071067812024209
+   ],
+   "children": [
+    3074
+   ]
+  },
+  {
+   "name": "Wii gekanteld",
+   "rotation": [
+    0,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "children": [
+    3075
+   ]
+  },
+  {
+   "name": "Wii",
+   "extras": {
+    "omschrijving": "Nintendo Wii (wit), liggend, 15,7 x 4,4 x 21,5 cm. Model: \"Nintendo Wii\" door Joseph, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Wii (model door Joseph)",
+     "artikel": "2214df9190a0ed57a092fcf92246d43d",
+     "url": "https://3dwarehouse.sketchup.com/model/2214df9190a0ed57a092fcf92246d43d/Nintendo-Wii"
+    }
+   },
+   "children": [
+    3076
+   ],
+   "matrix": [
+    0.01360385835163322,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01345462901360706,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.015539463484893469,
+    0.0,
+    0.41492483368041366,
+    1.098029611339384,
+    -2.662303761260976,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii spel 1",
+   "mesh": 1550,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.43540000000027756,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii spel 2",
+   "mesh": 1550,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4514000000002776,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii spel 3",
+   "mesh": 1550,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4674000000002776,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Wii (wandkast)",
+   "children": [
+    3078,
+    3079,
+    3080
+   ]
+  },
+  {
+   "mesh": 931
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3082
+   ]
+  },
+  {
+   "name": "HDMI OUT",
+   "translation": [
+    5.69452286,
+    11.2473812,
+    0.968205214
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3083
+   ]
+  },
+  {
+   "mesh": 932
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3085
+   ]
+  },
+  {
+   "name": "DIGITAL OUT",
+   "translation": [
+    4.73517132,
+    11.2473812,
+    0.968926191
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3086
+   ]
+  },
+  {
+   "mesh": 933
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3088
+   ]
+  },
+  {
+   "name": "~ AC IN",
+   "translation": [
+    1.37015057,
+    11.2473812,
+    0.969986379
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3089
+   ]
+  },
+  {
+   "mesh": 935
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3091
+   ]
+  },
+  {
+   "mesh": 934
+  },
+  {
+   "name": "Made by Arthur F",
+   "translation": [
+    10.0349588,
+    11.2037401,
+    1.25653493
+   ],
+   "rotation": [
+    0,
+    1,
+    -2.72611036e-17,
+    0
+   ],
+   "scale": [
+    0.790400028,
+    1,
+    1
+   ],
+   "children": [
+    3092,
+    3093
+   ]
+  },
+  {
+   "mesh": 936
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3095
+   ]
+  },
+  {
+   "name": "AV MULTI OUT",
+   "translation": [
+    3.55764318,
+    11.2473812,
+    0.967469096
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3096
+   ]
+  },
+  {
+   "mesh": 937
+  },
+  {
+   "name": "SONY#2",
+   "translation": [
+    0.503800392,
+    0.000984251965,
+    1.65874529
+   ],
+   "rotation": [
+    0.7071067811865488,
+    -1.003663207428314e-17,
+    -1.0036631361530357e-17,
+    0.7071067811865462
+   ],
+   "scale": [
+    1.25999999,
+    1,
+    1
+   ],
+   "children": [
+    3098
+   ]
+  },
+  {
+   "mesh": 938
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3100
+   ]
+  },
+  {
+   "name": "(OPTICAL)",
+   "translation": [
+    4.68524313,
+    11.2473812,
+    0.391655743
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3101
+   ]
+  },
+  {
+   "mesh": 939
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3103
+   ]
+  },
+  {
+   "name": "LAN",
+   "translation": [
+    6.66202784,
+    11.2473812,
+    0.96658051
+   ],
+   "rotation": [
+    3.250656444197783e-17,
+    0.7071067811865483,
+    0.7071067811865467,
+    3.2506564441977754e-17
+   ],
+   "children": [
+    3104
+   ]
+  },
+  {
+   "mesh": 940
+  },
+  {
+   "name": "7330",
+   "translation": [
+    8.28068542,
+    0.861648917,
+    1.9081341
+   ],
+   "rotation": [
+    0.598691672226159,
+    5.646480191430449e-05,
+    0.00011376886135154216,
+    0.8009795662034193
+   ],
+   "scale": [
+    0.45499999767978194,
+    0.38083501246329277,
+    0.08249999813256943
+   ],
+   "children": [
+    3106
+   ]
+  },
+  {
+   "mesh": 941
+  },
+  {
+   "name": "17876",
+   "translation": [
+    1.57792318,
+    0.825977743,
+    0
+   ],
+   "children": [
+    3084,
+    3087,
+    3090,
+    3094,
+    3097,
+    3099,
+    3102,
+    3105,
+    3107,
+    3108
+   ]
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    3109
+   ]
+  },
+  {
+   "name": "PlayStation 3",
+   "extras": {
+    "omschrijving": "Sony PlayStation 3 Slim, 29 x 6,5 x 29 cm. Model: \"PS3 Slim\" door ratster, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PlayStation 3 (model door ratster)",
+     "artikel": "d5320376cdf0f7ff4e07b09c086cc5c4",
+     "url": "https://3dwarehouse.sketchup.com/model/d5320376cdf0f7ff4e07b09c086cc5c4/PS3-Slim"
+    }
+   },
+   "children": [
+    3110
+   ],
+   "matrix": [
+    0.9999999874758864,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9913593159701487,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9999137932742584,
+    0.0,
+    2.571020752203334,
+    1.096,
+    -2.6330219741784218,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 3 spel 1",
+   "mesh": 1551,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9191,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 3 spel 2",
+   "mesh": 1551,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9330999999999996,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 3 spel 3",
+   "mesh": 1551,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9471,
+    1.096,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen PlayStation 3 (wandkast)",
+   "children": [
+    3112,
+    3113,
+    3114
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 944
+  },
+  {
+   "name": "Component#101",
+   "translation": [
+    0,
+    0.004222066607326269,
+    0.8087915182113647
+   ],
+   "rotation": [
+    -2.824797801360459e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.859999895095825,
+    2.859999895095825,
+    2.859999895095825
+   ],
+   "children": [
+    3116
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 945
+  },
+  {
+   "name": "Geom3D_Component#89",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 946
+  },
+  {
+   "name": "Component#89",
+   "translation": [
+    -0.3645719885826111,
+    0.13855300843715668,
+    0.22799555957317352
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3119
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 947
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 948
+  },
+  {
+   "name": "Component#98",
+   "translation": [
+    2.09194016456604,
+    1.0137447118759155,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3121,
+    3122
+   ]
+  },
+  {
+   "name": "Component#99",
+   "translation": [
+    1.745957374572754,
+    -9.947598300641403e-14,
+    0.8065755367279053
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3118,
+    3120,
+    3123
+   ]
+  },
+  {
+   "name": "Geom3D_Component#88",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 949
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 950
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 951
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 952
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 953
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 954
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 955
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 956
+  },
+  {
+   "name": "Component#88",
+   "translation": [
+    26.608137130737305,
+    1.331945538520813,
+    10.70089340209961
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3125,
+    3126,
+    3127,
+    3128,
+    3129,
+    3130,
+    3131,
+    3132
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 957
+  },
+  {
+   "name": "Geom3D_Component#90",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 958
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 959
+  },
+  {
+   "name": "Component#90",
+   "translation": [
+    8.832491874694824,
+    0.016262967139482498,
+    0.4442159831523895
+   ],
+   "rotation": [
+    0.5090643167495728,
+    0.5090643167495728,
+    0.49076828360557556,
+    -0.49076828360557556
+   ],
+   "scale": [
+    -0.4755244851112366,
+    -0.4755244851112366,
+    -0.4755244851112366
+   ],
+   "children": [
+    3135,
+    3136
+   ]
+  },
+  {
+   "name": "Geom3D_Component#90",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 960
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 961
+  },
+  {
+   "name": "Component#90_1",
+   "translation": [
+    0.8827642798423767,
+    0.016262967139482498,
+    0.4442159831523895
+   ],
+   "rotation": [
+    0.5090643167495728,
+    0.5090643167495728,
+    0.49076828360557556,
+    -0.49076828360557556
+   ],
+   "scale": [
+    -0.4755244851112366,
+    -0.4755244851112366,
+    -0.4755244851112366
+   ],
+   "children": [
+    3138,
+    3139
+   ]
+  },
+  {
+   "name": "Geom3D_Component#90",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 962
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 963
+  },
+  {
+   "name": "Component#90_1",
+   "translation": [
+    8.832491874694824,
+    0.016262967139482498,
+    10.396862030029297
+   ],
+   "rotation": [
+    0.5090643167495728,
+    0.5090643167495728,
+    0.49076828360557556,
+    -0.49076828360557556
+   ],
+   "scale": [
+    -0.4755244851112366,
+    -0.4755244851112366,
+    -0.4755244851112366
+   ],
+   "children": [
+    3141,
+    3142
+   ]
+  },
+  {
+   "name": "Geom3D_Component#90",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 964
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 965
+  },
+  {
+   "name": "Component#90_1",
+   "translation": [
+    0.8827642798423767,
+    0.016262967139482498,
+    10.396862030029297
+   ],
+   "rotation": [
+    0.5090643167495728,
+    0.5090643167495728,
+    0.49076828360557556,
+    -0.49076828360557556
+   ],
+   "scale": [
+    -0.4755244851112366,
+    -0.4755244851112366,
+    -0.4755244851112366
+   ],
+   "children": [
+    3144,
+    3145
+   ]
+  },
+  {
+   "name": "Component#100",
+   "translation": [
+    1.7684770822525024,
+    8.449104309082031,
+    0.8091644048690796
+   ],
+   "rotation": [
+    0,
+    1,
+    -1.4118817884901616e-28,
+    0
+   ],
+   "scale": [
+    -2.859999895095825,
+    -2.859999895095825,
+    -2.859999895095825
+   ],
+   "children": [
+    3134,
+    3137,
+    3140,
+    3143,
+    3146
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 966
+  },
+  {
+   "name": "Geom3D_Component#102",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 967
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 968
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 969
+  },
+  {
+   "name": "Geom3D_Component#92",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 970
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 971
+  },
+  {
+   "name": "Component#92",
+   "translation": [
+    0.4386019706726074,
+    0.9413435459136963,
+    3.311811923980713
+   ],
+   "rotation": [
+    -3.5252222172261705e-31,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3150,
+    3151,
+    3152,
+    3153
+   ]
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 972
+  },
+  {
+   "name": "Component#91",
+   "translation": [
+    0.4989379346370697,
+    1.390671968460083,
+    3.7611403465270996
+   ],
+   "rotation": [
+    -3.5252222172261705e-31,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3155
+   ]
+  },
+  {
+   "name": "Component#102",
+   "translation": [
+    0,
+    0.004222066607326269,
+    0.8087915182113647
+   ],
+   "rotation": [
+    -3.4478186766362473e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.859999895095825,
+    2.859999895095825,
+    2.859999895095825
+   ],
+   "children": [
+    3148,
+    3149,
+    3154,
+    3156
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 973
+  },
+  {
+   "name": "Component#97",
+   "translation": [
+    1.6687326431274414,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3158
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 974
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.1313157081604004,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3160
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 975
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.400024175643921,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3162
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 976
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.494120597839355,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3164
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 977
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.220437049865723,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3166
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 978
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.245382308959961,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3168
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 979
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.4199939966201782,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3170
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 980
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.001618385314941,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3172
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 981
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.4449385702610016,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3174
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 982
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.892526626586914,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3176
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 983
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.9374410510063171,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3178
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 984
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.6238181591033936,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3180
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 985
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.1762301921844482,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3182
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 986
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.071476936340332,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3184
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 987
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.295270919799805,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3186
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 988
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.867582082748413,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3188
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 989
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.9124964475631714,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3190
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 990
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.469176292419434,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3192
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 991
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.737884521484375,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3194
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 992
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.519064903259277,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3196
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 993
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.340185642242432,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3198
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 994
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.315240859985352,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3200
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 995
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.6487627029418945,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3202
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 996
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.026562690734863,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3204
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 997
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.832687854766846,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3206
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 998
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.544009685516357,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3208
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 999
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.6936771869659424,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3210
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1000
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.588923931121826,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3212
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1001
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.096421718597412,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3214
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1002
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.270326614379883,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3216
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1003
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.051507472991943,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3218
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1004
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.563979625701904,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3220
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1005
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.787773609161377,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3222
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1006
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.807743549346924,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3224
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1007
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.712940216064453,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3226
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1008
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.976673126220703,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3228
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1009
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.762828826904297,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3230
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1010
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.37507963180542,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3232
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1011
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.1562602519989014,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3234
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1012
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.469176292419434,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3236
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1013
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.737884521484375,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3238
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1014
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.1562602519989014,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3240
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1015
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.6238181591033936,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3242
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1016
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.494120597839355,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3244
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1017
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.220437049865723,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3246
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1018
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.001618385314941,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3248
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1019
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.1762301921844482,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3250
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1020
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.4199939966201782,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3252
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1021
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.892526626586914,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3254
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1022
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.37507963180542,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3256
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1023
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.071476936340332,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3258
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1024
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.295270919799805,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3260
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1025
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.4449385702610016,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3262
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1026
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.6936771869659424,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3264
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1027
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.9124964475631714,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3266
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1028
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.6487627029418945,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3268
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1029
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.867582082748413,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3270
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1030
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.315240859985352,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3272
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1031
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.096421718597412,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3274
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1032
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.270326614379883,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3276
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1033
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.20117472112178802,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3278
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1034
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.787773609161377,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3280
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1035
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.051507472991943,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3282
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1036
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.9374410510063171,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3284
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1037
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.6687326431274414,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3286
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1038
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.807743549346924,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3288
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1039
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.026562690734863,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3290
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1040
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.832687854766846,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3292
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1041
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.762828826904297,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3294
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1042
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.563979625701904,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3296
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1043
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.976673126220703,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3298
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1044
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.245382308959961,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3300
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1045
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.1313157081604004,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3302
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1046
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.400024175643921,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3304
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1047
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.588923931121826,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3306
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1048
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.519064903259277,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3308
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1049
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.340185642242432,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3310
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1050
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.544009685516357,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3312
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1051
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.712940216064453,
+    2.7015883922576904,
+    10.82534122467041
+   ],
+   "rotation": [
+    0,
+    1,
+    1.4246637040485736e-28,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3314
+   ]
+  },
+  {
+   "name": "Geom3D_Component#95",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1052
+  },
+  {
+   "name": "Component#95",
+   "translation": [
+    0.26908203959465027,
+    0.2511674761772156,
+    10.925196647644043
+   ],
+   "rotation": [
+    -1.4439309479534665e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3316
+   ]
+  },
+  {
+   "name": "Geom3D_Component#96",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1053
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1054
+  },
+  {
+   "name": "Component#96",
+   "translation": [
+    0,
+    7.105427357601002e-15,
+    10.783464431762695
+   ],
+   "rotation": [
+    -1.4439309479534665e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3318,
+    3319
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1055
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.20117472112178802,
+    0.2511674761772156,
+    10.82534122467041
+   ],
+   "rotation": [
+    -1.4246637040485736e-28,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3321
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1056
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.976673126220703,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4248814545029109e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.36224740743637085,
+    1
+   ],
+   "children": [
+    3323
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1057
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.026562690734863,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3325
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1058
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.892526626586914,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3327
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1059
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.6487627029418945,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3329
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1060
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.001618385314941,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3331
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1061
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.400024175643921,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3333
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1062
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.1762301921844482,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3335
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1063
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.37507963180542,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3337
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1064
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.832687854766846,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3339
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1065
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.071476936340332,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3341
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1066
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.1562602519989014,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3343
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1067
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.544009685516357,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3345
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1068
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.340185642242432,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3347
+   ]
+  },
+  {
+   "name": "Geom3D_Component#96",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1069
+  },
+  {
+   "name": "Geom3D",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1070
+  },
+  {
+   "name": "Component#96_1",
+   "translation": [
+    0,
+    0,
+    0.17389866709709167
+   ],
+   "rotation": [
+    0,
+    -1.4439309479534665e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -0.3496503531932831,
+    -0.3496503531932831,
+    -0.3496503531932831
+   ],
+   "children": [
+    3349,
+    3350
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1071
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.892526626586914,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3352
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1072
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.9124964475631714,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3354
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1073
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.315240859985352,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3356
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1074
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.096421718597412,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3358
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1075
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.867582082748413,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3360
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1076
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.270326614379883,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3362
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1077
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.519064903259277,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3364
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1078
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.295270919799805,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3366
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1079
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.762828826904297,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3368
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1080
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.762828826904297,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3370
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1081
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.6687326431274414,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3372
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1082
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.563979625701904,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3374
+   ]
+  },
+  {
+   "name": "Geom3D_Component#95",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1083
+  },
+  {
+   "name": "Component#95_1",
+   "translation": [
+    0.26908203959465027,
+    0.2511674761772156,
+    0.03216639161109924
+   ],
+   "rotation": [
+    0,
+    -1.4439309479534665e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -0.3496503531932831,
+    -0.3496503531932831,
+    -0.3496503531932831
+   ],
+   "children": [
+    3376
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1084
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.340185642242432,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3378
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1085
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.096421718597412,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3380
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1086
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.071476936340332,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3382
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1087
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.37507963180542,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3384
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1088
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.001618385314941,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3386
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1089
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.4199939966201782,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3388
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1090
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.026562690734863,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3390
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1091
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.6238181591033936,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3392
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1092
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.6687326431274414,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3394
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1093
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.245382308959961,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3396
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1094
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.6487627029418945,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3398
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1095
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.787773609161377,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3400
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1096
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.315240859985352,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3402
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1097
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.4199939966201782,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3404
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1098
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.051507472991943,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3406
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1099
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.295270919799805,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3408
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1100
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.737884521484375,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.424618083583016e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.36773601174354553,
+    -1
+   ],
+   "children": [
+    3410
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1101
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.9374410510063171,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3412
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1102
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.563979625701904,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3414
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1103
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.051507472991943,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3416
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1104
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.1762301921844482,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3418
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1105
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.494120597839355,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.424618083583016e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.36773601174354553,
+    -1
+   ],
+   "children": [
+    3420
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1106
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    1.9124964475631714,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3422
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1107
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.807743549346924,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3424
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1108
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.519064903259277,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3426
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1109
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.737884521484375,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4248814545029109e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.36224740743637085,
+    1
+   ],
+   "children": [
+    3428
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1110
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.494120597839355,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4248814545029109e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.36224740743637085,
+    1
+   ],
+   "children": [
+    3430
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1111
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.1562602519989014,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3432
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1112
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.1313157081604004,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3434
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1113
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    2.400024175643921,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3436
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1114
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.787773609161377,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3438
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1115
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.245382308959961,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3440
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1116
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.588923931121826,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3442
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1117
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    6.544009685516357,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3444
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1118
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.588923931121826,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3446
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1119
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    4.832687854766846,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3448
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1120
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.9374410510063171,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3450
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1121
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    8.976673126220703,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.424618083583016e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.36773601174354553,
+    -1
+   ],
+   "children": [
+    3452
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1122
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.1313157081604004,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3454
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1123
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.6238181591033936,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3456
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1124
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    7.270326614379883,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3458
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1125
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    3.867582082748413,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3460
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1126
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    5.807743549346924,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3462
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1127
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.6936771869659424,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3464
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1128
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    0.6936771869659424,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3466
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1129
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.220437049865723,
+    2.7015883922576904,
+    0.13202248513698578
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -1.4246637040485736e-28
+   ],
+   "scale": [
+    2.1354708671569824,
+    0.548859715461731,
+    1
+   ],
+   "children": [
+    3468
+   ]
+  },
+  {
+   "name": "Geom3D_Component#97",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1130
+  },
+  {
+   "name": "Component#97_1",
+   "translation": [
+    9.220437049865723,
+    0.2511674761772156,
+    0.13202248513698578
+   ],
+   "rotation": [
+    0,
+    -1.4246637040485736e-28,
+    1,
+    0
+   ],
+   "scale": [
+    -2.1354708671569824,
+    -0.548859715461731,
+    -1
+   ],
+   "children": [
+    3470
+   ]
+  },
+  {
+   "name": "Geom3D_Component#94",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1131
+  },
+  {
+   "name": "Component#94",
+   "translation": [
+    9.54613208770752,
+    0.3246800899505615,
+    -0.17707319557666779
+   ],
+   "rotation": [
+    -3.525222040902018e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3472
+   ]
+  },
+  {
+   "name": "Geom3D_Component#94",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1132
+  },
+  {
+   "name": "Component#94_1",
+   "translation": [
+    0.8173900842666626,
+    0.3286920189857483,
+    -0.17707319557666779
+   ],
+   "rotation": [
+    1,
+    0,
+    0,
+    -3.525222040902018e-32
+   ],
+   "scale": [
+    -0.3496503531932831,
+    -0.3496503531932831,
+    -0.3496503531932831
+   ],
+   "children": [
+    3474
+   ]
+  },
+  {
+   "name": "Geom3D_Component#93",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1133
+  },
+  {
+   "name": "Component#93",
+   "translation": [
+    8.614141464233398,
+    1.1001712083816528,
+    -0.062321797013282776
+   ],
+   "rotation": [
+    -3.525222040902018e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3476
+   ]
+  },
+  {
+   "name": "Geom3D_Component#93",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1134
+  },
+  {
+   "name": "Component#93_1",
+   "translation": [
+    8.857795715332031,
+    1.1001712083816528,
+    -0.062321797013282776
+   ],
+   "rotation": [
+    -3.525222040902018e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3478
+   ]
+  },
+  {
+   "name": "Geom3D_Component#93",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "mesh": 1135
+  },
+  {
+   "name": "Component#93_1",
+   "translation": [
+    9.094566345214844,
+    1.1001712083816528,
+    -0.062321797013282776
+   ],
+   "rotation": [
+    -3.525222040902018e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.3496503531932831,
+    0.3496503531932831,
+    0.3496503531932831
+   ],
+   "children": [
+    3480
+   ]
+  },
+  {
+   "translation": [
+    0.0006648616399616003,
+    0.004222066607326269,
+    0.347137987613678
+   ],
+   "rotation": [
+    -3.4478186766362473e-32,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    2.859999895095825,
+    2.859999895095825,
+    2.859999895095825
+   ],
+   "children": [
+    3159,
+    3161,
+    3163,
+    3165,
+    3167,
+    3169,
+    3171,
+    3173,
+    3175,
+    3177,
+    3179,
+    3181,
+    3183,
+    3185,
+    3187,
+    3189,
+    3191,
+    3193,
+    3195,
+    3197,
+    3199,
+    3201,
+    3203,
+    3205,
+    3207,
+    3209,
+    3211,
+    3213,
+    3215,
+    3217,
+    3219,
+    3221,
+    3223,
+    3225,
+    3227,
+    3229,
+    3231,
+    3233,
+    3235,
+    3237,
+    3239,
+    3241,
+    3243,
+    3245,
+    3247,
+    3249,
+    3251,
+    3253,
+    3255,
+    3257,
+    3259,
+    3261,
+    3263,
+    3265,
+    3267,
+    3269,
+    3271,
+    3273,
+    3275,
+    3277,
+    3279,
+    3281,
+    3283,
+    3285,
+    3287,
+    3289,
+    3291,
+    3293,
+    3295,
+    3297,
+    3299,
+    3301,
+    3303,
+    3305,
+    3307,
+    3309,
+    3311,
+    3313,
+    3315,
+    3317,
+    3320,
+    3322,
+    3324,
+    3326,
+    3328,
+    3330,
+    3332,
+    3334,
+    3336,
+    3338,
+    3340,
+    3342,
+    3344,
+    3346,
+    3348,
+    3351,
+    3353,
+    3355,
+    3357,
+    3359,
+    3361,
+    3363,
+    3365,
+    3367,
+    3369,
+    3371,
+    3373,
+    3375,
+    3377,
+    3379,
+    3381,
+    3383,
+    3385,
+    3387,
+    3389,
+    3391,
+    3393,
+    3395,
+    3397,
+    3399,
+    3401,
+    3403,
+    3405,
+    3407,
+    3409,
+    3411,
+    3413,
+    3415,
+    3417,
+    3419,
+    3421,
+    3423,
+    3425,
+    3427,
+    3429,
+    3431,
+    3433,
+    3435,
+    3437,
+    3439,
+    3441,
+    3443,
+    3445,
+    3447,
+    3449,
+    3451,
+    3453,
+    3455,
+    3457,
+    3459,
+    3461,
+    3463,
+    3465,
+    3467,
+    3469,
+    3471,
+    3473,
+    3475,
+    3477,
+    3479,
+    3481
+   ]
+  },
+  {
+   "name": "Component#103",
+   "translation": [
+    -0.00023246910132002085,
+    -0.7234491109848022,
+    1.0919429063796997
+   ],
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "children": [
+    3117,
+    3124,
+    3133,
+    3147,
+    3157,
+    3482
+   ]
+  },
+  {
+   "name": "Xbox 360 Slim (white)",
+   "translation": [
+    184.19187927246094,
+    109.80409240722656,
+    31.944721221923828
+   ],
+   "rotation": [
+    0.7071067690849304,
+    0,
+    0,
+    -0.7071067690849304
+   ],
+   "scale": [
+    0.3313125669956207,
+    0.3313125669956207,
+    0.3313125669956207
+   ],
+   "children": [
+    3483
+   ]
+  },
+  {
+   "name": "Assembly-179",
+   "rotation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "scale": [
+    0.02539999969303608,
+    0.02539999969303608,
+    0.02539999969303608
+   ],
+   "children": [
+    3484
+   ]
+  },
+  {
+   "rotation": [
+    -0.7071067811706742,
+    0,
+    0,
+    0.7071067812024209
+   ],
+   "children": [
+    3485
+   ]
+  },
+  {
+   "name": "Xbox 360",
+   "extras": {
+    "omschrijving": "Xbox 360 S (wit), 27 x 7,5 x 26,4 cm. Model: \"Xbox 360 Slim\" door sk8ter25, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox 360 (model door sk8ter25)",
+     "artikel": "bd407ac4da448a2f374950087f84dbbb",
+     "url": "https://3dwarehouse.sketchup.com/model/bd407ac4da448a2f374950087f84dbbb/Xbox-360-Slim"
+    }
+   },
+   "children": [
+    3486
+   ],
+   "matrix": [
+    2.3343984761198633e-16,
+    0.0,
+    -1.051319610718767,
+    0.0,
+    0.0,
+    1.0444283757534805,
+    0.0,
+    0.0,
+    0.9966651207760362,
+    0.0,
+    2.2130411298527357e-16,
+    0.0,
+    3.2604452605989285,
+    0.6372004474077408,
+    2.264569068137675,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox 360 spel 1",
+   "mesh": 1552,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.49190000012230484,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox 360 spel 2",
+   "mesh": 1552,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5079000001223049,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Xbox 360 spel 3",
+   "mesh": 1552,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.5239000001223049,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Xbox 360 (wandkast)",
+   "children": [
+    3488,
+    3489,
+    3490
+   ]
+  },
+  {
+   "mesh": 942
+  },
+  {
+   "name": "10043",
+   "translation": [
+    89.3312607,
+    72.9682999,
+    0
+   ],
+   "scale": [
+    0.00999999978,
+    0.00999999978,
+    0.00999999978
+   ],
+   "children": [
+    3492
+   ]
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    3493
+   ]
+  },
+  {
+   "name": "PlayStation 4",
+   "extras": {
+    "omschrijving": "Sony PlayStation 4 Slim, 26,5 x 3,9 x 28,8 cm. Model: \"playstation 4\" door domenico D., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PlayStation 4 (model door domenico D.)",
+     "artikel": "19a9f8cf-5a89-4d83-8f69-dada82e85f2e",
+     "url": "https://3dwarehouse.sketchup.com/model/19a9f8cf-5a89-4d83-8f69-dada82e85f2e/playstation-4"
+    }
+   },
+   "children": [
+    3494
+   ],
+   "matrix": [
+    0.9137931212666316,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.7090909401480944,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.8181818396031517,
+    0.0,
+    0.5501906193289883,
+    1.4159999999999997,
+    -1.1375860366500312,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 4 spel 1",
+   "mesh": 1553,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9065999999999996,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 4 spel 2",
+   "mesh": 1553,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9205999999999994,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "PlayStation 4 spel 3",
+   "mesh": 1553,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9345999999999997,
+    1.416,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen PlayStation 4 (wandkast)",
+   "children": [
+    3496,
+    3497,
+    3498
+   ]
+  },
+  {
+   "mesh": 943
+  },
+  {
+   "name": "skp1644",
+   "translation": [
+    -0.0163264237,
+    1.68593442,
+    0
+   ],
+   "children": [
+    3500
+   ]
+  },
+  {
+   "name": "Root Node",
+   "rotation": [
+    -0.7071067811865475,
+    0,
+    0,
+    0.7071067811865476
+   ],
+   "scale": [
+    0.0253999997,
+    0.0253999997,
+    0.0253999997
+   ],
+   "children": [
+    3501
+   ]
+  },
+  {
+   "name": "Wii U",
+   "extras": {
+    "omschrijving": "Nintendo Wii U (wit), 17,2 x 4,6 x 26,9 cm. Model: \"wii u console\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Wii U (model door Modelfundgrube)",
+     "artikel": "339b1480-4439-4406-bf05-598e867c366c",
+     "url": "https://3dwarehouse.sketchup.com/model/339b1480-4439-4406-bf05-598e867c366c/wii-u-console"
+    }
+   },
+   "children": [
+    3502
+   ],
+   "matrix": [
+    -2.11585429689767e-16,
+    0.0,
+    0.952896062307861,
+    0.0,
+    0.0,
+    0.9608848700678834,
+    0.0,
+    0.0,
+    -0.9661059801373033,
+    0.0,
+    -2.1451862067529766e-16,
+    0.0,
+    0.29652870082649185,
+    1.759,
+    -2.787854842429343,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii U spel 1",
+   "mesh": 1554,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.44289999999999985,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii U spel 2",
+   "mesh": 1554,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.45889999999999986,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Wii U spel 3",
+   "mesh": 1554,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.4748999999999999,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Wii U (wandkast)",
+   "children": [
+    3504,
+    3505,
+    3506
+   ]
+  },
+  {
+   "name": "Polyline"
+  },
+  {
+   "name": "Polyline"
+  },
+  {
+   "name": "Polyline"
+  },
+  {
+   "name": "Polyline"
+  },
+  {
+   "name": "Polyline"
+  },
+  {
+   "name": "Component",
+   "matrix": [
+    2.991809e-13,
+    -1,
+    0,
+    0,
+    1,
+    2.991809e-13,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    188.531952,
+    -791.027588,
+    -42.9921265,
+    1
+   ],
+   "children": [
+    3508,
+    3509,
+    3510,
+    3511,
+    3512
+   ]
+  },
+  {
+   "mesh": 1414
+  },
+  {
+   "name": "Component#2",
+   "matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    38.4205093,
+    8.8817842e-16,
+    0,
+    1
+   ],
+   "children": [
+    3514
+   ]
+  },
+  {
+   "mesh": 1416
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3516
+   ]
+  },
+  {
+   "mesh": 1415
+  },
+  {
+   "name": "Component#15",
+   "matrix": [
+    0.881300509,
+    -0.182508573,
+    2.77555756e-16,
+    0,
+    0.202451035,
+    0.977599084,
+    -0.0575640276,
+    0,
+    0.00940656476,
+    0.0454225838,
+    0.804485857,
+    0,
+    -1.79050779,
+    10.971426,
+    1.50733292,
+    1
+   ],
+   "children": [
+    3517,
+    3518
+   ]
+  },
+  {
+   "mesh": 1417
+  },
+  {
+   "name": "Component#16",
+   "matrix": [
+    0.990983188,
+    0,
+    0.13398619,
+    0,
+    0,
+    0.872337341,
+    0,
+    0,
+    -0.107256696,
+    0,
+    0.793287635,
+    0,
+    2.68581581,
+    6.55850267,
+    1.13686838e-13,
+    1
+   ],
+   "children": [
+    3520
+   ]
+  },
+  {
+   "mesh": 1419
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3522
+   ]
+  },
+  {
+   "mesh": 1420
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3524
+   ]
+  },
+  {
+   "mesh": 1421
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3526
+   ]
+  },
+  {
+   "mesh": 1422
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3528
+   ]
+  },
+  {
+   "mesh": 1423
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3530
+   ]
+  },
+  {
+   "mesh": 1418
+  },
+  {
+   "name": "Component#8",
+   "matrix": [
+    0.564199984,
+    0,
+    0,
+    0,
+    0,
+    0.564199984,
+    0,
+    0,
+    -1.11022302e-16,
+    0,
+    0.564199984,
+    0,
+    70.0328445,
+    7.63047171,
+    16.7745075,
+    1
+   ],
+   "children": [
+    3523,
+    3525,
+    3527,
+    3529,
+    3531,
+    3532
+   ]
+  },
+  {
+   "mesh": 1424
+  },
+  {
+   "name": "Component#12",
+   "matrix": [
+    0.110976003,
+    0,
+    0,
+    0,
+    0,
+    0.110976003,
+    0,
+    0,
+    0,
+    0,
+    0.110976003,
+    0,
+    29.3999138,
+    10.6132736,
+    6.64526415,
+    1
+   ],
+   "children": [
+    3534
+   ]
+  },
+  {
+   "mesh": 1425
+  },
+  {
+   "name": "Component#9",
+   "matrix": [
+    0.564199984,
+    0,
+    1.38777878e-16,
+    0,
+    0,
+    0.564199984,
+    0,
+    0,
+    -1.38777878e-16,
+    0,
+    0.564199984,
+    0,
+    0.126584977,
+    2.27373675e-13,
+    5.20840836,
+    1
+   ],
+   "children": [
+    3536
+   ]
+  },
+  {
+   "mesh": 1426
+  },
+  {
+   "name": "Component#11",
+   "matrix": [
+    0.791000009,
+    0,
+    1.11022302e-16,
+    0,
+    0,
+    0.791000009,
+    0,
+    0,
+    -1.11022302e-16,
+    0,
+    1.28933001,
+    0,
+    31.1265602,
+    12.1676102,
+    22.5899124,
+    1
+   ],
+   "children": [
+    3538
+   ]
+  },
+  {
+   "mesh": 1427
+  },
+  {
+   "name": "Component#19",
+   "matrix": [
+    0.379456133,
+    0,
+    -0.925209701,
+    0,
+    -1.38987349e-31,
+    1,
+    -5.70028655e-32,
+    0,
+    0.925209701,
+    1.50222536e-31,
+    0.379456133,
+    0,
+    22.6015511,
+    -2.27373675e-13,
+    141.061066,
+    1
+   ],
+   "children": [
+    3519,
+    3521,
+    3533,
+    3535,
+    3537,
+    3539,
+    3540
+   ]
+  },
+  {
+   "mesh": 1428
+  },
+  {
+   "name": "GAME CARD",
+   "matrix": [
+    -0.208040759,
+    0.00237294566,
+    1.41163123e-16,
+    0,
+    -0.00237294566,
+    -0.208040759,
+    1.52655666e-16,
+    0,
+    7.81935977e-16,
+    1.11022302e-15,
+    1.07735407,
+    0,
+    31.0463238,
+    7.5657444,
+    165.553299,
+    1
+   ],
+   "children": [
+    3542
+   ]
+  },
+  {
+   "mesh": 1430
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3544
+   ]
+  },
+  {
+   "mesh": 1431
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3546
+   ]
+  },
+  {
+   "mesh": 1432
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3548
+   ]
+  },
+  {
+   "mesh": 1429
+  },
+  {
+   "name": "Component#30",
+   "matrix": [
+    5.64224665e-13,
+    -0.910000026,
+    -1.37560406e-12,
+    0,
+    0.84194088,
+    4.47670578e-17,
+    0.345305085,
+    0,
+    -0.352211177,
+    -1.51655717e-12,
+    0.858779669,
+    0,
+    85.5363541,
+    306.350189,
+    0.114353463,
+    1
+   ],
+   "children": [
+    3543,
+    3545,
+    3547,
+    3549,
+    3550
+   ]
+  },
+  {
+   "mesh": 1433
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3552
+   ]
+  },
+  {
+   "mesh": 1415
+  },
+  {
+   "name": "Component#15",
+   "matrix": [
+    0.881300509,
+    0.182508573,
+    -1.53848976e-18,
+    0,
+    0.202451035,
+    -0.977599084,
+    -0.0575640276,
+    0,
+    0.00940656476,
+    -0.0454225838,
+    0.804485857,
+    0,
+    -3.06815934,
+    30.4804173,
+    1.50733292,
+    1
+   ],
+   "children": [
+    3553,
+    3554
+   ]
+  },
+  {
+   "mesh": 1417
+  },
+  {
+   "name": "Component#16",
+   "matrix": [
+    0.990983188,
+    0,
+    0.13398619,
+    0,
+    0,
+    -0.872337341,
+    0,
+    0,
+    -0.107256696,
+    0,
+    0.793287635,
+    0,
+    1.40816426,
+    34.8933411,
+    -2.27373675e-13,
+    1
+   ],
+   "children": [
+    3556
+   ]
+  },
+  {
+   "name": "Component#18",
+   "matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3.15265155,
+    0.897402167,
+    0,
+    1
+   ],
+   "children": [
+    3555,
+    3557
+   ]
+  },
+  {
+   "mesh": 1424
+  },
+  {
+   "name": "Component#12",
+   "matrix": [
+    -0.110976003,
+    -2.08166817e-17,
+    0,
+    0,
+    2.08166817e-17,
+    -0.110976003,
+    0,
+    0,
+    0,
+    0,
+    0.110976003,
+    0,
+    100.297409,
+    31.3491306,
+    6.9205761,
+    1
+   ],
+   "children": [
+    3559
+   ]
+  },
+  {
+   "mesh": 1434
+  },
+  {
+   "name": "Component#13",
+   "matrix": [
+    -0.564199984,
+    2.77555756e-17,
+    -1.38777878e-16,
+    0,
+    -2.77555756e-17,
+    -0.564199984,
+    -1.54074396e-33,
+    0,
+    -1.38777878e-16,
+    1.10685237e-33,
+    0.564199984,
+    0,
+    155.97023,
+    42.147438,
+    5.20840836,
+    1
+   ],
+   "children": [
+    3561
+   ]
+  },
+  {
+   "mesh": 1426
+  },
+  {
+   "name": "Component#11",
+   "matrix": [
+    -0.791000009,
+    -7.2858386e-17,
+    0,
+    0,
+    7.2858386e-17,
+    -0.791000009,
+    -9.24446373e-33,
+    0,
+    -1.11022302e-16,
+    0,
+    1.28933001,
+    0,
+    98.845253,
+    29.9798279,
+    22.5899124,
+    1
+   ],
+   "children": [
+    3563
+   ]
+  },
+  {
+   "mesh": 1436
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3565
+   ]
+  },
+  {
+   "mesh": 1437
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3567
+   ]
+  },
+  {
+   "mesh": 1438
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3569
+   ]
+  },
+  {
+   "mesh": 1439
+  },
+  {
+   "name": "Polyline",
+   "children": [
+    3571
+   ]
+  },
+  {
+   "mesh": 1440
+  },
+  {
+   "name": "Edge",
+   "children": [
+    3573
+   ]
+  },
+  {
+   "mesh": 1435
+  },
+  {
+   "name": "Component#20",
+   "matrix": [
+    0.379456133,
+    0,
+    -0.925209701,
+    0,
+    -1.38987349e-31,
+    1,
+    -5.70028655e-32,
+    0,
+    0.925209701,
+    1.50222536e-31,
+    0.379456133,
+    0,
+    22.1746635,
+    305.473602,
+    142.101929,
+    1
+   ],
+   "children": [
+    3558,
+    3560,
+    3562,
+    3564,
+    3566,
+    3568,
+    3570,
+    3572,
+    3574,
+    3575
+   ]
+  },
+  {
+   "name": "447958",
+   "matrix": [
+    6.17561557e-16,
+    0.938493013,
+    -0.345298201,
+    0,
+    -1,
+    5.97547122e-16,
+    -1.6440212e-16,
+    0,
+    5.20417043e-17,
+    0.345298201,
+    0.938493013,
+    0,
+    347.621033,
+    -49.4035301,
+    64.6042099,
+    1
+   ],
+   "children": [
+    3541,
+    3551,
+    3576
+   ]
+  },
+  {
+   "name": "447959",
+   "matrix": [
+    0.0269280002,
+    0,
+    0,
+    0,
+    0,
+    0.0269280002,
+    0,
+    0,
+    0,
+    0,
+    0.0269280002,
+    0,
+    1.58680399e-15,
+    0,
+    0,
+    1
+   ],
+   "children": [
+    3515,
+    3577
+   ]
+  },
+  {
+   "name": "Nintendo Switch (model)",
+   "matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    -1.13053196e-13,
+    1.37687838,
+    0,
+    1
+   ],
+   "children": [
+    3578
+   ]
+  },
+  {
+   "name": "Root Node",
+   "matrix": [
+    0.0253999997,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.0253999997,
+    0,
+    0,
+    0.0253999997,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "children": [
+    3513,
+    3579
+   ]
+  },
+  {
+   "name": "Nintendo Switch",
+   "extras": {
+    "omschrijving": "Nintendo Switch (eerste model) in het dock, met Joy-Cons rood/blauw, 23.8 x 3.4 x 13.1 cm. Model: \"Nintendo Switch Docked\" door Jürgen T., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Nintendo Switch Docked (model door Jürgen T.)",
+     "artikel": "28409623-a26b-4803-b9d5-0f3980ef9a18",
+     "url": "https://3dwarehouse.sketchup.com/model/28409623-a26b-4803-b9d5-0f3980ef9a18"
+    }
+   },
+   "children": [
+    3580
+   ],
+   "matrix": [
+    1.0009977220548334,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0009977220548334,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0009977220548334,
+    0.0,
+    2.638600004792578,
+    1.736,
+    -2.618992396516542,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo Switch spel 1",
+   "mesh": 1555,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.8941,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo Switch spel 2",
+   "mesh": 1555,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9071,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Nintendo Switch spel 3",
+   "mesh": 1555,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.9200999999999997,
+    1.736,
+    -2.6540000000000004,
+    1.0
+   ]
+  },
+  {
+   "name": "Spellen Nintendo Switch (wandkast)",
+   "children": [
+    3582,
+    3583,
+    3584
+   ]
+  },
+  {
+   "name": "Wandkast",
+   "extras": {
+    "visible": false
+   },
+   "children": [
+    2836,
+    2837,
+    2838,
+    2843,
+    2847,
+    2848,
+    2852,
+    2856,
+    2860,
+    2863,
+    2867,
+    2884,
+    2888,
+    2892,
+    2896,
+    2905,
+    2909,
+    2966,
+    2970,
+    3025,
+    3029,
+    3039,
+    3043,
+    3077,
+    3081,
+    3111,
+    3115,
+    3487,
+    3491,
+    3495,
+    3499,
+    3503,
+    3507,
+    3581,
+    3585
+   ]
   }
  ],
  "scenes": [
@@ -136600,7 +148824,8 @@
     618,
     1839,
     1840,
-    1908
+    1908,
+    3586
    ]
   }
  ],

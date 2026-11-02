@@ -30,3 +30,10 @@
   - Speelplek voor de CRT is de poef (±1,3 m van de muur); vanaf de bank (±2,4 m) halen alleen PS2, SNES en Xbox het zonder verlengkabel. Atari en Mega Drive hebben altijd een DB9-verlengkabel nodig.
 - Mega Drive + Mega CD is de tweede versie: Mega Drive 2 (22 × 21 × 5,5 cm) op de koppelplaat met de Mega-CD 2 (25,2 × 21,5 × 6,3 cm) ernaast, samen 47,2 cm breed; zelf gemodelleerd omdat 3D Warehouse geen model van deze versies heeft.
 - De consoles staan als bron in de laag Kallax (in de vakken of op het blad); de kazen krijgen er een kopie van. Nieuwe consoles: 3D Warehouse-model (`glb`, zoeken via `https://3dwarehouse.sketchup.com/warehouse/v1.0/entities?q=...`), op ware grootte, voorkant naar +z, textures in `textures/`.
+
+## Wandkast (laag "Wandkast", alternatief voor de kazen)
+
+- Kast op maat over de hele tv-muur (x 0,056–3,093, tot 2,30 m; plafond 2,32), plaat 18 mm in de muurkleur (Ammonite), lades onderin (0,118–0,218 m) met walnoten fronten, plint 10 cm (5 cm terug).
+- 5 gelijke kolommen, vakken 58,6 cm breed: breed genoeg voor de breedste console met spellen (Mega Drive 2 + Mega-CD 2: 54,8 cm). Zijkolommen 36 cm diep, middendeel onder de LG 52 cm diep (Sony 48,5 cm).
+- Midden: Sony in het middelste vak op de lades, de LG in een open vak van 3 kolommen breed (plank onder op 0,758, boven op 1,718), daarboven 2 rijen vakken.
+- Consoles liggen plat, 2 cm achter de voorkant, met 3 spellen rechtop ernaast; indeling op kabellengte: naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger.
