@@ -53,6 +53,30 @@ for f in cap.data.polygons: f.select = f.normal.z < -0.9
 bpy.ops.object.mode_set(mode='EDIT'); bpy.ops.mesh.delete(type='FACE'); bpy.ops.object.mode_set(mode='OBJECT')
 cap_mat = bpy.data.materials.new('Trapgat'); cap_mat.diffuse_color = (0.6, 0.58, 0.55, 1); cap.data.materials.append(cap_mat)
 
+# --- screens: schermen/crt.* on the Sony, schermen/tv.* on the LG (local only, not in git: game screenshots are copyrighted)
+def screen(name, lo, hi, image, strength):
+    bpy.ops.mesh.primitive_plane_add(size=1, location=((lo.x + hi.x) / 2, lo.y - 0.0005, (lo.z + hi.z) / 2), rotation=(math.pi / 2, 0, 0))
+    p = bpy.context.object; p.name = name; p.scale = (hi.x - lo.x, hi.z - lo.z, 1)
+    m = bpy.data.materials.new(name); m.use_nodes = True; nt = m.node_tree; nt.nodes.clear()
+    tex = nt.nodes.new('ShaderNodeTexImage'); tex.image = bpy.data.images.load(str(image)); tex.interpolation = 'Closest'
+    em = nt.nodes.new('ShaderNodeEmission'); em.inputs['Strength'].default_value = strength
+    out = nt.nodes.new('ShaderNodeOutputMaterial')
+    nt.links.new(tex.outputs['Color'], em.inputs['Color']); nt.links.new(em.outputs['Emission'], out.inputs['Surface'])
+    p.data.materials.append(m)
+def world_box(objs, keep=lambda o, poly: True):
+    pts = [o.matrix_world @ o.data.vertices[v].co for o in objs if o.type == 'MESH' for poly in o.data.polygons if keep(o, poly) for v in poly.vertices]
+    return Vector([min(p[k] for p in pts) for k in range(3)]), Vector([max(p[k] for p in pts) for k in range(3)])
+shots = {k: next(iter(sorted((ROOT / 'schermen').glob(k + '.*'))), None) for k in ('crt', 'tv')}
+if shots['crt']:
+    for o in [o for o in bpy.data.objects if o.type == 'MESH' and not o.hide_render and 'Beeldbuis glas' in [m.name for m in o.data.materials if m]]:
+        slot = [m.name if m else '' for m in o.data.materials].index('Beeldbuis glas')
+        screen('CRT beeld', *world_box([o], lambda o, poly: poly.material_index == slot), shots['crt'], 2.0)
+if shots['tv']:
+    for o in [o for o in bpy.data.objects if o.get('tvmaat') and not o.hide_render]:
+        lo, hi = world_box([o, *o.children_recursive])
+        c, w = (lo + hi) / 2, (hi.x - lo.x) * 0.985                # active area: nearly the whole OLED front, 16:9
+        screen('Tv beeld', Vector((c.x - w / 2, lo.y, c.z - w * 9 / 32)), Vector((c.x + w / 2, lo.y, c.z + w * 9 / 32)), shots['tv'], 2.5)
+
 # --- materials: glass lets light through, the spot lenses glow when the spots are on
 def principled(mat):
     return next((n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED'), None) if mat and mat.use_nodes else None
