@@ -1,6 +1,6 @@
 # Realistic renders of kelder.gltf with Blender Cycles.
 #
-#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast]
+#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast] [--open "Controllers voor de consoles"]
 #
 # Shows the finished room (paint, floor, furniture, fittings; no framework, plates or wiring), lights it as day
 # (sky and sun through the front frame) or evening (the 21 recessed spots, 2700 K), and writes renders/<view>-<mode>.png.
@@ -14,6 +14,7 @@ args = argparse.ArgumentParser()
 args.add_argument('--draft', action='store_true', help='small and quick, for checking light and framing')
 args.add_argument('--mode', default='beide', choices=['dag', 'avond', 'beide'])
 args.add_argument('--views', default='all')
+args.add_argument('--open', default='', help='variant switches (extras.wissel) to show open, comma-separated (e.g. "Controllers voor de consoles")')
 args.add_argument('--tv-muur', default='Consoles aan de muur', help='tv-wall layer(s) to show, comma-separated (e.g. Wandkast,Kallax)')
 opt = args.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
@@ -37,6 +38,10 @@ for root in [o for o in bpy.data.objects if o.parent is None]:
     hidden = root.name not in SHOW
     for o in [root, *root.children_recursive]:
         o.hide_render = o.hide_viewport = hidden
+opened = set(filter(None, opt.open.split(',')))
+for o in bpy.data.objects:                     # extras.wissel/stand: like the viewer's switches, closed unless --open names it
+    if o.get('wissel') and (o.get('stand') == 'open') != (o['wissel'] in opened):
+        for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
 for o in bpy.data.objects:                     # extras.zonder: only without that layer (the plint behind the Wandkast)
     if o.get('zonder') in SHOW:
         for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True

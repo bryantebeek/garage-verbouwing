@@ -52007,6 +52007,336 @@
    "componentType": 5126,
    "count": 72,
    "type": "VEC3"
+  },
+  {
+   "bufferView": 1990,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.3043999998867513,
+    0.16456182481348514,
+    -2.7471049191951753
+   ],
+   "max": [
+    2.337600000113249,
+    0.22299999910593032,
+    -2.6958518895594477
+   ]
+  },
+  {
+   "bufferView": 1991,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1992,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.8079999999999999,
+    0.16130604737997056,
+    -2.7645872893333436
+   ],
+   "max": [
+    0.848,
+    0.22299999910593032,
+    -2.7155872893333437
+   ]
+  },
+  {
+   "bufferView": 1993,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1994,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.717,
+    0.18407712721824646,
+    -2.7779170634746553
+   ],
+   "max": [
+    2.757,
+    0.22299999910593032,
+    -2.7234626578761856
+   ]
+  },
+  {
+   "bufferView": 1995,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1996,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.3919999999999999,
+    0.16825545126199723,
+    -2.740181929111481
+   ],
+   "max": [
+    0.43199999999999994,
+    0.22299999910593032,
+    -2.691181929111481
+   ]
+  },
+  {
+   "bufferView": 1997,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1998,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.8079999999999999,
+    0.4405494768321514,
+    -2.7904740931987764
+   ],
+   "max": [
+    0.848,
+    0.5429999991059303,
+    -2.7414740931987764
+   ]
+  },
+  {
+   "bufferView": 1999,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2000,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.301,
+    0.47535514348745345,
+    -2.7924059393405916
+   ],
+   "max": [
+    2.341,
+    0.5429999991059303,
+    -2.7434059393405916
+   ]
+  },
+  {
+   "bufferView": 2001,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2002,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.39199999999999996,
+    0.4449125763177872,
+    -2.7848717185258867
+   ],
+   "max": [
+    0.432,
+    0.5429999991059303,
+    -2.733813590521475
+   ]
+  },
+  {
+   "bufferView": 2003,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2004,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.717,
+    0.45975682252645494,
+    -2.8184859367609025
+   ],
+   "max": [
+    2.757,
+    0.5429999991059303,
+    -2.760481498161473
+   ]
+  },
+  {
+   "bufferView": 2005,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2006,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.39199999999999996,
+    0.7953551434874534,
+    -2.7982014926671983
+   ],
+   "max": [
+    0.432,
+    0.8629999991059303,
+    -2.7441487397639914
+   ]
+  },
+  {
+   "bufferView": 2007,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2008,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.717,
+    0.7256988794505596,
+    -2.729007190704346
+   ],
+   "max": [
+    2.757,
+    0.8629999991059303,
+    -2.67465798597963
+   ]
+  },
+  {
+   "bufferView": 2009,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2010,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.39199999999999996,
+    1.436487807199359,
+    -2.718995577335358
+   ],
+   "max": [
+    0.432,
+    1.5029999991059302,
+    -2.66903290635353
+   ]
+  },
+  {
+   "bufferView": 2011,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2012,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.4046874194294214,
+    1.0853999977707862,
+    -2.7659395697116853
+   ],
+   "max": [
+    0.4193125805705786,
+    1.1829999991059301,
+    -2.7169395697116854
+   ]
+  },
+  {
+   "bufferView": 2013,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2014,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    0.39199999999999996,
+    1.7337570502758028,
+    -2.7146489086151124
+   ],
+   "max": [
+    0.432,
+    1.8229999991059302,
+    -2.6656489086151125
+   ]
+  },
+  {
+   "bufferView": 2015,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2016,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.717,
+    1.1204029006659986,
+    -2.6938815178871156
+   ],
+   "max": [
+    2.757,
+    1.1829999991059301,
+    -2.6448815178871157
+   ]
+  },
+  {
+   "bufferView": 2017,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2018,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    2.717,
+    1.4376915699392558,
+    -2.695813364028931
+   ],
+   "max": [
+    2.757,
+    1.5029999991059302,
+    -2.646813364028931
+   ]
+  },
+  {
+   "bufferView": 2019,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
   }
  ],
  "bufferViews": [
@@ -65308,6 +65638,186 @@
    "byteOffset": 52325300,
    "byteLength": 864,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52326164,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52327460,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52328756,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52330052,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52331348,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52332644,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52333940,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52335236,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52336532,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52337828,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52339124,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52340420,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52341716,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52343012,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52344308,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52345604,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52346900,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52348196,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52349492,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52350788,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52352084,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52353380,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52354676,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52355972,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52357268,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52358564,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52359860,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52361156,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52362452,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52363748,
+   "byteLength": 1296,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -65948,7 +66458,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 52326164
+   "byteLength": 52365044
   }
  ],
  "materials": [
@@ -98483,6 +98993,186 @@
      "material": 656
     }
    ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5079,
+      "NORMAL": 5080
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5081,
+      "NORMAL": 5082
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5083,
+      "NORMAL": 5084
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5085,
+      "NORMAL": 5086
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5087,
+      "NORMAL": 5088
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5089,
+      "NORMAL": 5090
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5091,
+      "NORMAL": 5092
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5093,
+      "NORMAL": 5094
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5095,
+      "NORMAL": 5096
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5097,
+      "NORMAL": 5098
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5099,
+      "NORMAL": 5100
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5101,
+      "NORMAL": 5102
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5103,
+      "NORMAL": 5104
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5105,
+      "NORMAL": 5106
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhaak",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5107,
+      "NORMAL": 5108
+     },
+     "material": 656
+    }
+   ]
   }
  ],
  "nodes": [
@@ -123247,7 +123937,37 @@
     4914,
     4915,
     4916,
-    4917
+    4917,
+    4918,
+    4919,
+    4920,
+    4921,
+    4922,
+    4923,
+    4924,
+    4925,
+    4926,
+    4927,
+    4928,
+    4929,
+    4930,
+    4931,
+    4932,
+    4933,
+    4934,
+    4935,
+    4936,
+    4937,
+    4938,
+    4939,
+    4940,
+    4941,
+    4942,
+    4943,
+    4944,
+    4945,
+    4946,
+    4947
    ]
   },
   {
@@ -167163,7 +167883,9 @@
      "naam": "Atari 2600 Joystick Controller (model door mrhoeivo)",
      "artikel": "1ddf7826d6dff2cccffdc5bf87b1e5e2",
      "url": "https://3dwarehouse.sketchup.com/model/1ddf7826d6dff2cccffdc5bf87b1e5e2"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167194,7 +167916,9 @@
      "naam": "sega genesis Controller (model door Modelfundgrube)",
      "artikel": "a876bcb3-93b8-46a6-ad95-36507f67af11",
      "url": "https://3dwarehouse.sketchup.com/model/a876bcb3-93b8-46a6-ad95-36507f67af11"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167225,7 +167949,9 @@
      "naam": "NES Controller (model door Modelfundgrube)",
      "artikel": "5947ff87-1f5e-494d-8009-af8a9c98c166",
      "url": "https://3dwarehouse.sketchup.com/model/5947ff87-1f5e-494d-8009-af8a9c98c166"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167256,7 +167982,9 @@
      "naam": "snes controller (model door Modelfundgrube)",
      "artikel": "1c43cbea-6fbd-49b3-b3a4-687e6991412f",
      "url": "https://3dwarehouse.sketchup.com/model/1c43cbea-6fbd-49b3-b3a4-687e6991412f"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167287,7 +168015,9 @@
      "naam": "n64 controller (model door Jeffrey D.)",
      "artikel": "aabc97fa2bfcb145cd28e651ed7ff5d",
      "url": "https://3dwarehouse.sketchup.com/model/aabc97fa2bfcb145cd28e651ed7ff5d"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167318,7 +168048,9 @@
      "naam": "Playstation 1 (Vray Ready) (model door Gabriel Coelho)",
      "artikel": "557de277-7ff0-4517-8df4-e2a1a24ee460",
      "url": "https://3dwarehouse.sketchup.com/model/557de277-7ff0-4517-8df4-e2a1a24ee460"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167349,7 +168081,9 @@
      "naam": "Sega Dreamcast mit Controller (model door Modelfundgrube)",
      "artikel": "91bcea3a-3c1d-443f-a33c-86e1809958cd",
      "url": "https://3dwarehouse.sketchup.com/model/91bcea3a-3c1d-443f-a33c-86e1809958cd"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167380,7 +168114,9 @@
      "naam": "Gamecube Controller (model door John H.)",
      "artikel": "1fc68ccc-ed7c-4719-b02a-2fc75822eaa1",
      "url": "https://3dwarehouse.sketchup.com/model/1fc68ccc-ed7c-4719-b02a-2fc75822eaa1"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167411,7 +168147,9 @@
      "naam": "DualShock 2 Analog Controller (model door Brady B.)",
      "artikel": "cf0e5283da2305632e5ae31c6c631a39",
      "url": "https://3dwarehouse.sketchup.com/model/cf0e5283da2305632e5ae31c6c631a39"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167442,7 +168180,9 @@
      "naam": "Xbox Original with a duke controller BH (model door BRENDAN H.)",
      "artikel": "a546e57b-acf0-46c4-85e7-6e2259846e3d",
      "url": "https://3dwarehouse.sketchup.com/model/a546e57b-acf0-46c4-85e7-6e2259846e3d"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167473,7 +168213,9 @@
      "naam": "Xbox 360 Controller (model door Bas P.)",
      "artikel": "a0b126315ac274ba040aed0c3e87e91",
      "url": "https://3dwarehouse.sketchup.com/model/a0b126315ac274ba040aed0c3e87e91"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167504,7 +168246,9 @@
      "naam": "Wii Remote (model door NintenG0D)",
      "artikel": "e739278e9039922dff7f69173a1ae6d4",
      "url": "https://3dwarehouse.sketchup.com/model/e739278e9039922dff7f69173a1ae6d4"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167535,7 +168279,9 @@
      "naam": "wii u controller (model door Modelfundgrube)",
      "artikel": "9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d",
      "url": "https://3dwarehouse.sketchup.com/model/9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167566,7 +168312,9 @@
      "naam": "Controle de PS3 (Tamanho real) (model door Gabriel S.)",
      "artikel": "43ff3ca7eba9381e808ba9235495a934",
      "url": "https://3dwarehouse.sketchup.com/model/43ff3ca7eba9381e808ba9235495a934"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
@@ -167597,112 +168345,774 @@
      "naam": "PS4 controller (Dualshock 4) (model door mahou)",
      "artikel": "43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1",
      "url": "https://3dwarehouse.sketchup.com/model/43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1"
-    }
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Atari 2600",
    "mesh": 1353,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Atari 2600, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Atari 2600, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Mega Drive + Mega CD",
    "mesh": 1354,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Mega Drive + Mega CD, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Mega Drive + Mega CD, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder NES",
    "mesh": 1355,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de NES, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de NES, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder SNES",
    "mesh": 1356,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de SNES, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de SNES, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Nintendo 64",
    "mesh": 1357,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Nintendo 64, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Nintendo 64, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder PlayStation",
    "mesh": 1358,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Dreamcast",
    "mesh": 1359,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Dreamcast, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Dreamcast, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder GameCube",
    "mesh": 1360,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de GameCube, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de GameCube, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder PlayStation 2",
    "mesh": 1361,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 2, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 2, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Xbox",
    "mesh": 1362,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Xbox 360",
    "mesh": 1363,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox 360, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox 360, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Wii",
    "mesh": 1364,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder Wii U",
    "mesh": 1365,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii U, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii U, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder PlayStation 3",
    "mesh": 1366,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 3, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 3, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
    }
   },
   {
    "name": "Controllerhouder PlayStation 4",
    "mesh": 1367,
    "extras": {
-    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 4, 30° gekanteld naar de bank"
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 4, 30° gekanteld naar de bank",
+    "wissel": "Controllers voor de consoles",
+    "stand": "dicht"
+   }
+  },
+  {
+   "name": "Controller Atari 2600",
+   "mesh": 1338,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.3210000018626453,
+    0.18597272989153862,
+    -2.7128518895594476,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Atari CX40 joystick, hangt voor de kaas aan een acryl haak over het randje.2 cm tussenruimte. Model: \"Atari 2600 Joystick Controller\" door mrhoeivo, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Atari 2600 Joystick Controller (model door mrhoeivo)",
+     "artikel": "1ddf7826d6dff2cccffdc5bf87b1e5e2",
+     "url": "https://3dwarehouse.sketchup.com/model/1ddf7826d6dff2cccffdc5bf87b1e5e2"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Atari 2600",
+   "mesh": 1368,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Atari 2600-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Mega Drive + Mega CD",
+   "mesh": 1339,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.8280000074505806,
+    0.1836471764445305,
+    -2.7325872893333436,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Mega Drive controller (3 knoppen), hangt voor de kaas aan een acryl haak over het randje. Model: \"sega genesis Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "sega genesis Controller (model door Modelfundgrube)",
+     "artikel": "a876bcb3-93b8-46a6-ad95-36507f67af11",
+     "url": "https://3dwarehouse.sketchup.com/model/a876bcb3-93b8-46a6-ad95-36507f67af11"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Mega Drive + Mega CD",
+   "mesh": 1369,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Mega Drive + Mega CD-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller NES",
+   "mesh": 1340,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    0.19991223347187043,
+    -2.7404626578761855,
+    1
+   ],
+   "extras": {
+    "omschrijving": "NES controller, hangt voor de kaas aan een acryl haak over het randje.5 cm tussenruimte. Model: \"NES Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "NES Controller (model door Modelfundgrube)",
+     "artikel": "5947ff87-1f5e-494d-8009-af8a9c98c166",
+     "url": "https://3dwarehouse.sketchup.com/model/5947ff87-1f5e-494d-8009-af8a9c98c166"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak NES",
+   "mesh": 1370,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de NES-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller SNES",
+   "mesh": 1341,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.41199998509883873,
+    0.18861103636026383,
+    -2.708181929111481,
+    1
+   ],
+   "extras": {
+    "omschrijving": "SNES controller (PAL), hangt voor de kaas aan een acryl haak over het randje.4 cm tussenruimte. Model: \"snes controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "snes controller (model door Modelfundgrube)",
+     "artikel": "1c43cbea-6fbd-49b3-b3a4-687e6991412f",
+     "url": "https://3dwarehouse.sketchup.com/model/1c43cbea-6fbd-49b3-b3a4-687e6991412f"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak SNES",
+   "mesh": 1371,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de SNES-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Nintendo 64",
+   "mesh": 1342,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.828,
+    0.4745353366136551,
+    -2.7584740931987763,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Nintendo 64 controller, hangt voor de kaas aan een acryl haak over het randje.7 cm tussenruimte. Model: \"n64 controller\" door Jeffrey D., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "n64 controller (model door Jeffrey D.)",
+     "artikel": "aabc97fa2bfcb145cd28e651ed7ff5d",
+     "url": "https://3dwarehouse.sketchup.com/model/aabc97fa2bfcb145cd28e651ed7ff5d"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Nintendo 64",
+   "mesh": 1372,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Nintendo 64-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller PlayStation",
+   "mesh": 1343,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.321,
+    0.4993965308070183,
+    -2.7604059393405915,
+    1
+   ],
+   "extras": {
+    "omschrijving": "PlayStation DualShock (grijs), hangt voor de kaas aan een acryl haak over het randje.3 cm tussenruimte. Model: \"Playstation 1 (Vray Ready)\" door Gabriel Coelho, SketchUp 3D Warehouse (DualShock 2-model, grijs gemaakt)",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Playstation 1 (Vray Ready) (model door Gabriel Coelho)",
+     "artikel": "557de277-7ff0-4517-8df4-e2a1a24ee460",
+     "url": "https://3dwarehouse.sketchup.com/model/557de277-7ff0-4517-8df4-e2a1a24ee460"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak PlayStation",
+   "mesh": 1373,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Dreamcast",
+   "mesh": 1344,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    0.47765183997154237,
+    -2.750813590521475,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Dreamcast controller, hangt voor de kaas aan een acryl haak over het randje.0 cm tussenruimte. Model: \"Sega Dreamcast mit Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Sega Dreamcast mit Controller (model door Modelfundgrube)",
+     "artikel": "91bcea3a-3c1d-443f-a33c-86e1809958cd",
+     "url": "https://3dwarehouse.sketchup.com/model/91bcea3a-3c1d-443f-a33c-86e1809958cd"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Dreamcast",
+   "mesh": 1374,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Dreamcast-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller GameCube",
+   "mesh": 1345,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.7369999925494195,
+    0.4882548729777336,
+    -2.777481498161473,
+    1
+   ],
+   "extras": {
+    "omschrijving": "GameCube controller (indigo), hangt voor de kaas aan een acryl haak over het randje.1 cm tussenruimte. Model: \"Gamecube Controller\" door John H., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Gamecube Controller (model door John H.)",
+     "artikel": "1fc68ccc-ed7c-4719-b02a-2fc75822eaa1",
+     "url": "https://3dwarehouse.sketchup.com/model/1fc68ccc-ed7c-4719-b02a-2fc75822eaa1"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak GameCube",
+   "mesh": 1375,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de GameCube-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller PlayStation 2",
+   "mesh": 1346,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    0.8193965308070182,
+    -2.7611487397639913,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 2, hangt voor de kaas aan een acryl haak over het randje.8 cm tussenruimte. Model: \"DualShock 2 Analog Controller\" door Brady B., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "DualShock 2 Analog Controller (model door Brady B.)",
+     "artikel": "cf0e5283da2305632e5ae31c6c631a39",
+     "url": "https://3dwarehouse.sketchup.com/model/cf0e5283da2305632e5ae31c6c631a39"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak PlayStation 2",
+   "mesh": 1376,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 2-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Xbox",
+   "mesh": 1347,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    0.7696420602202415,
+    -2.6916579859796297,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Xbox controller (Duke), hangt voor de kaas aan een acryl haak over het randje. Model: \"Xbox Original with a duke controller BH\" door BRENDAN H., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox Original with a duke controller BH (model door BRENDAN H.)",
+     "artikel": "a546e57b-acf0-46c4-85e7-6e2259846e3d",
+     "url": "https://3dwarehouse.sketchup.com/model/a546e57b-acf0-46c4-85e7-6e2259846e3d"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Xbox",
+   "mesh": 1377,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Xbox-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Xbox 360",
+   "mesh": 1348,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.4120000037252903,
+    1.460205574452877,
+    -2.68603290635353,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Xbox 360 controller (wit), hangt voor de kaas aan een acryl haak over het randje.0 cm tussenruimte. Model: \"Xbox 360 Controller\" door Bas P., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox 360 Controller (model door Bas P.)",
+     "artikel": "a0b126315ac274ba040aed0c3e87e91",
+     "url": "https://3dwarehouse.sketchup.com/model/a0b126315ac274ba040aed0c3e87e91"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Xbox 360",
+   "mesh": 1378,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Xbox 360-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Wii",
+   "mesh": 1349,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.4119999990686774,
+    1.117999998152256,
+    -2.7339395697116853,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Wii Remote, hangt voor de kaas aan een acryl haak over het randje.6 cm tussenruimte. Model: \"Wii Remote\" door NintenG0D, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Wii Remote (model door NintenG0D)",
+     "artikel": "e739278e9039922dff7f69173a1ae6d4",
+     "url": "https://3dwarehouse.sketchup.com/model/e739278e9039922dff7f69173a1ae6d4"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Wii",
+   "mesh": 1379,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Wii-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller Wii U",
+   "mesh": 1350,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    1.7639693213701249,
+    -2.6826489086151124,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Wii U GamePad, hangt voor de kaas aan een acryl haak over het randje.9 cm tussenruimte. Model: \"wii u controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "wii u controller (model door Modelfundgrube)",
+     "artikel": "9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d",
+     "url": "https://3dwarehouse.sketchup.com/model/9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak Wii U",
+   "mesh": 1380,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Wii U-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller PlayStation 3",
+   "mesh": 1351,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    1.143002071648836,
+    -2.6618815178871156,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 3, hangt voor de kaas aan een acryl haak over het randje.2 cm tussenruimte. Model: \"Controle de PS3 (Tamanho real)\" door Gabriel S., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Controle de PS3 (Tamanho real) (model door Gabriel S.)",
+     "artikel": "43ff3ca7eba9381e808ba9235495a934",
+     "url": "https://3dwarehouse.sketchup.com/model/43ff3ca7eba9381e808ba9235495a934"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak PlayStation 3",
+   "mesh": 1381,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 3-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controller PlayStation 4",
+   "mesh": 1352,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    1.4610654049813747,
+    -2.6638133640289308,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 4, hangt voor de kaas aan een acryl haak over het randje.9 cm tussenruimte. Model: \"PS4 controller (Dualshock 4)\" door mahou, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PS4 controller (Dualshock 4) (model door mahou)",
+     "artikel": "43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1",
+     "url": "https://3dwarehouse.sketchup.com/model/43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1"
+    },
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
+   }
+  },
+  {
+   "name": "Controllerhaak PlayStation 4",
+   "mesh": 1382,
+   "extras": {
+    "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 4-controller hangt ervoor",
+    "wissel": "Controllers voor de consoles",
+    "stand": "open"
    }
   }
  ],
