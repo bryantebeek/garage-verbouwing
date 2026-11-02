@@ -15,18 +15,19 @@
 ## Tv-muur (laag "Consoles aan de muur")
 
 - Laag "Tv" (eigen groep in de zijbalk, met een keuzelijst "Formaat" zoals de beamer-animatie): drie objecten met `extras.tvmaat`, er is er steeds één zichtbaar; de keuze blijft bewaard (localStorage) en het zwarte vlak in de beamerprojectie volgt het gekozen formaat. 55 inch = `TV` (LG OLED CS, OLED55CS6LA, 122,8 × 70,8 × 4,7 cm, mijn eigen tv), 65 inch (OLED65CS6LA, 144,9 × 83,2 cm), 75 inch (75QNED82A6B, 167,7 × 96,5 cm; een LG OLED bestaat niet in 75 inch). Midden op de tv-muur, het midden van het scherm op 1,24 m (ooghoogte van iemand van 1,80 m op de GRUNNARP is ±1,20 m; op verzoek 4 cm hoger). Dat is leidend; kasten en de Sony passen zich aan de tv aan, niet andersom. Beamer en W8 op dezelfde middellijn. `render.py` toont de 55 inch.
-- Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 20 cm, vóór de plint; ±26 cm tussen de Sony en de LG (55 inch).
+- Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 30 cm, vóór de plint (Sony 0,31–0,81 m); ±8 cm tussen de Sony en de LG (55 inch), de 65 inch past net, de 75 inch zakt op de Sony.
 - **Kazen** zijn de schuine walnoten wandplankjes voor de consoles (`Kaas <console>` in het model):
   - Alleen de console, geen spellen.
   - Breedte: 10 mm + console + 10 mm.
   - Diepte per kaas: ±30 mm vrij achter de console (op de vloer van de kaas gemeten); elke kaas is dus zo diep als de console nodig heeft.
   - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers).
 - Indeling per kant van de Sony: 2 × 2 kazen naast de Sony (onderkant 18 en 50 cm) en een hoge kolom erboven naast de LG (82, 114, 146 en 178 cm); rijen om de 32 cm.
-  - Binnenste kolommen: links en rechts even ver van de verhoging (60 mm), kazen uitgelijnd op hun kant naar de Sony.
-  - Buitenste kolom naast de Sony en de hoge kolom erboven: uitgelijnd op hun binnenkant, gespiegeld rond het midden van de muur, 10 cm naast de breedste binnenste kolom.
+  - Elke kolom: kazen met hun midden onder elkaar (niet op een zijkant uitgelijnd).
+  - Binnenste kolommen: de breedste kaas links en rechts even ver van de verhoging (60 mm); midden links x 0,9185, rechts x 2,1675.
+  - Buitenste kolom naast de Sony en de hoge kolom erboven: één kolom, gespiegeld rond het midden van de muur (x 0,412 en 2,737), de breedste kaas minstens 10 cm naast de binnenste kolom.
   - Alles onder de LG blijft onder de onderkant van de LG (55 inch: 84,6 cm).
   - Indeling op lengte van de controllerkabel: de kortste kabels het dichtst bij de speler (binnenste kolommen), dan de buitenste kolommen, de langste bedrade in de onderste kaas van de hoge kolom, draadloos bovenin. Kabels (±): Atari 2600 1,2–1,5 m (aansluiting achter), Mega Drive 1,2–1,8 m, PS1 1,8–2,0, N64 1,9, GameCube 2,0, Dreamcast 2,0, NES 2,3, SNES 2,3, PS2 2,4–2,5, Xbox 2,7–3,0 m; Xbox 360 (aangenomen), Wii (Wii Remote), PS3, Wii U, PS4 en Switch draadloos.
-  - Links: Atari 2600 (50) en Mega Drive + Mega CD (18) binnen, Dreamcast (50) en NES (18) buiten, hoog van boven naar beneden Wii U, Xbox 360, Wii, PS2. Rechts: PS1 (50) en N64 (18) binnen, GameCube (50) en SNES (18) buiten, hoog Switch, PS4, PS3, Xbox.
+  - Links: N64 (50) en Mega Drive + Mega CD (18) binnen, Dreamcast (50) en SNES (18) buiten, hoog van boven naar beneden Wii U, Xbox 360, Wii, PS2. Rechts: PS1 (50) en Atari 2600 (18) binnen, GameCube (50) en NES (18) buiten, hoog Switch, PS4, PS3, Xbox (op verzoek NES/SNES en Atari/N64 gewisseld).
   - Speelplek voor de CRT is de poef (±1,3 m van de muur); vanaf de bank (±2,4 m) halen alleen PS2, SNES en Xbox het zonder verlengkabel. Atari en Mega Drive hebben altijd een DB9-verlengkabel nodig.
 - Mega Drive + Mega CD is de tweede versie: Mega Drive 2 (22 × 21 × 5,5 cm) op de koppelplaat met de Mega-CD 2 (25,2 × 21,5 × 6,3 cm) ernaast, samen 47,2 cm breed; zelf gemodelleerd omdat 3D Warehouse geen model van deze versies heeft.
 - De consoles staan als bron in de laag Kallax (in de vakken of op het blad); de kazen krijgen er een kopie van. Nieuwe consoles: 3D Warehouse-model (`glb`, zoeken via `https://3dwarehouse.sketchup.com/warehouse/v1.0/entities?q=...`), op ware grootte, voorkant naar +z, textures in `textures/`.
