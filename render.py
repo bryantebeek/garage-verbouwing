@@ -1,6 +1,6 @@
 # Realistic renders of kelder.gltf with Blender Cycles.
 #
-#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast,Wandkast rondom]
+#   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast]
 #
 # Shows the finished room (paint, floor, furniture, fittings; no framework, plates or wiring), lights it as day
 # (sky and sun through the front frame) or evening (the 21 recessed spots, 2700 K), and writes renders/<view>-<mode>.png.
@@ -14,7 +14,7 @@ args = argparse.ArgumentParser()
 args.add_argument('--draft', action='store_true', help='small and quick, for checking light and framing')
 args.add_argument('--mode', default='beide', choices=['dag', 'avond', 'beide'])
 args.add_argument('--views', default='all')
-args.add_argument('--tv-muur', default='Consoles aan de muur', help='tv-wall layer(s) to show, comma-separated (e.g. Wandkast,Wandkast rondom)')
+args.add_argument('--tv-muur', default='Consoles aan de muur', help='tv-wall layer(s) to show, comma-separated (e.g. Wandkast,Kallax)')
 opt = args.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
 SHOW = {'Vloer, muren, plafond', 'Verf', 'Vloer (visgraat)', 'Plint', 'Trap', 'Deur', 'Meubels', 'Elektra materiaal', 'Tv', *opt.tv_muur.split(',')}

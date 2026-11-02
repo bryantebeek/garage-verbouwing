@@ -46,15 +46,9 @@
 - Sony: recht (niet kantelen: Sony vraagt 10 cm ventilatie rondom en kantelen verschuift het beeld door het aardmagnetisch veld), hoger dan de rest: op een eigen plank op 0,33 m (Sony 0,33–0,83; ±5,5 cm onder de 55 inch, de onderrand van de 65 inch valt 6 mm achter de bovenkant van de Sony), 3 cm van de achterkant voor stekkers; erboven open. Alleen het voetstuk onder de Sony (plank met de rollade eronder) komt naar voren tot 54 cm, 2 cm voorbij de voorkant van de Sony; zijkanten van het vak blijven 33 cm.
 - Alle consolevakken hebben een schuine vloer van 15° met randje (zoals de kazen); niet het Sony-vak. Plank, schuine vloer en randje zijn één stuk met één doorlopende voorkant (anders tekent de viewer 3–4 lijnen per vak). Consoles schuin tegen het randje, midden in het vak; indeling op kabellengte (naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger).
 
-- Puckspots (`Puck links|rechts 1–6`, in de laag Wandkast): Cefrank LED-puckspots (2 sets van 6, H9-108W, Amazon B075L2W1MP, gekocht), opbouw onder de plank boven elke console in de zijkolommen (midden x 0,3374 en 2,8116, 10 cm achter de voorkant, z −2,764; onderkant plank 0,435 / 0,709 / 0,982 / 1,255 / 1,529 / 1,802). 8 mm dik, Ø 70 mm aangenomen (nog nameten), 2 W / 200 lm, 6000K. Ook in de 4 vakken naast de Sony (`Puck midden links|rechts 1–2`, x 0,8967 en 2,2524), en 3 onder de brug van Wandkast rondom (`Puck brug 1–3`, in die laag, onderkant brug 1,78, x 0,8967 / 1,5745 / 2,2524), dus 19 in totaal: 12 gekocht, nog 7 nodig (2 sets). `render.py` maakt van elke `Puck …` een lamp (PUCK_WATT).
+- Puckspots (`Puck links|rechts 1–6`, in de laag Wandkast): Cefrank LED-puckspots (2 sets van 6, H9-108W, Amazon B075L2W1MP, gekocht), opbouw onder de plank boven elke console in de zijkolommen (midden x 0,3374 en 2,8116, 10 cm achter de voorkant, z −2,764; onderkant plank 0,435 / 0,709 / 0,982 / 1,255 / 1,529 / 1,802). 8 mm dik, Ø 70 mm aangenomen (nog nameten), 2 W / 200 lm, 6000K. Ook in de 4 vakken naast de Sony (`Puck midden links|rechts 1–2`, x 0,8967 en 2,2524), dus 16 in totaal: 12 gekocht, voor de 4 naast de Sony een derde set nodig. `render.py` maakt van elke `Puck …` een lamp (PUCK_WATT).
 
 - Halo 3 helm (`Halo 3 helm`, in de laag Wandkast): Master Chief Mark VI, model "Master Chief Helmet -PHOTO TEXTURED-" (3D Warehouse 9668f0abd848e943b20f6e48f6a30cbf), op 32 cm hoog geschaald (draagbare replica met nekstuk, aangenomen), bovenop de linkerzijkolom (1,82 m), vizier 45° naar de kamer (naar +x/+z), 1 cm van de muur; textures `textures/halo-3-helm-*.jpg`.
-
-## Wandkast rondom (laag "Wandkast rondom", aanvulling op de Wandkast)
-
-- Losse laag, standaard uit, alleen samen met de Wandkast: alleen een plank als brug over de tv, 40 mm dik (op verzoek iets dikker dan de staanders), tussen de zijkolommen (x 0,6188–2,5302), bovenkant gelijk met de zijkolommen (1,78–1,82). Geen vakken erboven en geen kolommen naast de tv (op verzoek weg). 33 cm diep, in de muurkleur.
-- 55, 65 en 75 inch passen eronder (75 inch: 5,8 cm vrij).
-- Renderen: `--tv-muur "Wandkast,Wandkast rondom"`.
 
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)
 
