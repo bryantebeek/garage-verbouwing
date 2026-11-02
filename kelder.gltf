@@ -87202,7 +87202,8 @@
     2484,
     2485,
     2486,
-    2487
+    2487,
+    2533
    ]
   },
   {
@@ -90391,7 +90392,8 @@
     1807,
     1833,
     1845,
-    1859
+    1859,
+    2514
    ]
   },
   {
@@ -90437,7 +90439,9 @@
     1858,
     1864,
     1869,
-    1874
+    1874,
+    2531,
+    2532
    ]
   },
   {
@@ -113514,6 +113518,297 @@
     2498,
     2499
    ]
+  },
+  {
+   "name": "W10 afdekraam",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG afdekraam 2-voudig A550 alpinwit glanzend",
+     "artikel": "401181307",
+     "url": "https://www.elektramat.nl/jung-afdekraam-2-voudig-a550-alpine-glanzend-a5582bfww/"
+    }
+   },
+   "mesh": 1206
+  },
+  {
+   "name": "W10 stopcontact sokkel",
+   "mesh": 1207
+  },
+  {
+   "name": "W10 stopcontact plaat",
+   "mesh": 1208
+  },
+  {
+   "name": "W10 stopcontact kom",
+   "mesh": 1209
+  },
+  {
+   "name": "W10 stopcontact gaten",
+   "mesh": 1210
+  },
+  {
+   "name": "W10 randaarde",
+   "mesh": 1211
+  },
+  {
+   "name": "W10 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2502,
+    2503,
+    2504,
+    2505,
+    2506
+   ]
+  },
+  {
+   "name": "W10 stopcontact sokkel",
+   "mesh": 1212
+  },
+  {
+   "name": "W10 stopcontact plaat",
+   "mesh": 1213
+  },
+  {
+   "name": "W10 stopcontact kom",
+   "mesh": 1214
+  },
+  {
+   "name": "W10 stopcontact gaten",
+   "mesh": 1215
+  },
+  {
+   "name": "W10 randaarde",
+   "mesh": 1216
+  },
+  {
+   "name": "W10 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2508,
+    2509,
+    2510,
+    2511,
+    2512
+   ]
+  },
+  {
+   "name": "W10",
+   "extras": {
+    "omschrijving": "stopcontact + stopcontact"
+   },
+   "translation": [
+    2.8714999999999997,
+    0.3,
+    -0.0605
+   ],
+   "rotation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "children": [
+    2501,
+    2507,
+    2513
+   ]
+  },
+  {
+   "name": "W10 inbouwdoos 1 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W10 inbouwdoos 1 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W10 inbouwdoos 1 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W10 inbouwdoos 1 buiktuit",
+   "mesh": 1273,
+   "translation": [
+    -0.012500000417232517,
+    0,
+    -0.031000000424683094
+   ]
+  },
+  {
+   "name": "W10 inbouwdoos 1",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2515,
+    2516,
+    2517,
+    2518
+   ]
+  },
+  {
+   "name": "W10 inbouwdoos 2 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W10 inbouwdoos 2 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W10 inbouwdoos 2 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W10 inbouwdoos 2",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2520,
+    2521,
+    2522
+   ]
+  },
+  {
+   "name": "W10 stopcontact fase",
+   "mesh": 1199
+  },
+  {
+   "name": "W10 stopcontact nul",
+   "mesh": 1200
+  },
+  {
+   "name": "W10 stopcontact aarde",
+   "mesh": 1201
+  },
+  {
+   "name": "W10 stopcontact fase",
+   "mesh": 1202
+  },
+  {
+   "name": "W10 stopcontact nul",
+   "mesh": 1203
+  },
+  {
+   "name": "W10 stopcontact aarde",
+   "mesh": 1204
+  },
+  {
+   "name": "W10 draden",
+   "extras": {
+    "omschrijving": "Uit Leiding 13"
+   },
+   "children": [
+    2524,
+    2525,
+    2526,
+    2527,
+    2528,
+    2529
+   ]
+  },
+  {
+   "name": "W10 inbouwdozen",
+   "extras": {
+    "omschrijving": "2x Attema U50, gekoppeld 71 mm"
+   },
+   "translation": [
+    2.8714999999999997,
+    0.3,
+    -0.0555
+   ],
+   "rotation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "children": [
+    2519,
+    2523,
+    2530
+   ]
+  },
+  {
+   "name": "Leiding 13",
+   "extras": {
+    "omschrijving": "W10 stroom -> plafond"
+   },
+   "translation": [
+    2.8714999999999997,
+    0.3,
+    -0.0555
+   ],
+   "rotation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "mesh": 1205
+  },
+  {
+   "name": "K10",
+   "extras": {
+    "omschrijving": "Klos voor W10",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    2.5344999982714658,
+    0.19700000000000037,
+    -0.04399999976158142
+   ],
+   "mesh": 1269
   }
  ],
  "scenes": [
