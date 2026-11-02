@@ -44176,6 +44176,30 @@
    "count": 96,
    "bufferView": 1445,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 576,
+   "bufferView": 1446,
+   "byteOffset": 0,
+   "max": [
+    6.01800012588501,
+    2.378000020980835,
+    -0.5649999976158142
+   ],
+   "min": [
+    5.791999816894531,
+    2.0169999599456787,
+    -2.930999994277954
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 576,
+   "bufferView": 1447,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54239,6 +54263,18 @@
    "byteOffset": 37425340,
    "byteLength": 1152,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37426492,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37433404,
+   "byteLength": 6912,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -54619,7 +54655,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37426492
+   "byteLength": 37440316
   }
  ],
  "materials": [
@@ -79494,6 +79530,18 @@
      "material": 58
     }
    ]
+  },
+  {
+   "name": "Leiding 12",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4299,
+      "NORMAL": 4300
+     },
+     "material": 58
+    }
+   ]
   }
  ],
  "nodes": [
@@ -104209,9 +104257,9 @@
   },
   {
    "name": "Leiding 12",
-   "mesh": 1277,
+   "mesh": 1302,
    "extras": {
-    "omschrijving": "Plafond -> koof buiten, Buitenlamp 1-2-3 doorgelust, schakeldraad/nul/aarde (geschakeld op W9)"
+    "omschrijving": "W9 -> plafond, langs de voorgevel tot het midden van het voorkozijn, daar binnen omlaag en door de bovenregel van het kozijn naar buiten (bestaande doorvoer), in de koof naar Buitenlamp 1-2-3 doorgelust; schakeldraad/nul/aarde (geschakeld op W9)"
    }
   },
   {
