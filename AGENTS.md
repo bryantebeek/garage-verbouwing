@@ -1,11 +1,11 @@
 # Agents
 
 - Na elke wijziging: altijd committen en pushen naar `main`. GitHub Pages publiceert `main` direct op https://bryantebeek.github.io/garage-verbouwing/.
-- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld; een andere tv-muurvariant met `--tv-muur Wandkast`, `Consoletrap` of `Kallax tv-meubel`, meerdere lagen met komma's). De gebruiker werkt soms remote (MacBook): lokale afbeeldingen komen dan niet door. Stuur de renders dan als bijlage in de T3-thread (`t3_attachment_prepare_upload` met de exacte bestandsgrootte, POST van de bytes naar `http://127.0.0.1:3773<relativeUrl>`, dan `t3_thread_send_attachments`), geen Claude-artifact. Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
+- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld; een andere tv-muurvariant met `--tv-muur Wandkast`, `Consoletrap` of `Kallax tv-meubel`, meerdere lagen met komma's). De gebruiker werkt soms remote (MacBook): lokale afbeeldingen komen dan niet door. Kopieer de render daarom naar `~/.t3/userdata/attachments/<$T3CODE_THREAD_ID>-<uuid>.png` en toon hem inline in je antwoord (markdown-afbeelding met dat absolute pad); T3 serveert die map ook remote. Geen Claude-artifact, geen losse berichten in de thread. Elke render een nieuwe bestandsnaam (de uuid), anders toont de chat de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
 
 ## Model-conventies (`kelder.gltf`)
 
-- Inbouwspots boven het tv-deel: raster van 4 × 4 (SP1–3, SP6–8, SP11–13 en SP22–28), los van het raster in de rest van de kamer. Kolommen symmetrisch rond het midden van de tv-muur (x 0,4345, 1,2145, 1,9345, 2,7145; elk gat Ø 75 mm minstens 6 mm van een balk, daarom niet helemaal gelijk verdeeld), rijen over de diepte (z −0,427, −1,160, −1,894, −2,60; de achterste rij net vóór de Wandkast, die tot het plafond kan lopen: rand van de spot 1,9 cm vrij). Geen spot boven de beamer.
+- Inbouwspots boven het tv-deel: raster van 4 × 4 (SP1–3, SP6–8, SP11–13 en SP22–28), los van het raster in de rest van de kamer. Kolommen symmetrisch rond het midden van de tv-muur (x 0,4345, 1,2145, 1,9345, 2,7145; elk gat Ø 75 mm minstens 6 mm van een balk, daarom niet helemaal gelijk verdeeld), rijen over de diepte (z −0,427, −1,160, −1,894, −2,627). Geen spot boven de beamer.
 
 - Coördinaten in meters, glTF y omhoog (zoals de positie onderin de viewer). Tv-muur (verf VF3): z −2,994, x 0,056–3,093, midden x 1,5745. Voorgevel x 5,858.
 - Lagen zijn de top-level nodes; `extras.visible: false` = standaard uit. Een nieuwe laag ook in `GROUPS` in `index.html` zetten, anders komt hij onder "Overig".
@@ -48,8 +48,8 @@
 
 ## Wandkast rondom (laag "Wandkast rondom", aanvulling op de Wandkast)
 
-- Losse laag, standaard uit, alleen samen met de Wandkast: vakken boven de tv tot het plafond. Boven de tv een brug op 1,82 (plank 1,802–1,82, tussen de zijkolommen); daarboven over de hele breedte één rij van 48 cm tot het plafond (bovenplaat 2,302–2,32), staanders in lijn met de kast eronder (vakken 51,3 / 55,6 / 75 / 55,6 / 51,3). Geen kolommen naast de tv (op verzoek weg). Staanders 25 mm, planken 18 mm, 33 cm diep, vlakke planken.
-- 55, 65 en 75 inch passen eronder; de beamer projecteert boven de tv dan op de kast. Het stopcontact hoog op de tv-muur valt in het vak linksboven.
+- Losse laag, standaard uit, alleen samen met de Wandkast: alleen een dikke plank (6 cm) als brug over de tv, tussen de zijkolommen (x 0,6188–2,5302), bovenkant gelijk met de zijkolommen (1,76–1,82). Geen vakken erboven en geen kolommen naast de tv (op verzoek weg). 33 cm diep, in de muurkleur.
+- 55, 65 en 75 inch passen eronder (75 inch: 3,7 cm vrij).
 - Renderen: `--tv-muur "Wandkast,Wandkast rondom"`.
 
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)

@@ -57977,23 +57977,23 @@
   {
    "bufferView": 2311,
    "componentType": 5126,
-   "count": 288,
+   "count": 36,
    "type": "VEC3",
    "min": [
-    0.056,
-    1.802,
+    0.6188,
+    1.76,
     -2.994
    ],
    "max": [
-    3.093,
-    2.32,
+    2.5302,
+    1.82,
     -2.664
    ]
   },
   {
    "bufferView": 2312,
    "componentType": 5126,
-   "count": 288,
+   "count": 36,
    "type": "VEC3"
   }
  ],
@@ -73314,13 +73314,13 @@
   {
    "buffer": 0,
    "byteOffset": 41912560,
-   "byteLength": 3456,
+   "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 41916016,
-   "byteLength": 3456,
+   "byteOffset": 41912992,
+   "byteLength": 432,
    "target": 34962
   }
  ],
@@ -73800,7 +73800,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41919472
+   "byteLength": 41913424
   }
  ],
  "materials": [
@@ -133596,7 +133596,7 @@
    "translation": [
     0.4345,
     2.315,
-    -2.6
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133614,7 +133614,7 @@
    "translation": [
     1.2145,
     2.315,
-    -2.6
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133632,7 +133632,7 @@
    "translation": [
     2.7145,
     2.315,
-    -2.6
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -175975,7 +175975,7 @@
    "translation": [
     1.9345,
     2.315,
-    -2.6
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -176009,7 +176009,7 @@
    "name": "Wandkast rondom vakken",
    "mesh": 1720,
    "extras": {
-    "omschrijving": "Vakken boven de Wandkast tot het plafond: boven de tv een brug op 1,82 m, daarboven over de hele breedte één rij tot 2,32 m (48 cm hoog), staanders in lijn met de kast eronder (51,3 / 55,6 / 75 / 55,6 / 51,3 cm). Staanders 25 mm, planken 18 mm, 33 cm diep, in de muurkleur. De 55, 65 en 75 inch passen eronder."
+    "omschrijving": "Dikke plank (6 cm) als brug over de tv, tussen de zijkolommen van de Wandkast (191 cm), bovenkant gelijk met de zijkolommen op 1,82 m. In de muurkleur, 33 cm diep. De 55, 65 en 75 inch passen eronder."
    }
   },
   {
