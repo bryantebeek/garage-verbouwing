@@ -44440,6 +44440,30 @@
    "count": 384,
    "bufferView": 1467,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1468,
+   "byteOffset": 0,
+   "max": [
+    3.390000104904175,
+    0.26600000262260437,
+    -5.708499908447266
+   ],
+   "min": [
+    3.3459999561309814,
+    0.19699999690055847,
+    -5.973999977111816
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1469,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54635,6 +54659,18 @@
    "byteOffset": 37532476,
    "byteLength": 4608,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37537084,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37537516,
+   "byteLength": 432,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -55015,7 +55051,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37537084
+   "byteLength": 37537948
   }
  ],
  "materials": [
@@ -80024,6 +80060,18 @@
      "material": 268
     }
    ]
+  },
+  {
+   "name": "K11",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4321,
+      "NORMAL": 4322
+     },
+     "material": 12
+    }
+   ]
   }
  ],
  "nodes": [
@@ -87877,7 +87925,8 @@
     2453,
     2454,
     2455,
-    2493
+    2493,
+    2550
    ]
   },
   {
@@ -91067,7 +91116,8 @@
     1817,
     1829,
     2482,
-    2515
+    2515,
+    2531
    ]
   },
   {
@@ -91113,7 +91163,9 @@
     1842,
     2491,
     2492,
-    2494
+    2494,
+    2548,
+    2549
    ]
   },
   {
@@ -103919,7 +103971,7 @@
     "omschrijving": "1x Attema U50"
    },
    "translation": [
-    3.55125,
+    3.53125,
     0.3,
     -5.586
    ],
@@ -104000,7 +104052,7 @@
     "omschrijving": "W7 stroom -> plafond"
    },
    "translation": [
-    3.5637500001862645,
+    3.5437500001862645,
     0.3,
     -5.586
    ],
@@ -104012,7 +104064,7 @@
     "omschrijving": "stopcontact"
    },
    "translation": [
-    3.55125,
+    3.53125,
     0.3,
     -5.581
    ],
@@ -114653,6 +114705,302 @@
    },
    "children": [
     177
+   ]
+  },
+  {
+   "name": "W11 afdekraam",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG afdekraam 2-voudig A550 alpinwit glanzend",
+     "artikel": "401181307",
+     "url": "https://www.elektramat.nl/jung-afdekraam-2-voudig-a550-alpine-glanzend-a5582bfww/"
+    }
+   },
+   "mesh": 1206
+  },
+  {
+   "name": "W11 stopcontact sokkel",
+   "mesh": 1228
+  },
+  {
+   "name": "W11 stopcontact plaat",
+   "mesh": 1229
+  },
+  {
+   "name": "W11 stopcontact kom",
+   "mesh": 1230
+  },
+  {
+   "name": "W11 stopcontact gaten",
+   "mesh": 1231
+  },
+  {
+   "name": "W11 randaarde",
+   "mesh": 1232
+  },
+  {
+   "name": "W11 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2519,
+    2520,
+    2521,
+    2522,
+    2523
+   ]
+  },
+  {
+   "name": "W11 stopcontact sokkel",
+   "mesh": 1238
+  },
+  {
+   "name": "W11 stopcontact plaat",
+   "mesh": 1239
+  },
+  {
+   "name": "W11 stopcontact kom",
+   "mesh": 1240
+  },
+  {
+   "name": "W11 stopcontact gaten",
+   "mesh": 1241
+  },
+  {
+   "name": "W11 randaarde",
+   "mesh": 1242
+  },
+  {
+   "name": "W11 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2525,
+    2526,
+    2527,
+    2528,
+    2529
+   ]
+  },
+  {
+   "name": "W11",
+   "extras": {
+    "omschrijving": "stopcontact + stopcontact"
+   },
+   "translation": [
+    3.3315000000000006,
+    0.3,
+    -5.841250000864267
+   ],
+   "rotation": [
+    0.0,
+    0.7071067811865476,
+    0.0,
+    -0.7071067811865475
+   ],
+   "children": [
+    2518,
+    2524,
+    2530
+   ]
+  },
+  {
+   "name": "W11 inbouwdoos 1 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W11 inbouwdoos 1 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W11 inbouwdoos 1 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W11 inbouwdoos 1 buiktuit",
+   "mesh": 1273,
+   "translation": [
+    0.0,
+    0,
+    -0.031000000424683094
+   ]
+  },
+  {
+   "name": "W11 inbouwdoos 1",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    -0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2532,
+    2533,
+    2534,
+    2535
+   ]
+  },
+  {
+   "name": "W11 inbouwdoos 2 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W11 inbouwdoos 2 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W11 inbouwdoos 2 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W11 inbouwdoos 2",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    0.0355,
+    0,
+    0
+   ],
+   "children": [
+    2537,
+    2538,
+    2539
+   ]
+  },
+  {
+   "name": "W11 stopcontact fase",
+   "mesh": 1199
+  },
+  {
+   "name": "W11 stopcontact nul",
+   "mesh": 1200
+  },
+  {
+   "name": "W11 stopcontact aarde",
+   "mesh": 1201
+  },
+  {
+   "name": "W11 stopcontact fase",
+   "mesh": 1202
+  },
+  {
+   "name": "W11 stopcontact nul",
+   "mesh": 1203
+  },
+  {
+   "name": "W11 stopcontact aarde",
+   "mesh": 1204
+  },
+  {
+   "name": "W11 draden",
+   "extras": {
+    "omschrijving": "Uit Leiding 15"
+   },
+   "translation": [
+    0.012499997854232794,
+    0.0,
+    0.0
+   ],
+   "children": [
+    2541,
+    2542,
+    2543,
+    2544,
+    2545,
+    2546
+   ]
+  },
+  {
+   "name": "W11 inbouwdozen",
+   "extras": {
+    "omschrijving": "2x Attema U50, gekoppeld 71 mm"
+   },
+   "translation": [
+    3.3365000000000005,
+    0.3,
+    -5.841250000864267
+   ],
+   "rotation": [
+    0.0,
+    0.7071067811865476,
+    0.0,
+    -0.7071067811865475
+   ],
+   "children": [
+    2536,
+    2540,
+    2547
+   ]
+  },
+  {
+   "name": "Leiding 15",
+   "extras": {
+    "omschrijving": "W11 stroom -> plafond (door B8)"
+   },
+   "translation": [
+    3.3365000000000005,
+    0.3,
+    -5.7932500030100345
+   ],
+   "rotation": [
+    0.0,
+    0.7071067811865476,
+    0.0,
+    -0.7071067811865475
+   ],
+   "mesh": 1226
+  },
+  {
+   "name": "K11",
+   "mesh": 1307,
+   "extras": {
+    "omschrijving": "Klos voor W11",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    0.003,
+    0,
+    0.0017
    ]
   }
  ],
