@@ -57903,6 +57903,54 @@
    "count": 108,
    "bufferView": 2304,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1428,
+   "bufferView": 2305,
+   "byteOffset": 0,
+   "max": [
+    3.0929999351501465,
+    1.8199800252914429,
+    -2.441999912261963
+   ],
+   "min": [
+    0.06800000369548798,
+    0.009999999776482582,
+    -2.9820001125335693
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1428,
+   "bufferView": 2306,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 108,
+   "bufferView": 2307,
+   "byteOffset": 0,
+   "max": [
+    3.072000026702881,
+    0.2590000033378601,
+    -2.441999912261963
+   ],
+   "min": [
+    0.08900000154972076,
+    0.02199999988079071,
+    -2.9619998931884766
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 108,
+   "bufferView": 2308,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -73182,6 +73230,30 @@
    "byteOffset": 41871808,
    "byteLength": 1296,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41873104,
+   "byteLength": 17136,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41890240,
+   "byteLength": 17136,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41907376,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41908672,
+   "byteLength": 1296,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -73660,7 +73732,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41873104
+   "byteLength": 41909968
   }
  ],
  "materials": [
@@ -108018,6 +108090,30 @@
      "attributes": {
       "POSITION": 5462,
       "NORMAL": 5463
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5464,
+      "NORMAL": 5465
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast lades",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5466,
+      "NORMAL": 5467
      },
      "material": 401
     }
@@ -165675,9 +165771,9 @@
   },
   {
    "name": "Wandkast casco",
-   "mesh": 1715,
+   "mesh": 1717,
    "extras": {
-    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 194 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 52 cm, naast de Sony 56,3 cm, Sony-vak 75 cm breed; tv-opening 191 x 115 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 29 cm; onderin 3 rolladen op wieltjes; plaat 18 mm in de muurkleur (Skimming Stone)"
+    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 182 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 52 cm, naast de Sony 56,3 cm, Sony-vak 75 cm breed; tv-opening 191 x 108 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 27 cm; onderin 3 rolladen op wieltjes; plaat 18 mm in de muurkleur (Skimming Stone)"
    }
   },
   {
@@ -165713,7 +165809,7 @@
   },
   {
    "name": "Wandkast lades",
-   "mesh": 1716,
+   "mesh": 1718,
    "extras": {
     "omschrijving": "3 greeploze rolladen op wieltjes (rijden naar voren uit), in de kastkleur: links en rechts 14 cm hoog, onder de Sony 24 cm hoog en 54 cm diep"
    }
@@ -165783,7 +165879,7 @@
     0.9657165060850506,
     0.0,
     0.73275,
-    0.49701923788646685,
+    0.47701923788646683,
     -2.6670000000000003,
     1.0
    ]
@@ -165878,7 +165974,7 @@
     -4.2704986885353286e-18,
     0.0,
     2.0638250686507638,
-    0.5795346926643403,
+    0.5595346926643403,
     -2.9752603662983317,
     1.0
    ]
@@ -166130,7 +166226,7 @@
     0.09600420423368072,
     0.0,
     0.2510000000000001,
-    0.49727648036754624,
+    0.4772764803675462,
     -2.6679600420092533,
     1.0
    ]
@@ -166298,7 +166394,7 @@
     0.8438458468661707,
     0.0,
     0.7460882731272764,
-    -2.3241621780469455,
+    -2.344162178046945,
     -3.563384239939195,
     1.0
    ]
@@ -167621,7 +167717,7 @@
     1.0639816694001702,
     0.0,
     0.11929476402642214,
-    0.08811081092632844,
+    0.04811081092632841,
     -2.8261155383727377,
     1.0
    ]
@@ -167779,7 +167875,7 @@
     0.017473986469413772,
     0.0,
     2.685164969191854,
-    0.8511647536603861,
+    0.8111647536603861,
     -2.89146612067539,
     1.0
    ]
@@ -168298,7 +168394,7 @@
     0.015009969106734529,
     0.0,
     0.42302483368041366,
-    1.0881288634568318,
+    1.0281288634568317,
     -2.674495515388527,
     1.0
    ]
@@ -168612,7 +168708,7 @@
     0.9658425569862747,
     0.0,
     2.629920752203334,
-    1.0785897252751897,
+    1.0185897252751897,
     -2.6467367830743784,
     1.0
    ]
@@ -174652,7 +174748,7 @@
     2.137633581964697e-16,
     0.0,
     3.2685452605989287,
-    -0.6482627129509563,
+    -0.7282627129509563,
     1.8824047347725372,
     1.0
    ]
@@ -174721,7 +174817,7 @@
     0.7903029694733843,
     0.0,
     0.6090906193289878,
-    0.9845424239120985,
+    0.9045424239120984,
     -1.2022565894549007,
     1.0
    ]
@@ -174785,7 +174881,7 @@
     -2.072090759301781e-16,
     0.0,
     0.30462870082649207,
-    1.7278797143910263,
+    1.6278797143910262,
     -2.7903410112389984,
     1.0
    ]
@@ -175579,7 +175675,7 @@
     0.96688955178929,
     0.0,
     2.6960000047925776,
-    1.6619586033815503,
+    1.5619586033815502,
     -2.63318525167884,
     1.0
    ]
