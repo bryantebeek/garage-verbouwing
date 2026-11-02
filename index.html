@@ -34,8 +34,10 @@
   .icon-btn.ghost { width: 28px; height: 28px; border-color: transparent; background: none; color: var(--muted); }
   .icon-btn.ghost:hover { background: rgba(255, 255, 255, .06); color: var(--text); }
   svg.i { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-  #sidebar > .scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, .14) transparent; }
+  #sidebar > .scroll { flex: 1; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, .14) transparent; }
   #sidebar section { padding: 16px 12px; border-bottom: 1px solid var(--sb-border); }
+  #info { flex: none; max-height: 45vh; overflow-y: auto; scrollbar-gutter: stable; }   /* stays put while the layers scroll */
+  #layers { border-bottom: 0 !important; }
   .sec-head { display: flex; align-items: center; justify-content: space-between; min-height: 28px; padding: 0 8px; margin-bottom: 8px; }
   .sec-head h2 { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
   kbd {
@@ -82,24 +84,24 @@
 
   /* Layers: groups with a fold, a count and a switch for the whole group */
   .group + .group { margin-top: 4px; }
-  .group-head { display: flex; align-items: center; height: 32px; padding-right: 8px; border-radius: 8px; }
+  .group-head { display: flex; align-items: center; height: 32px; padding-right: 4px; border-radius: 8px; }
   .group-head:hover { background: var(--sb-hover); }
   .group-toggle { flex: 1; display: flex; align-items: center; gap: 6px; height: 100%; padding: 0 8px 0 6px; border: 0; background: none; cursor: pointer; text-align: left; font-weight: 600; }
   .group-toggle svg { width: 14px; height: 14px; color: var(--muted); transition: transform .15s; }
   .group.closed .group-toggle svg { transform: rotate(-90deg); }
   .group-toggle .count { margin-left: auto; color: var(--muted); font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums; }
   .group.closed .rows { display: none; }
-  .group-switch { display: grid; place-items: center; height: 24px; padding: 0 0 0 4px; border: 0; background: none; cursor: pointer; }
-  .row { display: flex; align-items: center; gap: 10px; width: 100%; height: 32px; padding: 0 8px 0 26px; box-sizing: border-box; border: 0; border-radius: 8px; background: none; cursor: pointer; text-align: left; }
+  .group-switch { display: grid; place-items: center; height: 100%; padding: 0; border: 0; background: none; cursor: pointer; }
+  .row { display: flex; align-items: center; gap: 10px; width: 100%; height: 32px; padding: 0 4px 0 26px; box-sizing: border-box; border: 0; border-radius: 8px; background: none; cursor: pointer; text-align: left; }
   .row:hover { background: var(--sb-hover); }
   .row .name { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
   .row[aria-checked="false"] .name { color: var(--muted); }
-  .switch { flex: none; position: relative; width: 28px; height: 16px; border-radius: 8px; background: rgba(255, 255, 255, .14); transition: background .15s; }
-  .switch::after { content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: #fff; transition: transform .15s; }
-  [aria-checked="true"] > .switch { background: var(--accent); }
-  [aria-checked="true"] > .switch::after { transform: translateX(12px); }
-  [aria-checked="mixed"] > .switch { background: rgba(255, 159, 67, .45); }
-  [aria-checked="mixed"] > .switch::after { transform: translateX(6px); }
+  /* Visibility: eye open = shown, eye struck through = hidden, half eye = group partly shown */
+  .eye { flex: none; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 6px; color: #d4d4d8; transition: color .12s, background .12s; }
+  .eye svg { width: 16px; height: 16px; }
+  [aria-checked="false"] > .eye { color: #5f5f68; }
+  [aria-checked="mixed"] > .eye { color: #d4d4d8; opacity: .55; }
+  :is(.row, .group-switch):hover > .eye { color: var(--text); background: rgba(255, 255, 255, .06); opacity: 1; }
   .row select {
     max-width: 150px; height: 26px; padding: 0 26px 0 8px; border: 1px solid var(--sb-border); border-radius: 6px; cursor: pointer;
     background: var(--sb-surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23a1a1aa' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right 9px center;
@@ -205,6 +207,7 @@
       font-size: 18px; backdrop-filter: blur(16px); touch-action: none; }
     #help .keys { display: none; }
     .row, .group-head { height: 44px; }
+    .eye { width: 32px; height: 32px; }
     #help .touch { display: block; }
   }
   .dims u { text-decoration: underline 1px rgba(255, 255, 255, .65); text-underline-offset: 3px; }
@@ -237,7 +240,6 @@
   <div class="title"><b>Garage verbouwing</b><span>3D-model</span></div>
   <button id="help-open" class="icon-btn" title="Besturing (H)" aria-label="Besturing" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><path d="M6.5 10h.01M10 10h.01M13.5 10h.01M17 10h.01M7.5 14h9"/></svg></button>
 </header>
-<div class="scroll">
 <section id="info" class="empty" aria-live="polite">
   <div class="sec-head"><h2>Selectie</h2><button id="info-clear" class="icon-btn ghost" title="Deselecteer (Esc)" aria-label="Deselecteer"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
   <div class="empty-state"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></svg><strong>Niets geselecteerd</strong><small>Richt het vizier op een onderdeel<br>en druk op <kbd>E</kbd></small></div>
@@ -249,6 +251,7 @@
     <a id="info-product" class="product" target="_blank" rel="noopener" hidden></a>
   </div>
 </section>
+<div class="scroll">
 <section id="layers"><div class="sec-head"><h2>Lagen</h2></div><div id="layer-list"></div></section>
 </div>
 <footer id="pos">
@@ -319,6 +322,9 @@ import { VARIANTS, CONSOLES } from './beamer.js';
 const $ = id => document.getElementById(id);
 const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
 const ICON_EXTERNAL = '<svg class="i" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
+const ICON_EYE = '<svg class="i" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+const ICON_EYE_OFF = '<svg class="i" viewBox="0 0 24 24"><path d="M10.6 5.1A10 10 0 0 1 12 5c6.4 0 10 7 10 7a17 17 0 0 1-2.7 3.6M6.6 6.6C3.7 8.4 2 12 2 12s3.6 7 10 7a9.6 9.6 0 0 0 5.4-1.6M9.9 9.9a3 3 0 0 0 4.2 4.2M3 3l18 18"/></svg>';
+const eye = state => `<span class="eye">${state === 'false' || state === false ? ICON_EYE_OFF : ICON_EYE}</span>`;
 const ICON_CHEVRON = '<svg class="i" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>';
 // Selection inspector: d = { name, path, props: [[label, value]], about, product } or null for the empty state.
 function showInfo(d) {
@@ -691,7 +697,7 @@ function switchRow(label, on, onclick) {
   const b = Object.assign(document.createElement('button'), { className: 'row', onclick });
   b.setAttribute('role', 'switch');
   b.setAttribute('aria-checked', on);
-  b.innerHTML = `<span class="name">${esc(label)}</span><span class="switch"></span>`;
+  b.innerHTML = `<span class="name">${esc(label)}</span>${eye(on)}`;
   return b;
 }
 function group(name, rows, all) {
@@ -707,11 +713,11 @@ function group(name, rows, all) {
   };
   head.append(fold);
   if (all) {
-    const s = Object.assign(document.createElement('button'), { className: 'group-switch', onclick: all.toggle, title: `${name}: alles aan / uit` });
+    const s = Object.assign(document.createElement('button'), { className: 'group-switch', onclick: all.toggle, title: `${name}: alles tonen / verbergen` });
     s.setAttribute('role', 'switch');
     s.setAttribute('aria-checked', all.state);
-    s.setAttribute('aria-label', `${name}: alles aan of uit`);
-    s.innerHTML = '<span class="switch"></span>';
+    s.setAttribute('aria-label', `${name}: alles tonen of verbergen`);
+    s.innerHTML = eye(all.state);
     head.append(s);
   }
   const list = Object.assign(document.createElement('div'), { className: 'rows' });
