@@ -68926,13 +68926,13 @@
    }
   },
   {
-   "name": "Farrow & Ball Ammonite No. 274",
+   "name": "Farrow & Ball Skimming Stone No. 241",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.6866853124353135,
-     0.6724431569576875,
-     0.6239603916750761,
+     0.7084,
+     0.6654,
+     0.5906,
      1
     ],
     "roughnessFactor": 0.9,
@@ -74268,13 +74268,13 @@
    }
   },
   {
-   "name": "Wandkast Ammonite",
+   "name": "Wandkast Skimming Stone",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.6867,
-     0.6724,
-     0.624,
+     0.7084,
+     0.6654,
+     0.5906,
      1
     ],
     "roughnessFactor": 0.85,
@@ -110794,9 +110794,9 @@
     "visible": false,
     "product": {
      "winkel": "Farrow & Ball",
-     "naam": "Ammonite No. 274 (kleur #D8D6CF, schermwaarde)",
-     "artikel": "274",
-     "url": "https://www.farrow-ball.com/paint/ammonite"
+     "naam": "Skimming Stone No. 241 (kleur #DBD5CA, schermwaarde)",
+     "artikel": "241",
+     "url": "https://www.farrow-ball.com/paint/skimming-stone"
     }
    },
    "children": [
@@ -111143,112 +111143,112 @@
   {
    "name": "VF1",
    "extras": {
-    "omschrijving": "Verf Ammonite Lange muur"
+    "omschrijving": "Verf Skimming Stone Lange muur"
    },
    "mesh": 724
   },
   {
    "name": "VF2",
    "extras": {
-    "omschrijving": "Verf Ammonite Muur naast TV"
+    "omschrijving": "Verf Skimming Stone Muur naast TV"
    },
    "mesh": 725
   },
   {
    "name": "VF3",
    "extras": {
-    "omschrijving": "Verf Ammonite TV-muur kamerkant"
+    "omschrijving": "Verf Skimming Stone TV-muur kamerkant"
    },
    "mesh": 726
   },
   {
    "name": "VF4",
    "extras": {
-    "omschrijving": "Verf Ammonite TV-muur halkant"
+    "omschrijving": "Verf Skimming Stone TV-muur halkant"
    },
    "mesh": 727
   },
   {
    "name": "VF5",
    "extras": {
-    "omschrijving": "Verf Ammonite Schuine muur kamerkant"
+    "omschrijving": "Verf Skimming Stone Schuine muur kamerkant"
    },
    "mesh": 728
   },
   {
    "name": "VF6",
    "extras": {
-    "omschrijving": "Verf Ammonite Schuine muur halkant"
+    "omschrijving": "Verf Skimming Stone Schuine muur halkant"
    },
    "mesh": 729
   },
   {
    "name": "VF7",
    "extras": {
-    "omschrijving": "Verf Ammonite Muur naast deur kamerkant"
+    "omschrijving": "Verf Skimming Stone Muur naast deur kamerkant"
    },
    "mesh": 730
   },
   {
    "name": "VF8",
    "extras": {
-    "omschrijving": "Verf Ammonite Muur naast deur halkant"
+    "omschrijving": "Verf Skimming Stone Muur naast deur halkant"
    },
    "mesh": 731
   },
   {
    "name": "VF9",
    "extras": {
-    "omschrijving": "Verf Ammonite Muur bij ventilator"
+    "omschrijving": "Verf Skimming Stone Muur bij ventilator"
    },
    "mesh": 732
   },
   {
    "name": "VF10",
    "extras": {
-    "omschrijving": "Verf Ammonite plafond kamer"
+    "omschrijving": "Verf Skimming Stone plafond kamer"
    },
    "mesh": 733
   },
   {
    "name": "VF11",
    "extras": {
-    "omschrijving": "Verf Ammonite plafond hal"
+    "omschrijving": "Verf Skimming Stone plafond hal"
    },
    "mesh": 734
   },
   {
    "name": "VF13",
    "extras": {
-    "omschrijving": "Verf Ammonite Westmuur hal (beton)"
+    "omschrijving": "Verf Skimming Stone Westmuur hal (beton)"
    },
    "mesh": 735
   },
   {
    "name": "VF14",
    "extras": {
-    "omschrijving": "Verf Ammonite Zuidmuur hal (beton)"
+    "omschrijving": "Verf Skimming Stone Zuidmuur hal (beton)"
    },
    "mesh": 736
   },
   {
    "name": "VF15",
    "extras": {
-    "omschrijving": "Verf Ammonite Kast hal zijwand"
+    "omschrijving": "Verf Skimming Stone Kast hal zijwand"
    },
    "mesh": 737
   },
   {
    "name": "VF16",
    "extras": {
-    "omschrijving": "Verf Ammonite Kast hal voorwand"
+    "omschrijving": "Verf Skimming Stone Kast hal voorwand"
    },
    "mesh": 1290
   },
   {
    "name": "VF17",
    "extras": {
-    "omschrijving": "Verf Ammonite Voorzetwand oostmuur hal"
+    "omschrijving": "Verf Skimming Stone Voorzetwand oostmuur hal"
    },
    "mesh": 1292
   },
@@ -137669,7 +137669,7 @@
    "name": "Wandkast casco",
    "mesh": 1538,
    "extras": {
-    "omschrijving": "Kast op maat over de hele tv-muur (3,04 m breed, tot 2,32 m hoog): 5 kolommen met vakken van 58,6 cm breed (past de Mega Drive 2 + Mega-CD 2 met spellen), 36 cm diep, midden onder de LG 52 cm diep voor de Sony; plaatmateriaal 18 mm in de muurkleur (Ammonite)"
+    "omschrijving": "Kast op maat over de hele tv-muur (3,04 m breed, tot 2,32 m hoog): 5 kolommen met vakken van 58,6 cm breed (past de Mega Drive 2 + Mega-CD 2 met spellen), 36 cm diep, midden onder de LG 52 cm diep voor de Sony; plaatmateriaal 18 mm in de muurkleur (Skimming Stone)"
    }
   },
   {
