@@ -44296,6 +44296,78 @@
    "count": 576,
    "bufferView": 1455,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1456,
+   "byteOffset": 0,
+   "max": [
+    0.04500000178813934,
+    2.319999933242798,
+    0.04500000178813934
+   ],
+   "min": [
+    -0.04500000178813934,
+    2.315000057220459,
+    -0.04500000178813934
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1457,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1458,
+   "byteOffset": 0,
+   "max": [
+    0.02500000037252903,
+    2.315999984741211,
+    0.02500000037252903
+   ],
+   "min": [
+    -0.02500000037252903,
+    2.314500093460083,
+    -0.02500000037252903
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1459,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1460,
+   "byteOffset": 0,
+   "max": [
+    0.03750000149011612,
+    2.375,
+    0.03750000149011612
+   ],
+   "min": [
+    -0.03750000149011612,
+    2.319999933242798,
+    -0.03750000149011612
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 384,
+   "bufferView": 1461,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54419,6 +54491,42 @@
    "byteOffset": 37474876,
    "byteLength": 6912,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37481788,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37486396,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37491004,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37495612,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37500220,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37504828,
+   "byteLength": 4608,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -54799,7 +54907,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37481788
+   "byteLength": 37509436
   }
  ],
  "materials": [
@@ -79754,6 +79862,32 @@
       "NORMAL": 4308
      },
      "material": 58
+    }
+   ]
+  },
+  {
+   "name": "Inbouwspot Pittsburg",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4309,
+      "NORMAL": 4310
+     },
+     "material": 268
+    },
+    {
+     "attributes": {
+      "POSITION": 4311,
+      "NORMAL": 4312
+     },
+     "material": 269
+    },
+    {
+     "attributes": {
+      "POSITION": 4313,
+      "NORMAL": 4314
+     },
+     "material": 268
     }
    ]
   }
@@ -113970,254 +114104,380 @@
   },
   {
    "name": "SP1",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     0.747,
     0,
     -0.538
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP2",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     1.747,
     0,
     -0.538
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP3",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     2.747,
     0,
     -0.538
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP4",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     3.747,
     0,
     -0.538
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP5",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     4.747,
     0,
     -0.538
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP6",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     0.747,
     0,
     -1.52
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP7",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     1.747,
     0,
     -1.52
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP8",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     2.747,
     0,
     -1.52
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP9",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     3.747,
     0,
     -1.52
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP10",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     4.747,
     0,
     -1.52
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP11",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     0.747,
     0,
     -2.503
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP12",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     1.747,
     0,
     -2.503
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP13",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     2.747,
     0,
     -2.503
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP14",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     3.747,
     0,
     -2.503
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP15",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     4.747,
     0,
     -2.503
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP16",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     4.747,
     0,
     -3.35
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (kamer, bij de deur naar de hal) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (kamer, bij de deur naar de hal) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP17",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     0.747,
     0,
     -4.03
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP18",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     1.747,
     0,
     -4.03
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP19",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     2.747,
     0,
     -4.03
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP20",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     3.747,
     0,
     -4.03
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (hal) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
    "name": "SP21",
-   "mesh": 1303,
+   "mesh": 1305,
    "translation": [
     2.747,
     0,
     -5.5
    ],
    "extras": {
-    "omschrijving": "Inbouwspot (hal, tussen trap en kast) tussen de plafondbalken"
+    "omschrijving": "Inbouwspot (hal, tussen trap en kast) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
@@ -114246,7 +114506,13 @@
     2515
    ],
    "extras": {
-    "omschrijving": "21x inbouwspot rond wit, Ø 85 mm, zaagmaat Ø 75 mm, inbouwdiepte max. 60 mm (holle plafond 69 mm + 9,5 mm plaat), GU10 met korte LED-lamp; elke spot midden tussen twee plafondbalken. Type en bedrading nog te kiezen."
+    "omschrijving": "21x HOFTRONIC Pittsburg inbouwspot wit (RAL 9016), Ø 90 mm, zaagmaat 75 mm, inbouwdiepte 60 mm incl. GU10-lamp (past in ±83 mm tot het beton), kantelbaar tot 45°; GU10 4 W 345 lm 2700K, dimbaar. Elke spot midden tussen twee plafondbalken.",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   },
   {
