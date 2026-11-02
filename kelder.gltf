@@ -45120,12 +45120,12 @@
    "bufferView": 1524,
    "byteOffset": 0,
    "max": [
-    0.1550000011920929,
-    0.11646170914173126,
-    0.36000001430511475
+    0.1770000010728836,
+    0.08123333007097244,
+    0.22852590680122375
    ],
    "min": [
-    -0.1550000011920929,
+    -0.1770000010728836,
     0.0,
     0.0
    ]
@@ -45164,8 +45164,32 @@
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1528,
+   "byteOffset": 0,
+   "max": [
+    0.18850000202655792,
+    0.07916277647018433,
+    0.22079850733280182
+   ],
+   "min": [
+    -0.18850000202655792,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1529,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1530,
    "byteOffset": 0,
    "max": [
     0.007000000216066837,
@@ -45182,54 +45206,30 @@
    "type": "VEC3",
    "componentType": 5126,
    "count": 36,
-   "bufferView": 1529,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1530,
-   "byteOffset": 0,
-   "max": [
-    0.004999999888241291,
-    0.1420000046491623,
-    0.0
-   ],
-   "min": [
-    -0.004999999888241291,
-    0.0,
-    -0.125
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
    "bufferView": 1531,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1532,
    "byteOffset": 0,
    "max": [
-    0.004999999888241291,
-    0.1420000046491623,
-    0.0
+    0.16699999570846558,
+    0.08071569353342056,
+    0.22659406065940857
    ],
    "min": [
-    -0.004999999888241291,
+    -0.16699999570846558,
     0.0,
-    -0.125
+    0.0
    ]
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1533,
    "byteOffset": 0
   },
@@ -45238,6 +45238,102 @@
    "componentType": 5126,
    "count": 36,
    "bufferView": 1534,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1535,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1536,
+   "byteOffset": 0,
+   "max": [
+    0.12700000405311584,
+    0.08273448050022125,
+    0.23412828147411346
+   ],
+   "min": [
+    -0.12700000405311584,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1537,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1538,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1539,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1540,
+   "byteOffset": 0,
+   "max": [
+    0.17399999499320984,
+    0.08459798246622086,
+    0.24108293652534485
+   ],
+   "min": [
+    -0.17399999499320984,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1541,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1542,
    "byteOffset": 0,
    "max": [
     0.009999999776482582,
@@ -45254,14 +45350,38 @@
    "type": "VEC3",
    "componentType": 5126,
    "count": 36,
-   "bufferView": 1535,
+   "bufferView": 1543,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1544,
+   "byteOffset": 0,
+   "max": [
+    0.1469999998807907,
+    0.09470907598733902,
+    0.2788180708885193
+   ],
+   "min": [
+    -0.1469999998807907,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1545,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
    "count": 36,
-   "bufferView": 1536,
+   "bufferView": 1546,
    "byteOffset": 0,
    "max": [
     0.009999999776482582,
@@ -45278,134 +45398,182 @@
    "type": "VEC3",
    "componentType": 5126,
    "count": 36,
-   "bufferView": 1537,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1538,
-   "byteOffset": 0,
-   "max": [
-    0.007000000216066837,
-    0.1899999976158142,
-    0.0
-   ],
-   "min": [
-    -0.007000000216066837,
-    0.0,
-    -0.13500000536441803
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1539,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1540,
-   "byteOffset": 0,
-   "max": [
-    0.007000000216066837,
-    0.1899999976158142,
-    0.0
-   ],
-   "min": [
-    -0.007000000216066837,
-    0.0,
-    -0.13500000536441803
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1541,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1542,
-   "byteOffset": 0,
-   "max": [
-    0.007000000216066837,
-    0.1899999976158142,
-    0.0
-   ],
-   "min": [
-    -0.007000000216066837,
-    0.0,
-    -0.13500000536441803
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1543,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1544,
-   "byteOffset": 0,
-   "max": [
-    0.006000000052154064,
-    0.17000000178813934,
-    0.0
-   ],
-   "min": [
-    -0.006000000052154064,
-    0.0,
-    -0.13500000536441803
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1545,
-   "byteOffset": 0
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
-   "bufferView": 1546,
-   "byteOffset": 0,
-   "max": [
-    0.007000000216066837,
-    0.1899999976158142,
-    0.0
-   ],
-   "min": [
-    -0.007000000216066837,
-    0.0,
-    -0.13500000536441803
-   ]
-  },
-  {
-   "type": "VEC3",
-   "componentType": 5126,
-   "count": 36,
    "bufferView": 1547,
    "byteOffset": 0
   },
   {
    "type": "VEC3",
    "componentType": 5126,
-   "count": 36,
+   "count": 72,
    "bufferView": 1548,
+   "byteOffset": 0,
+   "max": [
+    0.11299999803304672,
+    0.0737275779247284,
+    0.2005140632390976
+   ],
+   "min": [
+    -0.11299999803304672,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1549,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1550,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1551,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1552,
+   "byteOffset": 0,
+   "max": [
+    0.11649999767541885,
+    0.08780733495950699,
+    0.2530604302883148
+   ],
+   "min": [
+    -0.11649999767541885,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1553,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1554,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1555,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1556,
+   "byteOffset": 0,
+   "max": [
+    0.17299999296665192,
+    0.10038594156503677,
+    0.30000442266464233
+   ],
+   "min": [
+    -0.17299999296665192,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1557,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1558,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1559,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1560,
+   "byteOffset": 0,
+   "max": [
+    0.18000000715255737,
+    0.107115238904953,
+    0.3251184821128845
+   ],
+   "min": [
+    -0.18000000715255737,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1561,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1562,
    "byteOffset": 0,
    "max": [
     0.006000000052154064,
@@ -45422,7 +45590,103 @@
    "type": "VEC3",
    "componentType": 5126,
    "count": 36,
-   "bufferView": 1549,
+   "bufferView": 1563,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1564,
+   "byteOffset": 0,
+   "max": [
+    0.12399999797344208,
+    0.1015506237745285,
+    0.3043510913848877
+   ],
+   "min": [
+    -0.12399999797344208,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1565,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1566,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1567,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1568,
+   "byteOffset": 0,
+   "max": [
+    0.16750000417232513,
+    0.10659760236740112,
+    0.32318663597106934
+   ],
+   "min": [
+    -0.16750000417232513,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 72,
+   "bufferView": 1569,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1570,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1571,
    "byteOffset": 0
   }
  ],
@@ -55983,25 +56247,13 @@
   {
    "buffer": 0,
    "byteOffset": 37583020,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37583452,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37583884,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37584316,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
@@ -56019,25 +56271,13 @@
   {
    "buffer": 0,
    "byteOffset": 37585612,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37586044,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37586476,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37586908,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
@@ -56055,25 +56295,13 @@
   {
    "buffer": 0,
    "byteOffset": 37588204,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37588636,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37589068,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37589500,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
@@ -56091,24 +56319,192 @@
   {
    "buffer": 0,
    "byteOffset": 37590796,
-   "byteLength": 432,
-   "target": 34962
-  },
-  {
-   "buffer": 0,
-   "byteOffset": 37591228,
-   "byteLength": 432,
+   "byteLength": 864,
    "target": 34962
   },
   {
    "buffer": 0,
    "byteOffset": 37591660,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37592524,
    "byteLength": 432,
    "target": 34962
   },
   {
    "buffer": 0,
-   "byteOffset": 37592092,
+   "byteOffset": 37592956,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37593388,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37594252,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37595116,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37595548,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37595980,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37596844,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37597708,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37598140,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37598572,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37599436,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37600300,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37600732,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37601164,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37602028,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37602892,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37603324,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37603756,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37604620,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37605484,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37605916,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37606348,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37607212,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37608076,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37608508,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37608940,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37609804,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37610668,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37611100,
    "byteLength": 432,
    "target": 34962
   }
@@ -56491,7 +56887,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37592524
+   "byteLength": 37611532
   }
  ],
  "materials": [
@@ -81971,14 +82367,38 @@
    ]
   },
   {
-   "name": "Spel PlayStation 2",
+   "name": "Kaas",
    "primitives": [
     {
      "attributes": {
       "POSITION": 4381,
       "NORMAL": 4382
      },
+     "material": 95
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4383,
+      "NORMAL": 4384
+     },
      "material": 278
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4385,
+      "NORMAL": 4386
+     },
+     "material": 95
     }
    ]
   },
@@ -81987,10 +82407,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4383,
-      "NORMAL": 4384
+      "POSITION": 4387,
+      "NORMAL": 4388
      },
      "material": 279
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4389,
+      "NORMAL": 4390
+     },
+     "material": 95
     }
    ]
   },
@@ -81999,10 +82431,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4385,
-      "NORMAL": 4386
+      "POSITION": 4391,
+      "NORMAL": 4392
      },
      "material": 280
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4393,
+      "NORMAL": 4394
+     },
+     "material": 95
     }
    ]
   },
@@ -82011,10 +82455,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4387,
-      "NORMAL": 4388
+      "POSITION": 4395,
+      "NORMAL": 4396
      },
      "material": 281
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4397,
+      "NORMAL": 4398
+     },
+     "material": 95
     }
    ]
   },
@@ -82023,10 +82479,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4389,
-      "NORMAL": 4390
+      "POSITION": 4399,
+      "NORMAL": 4400
      },
      "material": 282
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4401,
+      "NORMAL": 4402
+     },
+     "material": 95
     }
    ]
   },
@@ -82035,10 +82503,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4391,
-      "NORMAL": 4392
+      "POSITION": 4403,
+      "NORMAL": 4404
      },
      "material": 283
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4405,
+      "NORMAL": 4406
+     },
+     "material": 95
     }
    ]
   },
@@ -82047,10 +82527,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4393,
-      "NORMAL": 4394
+      "POSITION": 4407,
+      "NORMAL": 4408
      },
      "material": 284
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4409,
+      "NORMAL": 4410
+     },
+     "material": 95
     }
    ]
   },
@@ -82059,10 +82551,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4395,
-      "NORMAL": 4396
+      "POSITION": 4411,
+      "NORMAL": 4412
      },
      "material": 285
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4413,
+      "NORMAL": 4414
+     },
+     "material": 95
     }
    ]
   },
@@ -82071,10 +82575,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4397,
-      "NORMAL": 4398
+      "POSITION": 4415,
+      "NORMAL": 4416
      },
      "material": 286
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4417,
+      "NORMAL": 4418
+     },
+     "material": 95
     }
    ]
   },
@@ -82083,10 +82599,22 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4399,
-      "NORMAL": 4400
+      "POSITION": 4419,
+      "NORMAL": 4420
      },
      "material": 287
+    }
+   ]
+  },
+  {
+   "name": "Kaas",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4421,
+      "NORMAL": 4422
+     },
+     "material": 95
     }
    ]
   },
@@ -82095,8 +82623,8 @@
    "primitives": [
     {
      "attributes": {
-      "POSITION": 4401,
-      "NORMAL": 4402
+      "POSITION": 4423,
+      "NORMAL": 4424
      },
      "material": 288
     }
@@ -108586,17 +109114,12 @@
    "name": "Kaas Nintendo 64",
    "mesh": 1319,
    "translation": [
-    1.0110000059604645,
+    1.0225000059604645,
     0.5,
     -2.994
    ],
-   "scale": [
-    1.1419354838709683,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 35,4 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): Nintendo 64 met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 35,4 x 22,9 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Nintendo 64 met rechts 3 spellen"
    }
   },
   {
@@ -108646,9 +109169,9 @@
     -0.19009501369051668,
     0.7094442493585097,
     0.0,
-    0.7471565816986772,
+    0.7586565816986772,
     0.5064759792715176,
-    -2.583383875889307,
+    -2.7148579688943837,
     1.0
    ]
   },
@@ -108668,9 +109191,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    1.1240000059604647,
+    1.1355000059604645,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7804740930050773,
     1.0
    ]
   },
@@ -108690,9 +109213,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    1.1460000059604647,
+    1.1575000059604645,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7804740930050773,
     1.0
    ]
   },
@@ -108712,9 +109235,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    1.1680000059604647,
+    1.1795000059604646,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7804740930050773,
     1.0
    ]
   },
@@ -108731,19 +109254,14 @@
   },
   {
    "name": "Kaas PlayStation 2",
-   "mesh": 1319,
+   "mesh": 1321,
    "translation": [
     1.0110000059604645,
     0.18,
     -2.994
    ],
-   "scale": [
-    1.2161290322580651,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 37,7 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): PlayStation 2 met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 37,7 x 22,1 cm, 7,9 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 2 met rechts 3 spellen"
    }
   },
   {
@@ -109561,13 +110079,13 @@
     0.0,
     0.7562947699868865,
     -0.4988891890736715,
-    -2.808115538372738,
+    -2.947317037985794,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 1",
-   "mesh": 1321,
+   "mesh": 1322,
    "matrix": [
     1.0,
     0.0,
@@ -109583,13 +110101,13 @@
     0.0,
     1.1505000059604644,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7882014996130566,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 2",
-   "mesh": 1321,
+   "mesh": 1322,
    "matrix": [
     1.0,
     0.0,
@@ -109605,13 +110123,13 @@
     0.0,
     1.1665000059604644,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7882014996130566,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 3",
-   "mesh": 1321,
+   "mesh": 1322,
    "matrix": [
     1.0,
     0.0,
@@ -109627,7 +110145,7 @@
     0.0,
     1.1825000059604645,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7882014996130566,
     1.0
    ]
   },
@@ -109644,19 +110162,14 @@
   },
   {
    "name": "Kaas PlayStation",
-   "mesh": 1319,
+   "mesh": 1323,
    "translation": [
-    0.5485000059604643,
+    0.5555000059604643,
     0.5,
     -2.994
    ],
-   "scale": [
-    1.0774193548387099,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 33,4 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): PlayStation met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 33,4 x 22,7 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation met rechts 3 spellen"
    }
   },
   {
@@ -109717,15 +110230,15 @@
     1.1442766748712098e-18,
     -4.2704986885353286e-18,
     0.0,
-    0.3350750746112279,
+    0.3420750746112279,
     0.6065346926643403,
-    -2.957260366298332,
+    -3.090666310955987,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 1",
-   "mesh": 1322,
+   "mesh": 1324,
    "matrix": [
     1.0,
     0.0,
@@ -109739,15 +110252,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6765000059604643,
+    0.6835000059604643,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7824059446576554,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 2",
-   "mesh": 1322,
+   "mesh": 1324,
    "matrix": [
     1.0,
     0.0,
@@ -109761,15 +110274,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6885000059604643,
+    0.6955000059604644,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7824059446576554,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 3",
-   "mesh": 1322,
+   "mesh": 1324,
    "matrix": [
     1.0,
     0.0,
@@ -109783,9 +110296,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.7005000059604644,
+    0.7075000059604644,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.7824059446576554,
     1.0
    ]
   },
@@ -109802,19 +110315,14 @@
   },
   {
    "name": "Kaas Dreamcast",
-   "mesh": 1319,
+   "mesh": 1325,
    "translation": [
-    0.5485000059604643,
+    0.5955000059604644,
     0.18,
     -2.994
    ],
-   "scale": [
-    0.8193548387096773,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 25,4 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): Dreamcast met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 25,4 x 23,4 cm, 8,3 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Dreamcast met rechts 3 spellen"
    }
   },
   {
@@ -110010,15 +110518,15 @@
     -0.02572424899440732,
     0.09600420423368072,
     0.0,
-    0.43150000596046434,
+    0.4785000059604645,
     0.2042764803675463,
-    -2.6499600420092535,
+    -2.7758317652218536,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 1",
-   "mesh": 1323,
+   "mesh": 1326,
    "matrix": [
     1.0,
     0.0,
@@ -110032,15 +110540,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6365000059604643,
+    0.6835000059604645,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7748717232126006,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 2",
-   "mesh": 1323,
+   "mesh": 1326,
    "matrix": [
     1.0,
     0.0,
@@ -110054,15 +110562,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6485000059604643,
+    0.6955000059604645,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7748717232126006,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 3",
-   "mesh": 1323,
+   "mesh": 1326,
    "matrix": [
     1.0,
     0.0,
@@ -110076,9 +110584,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6605000059604643,
+    0.7075000059604645,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.7748717232126006,
     1.0
    ]
   },
@@ -110095,19 +110603,14 @@
   },
   {
    "name": "Kaas NES",
-   "mesh": 1319,
+   "mesh": 1327,
    "translation": [
     0.5485000059604643,
     1.14,
     -2.994
    ],
-   "scale": [
-    1.1225806451612903,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,8 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): NES met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,8 x 24,1 cm, 8,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): NES met rechts 3 spellen"
    }
   },
   {
@@ -110168,15 +110671,15 @@
     -0.023590594912699474,
     0.08804129879497033,
     0.0,
-    0.5658241160360838,
+    0.565824116036084,
     1.141679234995934,
-    -2.765992004008396,
+    -2.884909061271715,
     1.0
    ]
   },
   {
    "name": "NES spel 1",
-   "mesh": 1324,
+   "mesh": 1328,
    "matrix": [
     1.0,
     0.0,
@@ -110190,15 +110693,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6585000059604643,
+    0.6585000059604644,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.7679170572633196,
     1.0
    ]
   },
   {
    "name": "NES spel 2",
-   "mesh": 1324,
+   "mesh": 1328,
    "matrix": [
     1.0,
     0.0,
@@ -110212,15 +110715,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6805000059604643,
+    0.6805000059604644,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.7679170572633196,
     1.0
    ]
   },
   {
    "name": "NES spel 3",
-   "mesh": 1324,
+   "mesh": 1328,
    "matrix": [
     1.0,
     0.0,
@@ -110234,9 +110737,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.7025000059604644,
+    0.7025000059604645,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.7679170572633196,
     1.0
    ]
   },
@@ -110253,19 +110756,14 @@
   },
   {
    "name": "Kaas SNES",
-   "mesh": 1319,
+   "mesh": 1329,
    "translation": [
-    0.5485000059604643,
+    0.5755000059604644,
     0.82,
     -2.994
    ],
-   "scale": [
-    0.9483870967741935,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,4 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): SNES met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,4 x 27,9 cm, 9,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): SNES met rechts 3 spellen"
    }
   },
   {
@@ -110766,15 +111264,15 @@
     -0.02631168822242538,
     0.09819655727900317,
     0.0,
-    0.3839673683388688,
+    0.4109673683388688,
     0.8410194956111012,
-    -2.637804809418724,
+    -2.7189867444905014,
     1.0
    ]
   },
   {
    "name": "SNES spel 1",
-   "mesh": 1325,
+   "mesh": 1330,
    "matrix": [
     1.0,
     0.0,
@@ -110788,15 +111286,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6315000059604643,
+    0.6585000059604644,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.7301819350717778,
     1.0
    ]
   },
   {
    "name": "SNES spel 2",
-   "mesh": 1325,
+   "mesh": 1330,
    "matrix": [
     1.0,
     0.0,
@@ -110810,15 +111308,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6535000059604643,
+    0.6805000059604644,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.7301819350717778,
     1.0
    ]
   },
   {
    "name": "SNES spel 3",
-   "mesh": 1325,
+   "mesh": 1330,
    "matrix": [
     1.0,
     0.0,
@@ -110832,9 +111330,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    0.6755000059604643,
+    0.7025000059604645,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.7301819350717778,
     1.0
    ]
   },
@@ -110851,19 +111349,14 @@
   },
   {
    "name": "Kaas GameCube",
-   "mesh": 1319,
+   "mesh": 1331,
    "translation": [
-    2.137999994039536,
+    2.0624999940395354,
     0.5,
     -2.994
    ],
-   "scale": [
-    0.7290322580645174,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 22,6 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): GameCube met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 22,6 x 20,1 cm, 7,4 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): GameCube met rechts 3 spellen"
    }
   },
   {
@@ -110964,15 +111457,15 @@
     -0.22610781320414725,
     0.8438458468661707,
     0.0,
-    0.041088267166812686,
+    -0.03441173283318766,
     -2.2971621780469453,
-    -3.545384239939195,
+    -3.7048701819066547,
     1.0
    ]
   },
   {
    "name": "GameCube spel 1",
-   "mesh": 1326,
+   "mesh": 1332,
    "matrix": [
     1.0,
     0.0,
@@ -110986,15 +111479,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.201999994039536,
+    2.1264999940395355,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.80848594196746,
     1.0
    ]
   },
   {
    "name": "GameCube spel 2",
-   "mesh": 1326,
+   "mesh": 1332,
    "matrix": [
     1.0,
     0.0,
@@ -111008,15 +111501,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.217999994039536,
+    2.1424999940395355,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.80848594196746,
     1.0
    ]
   },
   {
    "name": "GameCube spel 3",
-   "mesh": 1326,
+   "mesh": 1332,
    "matrix": [
     1.0,
     0.0,
@@ -111030,9 +111523,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.233999994039536,
+    2.1584999940395355,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.80848594196746,
     1.0
    ]
   },
@@ -111049,19 +111542,14 @@
   },
   {
    "name": "Kaas Wii",
-   "mesh": 1319,
+   "mesh": 1333,
    "translation": [
-    2.137999994039536,
+    2.065999994039813,
     0.18,
     -2.994
    ],
-   "scale": [
-    0.7516129032275973,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 23,3 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): Wii met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 23,3 x 25,3 cm, 8,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii met rechts 3 spellen"
    }
   },
   {
@@ -111577,15 +112065,15 @@
     -0.004021909100565617,
     0.015009969106734529,
     0.0,
-    2.1870248277199495,
+    2.1150248277202266,
     0.2081288634568318,
-    -2.656495515388527,
+    -2.7634350924041895,
     1.0
    ]
   },
   {
    "name": "Wii spel 1",
-   "mesh": 1327,
+   "mesh": 1334,
    "matrix": [
     1.0,
     0.0,
@@ -111599,15 +112087,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.2054999940398132,
+    2.1334999940400903,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.755939577015663,
     1.0
    ]
   },
   {
    "name": "Wii spel 2",
-   "mesh": 1327,
+   "mesh": 1334,
    "matrix": [
     1.0,
     0.0,
@@ -111621,15 +112109,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.2214999940398132,
+    2.1494999940400903,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.755939577015663,
     1.0
    ]
   },
   {
    "name": "Wii spel 3",
-   "mesh": 1327,
+   "mesh": 1334,
    "matrix": [
     1.0,
     0.0,
@@ -111643,9 +112131,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.2374999940398133,
+    2.1654999940400903,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.755939577015663,
     1.0
    ]
   },
@@ -111662,19 +112150,14 @@
   },
   {
    "name": "Kaas Xbox 360",
-   "mesh": 1319,
+   "mesh": 1335,
    "translation": [
-    2.6004999940395357,
+    2.5994999941618406,
     0.5,
     -2.994
    ],
-   "scale": [
-    1.116129033047128,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,6 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): Xbox 360 met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,6 x 30,0 cm, 10,0 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Xbox 360 met rechts 3 spellen"
    }
   },
   {
@@ -117711,15 +118194,15 @@
     -5.727771920010887e-17,
     2.137633581964697e-16,
     0.0,
-    5.495045254638464,
+    5.494045254760769,
     -1.5012627129509561,
-    1.900404734772537,
+    1.8404091529128523,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 1",
-   "mesh": 1328,
+   "mesh": 1336,
    "matrix": [
     1.0,
     0.0,
@@ -117733,15 +118216,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.72449999416184,
+    2.723499994284145,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.708995581859685,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 2",
-   "mesh": 1328,
+   "mesh": 1336,
    "matrix": [
     1.0,
     0.0,
@@ -117755,15 +118238,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.74049999416184,
+    2.739499994284145,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.708995581859685,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 3",
-   "mesh": 1328,
+   "mesh": 1336,
    "matrix": [
     1.0,
     0.0,
@@ -117777,9 +118260,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.75649999416184,
+    2.755499994284145,
     0.5240192378864669,
-    -2.6490000000000005,
+    -2.708995581859685,
     1.0
    ]
   },
@@ -117796,19 +118279,14 @@
   },
   {
    "name": "Kaas PlayStation 3",
-   "mesh": 1319,
+   "mesh": 1337,
    "translation": [
-    2.6004999940395357,
+    2.606499994039536,
     0.18,
     -2.994
    ],
-   "scale": [
-    1.1612903225806455,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 36,0 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): PlayStation 3 met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 36,0 x 32,5 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 3 met rechts 3 spellen"
    }
   },
   {
@@ -118119,15 +118597,15 @@
     -0.2587967331600829,
     0.9658425569862747,
     0.0,
-    2.3904207462428695,
+    2.3964207462428697,
     0.1985897252751898,
-    -2.6287367830743786,
+    -2.6636182934505492,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 1",
-   "mesh": 1329,
+   "mesh": 1338,
    "matrix": [
     1.0,
     0.0,
@@ -118141,15 +118619,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.736499994039535,
+    2.742499994039535,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.683881510376171,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 2",
-   "mesh": 1329,
+   "mesh": 1338,
    "matrix": [
     1.0,
     0.0,
@@ -118163,15 +118641,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.7504999940395347,
+    2.756499994039535,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.683881510376171,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 3",
-   "mesh": 1329,
+   "mesh": 1338,
    "matrix": [
     1.0,
     0.0,
@@ -118185,9 +118663,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.764499994039535,
+    2.770499994039535,
     0.20401923788646684,
-    -2.6490000000000005,
+    -2.683881510376171,
     1.0
    ]
   },
@@ -118204,19 +118682,14 @@
   },
   {
    "name": "Kaas Wii U",
-   "mesh": 1319,
+   "mesh": 1339,
    "translation": [
-    2.6004999940395357,
+    2.5504999940395354,
     1.14,
     -2.994
    ],
-   "scale": [
-    0.7999999999999992,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 24,8 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): Wii U met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 24,8 x 30,4 cm, 10,2 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii U met rechts 3 spellen"
    }
   },
   {
@@ -118277,15 +118750,15 @@
     5.55215045598904e-17,
     -2.072090759301781e-16,
     0.0,
-    2.5311286948660277,
+    2.4811286948660274,
     1.2208797143910262,
-    -2.7723410112389986,
+    -2.827989926880383,
     1.0
    ]
   },
   {
    "name": "Wii U spel 1",
-   "mesh": 1330,
+   "mesh": 1340,
    "matrix": [
     1.0,
     0.0,
@@ -118299,15 +118772,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.6754999940395354,
+    2.625499994039535,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.704648915641385,
     1.0
    ]
   },
   {
    "name": "Wii U spel 2",
-   "mesh": 1330,
+   "mesh": 1340,
    "matrix": [
     1.0,
     0.0,
@@ -118321,15 +118794,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.6914999940395354,
+    2.641499994039535,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.704648915641385,
     1.0
    ]
   },
   {
    "name": "Wii U spel 3",
-   "mesh": 1330,
+   "mesh": 1340,
    "matrix": [
     1.0,
     0.0,
@@ -118343,9 +118816,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.7074999940395355,
+    2.657499994039535,
     1.1640192378864667,
-    -2.6490000000000005,
+    -2.704648915641385,
     1.0
    ]
   },
@@ -118362,19 +118835,14 @@
   },
   {
    "name": "Kaas PlayStation 4",
-   "mesh": 1319,
+   "mesh": 1341,
    "translation": [
-    2.6004999940395357,
+    2.5939999940395357,
     0.82,
     -2.994
    ],
-   "scale": [
-    1.0806451612903232,
-    1,
-    1
-   ],
    "extras": {
-    "omschrijving": "Kaas (wandplankje) walnoot geolied, 33,5 x 36 cm, 11,6 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, onzichtbaar aan de muur (blinde plankdragers): PlayStation 4 met rechts 3 spellen"
+    "omschrijving": "Kaas (wandplankje) walnoot geolied, 33,5 x 32,3 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 4 met rechts 3 spellen"
    }
   },
   {
@@ -118440,15 +118908,15 @@
     -0.21176104244631153,
     0.7903029694733843,
     0.0,
-    0.36959061336852406,
+    0.3630906133685241,
     0.45154242391209853,
-    -1.1842565894549009,
+    -1.2210699514836487,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 1",
-   "mesh": 1331,
+   "mesh": 1342,
    "matrix": [
     1.0,
     0.0,
@@ -118462,15 +118930,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.723999994039535,
+    2.7174999940395352,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.6858133620287483,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 2",
-   "mesh": 1331,
+   "mesh": 1342,
    "matrix": [
     1.0,
     0.0,
@@ -118484,15 +118952,15 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.737999994039535,
+    2.731499994039535,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.6858133620287483,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 3",
-   "mesh": 1331,
+   "mesh": 1342,
    "matrix": [
     1.0,
     0.0,
@@ -118506,9 +118974,9 @@
     -0.25881904510252074,
     0.9659258262890683,
     0.0,
-    2.751999994039535,
+    2.7454999940395353,
     0.8440192378864668,
-    -2.6490000000000005,
+    -2.6858133620287483,
     1.0
    ]
   },
