@@ -25,6 +25,7 @@ VIEWS = {                                    # name: (eye, look at[, modes]), gl
     'hal': ((3.95, 1.5, -4.75), (0.6, 1.6, -3.9), ('avond',)),   # no windows: by day it looks the same, lights on
 }
 SPOT_WATT = 20                               # per spot (Blender watts), warm white
+PUCK_WATT = 6                                # per Cefrank puck (2 W, 200 lm), cool white
 SUN = dict(elevation=28, azimuth=-25, strength=5)   # azimuth 0 = straight in through the front frame (+x)
 
 def to_blender(p): x, y, z = p; return Vector((x, -z, y))
@@ -94,11 +95,19 @@ for o in [o for o in bpy.data.objects if o.name.startswith('SP') and o.name[2:].
     spots.append(lamp)
     if '(hal' in o.get('omschrijving', ''): hall.append(lamp)
 
+for o in [o for o in bpy.data.objects if o.name.startswith('Puck ')]:     # Cefrank puck lights under the Wandkast shelves
+    d = bpy.data.lights.new(o.name + ' licht', 'SPOT')
+    d.energy, d.spot_size, d.spot_blend, d.shadow_soft_size = PUCK_WATT, math.radians(120), 0.8, 0.02
+    d.color = (0.95, 0.97, 1.0)                                                       # 6000K
+    lamp = bpy.data.objects.new(d.name, d); scene.collection.objects.link(lamp)
+    lamp.location = o.matrix_world.translation + Vector((0, 0, -0.0095)); lamp['watt'] = PUCK_WATT
+    spots.append(lamp)
+
 def set_mode(mode):
     day = mode == 'dag'
     bg.inputs['Strength'].default_value = 1.0 if day else 0.015
     sun_data.energy = SUN['strength'] if day else 0
-    for s in spots: s.data.energy = SPOT_WATT if not day or s in hall else 0
+    for s in spots: s.data.energy = s.get('watt', SPOT_WATT) if not day or s in hall else 0
     if lens:
         lens.inputs['Emission Strength'].default_value = 0 if day else 6
     scene.view_settings.exposure = 2.0 if day else 1.4

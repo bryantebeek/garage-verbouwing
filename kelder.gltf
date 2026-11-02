@@ -57995,6 +57995,50 @@
    "componentType": 5126,
    "count": 36,
    "type": "VEC3"
+  },
+  {
+   "bufferView": 2313,
+   "componentType": 5126,
+   "count": 384,
+   "type": "VEC3",
+   "min": [
+    -0.035,
+    -0.008,
+    -0.035
+   ],
+   "max": [
+    0.035,
+    0,
+    0.035
+   ]
+  },
+  {
+   "bufferView": 2314,
+   "componentType": 5126,
+   "count": 384,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2315,
+   "componentType": 5126,
+   "count": 96,
+   "type": "VEC3",
+   "min": [
+    -0.026,
+    -0.0083,
+    -0.026
+   ],
+   "max": [
+    0.026,
+    -0.0083,
+    0.026
+   ]
+  },
+  {
+   "bufferView": 2316,
+   "componentType": 5126,
+   "count": 96,
+   "type": "VEC3"
   }
  ],
  "bufferViews": [
@@ -73322,6 +73366,30 @@
    "byteOffset": 41912992,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41913424,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41918032,
+   "byteLength": 4608,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41922640,
+   "byteLength": 1152,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41923792,
+   "byteLength": 1152,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -73800,7 +73868,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41913424
+   "byteLength": 41924944
   }
  ],
  "materials": [
@@ -108210,6 +108278,25 @@
      "material": 401
     }
    ]
+  },
+  {
+   "name": "Cefrank puck",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5472,
+      "NORMAL": 5473
+     },
+     "material": 268
+    },
+    {
+     "attributes": {
+      "POSITION": 5474,
+      "NORMAL": 5475
+     },
+     "material": 269
+    }
+   ]
   }
  ],
  "nodes": [
@@ -135798,7 +135885,19 @@
     4842,
     4843,
     4844,
-    4845
+    4845,
+    4856,
+    4857,
+    4858,
+    4859,
+    4860,
+    4861,
+    4862,
+    4863,
+    4864,
+    4865,
+    4866,
+    4867
    ]
   },
   {
@@ -176019,6 +176118,222 @@
    ],
    "extras": {
     "visible": false
+   }
+  },
+  {
+   "name": "Puck links 1",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    0.435,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck links 2",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    0.709,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck links 3",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    0.982,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck links 4",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    1.255,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck links 5",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    1.529,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck links 6",
+   "mesh": 1721,
+   "translation": [
+    0.3374,
+    1.802,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 1",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    0.435,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 2",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    0.709,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 3",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    0.982,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 4",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    1.255,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 5",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    1.529,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Puck rechts 6",
+   "mesh": 1721,
+   "translation": [
+    2.8116,
+    1.802,
+    -2.7640000000000002
+   ],
+   "extras": {
+    "omschrijving": "Cefrank LED puckspot (set H9-108W, 6 per set, 2 sets gekocht), opbouw onder de plank met plakpad of schroefjes, aluminium wit, 8 mm dik, Ø ±70 mm (aangenomen, nog nameten), 2 W / 200 lm, 6000K, 12 V met dimmer en adapter per set",
+    "product": {
+     "winkel": "Amazon",
+     "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
+     "artikel": "B075L2W1MP",
+     "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
    }
   }
  ],
