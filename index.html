@@ -13,24 +13,30 @@
   body { margin: 0; overflow: hidden; background: #e7e5e1; }
   canvas { cursor: grab; touch-action: none; -webkit-user-select: none; user-select: none; }
   canvas:active { cursor: grabbing; }
-  .panel {
-    position: fixed; z-index: 2; color: var(--text); background: var(--panel); border: 1px solid var(--line);
-    border-radius: 14px; backdrop-filter: blur(16px) saturate(140%); box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+  #sidebar {
+    position: fixed; z-index: 2; top: 0; right: 0; bottom: 0; width: 300px; box-sizing: border-box;
+    display: flex; flex-direction: column; color: var(--text); background: #18181b; border-left: 1px solid rgba(255, 255, 255, .1);
     font-size: 12.5px; line-height: 1.4;
   }
+  #sidebar > .scroll { flex: 1; overflow-y: auto; }
+  #sidebar section { padding: 14px 16px; border-bottom: 1px solid var(--line); }
   .heading { font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  .toggle { cursor: pointer; -webkit-user-select: none; user-select: none; }
+  .toggle::after { content: ' ▾'; }
+  .collapsed .toggle::after { content: ' ▸'; }
+  .collapsed .heading { margin: 0; }
   kbd {
     display: inline-block; min-width: 18px; height: 18px; padding: 0 5px; box-sizing: border-box; border-radius: 5px;
     background: rgba(255, 255, 255, .09); border: 1px solid rgba(255, 255, 255, .14); border-bottom-width: 2px;
     font: 600 10.5px/15px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); text-align: center;
   }
 
-  #brand { top: 16px; left: 16px; padding: 12px 16px; }
   #brand b { display: block; font-size: 15px; font-weight: 650; letter-spacing: -.01em; }
   #brand span { color: var(--muted); font-size: 12px; }
 
-  #layers { top: 16px; right: 16px; padding: 12px 8px 8px; width: 230px; }
+  #layers { padding: 14px 8px 8px !important; }
   #layers .heading { padding: 0 8px; }
+  #layers.collapsed #layer-list { display: none; }
   #layers button {
     display: flex; align-items: center; gap: 10px; width: 100%; padding: 6px 8px; border: 0; border-radius: 8px;
     background: none; color: inherit; font: inherit; text-align: left; cursor: pointer;
@@ -46,35 +52,34 @@
   #layers .on .switch { background: var(--accent); }
   #layers .on .switch::after { transform: translateX(12px); }
 
-  #help { bottom: 16px; left: 16px; padding: 12px 14px; }
-  #help dl { display: grid; grid-template-columns: auto auto; gap: 6px 14px; margin: 0; align-items: center; }
+  #help dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; margin: 0; align-items: center; }
   #help dt { display: flex; gap: 3px; justify-content: flex-end; }
   #help dd { margin: 0; color: #d4d4d8; }
   #help.collapsed dl { display: none; }
-  #help.collapsed .heading { margin: 0; }
 
-  #info { bottom: 16px; left: 50%; transform: translateX(-50%); padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
-  #info[hidden] { display: none; }
-  #info .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 159, 67, .2); }
+  #info .row { display: flex; gap: 10px; align-items: baseline; }
+  #info .dot { flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 159, 67, .2); }
   #info b { font-weight: 600; }
   #info .part { color: var(--accent); font-weight: 600; }
+  #info small { display: block; margin-top: 4px; color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
   #info a {
-    margin-left: 6px; padding: 7px 10px; border-radius: 9px; background: rgba(255, 255, 255, .08); border: 1px solid var(--line);
-    color: var(--text); text-decoration: none; font-size: 12px; line-height: 1.3; max-width: 260px;
+    display: block; margin-top: 10px; padding: 8px 10px; border-radius: 9px; background: rgba(255, 255, 255, .08); border: 1px solid var(--line);
+    color: var(--text); text-decoration: none; font-size: 12px; line-height: 1.3;
   }
   #info a:hover { background: rgba(255, 255, 255, .14); }
   #info a b { display: block; font-weight: 600; }
   #info a span { color: var(--muted); font-size: 11px; }
-  #info a[hidden] { display: none; }
-  #info small { display: block; color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  #info a[hidden], #info .placeholder { display: none; }
+  #info.empty .row, #info.empty a { display: none; }
+  #info.empty .placeholder { display: block; margin: 0; color: var(--muted); }
 
-  #pos { bottom: 16px; right: 16px; padding: 10px 14px; display: flex; align-items: center; gap: 14px; font-variant-numeric: tabular-nums; }
+  #pos { padding: 10px 16px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 12px; font-variant-numeric: tabular-nums; }
   #pos .axis { color: var(--muted); font-size: 10.5px; font-weight: 600; margin-right: 4px; }
   #pos .sep { width: 1px; height: 22px; background: var(--line); }
   #compass { width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .2); display: grid; place-items: center; }
   #compass i { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 9px solid var(--accent); margin-top: -3px; }
 
-  #cross { position: fixed; left: 50%; top: 50%; width: 12px; height: 12px; margin: -6px; pointer-events: none; z-index: 1;
+  #cross { position: fixed; left: calc(50% - 150px); top: 50%; width: 12px; height: 12px; margin: -6px; pointer-events: none; z-index: 1;
     border-radius: 50%; border: 1.5px solid #fff; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(0, 0, 0, .35), inset 0 0 0 1px rgba(0, 0, 0, .35); }
   #cross::after { content: ''; position: absolute; inset: 3px; border-radius: 50%; background: #fff; }
 
@@ -110,15 +115,23 @@
   }
   .dist { background: var(--blue); }
   /* U: clean view, nothing but the model */
-  body.clean .panel, body.clean #cross, body.clean .labels { display: none !important; }
-  /* Touch: joystick to walk, drag to look, tap to select; compact panels. */
-  #stick, #updown, #help .touch { display: none; }
-  #layers .heading { cursor: pointer; }
-  #layers.collapsed #layer-list { display: none; }
-  #layers.collapsed .heading { margin: 0; }
-  #layers .heading::after { content: ' ▾'; }
-  #layers.collapsed .heading::after { content: ' ▸'; }
+  body.clean #sidebar, body.clean #sidebar-toggle, body.clean #cross, body.clean .labels, body.clean > #info { display: none !important; }
+  /* Touch: joystick to walk, drag to look, tap to select. */
+  #stick, #updown, #help .touch, #sidebar-toggle { display: none; }
   @media (pointer: coarse) {
+    /* Touch: the sidebar is a drawer over the view (☰); the selection stays a card above the joystick. */
+    #sidebar { width: min(300px, 85vw); padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom);
+      z-index: 3; transform: translateX(100%); transition: transform .2s ease; }
+    body.drawer #sidebar { transform: none; }
+    #sidebar-toggle { display: grid; place-items: center; position: fixed; z-index: 4; top: calc(16px + env(safe-area-inset-top)); right: calc(16px + env(safe-area-inset-right));
+      width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--text);
+      font-size: 18px; backdrop-filter: blur(16px); }
+    body.drawer #sidebar-toggle { right: calc(min(300px, 85vw) + 12px); }
+    #cross { left: 50%; }
+    body > #info { position: fixed; z-index: 2; left: 50%; transform: translateX(-50%); bottom: calc(160px + env(safe-area-inset-bottom));
+      width: max-content; max-width: calc(100vw - 32px); box-sizing: border-box; padding: 10px 16px; border-radius: 14px;
+      color: var(--text); background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(16px); font-size: 12.5px; }
+    body > #info.empty { display: none; }
     #stick { display: block; position: fixed; z-index: 2; left: calc(24px + env(safe-area-inset-left)); bottom: calc(24px + env(safe-area-inset-bottom));
       width: 120px; height: 120px; border-radius: 50%; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(16px); touch-action: none; }
     #stick i { position: absolute; left: 50%; top: 50%; width: 52px; height: 52px; margin: -26px; border-radius: 50%; background: rgba(255, 255, 255, .85);
@@ -126,11 +139,8 @@
     #updown { display: flex; flex-direction: column; gap: 10px; position: fixed; z-index: 2; right: calc(24px + env(safe-area-inset-right)); bottom: calc(24px + env(safe-area-inset-bottom)); }
     #updown button { width: 52px; height: 52px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--text);
       font-size: 18px; backdrop-filter: blur(16px); touch-action: none; }
-    #brand, #pos, #help .keys, #help .heading kbd { display: none; }
+    #help .keys, #help .heading kbd { display: none; }
     #help .touch { display: grid; }
-    #help { bottom: auto; top: calc(16px + env(safe-area-inset-top)); left: calc(16px + env(safe-area-inset-left)); }
-    #layers { top: calc(16px + env(safe-area-inset-top)); right: calc(16px + env(safe-area-inset-right)); max-height: 70vh; overflow-y: auto; }
-    #info { bottom: calc(160px + env(safe-area-inset-bottom)); max-width: calc(100vw - 32px); box-sizing: border-box; }
   }
   .dims u { text-decoration: underline 1px rgba(255, 255, 255, .65); text-underline-offset: 3px; }
 </style>
@@ -157,10 +167,18 @@
     <div class="meta"><span id="load-size"></span><span id="load-pct"></span></div>
   </div>
 </div>
-<div id="brand" class="panel"><b>Garage verbouwing</b><span>3D-model</span></div>
-<div id="layers" class="panel"><p class="heading" id="layers-toggle">Lagen</p><div id="layer-list"></div></div>
-<div id="help" class="panel collapsed">
-  <p class="heading" id="help-toggle">Besturing <kbd>H</kbd></p>
+<aside id="sidebar">
+<section id="brand"><b>Garage verbouwing</b><span>3D-model</span></section>
+<div class="scroll">
+<section id="info" class="empty">
+  <p class="heading">Selectie</p>
+  <p class="placeholder">Niets geselecteerd. Richt het vizier op een onderdeel en druk op <kbd>E</kbd>.</p>
+  <div class="row"><span class="dot"></span><div><div id="info-title"></div><small id="info-sub"></small></div></div>
+  <a id="info-product" target="_blank" rel="noopener" hidden></a>
+</section>
+<section id="layers"><p class="heading toggle" id="layers-toggle">Lagen</p><div id="layer-list"></div></section>
+<section id="help" class="collapsed">
+  <p class="heading toggle" id="help-toggle">Besturing <kbd>H</kbd></p>
   <dl class="touch">
     <dt>Joystick</dt><dd>Lopen</dd>
     <dt>Slepen</dt><dd>Rondkijken</dd>
@@ -182,16 +200,18 @@
     <dt><kbd>V</kbd></dt><dd>Volgende beamer-animatie</dd>
     <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
   </dl>
+</section>
 </div>
-<div id="info" class="panel" hidden><span class="dot"></span><div><div id="info-title"></div><small id="info-sub"></small></div><a id="info-product" target="_blank" rel="noopener" hidden></a></div>
-<div id="pos" class="panel">
+<footer id="pos">
   <span><span class="axis">X</span><span id="px"></span></span>
   <span><span class="axis">Y</span><span id="py"></span></span>
   <span><span class="axis">Z</span><span id="pz"></span></span>
   <span class="sep"></span>
   <span id="compass"><i></i></span>
   <span id="heading"></span>
-</div>
+</footer>
+</aside>
+<button id="sidebar-toggle" aria-label="Menu">☰</button>
 <div id="cross"></div>
 <div id="stick"><i></i></div>
 <div id="updown"><button data-dir="1">▲</button><button data-dir="-1">▼</button></div>
@@ -204,7 +224,7 @@ import { VARIANTS, CONSOLES } from './beamer.js';
 const $ = id => document.getElementById(id);
 const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
 function showInfo(title, sub, product) {
-  $('info').hidden = !title;
+  $('info').classList.toggle('empty', !title);
   $('info-title').innerHTML = title ?? '';
   $('info-sub').textContent = sub ?? '';
   const link = $('info-product');
@@ -284,17 +304,22 @@ for (const b of document.querySelectorAll('#updown button')) {
 }
 $('layers-toggle').onclick = () => $('layers').classList.toggle('collapsed');
 $('help-toggle').onclick = () => $('help').classList.toggle('collapsed');
-if (matchMedia('(pointer: coarse)').matches) $('layers').classList.add('collapsed');
+const coarse = matchMedia('(pointer: coarse)').matches;
+if (coarse) document.body.append($('info'));                                   // touch: selection card floats above the joystick
+$('sidebar-toggle').onclick = () => document.body.classList.toggle('drawer');
 
 const labelRenderer = new CSS2DRenderer();
 labelRenderer.domElement.style.cssText = 'position: fixed; top: 0; pointer-events: none';
 labelRenderer.domElement.className = 'labels';
 document.body.appendChild(labelRenderer.domElement);
 
+// The view is the window minus the docked sidebar (on touch the sidebar is a drawer over the view; U hides it).
 function resize() {
-  renderer.setSize(innerWidth, innerHeight);
-  labelRenderer.setSize(innerWidth, innerHeight);
-  camera.aspect = innerWidth / innerHeight;
+  const w = innerWidth - (coarse ? 0 : $('sidebar').offsetWidth), h = innerHeight;
+  renderer.setSize(w, h);
+  labelRenderer.setSize(w, h);
+  $('cross').style.left = `${w / 2}px`;
+  camera.aspect = w / h;
   camera.updateProjectionMatrix();
 }
 addEventListener('resize', resize);
@@ -580,6 +605,7 @@ addEventListener('keydown', e => {
   if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
   if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
     clean = document.body.classList.toggle('clean');
+    resize();
     if (clean) { select(null); hover(null); showInfo(null); } else lastView = '';
   }
   if (e.code === 'KeyR') { camera.position.copy(start); camera.quaternion.copy(startView); }
@@ -806,7 +832,7 @@ renderer.setAnimationLoop(() => {
       l.getWorldPosition(labelPos);
       const dist = labelPos.distanceTo(camera.position), world = labelPos.clone();
       labelPos.project(camera);
-      const px = Math.hypot(labelPos.x * innerWidth / 2, labelPos.y * innerHeight / 2);
+      const px = Math.hypot(labelPos.x * renderer.domElement.clientWidth / 2, labelPos.y * innerHeight / 2);
       if (labelPos.z < 1 && dist < 8 && px < 350) {
         if (moved || !hiddenBehind.has(l)) hiddenBehind.set(l, behindSomething(l, world, dist));
         if (!hiddenBehind.get(l)) near = 1 - px / 350;
