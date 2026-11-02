@@ -44896,6 +44896,150 @@
    "count": 96,
    "bufferView": 1505,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 102,
+   "bufferView": 1506,
+   "byteOffset": 0,
+   "max": [
+    0.2874999940395355,
+    0.5,
+    0.0
+   ],
+   "min": [
+    -0.2874999940395355,
+    0.0,
+    -0.48500001430511475
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 102,
+   "bufferView": 1507,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 144,
+   "bufferView": 1508,
+   "byteOffset": 0,
+   "max": [
+    0.23999999463558197,
+    0.4699999988079071,
+    -0.00800000037997961
+   ],
+   "min": [
+    -0.23999999463558197,
+    0.10499999672174454,
+    -0.019999999552965164
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 144,
+   "bufferView": 1509,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1510,
+   "byteOffset": 0,
+   "max": [
+    0.17000000178813934,
+    0.0820000022649765,
+    0.001500000013038516
+   ],
+   "min": [
+    -0.25999999046325684,
+    0.03200000151991844,
+    0.001500000013038516
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1511,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1512,
+   "byteOffset": 0,
+   "max": [
+    0.03500000014901161,
+    0.492000013589859,
+    0.001500000013038516
+   ],
+   "min": [
+    -0.03500000014901161,
+    0.47699999809265137,
+    0.001500000013038516
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1513,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1514,
+   "byteOffset": 0,
+   "max": [
+    0.24500000476837158,
+    0.06800000369548798,
+    0.001500000013038516
+   ],
+   "min": [
+    0.20499999821186066,
+    0.04500000178813934,
+    0.001500000013038516
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1515,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1516,
+   "byteOffset": 0,
+   "max": [
+    0.2619999945163727,
+    0.057999998331069946,
+    0.001500000013038516
+   ],
+   "min": [
+    0.25600001215934753,
+    0.052000001072883606,
+    0.001500000013038516
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 6,
+   "bufferView": 1517,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -55319,6 +55463,78 @@
    "byteOffset": 37566748,
    "byteLength": 1152,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37567900,
+   "byteLength": 1224,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37569124,
+   "byteLength": 1224,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37570348,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37572076,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37573804,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37573876,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37573948,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37574020,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37574092,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37574164,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37574236,
+   "byteLength": 72,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37574308,
+   "byteLength": 72,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -55699,7 +55915,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37567900
+   "byteLength": 37574380
   }
  ],
  "materials": [
@@ -60209,6 +60425,95 @@
     0.93,
     0.8
    ]
+  },
+  {
+   "name": "Sony kast zwart",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.035,
+     0.035,
+     0.038,
+     1
+    ],
+    "roughnessFactor": 0.55,
+    "metallicFactor": 0
+   },
+   "doubleSided": true
+  },
+  {
+   "name": "Beeldbuis glas",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.035,
+     0.042,
+     0.045,
+     1
+    ],
+    "roughnessFactor": 0.08,
+    "metallicFactor": 0
+   },
+   "doubleSided": true
+  },
+  {
+   "name": "Luidsprekerrooster",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.018,
+     0.018,
+     0.02,
+     1
+    ],
+    "roughnessFactor": 0.9,
+    "metallicFactor": 0
+   },
+   "doubleSided": true
+  },
+  {
+   "name": "Sony logo zilver",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.6,
+     0.6,
+     0.62,
+     1
+    ],
+    "roughnessFactor": 0.35,
+    "metallicFactor": 0.6
+   },
+   "doubleSided": true
+  },
+  {
+   "name": "Aan/uit-knop",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.12,
+     0.12,
+     0.13,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   },
+   "doubleSided": true
+  },
+  {
+   "name": "Standby-lampje",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.8,
+     0.05,
+     0.03,
+     1
+    ],
+    "roughnessFactor": 0.3,
+    "metallicFactor": 0
+   },
+   "emissiveFactor": [
+    0.6,
+    0.02,
+    0.01
+   ],
+   "doubleSided": true
   }
  ],
  "meshes": [
@@ -80811,6 +81116,53 @@
      "material": 61
     }
    ]
+  },
+  {
+   "name": "Sony KV-X2501D",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4359,
+      "NORMAL": 4360
+     },
+     "material": 270
+    },
+    {
+     "attributes": {
+      "POSITION": 4361,
+      "NORMAL": 4362
+     },
+     "material": 271
+    },
+    {
+     "attributes": {
+      "POSITION": 4363,
+      "NORMAL": 4364
+     },
+     "material": 272
+    },
+    {
+     "attributes": {
+      "POSITION": 4365,
+      "NORMAL": 4366
+     },
+     "material": 273
+    },
+    {
+     "attributes": {
+      "POSITION": 4367,
+      "NORMAL": 4368
+     },
+     "material": 274
+    },
+    {
+     "attributes": {
+      "POSITION": 4369,
+      "NORMAL": 4370
+     },
+     "material": 275
+    }
+   ]
   }
  ],
  "nodes": [
@@ -89896,7 +90248,8 @@
     950,
     951,
     1572,
-    2550
+    2550,
+    2569
    ]
   },
   {
@@ -116009,6 +116362,24 @@
      "naam": "Attema centraaldoos plafond rond 16/19 mm grijs CH60R (Ø 76 mm, 62 mm diep, 12 invoeren)",
      "artikel": "401173795",
      "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r"
+    }
+   }
+  },
+  {
+   "name": "Sony Trinitron",
+   "mesh": 1315,
+   "translation": [
+    4.89,
+    0.01,
+    -3.237
+   ],
+   "extras": {
+    "omschrijving": "Sony KV-X2501D, 25\" Trinitron beeldbuis-tv (chassis BE-3B, ±1992). Maten van zustermodel KV-X2501B: 57,5 x 50 x 48,5 cm, 28 kg",
+    "product": {
+     "winkel": "Radiomuseum",
+     "naam": "Sony KV-X2501B (zustermodel, maten en gewicht)",
+     "artikel": "KV-X2501B",
+     "url": "https://www.radiomuseum.org/r/sonyire_kv_x2501b.html"
     }
    }
   }
