@@ -133356,9 +133356,9 @@
    "name": "SP1",
    "mesh": 1306,
    "translation": [
-    0.5745,
+    0.4345,
     2.315,
-    -0.6
+    -0.4268
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133374,9 +133374,9 @@
    "name": "SP2",
    "mesh": 1306,
    "translation": [
-    1.5745,
+    1.2145,
     2.315,
-    -0.6
+    -0.4268
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133392,9 +133392,9 @@
    "name": "SP3",
    "mesh": 1306,
    "translation": [
-    2.5745,
+    2.7145,
     2.315,
-    -0.6
+    -0.4268
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133446,9 +133446,9 @@
    "name": "SP6",
    "mesh": 1306,
    "translation": [
-    0.5745,
+    0.4345,
     2.315,
-    -1.52
+    -1.1603
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133464,9 +133464,9 @@
    "name": "SP7",
    "mesh": 1306,
    "translation": [
-    1.5745,
+    1.2145,
     2.315,
-    -1.52
+    -1.1603
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133482,9 +133482,9 @@
    "name": "SP8",
    "mesh": 1306,
    "translation": [
-    2.5745,
+    2.7145,
     2.315,
-    -1.52
+    -1.1603
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133536,9 +133536,9 @@
    "name": "SP11",
    "mesh": 1306,
    "translation": [
-    0.5745,
+    0.4345,
     2.315,
-    -2.503
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133554,9 +133554,9 @@
    "name": "SP12",
    "mesh": 1306,
    "translation": [
-    1.5745,
+    1.2145,
     2.315,
-    -2.503
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133572,9 +133572,9 @@
    "name": "SP13",
    "mesh": 1306,
    "translation": [
-    2.5745,
+    2.7145,
     2.315,
-    -2.503
+    -2.6273
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133734,7 +133734,14 @@
     1902,
     1903,
     1904,
-    1905
+    1905,
+    4846,
+    4847,
+    4848,
+    4849,
+    4850,
+    4851,
+    4852
    ],
    "extras": {
     "omschrijving": "20x HOFTRONIC Pittsburg inbouwspot wit (RAL 9016), Ø 90 mm, zaagmaat 75 mm, inbouwdiepte 60 mm incl. GU10-lamp (past in ±83 mm tot het beton), kantelbaar tot 45°; GU10 4 W 345 lm 2700K, dimbaar. Elke spot midden tussen twee plafondbalken.",
@@ -135733,8 +135740,7 @@
     4842,
     4843,
     4844,
-    4845,
-    4846
+    4845
    ]
   },
   {
@@ -175746,7 +175752,7 @@
     -2.652
    ],
    "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per zijlade"
    }
   },
   {
@@ -175758,31 +175764,19 @@
     -2.652
    ],
    "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per zijlade"
    }
   },
   {
-   "name": "Greep lade onder de Sony (links)",
+   "name": "Greep lade onder de Sony",
    "mesh": 1719,
    "translation": [
-    1.3945,
+    1.5805,
     0.1655,
     -2.442
    ],
    "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
-   }
-  },
-  {
-   "name": "Greep lade onder de Sony (rechts)",
-   "mesh": 1719,
-   "translation": [
-    1.7665,
-    0.1655,
-    -2.442
-   ],
-   "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; één in het midden van de lade onder de Sony"
    }
   },
   {
@@ -175794,7 +175788,7 @@
     -2.652
    ],
    "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per zijlade"
    }
   },
   {
@@ -175806,7 +175800,133 @@
     -2.652
    ],
    "extras": {
-    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per zijlade"
+   }
+  },
+  {
+   "name": "SP22",
+   "mesh": 1306,
+   "translation": [
+    1.9345,
+    2.315,
+    -0.4268
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP23",
+   "mesh": 1306,
+   "translation": [
+    1.9345,
+    2.315,
+    -1.1603
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP24",
+   "mesh": 1306,
+   "translation": [
+    0.4345,
+    2.315,
+    -1.8938
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP25",
+   "mesh": 1306,
+   "translation": [
+    1.2145,
+    2.315,
+    -1.8938
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP26",
+   "mesh": 1306,
+   "translation": [
+    1.9345,
+    2.315,
+    -1.8938
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP27",
+   "mesh": 1306,
+   "translation": [
+    2.7145,
+    2.315,
+    -1.8938
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
+   }
+  },
+  {
+   "name": "SP28",
+   "mesh": 1306,
+   "translation": [
+    1.9345,
+    2.315,
+    -2.6273
+   ],
+   "extras": {
+    "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
+    "product": {
+     "winkel": "into-led",
+     "naam": "HOFTRONIC Pittsburg LED inbouwspot wit, GU10 4 W 2700K, dimbaar, kantelbaar 45°",
+     "artikel": "7439628571549 (EAN)",
+     "url": "https://www.into-led.com/nl/led-inbouwspot-pittsburg-5-watt-3000k.html"
+    }
    }
   }
  ],

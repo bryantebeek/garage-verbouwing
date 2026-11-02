@@ -10,7 +10,7 @@ Het model staat in `kelder.gltf` (+ `kelder.bin`, `textures/`), oorspronkelijk u
 
 ## Realistische renders
 
-`render.py` rendert het model met Blender Cycles: de afgewerkte ruimte (verf, vloer, meubels, schakelmateriaal, inbouwspots), overdag met zon door het voorkozijn of 's avonds met de 21 spots aan.
+`render.py` rendert het model met Blender Cycles: de afgewerkte ruimte (verf, vloer, meubels, schakelmateriaal, inbouwspots), overdag met zon door het voorkozijn of 's avonds met de 28 spots aan.
 
 ```sh
 blender -b -P render.py -- --draft                 # snel, 960x600, om licht en kader te checken

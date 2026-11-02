@@ -5,7 +5,7 @@
 
 ## Model-conventies (`kelder.gltf`)
 
-- Inbouwspots boven het tv-deel (SP1–3, SP6–8, SP11–13): kolommen symmetrisch rond het midden van de tv-muur (x 0,5745, 1,5745, 2,5745, nog steeds tussen de balken), los van het raster in de rest van de kamer; de voorste rij op z −0,60 zodat SP2 vrij van de beamer zit.
+- Inbouwspots boven het tv-deel: raster van 4 × 4 (SP1–3, SP6–8, SP11–13 en SP22–28), los van het raster in de rest van de kamer. Kolommen symmetrisch rond het midden van de tv-muur (x 0,4345, 1,2145, 1,9345, 2,7145; elk gat Ø 75 mm minstens 6 mm van een balk, daarom niet helemaal gelijk verdeeld), rijen gelijk over de diepte (z −0,427, −1,160, −1,894, −2,627). Geen spot boven de beamer.
 
 - Coördinaten in meters, glTF y omhoog (zoals de positie onderin de viewer). Tv-muur (verf VF3): z −2,994, x 0,056–3,093, midden x 1,5745. Voorgevel x 5,858.
 - Lagen zijn de top-level nodes; `extras.visible: false` = standaard uit. Een nieuwe laag ook in `GROUPS` in `index.html` zetten, anders komt hij onder "Overig".
@@ -37,7 +37,7 @@
 
 ## Wandkast (laag "Wandkast", alternatief voor de kazen)
 
-- Kast op maat over de hele tv-muur, op de vloer (1 cm) en vóór de plinten: achterkant z −2,982 (plint tv-muur), linkerzijde x 0,068 (plint zijmuur), rechts tot x 3,093; zijkolommen tot 1,82 m; boven de tv-opening niets (geen plank, tv vrij op de muur; plafond 2,32). Plaat 18 mm in de muurkleur (Skimming Stone); onderin geen lat maar 3 rolladen op wieltjes (voorkant 12 mm boven de vloer, rijden naar voren uit): links (onder de linkerzijkolom en het vak ernaast, ±14 cm hoog), onder de Sony (±29 cm hoog, 54 cm diep) en rechts. Elke lade twee zwarte grepen (`Greep lade …`, 160 mm, hart-op-hart 128 mm, 36 mm uitstekend) op ¼ en ¾ van de breedte, midden op de hoogte van de voorkant.
+- Kast op maat over de hele tv-muur, op de vloer (1 cm) en vóór de plinten: achterkant z −2,982 (plint tv-muur), linkerzijde x 0,068 (plint zijmuur), rechts tot x 3,093; zijkolommen tot 1,82 m; boven de tv-opening niets (geen plank, tv vrij op de muur; plafond 2,32). Plaat 18 mm in de muurkleur (Skimming Stone); onderin geen lat maar 3 rolladen op wieltjes (voorkant 12 mm boven de vloer, rijden naar voren uit): links (onder de linkerzijkolom en het vak ernaast, ±14 cm hoog), onder de Sony (±29 cm hoog, 54 cm diep) en rechts. Zwarte grepen (`Greep lade …`, 160 mm, hart-op-hart 128 mm, 36 mm uitstekend), midden op de hoogte van de voorkant: de zijlades twee (op ¼ en ¾ van de breedte), de lade onder de Sony één in het midden.
 - Zo ondiep mogelijk: 33 cm = randje + diepste console schuin (PS3, 29 cm × cos 15°) + 3 cm voor stekkers (die gaan de muur in).
 - Kolommen (binnenmaat): zijkolommen 52 cm (breedste console Xbox 32,4 cm), naast de Sony 56,4 cm (Mega Drive 2 + Mega-CD 2 47,2 cm), Sony-vak 75 cm. Geen spellen in de kast.
 - Planken in 6 gelijke stappen van 27,3 cm van 0,18 tot 1,82 (bovenkant 0,18, 0,453, 0,727, 1,0, 1,273, 1,547, 1,82); op 1,82 de bovenplaat van de zijkolommen; boven de tv geen plank. De vakken naast de Sony hebben bovenin de plank op 0,727; boven de Sony geen plank, zijn vak loopt door in de tv-opening. 55, 65 en 75 inch passen.
