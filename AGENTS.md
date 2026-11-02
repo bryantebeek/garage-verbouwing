@@ -1,9 +1,11 @@
 # Agents
 
 - Na elke wijziging: altijd committen en pushen naar `main`. GitHub Pages publiceert `main` direct op https://bryantebeek.github.io/garage-verbouwing/.
-- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld). Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
+- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld; een andere tv-muurvariant met `--tv-muur Wandkast`, `Consoletrap` of `Kallax tv-meubel`). Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
 
 ## Model-conventies (`kelder.gltf`)
+
+- Inbouwspots boven het tv-deel (SP1–3, SP6–8, SP11–13): kolommen symmetrisch rond het midden van de tv-muur (x 0,5745, 1,5745, 2,5745, nog steeds tussen de balken), los van het raster in de rest van de kamer; de voorste rij op z −0,60 zodat SP2 vrij van de beamer zit.
 
 - Coördinaten in meters, glTF y omhoog (zoals de positie onderin de viewer). Tv-muur (verf VF3): z −2,994, x 0,056–3,093, midden x 1,5745. Voorgevel x 5,858.
 - Lagen zijn de top-level nodes; `extras.visible: false` = standaard uit. Een nieuwe laag ook in `GROUPS` in `index.html` zetten, anders komt hij onder "Overig".

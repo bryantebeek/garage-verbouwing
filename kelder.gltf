@@ -133310,9 +133310,9 @@
    "name": "SP1",
    "mesh": 1306,
    "translation": [
-    0.747,
+    0.5745,
     2.315,
-    -0.538
+    -0.6
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133328,9 +133328,9 @@
    "name": "SP2",
    "mesh": 1306,
    "translation": [
-    1.747,
+    1.5745,
     2.315,
-    -0.538
+    -0.6
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133346,9 +133346,9 @@
    "name": "SP3",
    "mesh": 1306,
    "translation": [
-    2.747,
+    2.5745,
     2.315,
-    -0.538
+    -0.6
    ],
    "extras": {
     "omschrijving": "Inbouwspot (kamer) tussen de plafondbalken",
@@ -133400,7 +133400,7 @@
    "name": "SP6",
    "mesh": 1306,
    "translation": [
-    0.747,
+    0.5745,
     2.315,
     -1.52
    ],
@@ -133418,7 +133418,7 @@
    "name": "SP7",
    "mesh": 1306,
    "translation": [
-    1.747,
+    1.5745,
     2.315,
     -1.52
    ],
@@ -133436,7 +133436,7 @@
    "name": "SP8",
    "mesh": 1306,
    "translation": [
-    2.747,
+    2.5745,
     2.315,
     -1.52
    ],
@@ -133490,7 +133490,7 @@
    "name": "SP11",
    "mesh": 1306,
    "translation": [
-    0.747,
+    0.5745,
     2.315,
     -2.503
    ],
@@ -133508,7 +133508,7 @@
    "name": "SP12",
    "mesh": 1306,
    "translation": [
-    1.747,
+    1.5745,
     2.315,
     -2.503
    ],
@@ -133526,7 +133526,7 @@
    "name": "SP13",
    "mesh": 1306,
    "translation": [
-    2.747,
+    2.5745,
     2.315,
     -2.503
    ],
