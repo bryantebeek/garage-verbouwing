@@ -22,7 +22,7 @@
   - Diepte per kaas: ±30 mm vrij achter de console (op de vloer van de kaas gemeten), dus elke kaas is zo diep als zijn console nodig heeft.
   - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers).
 - Indeling per kant van de Sony: 2 × 2 kazen naast de Sony (onderkant 18 en 50 cm) en een hoge kolom erboven naast de LG (82 en 114 cm); rijen om de 32 cm.
-  - Binnenste kolommen: links en rechts even ver van de verhoging (25 mm), kazen uitgelijnd op hun kant naar de Sony.
+  - Binnenste kolommen: links en rechts even ver van de verhoging (60 mm), kazen uitgelijnd op hun kant naar de Sony.
   - Buitenste kolom naast de Sony en de hoge kolom erboven: uitgelijnd op hun binnenkant, gespiegeld rond het midden van de muur, 10 cm naast de breedste binnenste kolom.
   - Alles onder de LG blijft onder de 79 cm.
   - Links: NES en SNES (hoog), PS1 en Dreamcast, N64 en PS2. Rechts: Wii U en PS4 (hoog), Xbox 360 en PS3, GameCube en Wii.
