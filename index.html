@@ -540,10 +540,16 @@ const doorOf = o => doors.find(d => { if (o === d.door) return true; for (let x 
 const saved = JSON.parse(sessionStorage.getItem('kelder') ?? 'null');
 let labelsOn = saved?.labelsOn ?? true;
 layers.forEach((l, i) => { l.visible = saved ? !saved.off.includes(i) : l.userData.visible !== false; });
+// Switchable variants: objects with extras.wissel (the switch label) and extras.stand 'dicht' or 'open', e.g. the sofa bed.
+const variants = new Map();
+gltf.scene.traverse(o => { const w = o.userData.wissel; if (w) variants.set(w, [...(variants.get(w) ?? []), o]); });
+const opened = new Set(saved?.opened ?? []);
+const applyVariant = name => { for (const o of variants.get(name)) o.visible = (o.userData.stand === 'open') === opened.has(name); };
+variants.forEach((_, name) => applyVariant(name));
 if (saved) { camera.position.fromArray(saved.pos); camera.quaternion.fromArray(saved.quat); }
 addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.stringify({
   pos: camera.position.toArray(), quat: camera.quaternion.toArray(), labelsOn,
-  off: layers.flatMap((l, i) => l.visible ? [] : [i]),
+  off: layers.flatMap((l, i) => l.visible ? [] : [i]), opened: [...opened],
 })));
 
 // Beamer (B): a real projection from the lens of the BenQ TH671ST, upside down on the ceiling. Spot lights with a light map
@@ -742,6 +748,13 @@ function setLayers(idx, visible) {
 }
 function toggleOutlines() { const v = !(outlines[0]?.visible ?? true); outlines.forEach(l => { l.visible = v; }); renderLayers(); }
 function toggleNumbers() { labelsOn = !labelsOn; renderLayers(); }
+function toggleVariant(name) {
+  if (!opened.delete(name)) opened.add(name);
+  applyVariant(name);
+  renderer.shadowMap.needsUpdate = true;
+  lastView = '';
+  renderLayers();
+}
 function renderLayers() {
   const byGroup = new Map(GROUPS.map(([g]) => [g, []]));
   layers.forEach((l, i) => {
@@ -758,7 +771,8 @@ function renderLayers() {
       toggle: () => setLayers(idx, on < idx.length),
     }));
   }
-  out.push(group('Weergave', [switchRow('Lijnen', outlines[0]?.visible ?? true, toggleOutlines), switchRow('Onderdeelnummers', labelsOn, toggleNumbers)]));
+  out.push(group('Weergave', [switchRow('Lijnen', outlines[0]?.visible ?? true, toggleOutlines), switchRow('Onderdeelnummers', labelsOn, toggleNumbers),
+    ...[...variants.keys()].map(name => switchRow(name, opened.has(name), () => toggleVariant(name)))]));
   if (beamer.lights.length) {
     const pick = Object.assign(document.createElement('label'), { className: 'row' });
     pick.innerHTML = `<span class="name">Animatie</span><select aria-label="Beamer-animatie">${VARIANTS.map((v, i) =>
