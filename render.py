@@ -37,6 +37,9 @@ for root in [o for o in bpy.data.objects if o.parent is None]:
     hidden = root.name not in SHOW
     for o in [root, *root.children_recursive]:
         o.hide_render = o.hide_viewport = hidden
+for o in bpy.data.objects:                     # extras.zonder: only without that layer (the plint behind the Wandkast)
+    if o.get('zonder') in SHOW:
+        for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
 for o in bpy.data.objects:                     # Tv layer: only the 55 inch (the other sizes are options in the viewer)
     if o.get('tvmaat') not in (None, '55 inch'):
         for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
