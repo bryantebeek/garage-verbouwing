@@ -59279,16 +59279,16 @@
    }
   },
   {
-   "name": "Inbouwspot zwart",
+   "name": "Inbouwspot wit",
    "doubleSided": true,
    "pbrMetallicRoughness": {
     "baseColorFactor": [
-     0.025,
-     0.025,
-     0.025,
+     0.95,
+     0.95,
+     0.94,
      1
     ],
-    "roughnessFactor": 0.5,
+    "roughnessFactor": 0.35,
     "metallicFactor": 0
    }
   },
@@ -114246,7 +114246,7 @@
     2515
    ],
    "extras": {
-    "omschrijving": "21x inbouwspot rond zwart, Ø 85 mm, zaagmaat Ø 75 mm, inbouwdiepte max. 60 mm (holle plafond 69 mm + 9,5 mm plaat), GU10 met korte LED-lamp; elke spot midden tussen twee plafondbalken. Type en bedrading nog te kiezen."
+    "omschrijving": "21x inbouwspot rond wit, Ø 85 mm, zaagmaat Ø 75 mm, inbouwdiepte max. 60 mm (holle plafond 69 mm + 9,5 mm plaat), GU10 met korte LED-lamp; elke spot midden tussen twee plafondbalken. Type en bedrading nog te kiezen."
    }
   },
   {
