@@ -33,7 +33,8 @@
 
 ## Wandkast (laag "Wandkast", alternatief voor de kazen)
 
-- Kast op maat over de hele tv-muur (x 0,056–3,093, tot 2,30 m; plafond 2,32), plaat 18 mm in de muurkleur (Skimming Stone), lades onderin (0,118–0,218 m) met walnoten fronten, plint 10 cm (5 cm terug).
-- 5 gelijke kolommen, vakken 58,6 cm breed: breed genoeg voor de breedste console met spellen (Mega Drive 2 + Mega-CD 2: 54,8 cm). Zijkolommen 36 cm diep, middendeel onder de LG 52 cm diep (Sony 48,5 cm).
-- Midden: Sony in het middelste vak op de lades, de LG in een open vak van 3 kolommen breed (plank onder op 0,758, boven op 1,718), daarboven 2 rijen vakken.
-- Consoles liggen plat, 2 cm achter de voorkant, met 3 spellen rechtop ernaast; indeling op kabellengte: naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger.
+- Kast op maat over de hele tv-muur, op de vloer (1 cm) en vóór de plinten: achterkant z −2,982 (plint tv-muur), linkerzijde x 0,068 (plint zijmuur), rechts tot x 3,093; bovenkant 2,29 m (plafond 2,32). Plaat 18 mm in de muurkleur (Skimming Stone), plint 6 cm (4 cm terug), lades 9 cm met walnoten fronten.
+- Zo ondiep mogelijk: 33 cm = randje + diepste console schuin (PS3, 29 cm × cos 15°) + 3 cm voor stekkers (die gaan de muur in). Alleen het vak van de Sony is dieper (45 cm, Sony 3 cm van de achterkant, ±6,5 cm overstek; een beeldbuis is voorzwaar, dus niet ondieper).
+- Kolommen (binnenmaat): zijkolommen 40 cm (breedste groep Xbox + spellen 38 cm), naast de Sony 68,4 cm (Mega Drive 2 + Mega-CD 2 met spellen 54,6 cm), Sony-vak 75 cm (±9 cm lucht aan elke kant, 4 cm erboven). Tv-opening 2,15 × 1,10 m (ruim genoeg voor een grotere tv).
+- Planken overal op hetzelfde ritme van 28 cm (bovenkant 0,178, 0,458, 0,738, ... 2,138); onder de tv-opening 0,738, erboven 1,858.
+- Alle consolevakken hebben een schuine vloer van 15° met randje (zoals de kazen); niet het Sony-vak en de lage vakjes bovenin. Consoles schuin tegen het randje, 3 spellen ernaast; indeling op kabellengte (naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger).
