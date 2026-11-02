@@ -1,7 +1,7 @@
 # Agents
 
 - Na elke wijziging: altijd committen en pushen naar `main`. GitHub Pages publiceert `main` direct op https://bryantebeek.github.io/garage-verbouwing/.
-- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld). Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
+- Na elke wijziging in het model: een testrender maken en die in je antwoord laten zien (als afbeelding), met het standpunt waar de wijziging te zien is: `blender -b -P render.py -- --draft --mode avond --views tv-muur` (±10 s per beeld). Kopieer de render daarna naar een eigen bestandsnaam (`renders/test-<korte commit-hash>.png`) en laat die zien: de chat toont bij hetzelfde pad steeds de oude afbeelding. Een render in volle kwaliteit (±3 min per beeld) alleen op verzoek.
 
 ## Model-conventies (`kelder.gltf`)
 
