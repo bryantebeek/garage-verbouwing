@@ -122512,7 +122512,22 @@
     2739,
     2769,
     2770,
-    2780
+    2780,
+    4888,
+    4889,
+    4890,
+    4891,
+    4892,
+    4893,
+    4894,
+    4895,
+    4896,
+    4897,
+    4898,
+    4899,
+    4900,
+    4901,
+    4902
    ]
   },
   {
@@ -166392,6 +166407,471 @@
    ],
    "extras": {
     "omschrijving": "DualShock 4, naast de console, 2.9 cm tussenruimte. Model: \"PS4 controller (Dualshock 4)\" door mahou, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "PS4 controller (Dualshock 4) (model door mahou)",
+     "artikel": "43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1",
+     "url": "https://3dwarehouse.sketchup.com/model/43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1"
+    }
+   }
+  },
+  {
+   "name": "Controller Atari 2600",
+   "mesh": 1338,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.3210000018626453,
+    0.41476054631734227,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Atari CX40 joystick, aan de muur boven de console, op een onzichtbare wandhouder.2 cm tussenruimte. Model: \"Atari 2600 Joystick Controller\" door mrhoeivo, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Atari 2600 Joystick Controller (model door mrhoeivo)",
+     "artikel": "1ddf7826d6dff2cccffdc5bf87b1e5e2",
+     "url": "https://3dwarehouse.sketchup.com/model/1ddf7826d6dff2cccffdc5bf87b1e5e2"
+    }
+   }
+  },
+  {
+   "name": "Controller Mega Drive + Mega CD",
+   "mesh": 1339,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.8280000074505806,
+    0.4102241573928477,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Mega Drive controller (3 knoppen), aan de muur boven de console, op een onzichtbare wandhouder. Model: \"sega genesis Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "sega genesis Controller (model door Modelfundgrube)",
+     "artikel": "a876bcb3-93b8-46a6-ad95-36507f67af11",
+     "url": "https://3dwarehouse.sketchup.com/model/a876bcb3-93b8-46a6-ad95-36507f67af11"
+    }
+   }
+  },
+  {
+   "name": "Controller NES",
+   "mesh": 1340,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    0.421263449005232,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "NES controller, aan de muur boven de console, op een onzichtbare wandhouder.5 cm tussenruimte. Model: \"NES Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "NES Controller (model door Modelfundgrube)",
+     "artikel": "5947ff87-1f5e-494d-8009-af8a9c98c166",
+     "url": "https://3dwarehouse.sketchup.com/model/5947ff87-1f5e-494d-8009-af8a9c98c166"
+    }
+   }
+  },
+  {
+   "name": "Controller SNES",
+   "mesh": 1341,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.41199998509883873,
+    0.4169111628391823,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "SNES controller (PAL), aan de muur boven de console, op een onzichtbare wandhouder.4 cm tussenruimte. Model: \"snes controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "snes controller (model door Modelfundgrube)",
+     "artikel": "1c43cbea-6fbd-49b3-b3a4-687e6991412f",
+     "url": "https://3dwarehouse.sketchup.com/model/1c43cbea-6fbd-49b3-b3a4-687e6991412f"
+    }
+   }
+  },
+  {
+   "name": "Controller Nintendo 64",
+   "mesh": 1342,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.828,
+    0.7216243019356833,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Nintendo 64 controller, aan de muur boven de console, op een onzichtbare wandhouder.7 cm tussenruimte. Model: \"n64 controller\" door Jeffrey D., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "n64 controller (model door Jeffrey D.)",
+     "artikel": "aabc97fa2bfcb145cd28e651ed7ff5d",
+     "url": "https://3dwarehouse.sketchup.com/model/aabc97fa2bfcb145cd28e651ed7ff5d"
+    }
+   }
+  },
+  {
+   "name": "Controller PlayStation",
+   "mesh": 1343,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.321,
+    0.7162808572170563,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "PlayStation DualShock (grijs), aan de muur boven de console, op een onzichtbare wandhouder.3 cm tussenruimte. Model: \"Playstation 1 (Vray Ready)\" door Gabriel Coelho, SketchUp 3D Warehouse (DualShock 2-model, grijs gemaakt)",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Playstation 1 (Vray Ready) (model door Gabriel Coelho)",
+     "artikel": "557de277-7ff0-4517-8df4-e2a1a24ee460",
+     "url": "https://3dwarehouse.sketchup.com/model/557de277-7ff0-4517-8df4-e2a1a24ee460"
+    }
+   }
+  },
+  {
+   "name": "Controller Dreamcast",
+   "mesh": 1344,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    0.7328267761909033,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Dreamcast controller, aan de muur boven de console, op een onzichtbare wandhouder.0 cm tussenruimte. Model: \"Sega Dreamcast mit Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Sega Dreamcast mit Controller (model door Modelfundgrube)",
+     "artikel": "91bcea3a-3c1d-443f-a33c-86e1809958cd",
+     "url": "https://3dwarehouse.sketchup.com/model/91bcea3a-3c1d-443f-a33c-86e1809958cd"
+    }
+   }
+  },
+  {
+   "name": "Controller GameCube",
+   "mesh": 1345,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.7369999925494195,
+    0.7426919091189003,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "GameCube controller (indigo), aan de muur boven de console, op een onzichtbare wandhouder.1 cm tussenruimte. Model: \"Gamecube Controller\" door John H., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Gamecube Controller (model door John H.)",
+     "artikel": "1fc68ccc-ed7c-4719-b02a-2fc75822eaa1",
+     "url": "https://3dwarehouse.sketchup.com/model/1fc68ccc-ed7c-4719-b02a-2fc75822eaa1"
+    }
+   }
+  },
+  {
+   "name": "Controller PlayStation 2",
+   "mesh": 1346,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    1.0523280889168563,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 2, aan de muur boven de console, op een onzichtbare wandhouder.8 cm tussenruimte. Model: \"DualShock 2 Analog Controller\" door Brady B., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "DualShock 2 Analog Controller (model door Brady B.)",
+     "artikel": "cf0e5283da2305632e5ae31c6c631a39",
+     "url": "https://3dwarehouse.sketchup.com/model/cf0e5283da2305632e5ae31c6c631a39"
+    }
+   }
+  },
+  {
+   "name": "Controller Xbox",
+   "mesh": 1347,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.3899999999999997,
+    1.1079057014413536,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Xbox controller (Duke), aan de muur naast de kolom (richting de tv), te hoog voor boven de console, op een onzichtbare wandhouder. Model: \"Xbox Original with a duke controller BH\" door BRENDAN H., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox Original with a duke controller BH (model door BRENDAN H.)",
+     "artikel": "a546e57b-acf0-46c4-85e7-6e2259846e3d",
+     "url": "https://3dwarehouse.sketchup.com/model/a546e57b-acf0-46c4-85e7-6e2259846e3d"
+    }
+   }
+  },
+  {
+   "name": "Controller Xbox 360",
+   "mesh": 1348,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.4120000037252903,
+    1.7006586613586978,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Xbox 360 controller (wit), aan de muur boven de console, op een onzichtbare wandhouder.0 cm tussenruimte. Model: \"Xbox 360 Controller\" door Bas P., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Xbox 360 Controller (model door Bas P.)",
+     "artikel": "a0b126315ac274ba040aed0c3e87e91",
+     "url": "https://3dwarehouse.sketchup.com/model/a0b126315ac274ba040aed0c3e87e91"
+    }
+   }
+  },
+  {
+   "name": "Controller Wii",
+   "mesh": 1349,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.4119999990686774,
+    1.3611347982792115,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Wii Remote, aan de muur boven de console, op een onzichtbare wandhouder.6 cm tussenruimte. Model: \"Wii Remote\" door NintenG0D, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Wii Remote (model door NintenG0D)",
+     "artikel": "e739278e9039922dff7f69173a1ae6d4",
+     "url": "https://3dwarehouse.sketchup.com/model/e739278e9039922dff7f69173a1ae6d4"
+    }
+   }
+  },
+  {
+   "name": "Controller Wii U",
+   "mesh": 1350,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    0.412,
+    2.007497924443927,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "Wii U GamePad, aan de muur boven de console, op een onzichtbare wandhouder.9 cm tussenruimte. Model: \"wii u controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "wii u controller (model door Modelfundgrube)",
+     "artikel": "9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d",
+     "url": "https://3dwarehouse.sketchup.com/model/9f6d5d4e-f502-4521-b5b5-7a1cef1a0d8d"
+    }
+   }
+  },
+  {
+   "name": "Controller PlayStation 3",
+   "mesh": 1351,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    1.37331774194094,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 3, aan de muur boven de console, op een onzichtbare wandhouder.2 cm tussenruimte. Model: \"Controle de PS3 (Tamanho real)\" door Gabriel S., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Controle de PS3 (Tamanho real) (model door Gabriel S.)",
+     "artikel": "43ff3ca7eba9381e808ba9235495a934",
+     "url": "https://3dwarehouse.sketchup.com/model/43ff3ca7eba9381e808ba9235495a934"
+    }
+   }
+  },
+  {
+   "name": "Controller PlayStation 4",
+   "mesh": 1352,
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0,
+    0.0,
+    0.0,
+    1.0,
+    0,
+    0.0,
+    -1.0,
+    0.0,
+    0,
+    2.737,
+    1.686230228238621,
+    -2.9890000000000003,
+    1
+   ],
+   "extras": {
+    "omschrijving": "DualShock 4, aan de muur boven de console, op een onzichtbare wandhouder.9 cm tussenruimte. Model: \"PS4 controller (Dualshock 4)\" door mahou, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "PS4 controller (Dualshock 4) (model door mahou)",
