@@ -5,7 +5,7 @@
 
 ## Model-conventies (`kelder.gltf`)
 
-- Inbouwspots boven het tv-deel: raster van 4 × 4 (SP1–3, SP6–8, SP11–13 en SP22–28), los van het raster in de rest van de kamer. Kolommen symmetrisch rond het midden van de tv-muur (x 0,4345, 1,2145, 1,9345, 2,7145; elk gat Ø 75 mm minstens 6 mm van een balk, daarom niet helemaal gelijk verdeeld), rijen over de diepte (z −0,427, −1,160, −1,894, −2,627). Geen spot boven de beamer. De tweede rij vanaf de kast (z −1,894, SP24–27) is 30° gekanteld naar de tv-muur, om de kast te verlichten (Pittsburg kan tot 45°). `extras.kanteling` = graden richting de tv-muur; alleen `render.py` gebruikt het, de spot zelf blijft vlak in het plafond.
+- Inbouwspots boven het tv-deel: raster van 4 × 4 (SP1–3, SP6–8, SP11–13 en SP22–28), los van het raster in de rest van de kamer. Kolommen symmetrisch rond het midden van de tv-muur (x 0,4345, 1,2145, 1,9345, 2,7145; elk gat Ø 75 mm minstens 6 mm van een balk, daarom niet helemaal gelijk verdeeld), rijen over de diepte (z −0,427, −1,160, −1,894, −2,627). Geen spot boven de beamer.
 
 - Coördinaten in meters, glTF y omhoog (zoals de positie onderin de viewer). Tv-muur (verf VF3): z −2,994, x 0,056–3,093, midden x 1,5745. Voorgevel x 5,858.
 - Lagen zijn de top-level nodes; `extras.visible: false` = standaard uit. Een nieuwe laag ook in `GROUPS` in `index.html` zetten, anders komt hij onder "Overig".

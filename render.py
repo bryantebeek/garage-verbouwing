@@ -91,7 +91,6 @@ for o in [o for o in bpy.data.objects if o.name.startswith('SP') and o.name[2:].
     lamp = bpy.data.objects.new(d.name, d); scene.collection.objects.link(lamp)
     c = o.matrix_world @ (sum((Vector(v) for v in o.bound_box), Vector()) / 8)
     lamp.location = (c.x, c.y, min(Vector(o.matrix_world @ Vector(v)).z for v in o.bound_box) - 0.002)   # just below the lens
-    lamp.rotation_euler = (math.radians(o.get('kanteling', 0)), 0, 0)   # extras.kanteling: degrees tilted toward the tv wall (glTF -z)
     spots.append(lamp)
     if '(hal' in o.get('omschrijving', ''): hall.append(lamp)
 
