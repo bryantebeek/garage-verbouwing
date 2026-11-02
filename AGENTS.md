@@ -43,6 +43,6 @@
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)
 
 - Eén doorlopend meubel over de hele tv-muur (x 0,068–3,093), vóór de plint (achterkant z −2,982), 84 cm diep, in de muurkleur (Skimming Stone).
-- Drie treden, elk zo diep als de diepste console erop: trede 1 voor (27 cm diep, vlak, bovenkant 0,12 m), trede 2 (27 cm, 15° schuin met randje, voorkant 0,24 m), trede 3 achter (30 cm, 15° schuin met randje, voorkant 0,40 m). Bovenste consoles tot ±0,55 m, onder de tv.
-- Midden een vak van 70 cm waar trede 1 doorloopt tot de muur; de Sony staat daarop, 2 cm achter de voorkant.
+- Drie treden, elk zo diep als de diepste console erop, alle drie 15° schuin met randje: trede 1 voor (27 cm diep, voorkant 0,12 m), trede 2 (27 cm, voorkant 0,282 m), trede 3 achter (30 cm, voorkant 0,444 m); elke trede begint 9 cm boven de achterkant van de trede ervoor. Bovenste consoles tot ±0,59 m, onder de tv.
+- Midden een voetstuk van 70 cm breed over de volle diepte, 29 cm hoog: de Sony staat erop (0,29–0,79 m, scherm-midden ±0,58 m), 2 cm achter de voorkant; past onder de 55 en de 65 inch, niet onder de 75 inch.
 - Consoles 6 cm uit elkaar (4 cm van het Sony-vak), vanaf de Sony naar buiten; per trede links en rechts ongeveer even breed. Trede 1 (vlak): Mega Drive + Mega CD, NES, SNES links; Atari, PS1, N64 rechts. Trede 2: Dreamcast, PS2, Wii links; GameCube, Xbox rechts. Trede 3 (draadloos): Xbox 360, Wii U, Switch links; PS3, PS4 rechts.
