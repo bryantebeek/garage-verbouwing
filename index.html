@@ -13,73 +13,134 @@
   body { margin: 0; overflow: hidden; background: #e7e5e1; }
   canvas { cursor: grab; touch-action: none; -webkit-user-select: none; user-select: none; }
   canvas:active { cursor: grabbing; }
+  /* Sidebar: one docked inspector on the right (Figma-style). 8 px grid, 13 px body text. */
   #sidebar {
-    position: fixed; z-index: 2; top: 0; right: 0; bottom: 0; width: 300px; box-sizing: border-box;
-    display: flex; flex-direction: column; color: var(--text); background: #18181b; border-left: 1px solid rgba(255, 255, 255, .1);
-    font-size: 12.5px; line-height: 1.4;
+    --sb-bg: #141416; --sb-surface: #1c1c20; --sb-raised: #24242a; --sb-hover: rgba(255, 255, 255, .05); --sb-border: rgba(255, 255, 255, .07);
+    position: fixed; z-index: 2; top: 0; right: 0; bottom: 0; width: 320px; box-sizing: border-box;
+    display: flex; flex-direction: column; color: var(--text); background: var(--sb-bg); border-left: 1px solid var(--sb-border);
+    font-size: 13px; line-height: 1.45;
   }
-  #sidebar > .scroll { flex: 1; overflow-y: auto; }
-  #sidebar section { padding: 14px 16px; border-bottom: 1px solid var(--line); }
-  .heading { font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
-  .toggle { cursor: pointer; -webkit-user-select: none; user-select: none; }
-  .toggle::after { content: ' ▾'; }
-  .collapsed .toggle::after { content: ' ▸'; }
-  .collapsed .heading { margin: 0; }
+  :is(#sidebar, #help) :is(button, select) { font: inherit; color: inherit; }
+  :is(#sidebar, #help) :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .sb-head { display: flex; align-items: center; gap: 12px; padding: 16px 16px 16px 20px; border-bottom: 1px solid var(--sb-border); }
+  .sb-head .title { flex: 1; min-width: 0; }
+  .sb-head b { display: block; font-size: 15px; font-weight: 650; letter-spacing: -.01em; }
+  .sb-head span { color: var(--muted); font-size: 12px; }
+  .icon-btn {
+    display: inline-grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 8px; background: #1c1c20; cursor: pointer; transition: background .12s, border-color .12s, color .12s;
+  }
+  .icon-btn:hover { background: #26262c; border-color: rgba(255, 255, 255, .14); }
+  .icon-btn.ghost { width: 28px; height: 28px; border-color: transparent; background: none; color: var(--muted); }
+  .icon-btn.ghost:hover { background: rgba(255, 255, 255, .06); color: var(--text); }
+  svg.i { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  #sidebar > .scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, .14) transparent; }
+  #sidebar section { padding: 16px 12px; border-bottom: 1px solid var(--sb-border); }
+  .sec-head { display: flex; align-items: center; justify-content: space-between; min-height: 28px; padding: 0 8px; margin-bottom: 8px; }
+  .sec-head h2 { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
   kbd {
-    display: inline-block; min-width: 18px; height: 18px; padding: 0 5px; box-sizing: border-box; border-radius: 5px;
-    background: rgba(255, 255, 255, .09); border: 1px solid rgba(255, 255, 255, .14); border-bottom-width: 2px;
-    font: 600 10.5px/15px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); text-align: center;
+    display: inline-block; min-width: 20px; height: 20px; padding: 0 6px; box-sizing: border-box; border-radius: 5px;
+    background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .13); border-bottom-width: 2px;
+    font: 600 11px/16px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); text-align: center;
   }
 
-  #brand b { display: block; font-size: 15px; font-weight: 650; letter-spacing: -.01em; }
-  #brand span { color: var(--muted); font-size: 12px; }
-
-  #layers { padding: 14px 8px 8px !important; }
-  #layers .heading { padding: 0 8px; }
-  #layers.collapsed #layer-list { display: none; }
-  #layers button {
-    display: flex; align-items: center; gap: 10px; width: 100%; padding: 6px 8px; border: 0; border-radius: 8px;
-    background: none; color: inherit; font: inherit; text-align: left; cursor: pointer;
+  /* Selection */
+  #info .empty-state {
+    display: flex; flex-direction: column; align-items: center; gap: 4px; margin: 0 8px; padding: 20px 16px;
+    border: 1px dashed rgba(255, 255, 255, .1); border-radius: 12px; text-align: center; color: var(--muted);
   }
-  #layers button:hover { background: rgba(255, 255, 255, .06); }
-  #layers .name { flex: 1; }
-  #layers .off .name { color: var(--muted); }
-  .switch { position: relative; width: 28px; height: 16px; border-radius: 8px; background: rgba(255, 255, 255, .16); transition: background .15s; }
-  .switch::after {
-    content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%;
-    background: #fff; transition: transform .15s;
+  #info .empty-state svg { width: 28px; height: 28px; stroke: #5f5f68; margin-bottom: 6px; }
+  #info .empty-state strong { color: #d4d4d8; font-weight: 600; }
+  #info .empty-state small { font-size: 12px; line-height: 1.6; }
+  #info .detail, #info-clear { display: none; }
+  #info:not(.empty) .detail { display: block; padding: 0 8px; }
+  #info:not(.empty) .empty-state { display: none; }
+  #info:not(.empty) #info-clear { display: inline-grid; }
+  #info-path { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; font-size: 12px; color: var(--muted); }
+  #info-path span + span::before { content: '›'; margin-right: 4px; color: #4f4f58; }
+  #info-name { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 16px; font-weight: 650; letter-spacing: -.01em; overflow-wrap: anywhere; }
+  #info-name::before { content: ''; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px rgba(255, 159, 67, .22); }
+  #info-props { display: grid; grid-template-columns: auto 1fr; margin: 0; border: 1px solid var(--sb-border); border-radius: 10px; background: var(--sb-surface); }
+  #info-props dt, #info-props dd { margin: 0; padding: 8px 12px; border-top: 1px solid var(--sb-border); }
+  #info-props dt:first-of-type, #info-props dd:first-of-type { border-top: 0; }
+  #info-props dt { color: var(--muted); font-size: 12px; }
+  #info-props dd { text-align: right; font-variant-numeric: tabular-nums; }
+  #info-about { margin: 12px 0 0; color: #c8c8d0; font-size: 12.5px; line-height: 1.55; }
+  #info-about:empty { display: none; }
+  .product {
+    display: flex; align-items: center; gap: 12px; margin-top: 12px; padding: 12px; border-radius: 10px; background: var(--sb-surface);
+    border: 1px solid var(--sb-border); color: var(--text); text-decoration: none; transition: background .12s, border-color .12s;
   }
-  #layers .on .switch { background: var(--accent); }
-  #layers .on .switch::after { transform: translateX(12px); }
+  .product:hover { background: var(--sb-raised); border-color: rgba(255, 159, 67, .45); }
+  .product[hidden] { display: none; }
+  .product .p-text { flex: 1; min-width: 0; }
+  .product .shop { display: block; font-size: 11px; font-weight: 650; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+  .product .p-name { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.4; }
+  .product .art { display: block; margin-top: 2px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .product svg { flex: none; color: var(--muted); }
+  .product:hover svg { color: var(--accent); }
 
-  #help dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; margin: 0; align-items: center; }
-  #help dt { display: flex; gap: 3px; justify-content: flex-end; }
-  #help dd { margin: 0; color: #d4d4d8; }
-  #help.collapsed dl { display: none; }
-
-  #info .row { display: flex; gap: 10px; align-items: baseline; }
-  #info .dot { flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 159, 67, .2); }
-  #info b { font-weight: 600; }
-  #info .part { color: var(--accent); font-weight: 600; }
-  #info small { display: block; margin-top: 4px; color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
-  #info a {
-    display: block; margin-top: 10px; padding: 8px 10px; border-radius: 9px; background: rgba(255, 255, 255, .08); border: 1px solid var(--line);
-    color: var(--text); text-decoration: none; font-size: 12px; line-height: 1.3;
+  /* Layers: groups with a fold, a count and a switch for the whole group */
+  .group + .group { margin-top: 4px; }
+  .group-head { display: flex; align-items: center; height: 32px; padding-right: 8px; border-radius: 8px; }
+  .group-head:hover { background: var(--sb-hover); }
+  .group-toggle { flex: 1; display: flex; align-items: center; gap: 6px; height: 100%; padding: 0 8px 0 6px; border: 0; background: none; cursor: pointer; text-align: left; font-weight: 600; }
+  .group-toggle svg { width: 14px; height: 14px; color: var(--muted); transition: transform .15s; }
+  .group.closed .group-toggle svg { transform: rotate(-90deg); }
+  .group-toggle .count { margin-left: auto; color: var(--muted); font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .group.closed .rows { display: none; }
+  .group-switch { display: grid; place-items: center; height: 24px; padding: 0 0 0 4px; border: 0; background: none; cursor: pointer; }
+  .row { display: flex; align-items: center; gap: 10px; width: 100%; height: 32px; padding: 0 8px 0 26px; box-sizing: border-box; border: 0; border-radius: 8px; background: none; cursor: pointer; text-align: left; }
+  .row:hover { background: var(--sb-hover); }
+  .row .name { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .row[aria-checked="false"] .name { color: var(--muted); }
+  .switch { flex: none; position: relative; width: 28px; height: 16px; border-radius: 8px; background: rgba(255, 255, 255, .14); transition: background .15s; }
+  .switch::after { content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: #fff; transition: transform .15s; }
+  [aria-checked="true"] > .switch { background: var(--accent); }
+  [aria-checked="true"] > .switch::after { transform: translateX(12px); }
+  [aria-checked="mixed"] > .switch { background: rgba(255, 159, 67, .45); }
+  [aria-checked="mixed"] > .switch::after { transform: translateX(6px); }
+  .row select {
+    max-width: 150px; height: 26px; padding: 0 26px 0 8px; border: 1px solid var(--sb-border); border-radius: 6px; cursor: pointer;
+    background: var(--sb-surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23a1a1aa' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right 9px center;
+    appearance: none; -webkit-appearance: none;
   }
-  #info a:hover { background: rgba(255, 255, 255, .14); }
-  #info a b { display: block; font-weight: 600; }
-  #info a span { color: var(--muted); font-size: 11px; }
-  #info a[hidden], #info .placeholder { display: none; }
-  #info.empty .row, #info.empty a { display: none; }
-  #info.empty .placeholder { display: block; margin: 0; color: var(--muted); }
+  .row select:hover { border-color: rgba(255, 255, 255, .16); }
 
-  #pos { padding: 10px 16px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 12px; font-variant-numeric: tabular-nums; }
-  #pos .axis { color: var(--muted); font-size: 10.5px; font-weight: 600; margin-right: 4px; }
-  #pos .sep { width: 1px; height: 22px; background: var(--line); }
-  #compass { width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .2); display: grid; place-items: center; }
-  #compass i { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 9px solid var(--accent); margin-top: -3px; }
+  /* Position */
+  #pos {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 20px; border-top: 1px solid var(--sb-border);
+    font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums;
+  }
+  #pos .coords { display: flex; gap: 12px; }
+  #pos .coords i { margin-right: 4px; font-style: normal; font-size: 11px; font-weight: 600; color: var(--muted); }
+  #pos .dir { display: flex; align-items: center; gap: 8px; color: #d4d4d8; }
+  #compass { width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .2); display: grid; place-items: center; }
+  #compass i { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--accent); margin-top: -3px; }
 
-  #cross { position: fixed; left: calc(50% - 150px); top: 50%; width: 12px; height: 12px; margin: -6px; pointer-events: none; z-index: 1;
+  /* Controls modal */
+  #help {
+    width: min(760px, calc(100vw - 48px)); max-height: calc(100vh - 48px); padding: 0; box-sizing: border-box; overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .1); border-radius: 16px; background: #18181b; color: var(--text);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, .55); font-size: 13px; line-height: 1.45;
+  }
+  #help:focus { outline: none; }
+  #help[open] { display: flex; flex-direction: column; animation: pop .16s ease-out; }
+  #help::backdrop { background: rgba(9, 9, 11, .55); backdrop-filter: blur(3px); }
+  @keyframes pop { from { opacity: 0; transform: translateY(6px) scale(.985); } }
+  #help header { display: flex; align-items: center; gap: 12px; padding: 16px 16px 16px 24px; border-bottom: 1px solid rgba(255, 255, 255, .07); }
+  #help header h2 { flex: 1; margin: 0; font-size: 16px; font-weight: 650; letter-spacing: -.01em; }
+  #help header p { margin: 2px 0 0; color: var(--muted); font-size: 12.5px; font-weight: 400; letter-spacing: 0; }
+  #help form { margin: 0; }
+  #help .body { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 40px; padding: 8px 24px 24px; overflow-y: auto; }
+  #help h3 { margin: 16px 0 4px; font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+  #help dl { display: grid; grid-template-columns: 1fr auto; margin: 0; }
+  #help dt, #help dd { display: flex; align-items: center; margin: 0; padding: 7px 0; border-bottom: 1px solid rgba(255, 255, 255, .05); }
+  #help dt { color: #d4d4d8; }
+  #help dd { justify-content: flex-end; gap: 4px; color: var(--muted); font-size: 12px; }
+  #help .touch { display: none; }
+
+  #cross { position: fixed; left: calc(50% - 160px); top: 50%; width: 12px; height: 12px; margin: -6px; pointer-events: none; z-index: 1;
     border-radius: 50%; border: 1.5px solid #fff; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(0, 0, 0, .35), inset 0 0 0 1px rgba(0, 0, 0, .35); }
   #cross::after { content: ''; position: absolute; inset: 3px; border-radius: 50%; background: #fff; }
 
@@ -117,21 +178,24 @@
   /* U: clean view, nothing but the model */
   body.clean #sidebar, body.clean #sidebar-toggle, body.clean #cross, body.clean .labels, body.clean > #info { display: none !important; }
   /* Touch: joystick to walk, drag to look, tap to select. */
-  #stick, #updown, #help .touch, #sidebar-toggle { display: none; }
+  #stick, #updown, #sidebar-toggle { display: none; }
   @media (pointer: coarse) {
     /* Touch: the sidebar is a drawer over the view (☰); the selection stays a card above the joystick. */
-    #sidebar { width: min(300px, 85vw); padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom);
+    #sidebar { width: min(320px, 88vw); padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom);
       z-index: 3; transform: translateX(100%); transition: transform .2s ease; }
     body.drawer #sidebar { transform: none; }
     #sidebar-toggle { display: grid; place-items: center; position: fixed; z-index: 4; top: calc(16px + env(safe-area-inset-top)); right: calc(16px + env(safe-area-inset-right));
       width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--text);
       font-size: 18px; backdrop-filter: blur(16px); }
-    body.drawer #sidebar-toggle { right: calc(min(300px, 85vw) + 12px); }
+    body.drawer #sidebar-toggle { right: calc(min(320px, 88vw) + 12px); }
     #cross { left: 50%; }
     body > #info { position: fixed; z-index: 2; left: 50%; transform: translateX(-50%); bottom: calc(160px + env(safe-area-inset-bottom));
-      width: max-content; max-width: calc(100vw - 32px); box-sizing: border-box; padding: 10px 16px; border-radius: 14px;
-      color: var(--text); background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(16px); font-size: 12.5px; }
-    body > #info.empty { display: none; }
+      width: min(360px, calc(100vw - 32px)); box-sizing: border-box; padding: 12px 8px; border-radius: 14px;
+      --sb-surface: rgba(255, 255, 255, .06); --sb-border: rgba(255, 255, 255, .08);
+      color: var(--text); background: rgba(20, 20, 23, .86); border: 1px solid var(--line); backdrop-filter: blur(16px); font-size: 12.5px; }
+    body > #info.empty, body > #info .sec-head h2 { display: none; }
+    body > #info .sec-head { position: absolute; top: 8px; right: 0; margin: 0; }
+    body > #info #info-props dt, body > #info #info-props dd { padding: 6px 10px; }
     #stick { display: block; position: fixed; z-index: 2; left: calc(24px + env(safe-area-inset-left)); bottom: calc(24px + env(safe-area-inset-bottom));
       width: 120px; height: 120px; border-radius: 50%; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(16px); touch-action: none; }
     #stick i { position: absolute; left: 50%; top: 50%; width: 52px; height: 52px; margin: -26px; border-radius: 50%; background: rgba(255, 255, 255, .85);
@@ -139,8 +203,9 @@
     #updown { display: flex; flex-direction: column; gap: 10px; position: fixed; z-index: 2; right: calc(24px + env(safe-area-inset-right)); bottom: calc(24px + env(safe-area-inset-bottom)); }
     #updown button { width: 52px; height: 52px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--text);
       font-size: 18px; backdrop-filter: blur(16px); touch-action: none; }
-    #help .keys, #help .heading kbd { display: none; }
-    #help .touch { display: grid; }
+    #help .keys { display: none; }
+    .row, .group-head { height: 44px; }
+    #help .touch { display: block; }
   }
   .dims u { text-decoration: underline 1px rgba(255, 255, 255, .65); text-underline-offset: 3px; }
 </style>
@@ -167,51 +232,81 @@
     <div class="meta"><span id="load-size"></span><span id="load-pct"></span></div>
   </div>
 </div>
-<aside id="sidebar">
-<section id="brand"><b>Garage verbouwing</b><span>3D-model</span></section>
+<aside id="sidebar" aria-label="Paneel">
+<header class="sb-head">
+  <div class="title"><b>Garage verbouwing</b><span>3D-model</span></div>
+  <button id="help-open" class="icon-btn" title="Besturing (H)" aria-label="Besturing" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><path d="M6.5 10h.01M10 10h.01M13.5 10h.01M17 10h.01M7.5 14h9"/></svg></button>
+</header>
 <div class="scroll">
-<section id="info" class="empty">
-  <p class="heading">Selectie</p>
-  <p class="placeholder">Niets geselecteerd. Richt het vizier op een onderdeel en druk op <kbd>E</kbd>.</p>
-  <div class="row"><span class="dot"></span><div><div id="info-title"></div><small id="info-sub"></small></div></div>
-  <a id="info-product" target="_blank" rel="noopener" hidden></a>
+<section id="info" class="empty" aria-live="polite">
+  <div class="sec-head"><h2>Selectie</h2><button id="info-clear" class="icon-btn ghost" title="Deselecteer (Esc)" aria-label="Deselecteer"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="empty-state"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></svg><strong>Niets geselecteerd</strong><small>Richt het vizier op een onderdeel<br>en druk op <kbd>E</kbd></small></div>
+  <div class="detail">
+    <div id="info-path"></div>
+    <div id="info-name"></div>
+    <dl id="info-props"></dl>
+    <p id="info-about"></p>
+    <a id="info-product" class="product" target="_blank" rel="noopener" hidden></a>
+  </div>
 </section>
-<section id="layers"><p class="heading toggle" id="layers-toggle">Lagen</p><div id="layer-list"></div></section>
-<section id="help" class="collapsed">
-  <p class="heading toggle" id="help-toggle">Besturing <kbd>H</kbd></p>
-  <dl class="touch">
-    <dt>Joystick</dt><dd>Lopen</dd>
-    <dt>Slepen</dt><dd>Rondkijken</dd>
-    <dt>▲ ▼</dt><dd>Omhoog / omlaag</dd>
-    <dt>Tik</dt><dd>Selecteer onder het vizier (nog eens: deur open)</dd>
-  </dl>
-  <dl class="keys">
-    <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>Lopen</dd>
-    <dt><kbd>Shift</kbd></dt><dd>Rennen</dd>
-    <dt><kbd>Spatie</kbd><kbd>C</kbd></dt><dd>Omhoog / omlaag</dd>
-    <dt>Slepen</dt><dd>Rondkijken</dd>
-    <dt><kbd>E</kbd></dt><dd>Selecteer onder het vizier</dd>
-    <dt><kbd>Esc</kbd></dt><dd>Deselecteer</dd>
-    <dt><kbd>L</kbd><kbd>N</kbd></dt><dd>Lijnen / nummers</dd>
-    <dt><kbd>R</kbd></dt><dd>Terug naar start</dd>
-    <dt><kbd>U</kbd></dt><dd>Alles verbergen, vrij rondlopen</dd>
-    <dt><kbd>B</kbd></dt><dd>Beamer-projectie aan / uit</dd>
-    <dt><kbd>K</kbd></dt><dd>Consolenamen projecteren (wat als)</dd>
-    <dt><kbd>V</kbd></dt><dd>Volgende beamer-animatie</dd>
-    <dt><kbd>1</kbd>–<kbd>0</kbd> <kbd>⇧</kbd><kbd>1</kbd>…</dt><dd>Lagen</dd>
-  </dl>
-</section>
+<section id="layers"><div class="sec-head"><h2>Lagen</h2></div><div id="layer-list"></div></section>
 </div>
 <footer id="pos">
-  <span><span class="axis">X</span><span id="px"></span></span>
-  <span><span class="axis">Y</span><span id="py"></span></span>
-  <span><span class="axis">Z</span><span id="pz"></span></span>
-  <span class="sep"></span>
-  <span id="compass"><i></i></span>
-  <span id="heading"></span>
+  <div class="coords"><span><i>X</i><span id="px"></span></span><span><i>Y</i><span id="py"></span></span><span><i>Z</i><span id="pz"></span></span></div>
+  <div class="dir"><span id="compass"><i></i></span><span id="heading"></span></div>
 </footer>
 </aside>
 <button id="sidebar-toggle" aria-label="Menu">☰</button>
+<dialog id="help" aria-labelledby="help-title" tabindex="-1">
+  <header>
+    <h2 id="help-title">Besturing<p>Toetsen werken overal behalve in dit venster.</p></h2>
+    <form method="dialog"><button class="icon-btn ghost" aria-label="Sluiten" title="Sluiten (Esc)"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></form>
+  </header>
+  <div class="body">
+    <div class="keys">
+      <h3>Bewegen</h3>
+      <dl>
+        <dt>Lopen</dt><dd><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dd>
+        <dt>Rennen</dt><dd><kbd>Shift</kbd></dd>
+        <dt>Omhoog / omlaag</dt><dd><kbd>Spatie</kbd><kbd>C</kbd></dd>
+        <dt>Rondkijken</dt><dd>slepen met de muis</dd>
+        <dt>Terug naar start</dt><dd><kbd>R</kbd></dd>
+      </dl>
+      <h3>Selecteren</h3>
+      <dl>
+        <dt>Selecteer onder het vizier</dt><dd><kbd>E</kbd></dd>
+        <dt>Deur open / dicht</dt><dd><kbd>E</kbd> nog eens</dd>
+        <dt>Deselecteer</dt><dd><kbd>Esc</kbd></dd>
+      </dl>
+    </div>
+    <div class="keys">
+      <h3>Weergave</h3>
+      <dl>
+        <dt>Lijnen</dt><dd><kbd>L</kbd></dd>
+        <dt>Onderdeelnummers</dt><dd><kbd>N</kbd></dd>
+        <dt>Alles verbergen, vrij rondlopen</dt><dd><kbd>U</kbd></dd>
+        <dt>Lagen in volgorde aan / uit</dt><dd><kbd>1</kbd>–<kbd>0</kbd>, <kbd>⇧</kbd><kbd>1</kbd>…</dd>
+        <dt>Deze besturing</dt><dd><kbd>H</kbd></dd>
+      </dl>
+      <h3>Beamer</h3>
+      <dl>
+        <dt>Projectie aan / uit</dt><dd><kbd>B</kbd></dd>
+        <dt>Consolenamen (wat als)</dt><dd><kbd>K</kbd></dd>
+        <dt>Volgende animatie</dt><dd><kbd>V</kbd></dd>
+      </dl>
+    </div>
+    <div class="touch">
+      <h3>Touch</h3>
+      <dl>
+        <dt>Lopen</dt><dd>joystick</dd>
+        <dt>Rondkijken</dt><dd>slepen</dd>
+        <dt>Omhoog / omlaag</dt><dd>▲ ▼</dd>
+        <dt>Selecteer onder het vizier</dt><dd>tik</dd>
+        <dt>Deur open / dicht</dt><dd>nog eens tikken</dd>
+      </dl>
+    </div>
+  </div>
+</dialog>
 <div id="cross"></div>
 <div id="stick"><i></i></div>
 <div id="updown"><button data-dir="1">▲</button><button data-dir="-1">▼</button></div>
@@ -223,15 +318,22 @@ import { VARIANTS, CONSOLES } from './beamer.js';
 
 const $ = id => document.getElementById(id);
 const esc = t => t.replace(/[&<>"]/g, c => `&#${c.charCodeAt(0)};`);
-function showInfo(title, sub, product) {
-  $('info').classList.toggle('empty', !title);
-  $('info-title').innerHTML = title ?? '';
-  $('info-sub').textContent = sub ?? '';
-  const link = $('info-product');
-  link.hidden = !product;
-  if (product) {
-    link.href = product.url;
-    link.innerHTML = `<b>${esc(product.winkel ?? 'Bouwmaat')} ↗</b><span>${esc(product.naam)} · art. ${esc(product.artikel)}</span>`;
+const ICON_EXTERNAL = '<svg class="i" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
+const ICON_CHEVRON = '<svg class="i" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>';
+// Selection inspector: d = { name, path, props: [[label, value]], about, product } or null for the empty state.
+function showInfo(d) {
+  $('info').classList.toggle('empty', !d);
+  if (!d) return;
+  $('info-path').innerHTML = d.path.map(p => `<span>${esc(p)}</span>`).join('');
+  $('info-name').textContent = d.name;
+  $('info-props').innerHTML = d.props.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('');
+  $('info-about').textContent = d.about ?? '';
+  const link = $('info-product'), p = d.product;
+  link.hidden = !p;
+  if (p) {
+    link.href = p.url;
+    const art = p.artikel && p.artikel !== '–' ? `<span class="art">Art. ${esc(p.artikel)}</span>` : '';
+    link.innerHTML = `<span class="p-text"><span class="shop">${esc(p.winkel ?? 'Bouwmaat')}</span><span class="p-name">${esc(p.naam)}</span>${art}</span>${ICON_EXTERNAL}`;
   }
 }
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -302,8 +404,13 @@ for (const b of document.querySelectorAll('#updown button')) {
   b.addEventListener('pointerdown', e => { lift = Number(b.dataset.dir); b.setPointerCapture(e.pointerId); });
   for (const end of ['pointerup', 'pointercancel']) b.addEventListener(end, () => { lift = 0; });
 }
-$('layers-toggle').onclick = () => $('layers').classList.toggle('collapsed');
-$('help-toggle').onclick = () => $('help').classList.toggle('collapsed');
+// Sidebar buttons never take keyboard focus from the mouse, so WASD/Space keep driving the camera.
+$('sidebar').addEventListener('mousedown', e => { if (e.target.closest('button')) e.preventDefault(); });
+const help = $('help');
+const toggleHelp = () => { if (help.open) help.close(); else { keys.clear(); help.showModal(); help.focus(); } };  // focus the panel, not the × button
+$('help-open').onclick = toggleHelp;
+help.addEventListener('click', e => { if (e.target === help) help.close(); });   // click on the backdrop
+$('info-clear').onclick = () => { select(null); showInfo(null); };
 const coarse = matchMedia('(pointer: coarse)').matches;
 if (coarse) document.body.append($('info'));                                   // touch: selection card floats above the joystick
 $('sidebar-toggle').onclick = () => document.body.classList.toggle('drawer');
@@ -572,26 +679,86 @@ function toggleLayer(i) {
   renderLayers();
   lastView = '';
 }
+// Layers by group; a layer the list doesn't know yet lands in "Overig". Shortcuts 1-0 still follow the model order.
+const GROUPS = [
+  ['Bouw', ['Vloer, muren, plafond', 'Raamwerk vloer', 'Raamwerk muren', 'Raamwerk plafond', 'Trap', 'Deur']],
+  ['Elektra', ['Elektra inbouw', 'Elektra materiaal']],
+  ['Afwerking', ['Stucplaten muren', 'Stucplaten plafond', 'Stucwerk', 'Verf', 'Vloer (visgraat)', 'Plint']],
+  ['Inrichting', ['Meubels', 'Kallax', 'Consoles aan de muur']],
+];
+const closedGroups = new Set(JSON.parse(localStorage.getItem('closedGroups') ?? '[]'));
+function switchRow(label, on, onclick) {
+  const b = Object.assign(document.createElement('button'), { className: 'row', onclick });
+  b.setAttribute('role', 'switch');
+  b.setAttribute('aria-checked', on);
+  b.innerHTML = `<span class="name">${esc(label)}</span><span class="switch"></span>`;
+  return b;
+}
+function group(name, rows, all) {
+  const g = Object.assign(document.createElement('div'), { className: 'group' + (closedGroups.has(name) ? ' closed' : '') });
+  const head = Object.assign(document.createElement('div'), { className: 'group-head' });
+  const fold = Object.assign(document.createElement('button'), { className: 'group-toggle' });
+  fold.setAttribute('aria-expanded', !closedGroups.has(name));
+  fold.innerHTML = `${ICON_CHEVRON}<span>${esc(name)}</span>${all ? `<span class="count">${all.count}</span>` : ''}`;
+  fold.onclick = () => {
+    if (!closedGroups.delete(name)) closedGroups.add(name);
+    localStorage.setItem('closedGroups', JSON.stringify([...closedGroups]));
+    renderLayers();
+  };
+  head.append(fold);
+  if (all) {
+    const s = Object.assign(document.createElement('button'), { className: 'group-switch', onclick: all.toggle, title: `${name}: alles aan / uit` });
+    s.setAttribute('role', 'switch');
+    s.setAttribute('aria-checked', all.state);
+    s.setAttribute('aria-label', `${name}: alles aan of uit`);
+    s.innerHTML = '<span class="switch"></span>';
+    head.append(s);
+  }
+  const list = Object.assign(document.createElement('div'), { className: 'rows' });
+  list.append(...rows);
+  g.append(head, list);
+  return g;
+}
+function setLayers(idx, visible) {
+  for (const i of idx) layers[i].visible = visible;
+  renderer.shadowMap.needsUpdate = true;
+  lastView = '';
+  renderLayers();
+}
+function toggleOutlines() { const v = !(outlines[0]?.visible ?? true); outlines.forEach(l => { l.visible = v; }); renderLayers(); }
+function toggleNumbers() { labelsOn = !labelsOn; renderLayers(); }
 function renderLayers() {
-  $('layer-list').replaceChildren(...layers.map((l, i) => {
-    const row = document.createElement('button');
-    row.className = l.visible ? 'on' : 'off';
-    row.innerHTML = `<kbd>${i < 10 ? '1234567890'[i] : '⇧' + '1234567890'[i - 10]}</kbd><span class="name">${esc(displayName(l))}</span><span class="switch"></span>`;
-    row.onclick = () => toggleLayer(i);
-    row.onmousedown = e => e.preventDefault(); // keep focus off the button so Space still flies up
-    return row;
-  }), ...(beamer.lights.length ? [Object.assign(document.createElement('button'), {
-    className: beamer.on ? 'on' : 'off', innerHTML: '<kbd>B</kbd><span class="name">Beamer-projectie</span><span class="switch"></span>',
-    onclick: toggleBeamer, onmousedown: e => e.preventDefault() }), Object.assign(document.createElement('button'), {
-    className: beamer.labelsOn ? 'on' : 'off', innerHTML: '<kbd>K</kbd><span class="name">Consolenamen (wat als)</span><span class="switch"></span>',
-    onclick: toggleLabels, onmousedown: e => e.preventDefault() }), Object.assign(document.createElement('button'), {
-    className: 'on', innerHTML: `<kbd>V</kbd><span class="name">Animatie: ${VARIANTS[beamer.variant].name}</span>`,
-    onclick: nextVariant, onmousedown: e => e.preventDefault() })] : []));
+  const byGroup = new Map(GROUPS.map(([g]) => [g, []]));
+  layers.forEach((l, i) => {
+    const g = GROUPS.find(([, names]) => names.includes(displayName(l)))?.[0] ?? 'Overig';
+    if (!byGroup.has(g)) byGroup.set(g, []);
+    byGroup.get(g).push(i);
+  });
+  const out = [];
+  for (const [g, idx] of byGroup) {
+    if (!idx.length) continue;
+    const on = idx.filter(i => layers[i].visible).length;
+    out.push(group(g, idx.map(i => switchRow(displayName(layers[i]), layers[i].visible, () => toggleLayer(i))), {
+      count: `${on}/${idx.length}`, state: on === 0 ? 'false' : on === idx.length ? 'true' : 'mixed',
+      toggle: () => setLayers(idx, on < idx.length),
+    }));
+  }
+  out.push(group('Weergave', [switchRow('Lijnen', outlines[0]?.visible ?? true, toggleOutlines), switchRow('Onderdeelnummers', labelsOn, toggleNumbers)]));
+  if (beamer.lights.length) {
+    const pick = Object.assign(document.createElement('label'), { className: 'row' });
+    pick.innerHTML = `<span class="name">Animatie</span><select aria-label="Beamer-animatie">${VARIANTS.map((v, i) =>
+      `<option value="${i}"${i === beamer.variant ? ' selected' : ''}>${esc(v.name)}</option>`).join('')}</select>`;
+    const sel = pick.querySelector('select');
+    sel.onchange = () => { beamer.setVariant?.(Number(sel.value)); sel.blur(); };
+    out.push(group('Beamer', [switchRow('Projectie', beamer.on, toggleBeamer), switchRow('Consolenamen (wat als)', beamer.labelsOn, toggleLabels), pick]));
+  }
+  $('layer-list').replaceChildren(...out);
 }
 renderLayers();
 
 const keys = new Set();
 addEventListener('keydown', e => {
+  if (help.open) { if (e.code === 'KeyH') help.close(); return; }      // the modal has the keyboard (Esc closes it natively)
   keys.add(e.code);
   // 1-9, 0 = layer 10; Shift + 1-9 = layers 11-19 (by key position, so Shift doesn't change the digit).
   const digit = /^Digit\d$/.test(e.code) ? '1234567890'.indexOf(e.code.slice(5)) : -1;
@@ -602,15 +769,15 @@ addEventListener('keydown', e => {
   if (e.code === 'KeyK') toggleLabels();
   if (e.code === 'KeyV') nextVariant();
   if (e.code === 'Escape') { select(null); showInfo(null); }
-  if (e.code === 'KeyH') $('help').classList.toggle('collapsed');
+  if (e.code === 'KeyH') toggleHelp();
   if (e.code === 'KeyU') { // clean view: no UI, labels, selection or hover
     clean = document.body.classList.toggle('clean');
     resize();
     if (clean) { select(null); hover(null); showInfo(null); } else lastView = '';
   }
   if (e.code === 'KeyR') { camera.position.copy(start); camera.quaternion.copy(startView); }
-  if (e.code === 'KeyL') outlines.forEach(l => { l.visible = !l.visible; });
-  if (e.code === 'KeyN') labelsOn = !labelsOn;
+  if (e.code === 'KeyL') toggleOutlines();
+  if (e.code === 'KeyN') toggleNumbers();
 });
 addEventListener('keyup', e => keys.delete(e.code));
 
@@ -706,10 +873,11 @@ function identify() {
   const q = p.hit.point;
   let product = null; // extras.product on the hit part or any parent (e.g. the stucplaat layers)
   for (let o = p.hit.object; o && !product; o = o.parent) product = o.userData.product;
-  const about = p.target.userData.omschrijving ? ` · ${p.target.userData.omschrijving}` : '';
-  const part = [p.numbered, p.target].filter((x, i, all) => x && x !== p.object && all.indexOf(x) === i).map(x => esc(displayName(x)));
-  showInfo(`<b>${esc(displayName(p.object))}</b>${part.map(x => ` <span class="part">${x}</span>`).join(' ›')}`,
-    `${dimensionText(p.target)}${about} · punt ${q.x.toFixed(2)}, ${q.y.toFixed(2)}, ${q.z.toFixed(2)} m`, product);
+  const path = [p.object.parent, p.object, p.numbered].filter((x, i, all) => x && x !== p.target && all.indexOf(x) === i).map(displayName);
+  showInfo({
+    name: displayName(p.target), path, about: p.target.userData.omschrijving, product,
+    props: [['Afmetingen', dimensionText(p.target)], ['Punt', `${q.x.toFixed(2)}, ${q.y.toFixed(2)}, ${q.z.toFixed(2)} m`]],
+  });
 }
 
 // Hover (the dot): a light version of the select colour; with a selection also the distance to it.
