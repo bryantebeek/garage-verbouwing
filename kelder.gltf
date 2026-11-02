@@ -56631,6 +56631,438 @@
    "count": 36,
    "bufferView": 2198,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 2580,
+   "bufferView": 2199,
+   "byteOffset": 0,
+   "max": [
+    3.0929999351501465,
+    2.2899999618530273,
+    -2.441999912261963
+   ],
+   "min": [
+    0.06800000369548798,
+    0.009999999776482582,
+    -2.9820001125335693
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 2580,
+   "bufferView": 2200,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2201,
+   "byteOffset": 0,
+   "max": [
+    2.5940001010894775,
+    0.7440000176429749,
+    -2.6519999504089355
+   ],
+   "min": [
+    0.5669999718666077,
+    0.6299999952316284,
+    -2.9719998836517334
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2202,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2203,
+   "byteOffset": 0,
+   "max": [
+    0.012000000104308128,
+    0.10499999672174454,
+    0.0
+   ],
+   "min": [
+    -0.012000000104308128,
+    0.0,
+    -0.07999999821186066
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2204,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2205,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2206,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2207,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2208,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2209,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.11599999666213989,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.07500000298023224
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2210,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2211,
+   "byteOffset": 0,
+   "max": [
+    0.004999999888241291,
+    0.1420000046491623,
+    0.0
+   ],
+   "min": [
+    -0.004999999888241291,
+    0.0,
+    -0.125
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2212,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2213,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13300000131130219,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.11999999731779099
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2214,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2215,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2216,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2217,
+   "byteOffset": 0,
+   "max": [
+    0.009999999776482582,
+    0.13500000536441803,
+    0.0
+   ],
+   "min": [
+    -0.009999999776482582,
+    0.0,
+    -0.10999999940395355
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2218,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2219,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2220,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2221,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2222,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2223,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2224,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2225,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2226,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2227,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2228,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2229,
+   "byteOffset": 0,
+   "max": [
+    0.006000000052154064,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.006000000052154064,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2230,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2231,
+   "byteOffset": 0,
+   "max": [
+    0.007000000216066837,
+    0.1899999976158142,
+    0.0
+   ],
+   "min": [
+    -0.007000000216066837,
+    0.0,
+    -0.13500000536441803
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2232,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2233,
+   "byteOffset": 0,
+   "max": [
+    0.005499999970197678,
+    0.17000000178813934,
+    0.0
+   ],
+   "min": [
+    -0.005499999970197678,
+    0.0,
+    -0.10499999672174454
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 2234,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -71274,6 +71706,222 @@
    "byteOffset": 41360032,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41360464,
+   "byteLength": 30960,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41391424,
+   "byteLength": 30960,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41422384,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41422816,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41423248,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41423680,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41424112,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41424544,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41424976,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41425408,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41425840,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41426272,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41426704,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41427136,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41427568,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41428000,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41428432,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41428864,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41429296,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41429728,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41430160,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41430592,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41431024,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41431456,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41431888,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41432320,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41432752,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41433184,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41433616,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41434048,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41434480,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41434912,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41435344,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41435776,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41436208,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41436640,
+   "byteLength": 432,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -71752,7 +72400,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41360464
+   "byteLength": 41437072
   }
  ],
  "materials": [
@@ -78166,6 +78814,214 @@
      1
     ],
     "roughnessFactor": 0.85,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Atari 2600",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.08,
+     0.07,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.04,
+     0.04,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.22,
+     0.22,
+     0.24,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Dreamcast",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.85,
+     0.85,
+     0.87,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel NES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.36,
+     0.36,
+     0.38,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel GameCube",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel SNES",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.55,
+     0.55,
+     0.57,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.05,
+     0.05,
+     0.06,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.06,
+     0.2,
+     0.08,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.9,
+     0.9,
+     0.92,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.08,
+     0.1,
+     0.2,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Xbox 360",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.42,
+     0.12,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.02,
+     0.28,
+     0.65,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Wii U",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.1,
+     0.45,
+     0.75,
+     1
+    ],
+    "roughnessFactor": 0.4,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.8,
+     0.06,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.4,
     "metallicFactor": 0
    }
   },
@@ -105270,6 +106126,222 @@
      "material": 513
     }
    ]
+  },
+  {
+   "name": "Wandkast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5358,
+      "NORMAL": 5359
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast lade",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5360,
+      "NORMAL": 5361
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Spel Atari 2600",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5362,
+      "NORMAL": 5363
+     },
+     "material": 514
+    }
+   ]
+  },
+  {
+   "name": "Spel Mega Drive + Mega CD",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5364,
+      "NORMAL": 5365
+     },
+     "material": 515
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5366,
+      "NORMAL": 5367
+     },
+     "material": 516
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo 64",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5368,
+      "NORMAL": 5369
+     },
+     "material": 517
+    }
+   ]
+  },
+  {
+   "name": "Spel Dreamcast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5370,
+      "NORMAL": 5371
+     },
+     "material": 518
+    }
+   ]
+  },
+  {
+   "name": "Spel NES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5372,
+      "NORMAL": 5373
+     },
+     "material": 519
+    }
+   ]
+  },
+  {
+   "name": "Spel GameCube",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5374,
+      "NORMAL": 5375
+     },
+     "material": 520
+    }
+   ]
+  },
+  {
+   "name": "Spel SNES",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5376,
+      "NORMAL": 5377
+     },
+     "material": 521
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 2",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5378,
+      "NORMAL": 5379
+     },
+     "material": 522
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5380,
+      "NORMAL": 5381
+     },
+     "material": 523
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5382,
+      "NORMAL": 5383
+     },
+     "material": 524
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 3",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5384,
+      "NORMAL": 5385
+     },
+     "material": 525
+    }
+   ]
+  },
+  {
+   "name": "Spel Xbox 360",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5386,
+      "NORMAL": 5387
+     },
+     "material": 526
+    }
+   ]
+  },
+  {
+   "name": "Spel PlayStation 4",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5388,
+      "NORMAL": 5389
+     },
+     "material": 527
+    }
+   ]
+  },
+  {
+   "name": "Spel Wii U",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5390,
+      "NORMAL": 5391
+     },
+     "material": 528
+    }
+   ]
+  },
+  {
+   "name": "Spel Nintendo Switch",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5392,
+      "NORMAL": 5393
+     },
+     "material": 529
+    }
+   ]
   }
  ],
  "nodes": [
@@ -106074,7 +107146,7 @@
    "name": "TV",
    "translation": [
     2.188499970803727,
-    0.9470000007574801,
+    0.8905000007574799,
     -2.9940000009915133
    ],
    "rotation": [
@@ -144204,7 +145276,7 @@
    "name": "LG OLED65CS",
    "translation": [
     2.2989999655493487,
-    0.8850000008901462,
+    0.8285000008901462,
     -2.9920000009915135
    ],
    "rotation": [
@@ -144291,7 +145363,7 @@
    "name": "LG 75 inch tv",
    "translation": [
     2.412999960128542,
-    0.8185000010324408,
+    0.762000001032441,
     -2.990000001096994
    ],
    "rotation": [
@@ -144330,9 +145402,9 @@
   },
   {
    "name": "Wandkast casco",
-   "mesh": 1646,
+   "mesh": 1664,
    "extras": {
-    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 229 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 46 cm, naast de Sony 62,3 cm, Sony-vak 75 cm breed; tv-opening 203 x 100 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 34 cm; onderin een gesloten lat van 5 cm; plaat 18 mm in de muurkleur (Skimming Stone)"
+    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 229 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 46 cm, naast de Sony 62,3 cm, Sony-vak 75 cm breed; tv-opening 203 x 112 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 28 cm; onderin een gesloten lat van 5 cm; plaat 18 mm in de muurkleur (Skimming Stone)"
    }
   },
   {
@@ -144368,7 +145440,7 @@
   },
   {
    "name": "Wandkast lade",
-   "mesh": 1647,
+   "mesh": 1665,
    "extras": {
     "omschrijving": "Lade over de hele tv-opening (203 cm breed, 12 cm hoog), greeploos (tip-on), in de kastkleur"
    }
@@ -144438,14 +145510,14 @@
     0.9657165060850506,
     0.0,
     0.6597500000000001,
-    0.4240192378864669,
+    0.36701923788646695,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 1",
-   "mesh": 1648,
+   "mesh": 1666,
    "matrix": [
     1.0,
     0.0,
@@ -144460,14 +145532,14 @@
     0.9659258262890683,
     0.0,
     1.0277500000000002,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 2",
-   "mesh": 1648,
+   "mesh": 1666,
    "matrix": [
     1.0,
     0.0,
@@ -144482,14 +145554,14 @@
     0.9659258262890683,
     0.0,
     1.0537500000000002,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Atari 2600 spel 3",
-   "mesh": 1648,
+   "mesh": 1666,
    "matrix": [
     1.0,
     0.0,
@@ -144504,7 +145576,7 @@
     0.9659258262890683,
     0.0,
     1.0797500000000002,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -144550,7 +145622,7 @@
   },
   {
    "name": "Mega Drive + Mega CD spel 1",
-   "mesh": 1649,
+   "mesh": 1667,
    "matrix": [
     1.0,
     0.0,
@@ -144572,7 +145644,7 @@
   },
   {
    "name": "Mega Drive + Mega CD spel 2",
-   "mesh": 1649,
+   "mesh": 1667,
    "matrix": [
     1.0,
     0.0,
@@ -144594,7 +145666,7 @@
   },
   {
    "name": "Mega Drive + Mega CD spel 3",
-   "mesh": 1649,
+   "mesh": 1667,
    "matrix": [
     1.0,
     0.0,
@@ -144681,14 +145753,14 @@
     -4.2704986885353286e-18,
     0.0,
     2.0718250686507638,
-    0.5065346926643404,
+    0.44953469266434043,
     -2.9752603662983317,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 1",
-   "mesh": 1650,
+   "mesh": 1668,
    "matrix": [
     1.0,
     0.0,
@@ -144703,14 +145775,14 @@
     0.9659258262890683,
     0.0,
     2.4132499999999997,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 2",
-   "mesh": 1650,
+   "mesh": 1668,
    "matrix": [
     1.0,
     0.0,
@@ -144725,14 +145797,14 @@
     0.9659258262890683,
     0.0,
     2.4252499999999997,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation spel 3",
-   "mesh": 1650,
+   "mesh": 1668,
    "matrix": [
     1.0,
     0.0,
@@ -144747,7 +145819,7 @@
     0.9659258262890683,
     0.0,
     2.4372499999999997,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -144815,7 +145887,7 @@
   },
   {
    "name": "Nintendo 64 spel 1",
-   "mesh": 1651,
+   "mesh": 1669,
    "matrix": [
     1.0,
     0.0,
@@ -144837,7 +145909,7 @@
   },
   {
    "name": "Nintendo 64 spel 2",
-   "mesh": 1651,
+   "mesh": 1669,
    "matrix": [
     1.0,
     0.0,
@@ -144859,7 +145931,7 @@
   },
   {
    "name": "Nintendo 64 spel 3",
-   "mesh": 1651,
+   "mesh": 1669,
    "matrix": [
     1.0,
     0.0,
@@ -145081,14 +146153,14 @@
     0.09600420423368072,
     0.0,
     0.19900000000000007,
-    0.4242764803675463,
+    0.36727648036754634,
     -2.6679600420092533,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 1",
-   "mesh": 1652,
+   "mesh": 1670,
    "matrix": [
     1.0,
     0.0,
@@ -145103,14 +146175,14 @@
     0.9659258262890683,
     0.0,
     0.404,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 2",
-   "mesh": 1652,
+   "mesh": 1670,
    "matrix": [
     1.0,
     0.0,
@@ -145125,14 +146197,14 @@
     0.9659258262890683,
     0.0,
     0.41600000000000004,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Dreamcast spel 3",
-   "mesh": 1652,
+   "mesh": 1670,
    "matrix": [
     1.0,
     0.0,
@@ -145147,7 +146219,7 @@
     0.9659258262890683,
     0.0,
     0.42800000000000005,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -145226,7 +146298,7 @@
   },
   {
    "name": "NES spel 1",
-   "mesh": 1653,
+   "mesh": 1671,
    "matrix": [
     1.0,
     0.0,
@@ -145248,7 +146320,7 @@
   },
   {
    "name": "NES spel 2",
-   "mesh": 1653,
+   "mesh": 1671,
    "matrix": [
     1.0,
     0.0,
@@ -145270,7 +146342,7 @@
   },
   {
    "name": "NES spel 3",
-   "mesh": 1653,
+   "mesh": 1671,
    "matrix": [
     1.0,
     0.0,
@@ -145397,14 +146469,14 @@
     0.8438458468661707,
     0.0,
     0.7480882731272767,
-    -2.397162178046945,
+    -2.4541621780469454,
     -3.563384239939195,
     1.0
    ]
   },
   {
    "name": "GameCube spel 1",
-   "mesh": 1654,
+   "mesh": 1672,
    "matrix": [
     1.0,
     0.0,
@@ -145419,14 +146491,14 @@
     0.9659258262890683,
     0.0,
     2.909,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "GameCube spel 2",
-   "mesh": 1654,
+   "mesh": 1672,
    "matrix": [
     1.0,
     0.0,
@@ -145441,14 +146513,14 @@
     0.9659258262890683,
     0.0,
     2.925,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "GameCube spel 3",
-   "mesh": 1654,
+   "mesh": 1672,
    "matrix": [
     1.0,
     0.0,
@@ -145463,7 +146535,7 @@
     0.9659258262890683,
     0.0,
     2.941,
-    0.4240192378864669,
+    0.3670192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -145982,7 +147054,7 @@
   },
   {
    "name": "SNES spel 1",
-   "mesh": 1655,
+   "mesh": 1673,
    "matrix": [
     1.0,
     0.0,
@@ -146004,7 +147076,7 @@
   },
   {
    "name": "SNES spel 2",
-   "mesh": 1655,
+   "mesh": 1673,
    "matrix": [
     1.0,
     0.0,
@@ -146026,7 +147098,7 @@
   },
   {
    "name": "SNES spel 3",
-   "mesh": 1655,
+   "mesh": 1673,
    "matrix": [
     1.0,
     0.0,
@@ -146868,14 +147940,14 @@
     1.0639816694001702,
     0.0,
     0.06129476402642209,
-    0.06111081092632842,
+    -0.05188918907367157,
     -2.8261155383727377,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 1",
-   "mesh": 1656,
+   "mesh": 1674,
    "matrix": [
     1.0,
     0.0,
@@ -146890,14 +147962,14 @@
     0.9659258262890683,
     0.0,
     0.4555000000000001,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 2",
-   "mesh": 1656,
+   "mesh": 1674,
    "matrix": [
     1.0,
     0.0,
@@ -146912,14 +147984,14 @@
     0.9659258262890683,
     0.0,
     0.47150000000000014,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 2 spel 3",
-   "mesh": 1656,
+   "mesh": 1674,
    "matrix": [
     1.0,
     0.0,
@@ -146934,7 +148006,7 @@
     0.9659258262890683,
     0.0,
     0.48750000000000016,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -147100,14 +148172,14 @@
     0.017473986469413772,
     0.0,
     2.687164969191854,
-    0.8241647536603861,
+    0.7111647536603861,
     -2.89146612067539,
     1.0
    ]
   },
   {
    "name": "Xbox spel 1",
-   "mesh": 1657,
+   "mesh": 1675,
    "matrix": [
     1.0,
     0.0,
@@ -147122,14 +148194,14 @@
     0.9659258262890683,
     0.0,
     2.996,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox spel 2",
-   "mesh": 1657,
+   "mesh": 1675,
    "matrix": [
     1.0,
     0.0,
@@ -147144,14 +148216,14 @@
     0.9659258262890683,
     0.0,
     3.012,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox spel 3",
-   "mesh": 1657,
+   "mesh": 1675,
    "matrix": [
     1.0,
     0.0,
@@ -147166,7 +148238,7 @@
     0.9659258262890683,
     0.0,
     3.028,
-    0.7640192378864669,
+    0.6510192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -147693,14 +148765,14 @@
     0.015009969106734529,
     0.0,
     0.3650248336804136,
-    1.1081288634568318,
+    0.9381288634568319,
     -2.674495515388527,
     1.0
    ]
   },
   {
    "name": "Wii spel 1",
-   "mesh": 1658,
+   "mesh": 1676,
    "matrix": [
     1.0,
     0.0,
@@ -147715,14 +148787,14 @@
     0.9659258262890683,
     0.0,
     0.3835000000002776,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii spel 2",
-   "mesh": 1658,
+   "mesh": 1676,
    "matrix": [
     1.0,
     0.0,
@@ -147737,14 +148809,14 @@
     0.9659258262890683,
     0.0,
     0.39950000000027763,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii spel 3",
-   "mesh": 1658,
+   "mesh": 1676,
    "matrix": [
     1.0,
     0.0,
@@ -147759,7 +148831,7 @@
     0.9659258262890683,
     0.0,
     0.41550000000027765,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -148081,14 +149153,14 @@
     0.9658425569862747,
     0.0,
     2.634920752203334,
-    1.0985897252751897,
+    0.9285897252751898,
     -2.6467367830743784,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 1",
-   "mesh": 1659,
+   "mesh": 1677,
    "matrix": [
     1.0,
     0.0,
@@ -148103,14 +149175,14 @@
     0.9659258262890683,
     0.0,
     2.9809999999999994,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 2",
-   "mesh": 1659,
+   "mesh": 1677,
    "matrix": [
     1.0,
     0.0,
@@ -148125,14 +149197,14 @@
     0.9659258262890683,
     0.0,
     2.994999999999999,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 3 spel 3",
-   "mesh": 1659,
+   "mesh": 1677,
    "matrix": [
     1.0,
     0.0,
@@ -148147,7 +149219,7 @@
     0.9659258262890683,
     0.0,
     3.0089999999999995,
-    1.1040192378864668,
+    0.9340192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -154195,14 +155267,14 @@
     2.137633581964697e-16,
     0.0,
     3.210545260598929,
-    -0.5812627129509563,
+    -0.8082627129509562,
     1.8824047347725372,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 1",
-   "mesh": 1660,
+   "mesh": 1678,
    "matrix": [
     1.0,
     0.0,
@@ -154217,14 +155289,14 @@
     0.9659258262890683,
     0.0,
     0.4400000001223049,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 2",
-   "mesh": 1660,
+   "mesh": 1678,
    "matrix": [
     1.0,
     0.0,
@@ -154239,14 +155311,14 @@
     0.9659258262890683,
     0.0,
     0.4560000001223049,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Xbox 360 spel 3",
-   "mesh": 1660,
+   "mesh": 1678,
    "matrix": [
     1.0,
     0.0,
@@ -154261,7 +155333,7 @@
     0.9659258262890683,
     0.0,
     0.4720000001223049,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -154338,14 +155410,14 @@
     0.7903029694733843,
     0.0,
     0.6140906193289877,
-    1.0515424239120983,
+    0.8245424239120985,
     -1.2022565894549007,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 1",
-   "mesh": 1661,
+   "mesh": 1679,
    "matrix": [
     1.0,
     0.0,
@@ -154360,14 +155432,14 @@
     0.9659258262890683,
     0.0,
     2.9684999999999993,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 2",
-   "mesh": 1661,
+   "mesh": 1679,
    "matrix": [
     1.0,
     0.0,
@@ -154382,14 +155454,14 @@
     0.9659258262890683,
     0.0,
     2.982499999999999,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "PlayStation 4 spel 3",
-   "mesh": 1661,
+   "mesh": 1679,
    "matrix": [
     1.0,
     0.0,
@@ -154404,7 +155476,7 @@
     0.9659258262890683,
     0.0,
     2.9964999999999993,
-    1.4440192378864667,
+    1.2170192378864668,
     -2.6670000000000003,
     1.0
    ]
@@ -154476,14 +155548,14 @@
     -2.072090759301781e-16,
     0.0,
     0.24662870082649202,
-    1.8408797143910263,
+    1.5578797143910263,
     -2.7903410112389984,
     1.0
    ]
   },
   {
    "name": "Wii U spel 1",
-   "mesh": 1662,
+   "mesh": 1680,
    "matrix": [
     1.0,
     0.0,
@@ -154498,14 +155570,14 @@
     0.9659258262890683,
     0.0,
     0.3909999999999999,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii U spel 2",
-   "mesh": 1662,
+   "mesh": 1680,
    "matrix": [
     1.0,
     0.0,
@@ -154520,14 +155592,14 @@
     0.9659258262890683,
     0.0,
     0.4069999999999999,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Wii U spel 3",
-   "mesh": 1662,
+   "mesh": 1680,
    "matrix": [
     1.0,
     0.0,
@@ -154542,7 +155614,7 @@
     0.9659258262890683,
     0.0,
     0.42299999999999993,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
@@ -155344,14 +156416,14 @@
     0.96688955178929,
     0.0,
     2.7025000047925776,
-    1.7749586033815503,
+    1.4919586033815504,
     -2.63318525167884,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 1",
-   "mesh": 1663,
+   "mesh": 1681,
    "matrix": [
     1.0,
     0.0,
@@ -155366,14 +156438,14 @@
     0.9659258262890683,
     0.0,
     2.9559999999999995,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 2",
-   "mesh": 1663,
+   "mesh": 1681,
    "matrix": [
     1.0,
     0.0,
@@ -155388,14 +156460,14 @@
     0.9659258262890683,
     0.0,
     2.9689999999999994,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
   },
   {
    "name": "Nintendo Switch spel 3",
-   "mesh": 1663,
+   "mesh": 1681,
    "matrix": [
     1.0,
     0.0,
@@ -155410,7 +156482,7 @@
     0.9659258262890683,
     0.0,
     2.9819999999999993,
-    1.7840192378864668,
+    1.5010192378864669,
     -2.6670000000000003,
     1.0
    ]
