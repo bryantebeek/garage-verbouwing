@@ -103669,7 +103669,7 @@
   {
    "name": "W9 inbouwdozen",
    "extras": {
-    "omschrijving": "2x Attema U50, gekoppeld 71 mm"
+    "omschrijving": "3x Attema U50, gekoppeld 71 mm"
    },
    "translation": [
     5.8045,
@@ -103690,7 +103690,8 @@
    "children": [
     1822,
     1827,
-    1831
+    1831,
+    2505
    ]
   },
   {
@@ -103704,7 +103705,7 @@
     }
    },
    "translation": [
-    -0.0355,
+    -0.071,
     0,
     0
    ],
@@ -103747,7 +103748,7 @@
     }
    },
    "translation": [
-    0.0355,
+    0.0,
     0,
     0
    ],
@@ -103780,6 +103781,11 @@
     1834,
     1835,
     1836
+   ],
+   "translation": [
+    -0.0355,
+    0,
+    0
    ]
   },
   {
@@ -103807,7 +103813,7 @@
    "translation": [
     5.8045,
     1.05,
-    -2.994
+    -2.9585000000000004
    ],
    "rotation": [
     0,
@@ -103828,7 +103834,7 @@
   {
    "name": "W9",
    "extras": {
-    "omschrijving": "schakelaar (buitenlampen) + stopcontact"
+    "omschrijving": "schakelaar (buitenlampen) + stopcontact + schakelaar"
    },
    "translation": [
     5.7995,
@@ -103844,7 +103850,8 @@
    "children": [
     1839,
     1840,
-    1843
+    1843,
+    2501
    ]
   },
   {
@@ -103852,17 +103859,17 @@
    "extras": {
     "product": {
      "winkel": "Elektramat",
-     "naam": "JUNG afdekraam 2-voudig A550 alpinwit glanzend",
-     "artikel": "401181307",
-     "url": "https://www.elektramat.nl/jung-afdekraam-2-voudig-a550-alpine-glanzend-a5582bfww/"
+     "naam": "JUNG afdekraam 3-voudig A550 alpinwit",
+     "artikel": "401181308",
+     "url": "https://www.elektramat.nl/jung-afdekraam-3-voudig-a550-alpine-wit-a5583bfww/"
     }
    },
-   "mesh": 1145
+   "mesh": 1162
   },
   {
    "name": "W9 schakelaar",
    "translation": [
-    0.0355,
+    0.071,
     0,
     0
    ],
@@ -103918,7 +103925,7 @@
     }
    },
    "translation": [
-    -0.0355,
+    0.0,
     0,
     0
    ],
@@ -113477,6 +113484,87 @@
    "extras": {
     "wall": "Voorzetwand oostmuur hal"
    }
+  },
+  {
+   "name": "W9 schakelaar 2 wisselschakelaar",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG sokkel inbouw wisselschakelaar 506U",
+     "artikel": "401028202",
+     "url": "https://www.elektramat.nl/jung-sokkel-inbouw-wisselschakelaar-506eu/"
+    }
+   },
+   "mesh": 1146
+  },
+  {
+   "name": "W9 schakelwip",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG schakelwip A500 alpinwit",
+     "artikel": "401070074",
+     "url": "https://www.elektramat.nl/jung-schakelwip-a500-alpin-wit-a590bfww/"
+    },
+    "stand": "uit"
+   },
+   "translation": [
+    0,
+    0,
+    0.0095
+   ],
+   "rotation": [
+    -0.03489949670250097,
+    0,
+    0,
+    0.9993908270190958
+   ],
+   "mesh": 1147
+  },
+  {
+   "name": "W9 schakelaar 2",
+   "translation": [
+    -0.071,
+    0,
+    0
+   ],
+   "children": [
+    2499,
+    2500
+   ]
+  },
+  {
+   "name": "W9 inbouwdoos 3 ring",
+   "mesh": 1272
+  },
+  {
+   "name": "W9 inbouwdoos 3 kuip",
+   "mesh": 1270
+  },
+  {
+   "name": "W9 inbouwdoos 3 bodem",
+   "mesh": 1271
+  },
+  {
+   "name": "W9 inbouwdoos 3",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema inbouwdoos U50 Ø16/19/20 mm grijs (AT1102.01)",
+     "artikel": "401318523",
+     "url": "https://www.elektramat.nl/attema-inbouwdoos-u50-o16-19-20mm-grijs-at1102-01/"
+    }
+   },
+   "translation": [
+    0.071,
+    0,
+    0
+   ],
+   "children": [
+    2502,
+    2503,
+    2504
+   ]
   }
  ],
  "scenes": [
