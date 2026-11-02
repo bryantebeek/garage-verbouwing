@@ -18,9 +18,9 @@
 - Grotere tv's als losse lagen (standaard uit), op hetzelfde midden en net vóór de 55 inch zodat ze hem afdekken: "LG 65 inch" (OLED65CS6LA, 144,9 × 83,2 cm, 2 mm ervoor) en "LG 75 inch" (75QNED82A6B, 167,7 × 96,5 cm, 4 mm ervoor; een LG OLED bestaat niet in 75 inch). Lagen na de 20e hebben geen sneltoets.
 - Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 20 cm, vóór de plint; ±26 cm tussen de Sony en de LG (55 inch).
 - **Kazen** zijn de schuine walnoten wandplankjes voor de consoles (`Kaas <console>` in het model):
-  - Console links, rechts 3 spellen rechtop met de rug naar voren, in de verpakking van het platform: cartridge (Atari 2600, NES, SNES, N64), cd (PS1, Dreamcast), Mega Drive-doosje, dvd (PS2, GameCube, Xbox, Xbox 360, Wii, Wii U), blu-ray (PS3, PS4), Switch-doosje.
-  - Breedte: 10 mm + console + 10 mm + spellen (2 mm ertussen) + 10 mm.
-  - Diepte per kaas: ±30 mm vrij achter de console, of achter de spellen als die dieper zijn (op de vloer van de kaas gemeten); elke kaas is dus zo diep als nodig.
+  - Alleen de console, geen spellen.
+  - Breedte: 10 mm + console + 10 mm.
+  - Diepte per kaas: ±30 mm vrij achter de console (op de vloer van de kaas gemeten); elke kaas is dus zo diep als de console nodig heeft.
   - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers).
 - Indeling per kant van de Sony: 2 × 2 kazen naast de Sony (onderkant 18 en 50 cm) en een hoge kolom erboven naast de LG (82, 114, 146 en 178 cm); rijen om de 32 cm.
   - Binnenste kolommen: links en rechts even ver van de verhoging (60 mm), kazen uitgelijnd op hun kant naar de Sony.
@@ -36,7 +36,7 @@
 
 - Kast op maat over de hele tv-muur, op de vloer (1 cm) en vóór de plinten: achterkant z −2,982 (plint tv-muur), linkerzijde x 0,068 (plint zijmuur), rechts tot x 3,093; bovenkant 2,29 m (plafond 2,32). Plaat 18 mm in de muurkleur (Skimming Stone); onderin een gesloten lat van 5 cm in dezelfde kleur, gelijk met de voorkant.
 - Zo ondiep mogelijk: 33 cm = randje + diepste console schuin (PS3, 29 cm × cos 15°) + 3 cm voor stekkers (die gaan de muur in).
-- Kolommen (binnenmaat): zijkolommen 46 cm (breedste groep Xbox + spellen 38 cm), naast de Sony 62,4 cm (Mega Drive 2 + Mega-CD 2 met spellen 54,6 cm), Sony-vak 75 cm.
+- Kolommen (binnenmaat): zijkolommen 52 cm (breedste console Xbox 32,4 cm), naast de Sony 56,4 cm (Mega Drive 2 + Mega-CD 2 47,2 cm), Sony-vak 75 cm. Geen spellen in de kast.
 - Planken in 6 gelijke stappen van 28,3 cm van 0,06 tot 1,76 (bovenkant 0,06, 0,343, 0,627, 0,91, 1,193, 1,477, 1,76), daarboven één vak tot de bovenplaat (vrije opslag, vlak). Boven de Sony (0,627) een greeploze lade over de hele tv-opening (12 cm hoog); de tv-opening loopt van de lade (0,747) tot de plank op 1,76 (onderkant 1,742), de tv hangt daar verticaal in het midden (midden 1,245 m). 55, 65 en 75 inch passen (75 inch met 1,5 cm ruimte).
 - Sony: recht (niet kantelen: Sony vraagt 10 cm ventilatie rondom en kantelen verschuift het beeld door het aardmagnetisch veld), op dezelfde hoogte als de rest (plank 0,06, boven de lat), 3 cm van de achterkant voor stekkers; ±5 cm vrij tot de plank met de lade (krapper dan de 10 cm die Sony vraagt; zijkanten en achterkant open). Alleen het voetstuk onder de Sony (plank met de lat eronder, dicht blok) komt naar voren tot 54 cm, 2 cm voorbij de voorkant van de Sony; zijkanten en bovenkant van het vak blijven 33 cm.
-- Alle consolevakken hebben een schuine vloer van 15° met randje (zoals de kazen); niet het Sony-vak, de lade en het bovenste vak in het midden. Consoles schuin tegen het randje, 3 spellen ernaast; indeling op kabellengte (naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger).
+- Alle consolevakken hebben een schuine vloer van 15° met randje (zoals de kazen); niet het Sony-vak, de lade en het bovenste vak in het midden. Consoles schuin tegen het randje, midden in het vak; indeling op kabellengte (naast de Sony Atari, Mega Drive, PS1, N64; zijkolommen onderin Dreamcast, NES, GameCube, SNES, dan PS2 en Xbox, draadloos hoger).
