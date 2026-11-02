@@ -91965,7 +91965,11 @@
   },
   {
    "name": "Aansluiting kast",
-   "mesh": 642
+   "mesh": 642,
+   "extras": {
+    "geenLijnen": true,
+    "omschrijving": "Reparatiestroken in vloer, plafond en wanden van het bestaande model, op de plek van de oude kastwanden (zonder lijnen getekend)"
+   }
   },
   {
    "name": "V6",
