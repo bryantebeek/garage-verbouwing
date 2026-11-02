@@ -44752,6 +44752,102 @@
    "count": 144,
    "bufferView": 1493,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1494,
+   "byteOffset": 0,
+   "max": [
+    3.390000104904175,
+    2.4040000438690186,
+    -5.639999866485596
+   ],
+   "min": [
+    3.3459999561309814,
+    2.3350000381469727,
+    -6.043000221252441
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1495,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1496,
+   "byteOffset": 0,
+   "max": [
+    3.4749999046325684,
+    2.4040000438690186,
+    -5.5960001945495605
+   ],
+   "min": [
+    3.3459999561309814,
+    2.3350000381469727,
+    -5.639999866485596
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1497,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1498,
+   "byteOffset": 0,
+   "max": [
+    3.9749999046325684,
+    2.4040000438690186,
+    -5.5960001945495605
+   ],
+   "min": [
+    3.5190000534057617,
+    2.3350000381469727,
+    -5.639999866485596
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1499,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1500,
+   "byteOffset": 0,
+   "max": [
+    4.223999977111816,
+    2.4040000438690186,
+    -5.5960001945495605
+   ],
+   "min": [
+    4.019000053405762,
+    2.3350000381469727,
+    -5.639999866485596
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 36,
+   "bufferView": 1501,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -55103,6 +55199,54 @@
    "byteOffset": 37553500,
    "byteLength": 1728,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37555228,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37555660,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37556092,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37556524,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37556956,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37557388,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37557820,
+   "byteLength": 432,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37558252,
+   "byteLength": 432,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -55483,7 +55627,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37555228
+   "byteLength": 37558684
   }
  ],
  "materials": [
@@ -80523,6 +80667,54 @@
      "material": 88
     }
    ]
+  },
+  {
+   "name": "P18",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4347,
+      "NORMAL": 4348
+     },
+     "material": 12
+    }
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 3",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4349,
+      "NORMAL": 4350
+     },
+     "material": 12
+    }
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 4",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4351,
+      "NORMAL": 4352
+     },
+     "material": 12
+    }
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 5",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4353,
+      "NORMAL": 4354
+     },
+     "material": 12
+    }
+   ]
   }
  ],
  "nodes": [
@@ -89242,7 +89434,11 @@
     605,
     597,
     606,
-    2516
+    2516,
+    2552,
+    2553,
+    2554,
+    2555
    ]
   },
   {
@@ -115467,6 +115663,74 @@
      "url": "https://www.ikea.com/nl/nl/cat/pax-kasten-19086/"
     }
    }
+  },
+  {
+   "name": "P18",
+   "mesh": 1309,
+   "extras": {
+    "omschrijving": "Ligger op B8 (kastzijwand hal), tussen P9 en P10, tegen het plafond",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    0.003,
+    -2.322,
+    0.0017
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 3",
+   "mesh": 1310,
+   "extras": {
+    "omschrijving": "Klos op B9 tussen de hoek en P10",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    0.003,
+    -2.322,
+    0.0017
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 4",
+   "mesh": 1311,
+   "extras": {
+    "omschrijving": "Klos op B9 tussen P10 en P11",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    0.003,
+    -2.322,
+    0.0017
+   ]
+  },
+  {
+   "name": "Raamwerk plafond klos 5",
+   "mesh": 1312,
+   "extras": {
+    "omschrijving": "Klos op B9 tussen P11 en P12",
+    "product": {
+     "naam": "Vuren geschaafd C24 44x69 mm, 240 cm",
+     "artikel": "575917",
+     "url": "https://www.bouwmaat.nl/products/vuren-geschaafd-c24-44x69mm-fsc-mix-70-f10019?variant=56807926858054"
+    }
+   },
+   "translation": [
+    0.003,
+    -2.322,
+    0.0017
+   ]
   }
  ],
  "scenes": [
