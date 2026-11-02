@@ -57855,6 +57855,54 @@
    "count": 108,
    "bufferView": 2300,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1428,
+   "bufferView": 2301,
+   "byteOffset": 0,
+   "max": [
+    3.0929999351501465,
+    1.9399800300598145,
+    -2.441999912261963
+   ],
+   "min": [
+    0.06800000369548798,
+    0.009999999776482582,
+    -2.9820001125335693
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 1428,
+   "bufferView": 2302,
+   "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 108,
+   "bufferView": 2303,
+   "byteOffset": 0,
+   "max": [
+    3.072000026702881,
+    0.2590000033378601,
+    -2.441999912261963
+   ],
+   "min": [
+    0.08900000154972076,
+    0.02199999988079071,
+    -2.9619998931884766
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 108,
+   "bufferView": 2304,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -73110,6 +73158,30 @@
    "byteOffset": 41834944,
    "byteLength": 1296,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41836240,
+   "byteLength": 17136,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41853376,
+   "byteLength": 17136,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41870512,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41871808,
+   "byteLength": 1296,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -73588,7 +73660,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41836240
+   "byteLength": 41873104
   }
  ],
  "materials": [
@@ -107922,6 +107994,30 @@
      "attributes": {
       "POSITION": 5458,
       "NORMAL": 5459
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5460,
+      "NORMAL": 5461
+     },
+     "material": 401
+    }
+   ]
+  },
+  {
+   "name": "Wandkast lades",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5462,
+      "NORMAL": 5463
      },
      "material": 401
     }
@@ -165579,9 +165675,9 @@
   },
   {
    "name": "Wandkast casco",
-   "mesh": 1713,
+   "mesh": 1715,
    "extras": {
-    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 194 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 52 cm, naast de Sony 56,3 cm, Sony-vak 75 cm breed; tv-opening 191 x 115 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 29 cm; onderin een lat van 5 cm met 3 lades; plaat 18 mm in de muurkleur (Skimming Stone)"
+    "omschrijving": "Kast op maat over de hele tv-muur (302,5 cm breed, tot 194 cm hoog), op de vloer en vóór de plinten; 33 cm diep (schuine PS3 + randje + 3 cm voor stekkers), vak van de Sony 54 cm diep; zijkolommen 52 cm, naast de Sony 56,3 cm, Sony-vak 75 cm breed; tv-opening 191 x 115 cm; consolevakken met een schuine vloer van 15° en randje; rijen om de 29 cm; onderin 3 rolladen op wieltjes; plaat 18 mm in de muurkleur (Skimming Stone)"
    }
   },
   {
@@ -165610,16 +165706,16 @@
     1.0,
     0.0,
     1.5805,
-    0.18,
+    0.28,
     -2.4669999856948857,
     1.0
    ]
   },
   {
    "name": "Wandkast lades",
-   "mesh": 1714,
+   "mesh": 1716,
    "extras": {
-    "omschrijving": "3 greeploze lades (tip-on) onderin, 10 cm hoog, in de kastkleur: links, onder de Sony (54 cm diep) en rechts"
+    "omschrijving": "3 greeploze rolladen op wieltjes (rijden naar voren uit), in de kastkleur: links en rechts 14 cm hoog, onder de Sony 24 cm hoog en 54 cm diep"
    }
   },
   {
