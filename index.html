@@ -159,7 +159,7 @@
 </div>
 <div id="brand" class="panel"><b>Garage verbouwing</b><span>3D-model</span></div>
 <div id="layers" class="panel"><p class="heading" id="layers-toggle">Lagen</p><div id="layer-list"></div></div>
-<div id="help" class="panel">
+<div id="help" class="panel collapsed">
   <p class="heading" id="help-toggle">Besturing <kbd>H</kbd></p>
   <dl class="touch">
     <dt>Joystick</dt><dd>Lopen</dd>
@@ -284,7 +284,7 @@ for (const b of document.querySelectorAll('#updown button')) {
 }
 $('layers-toggle').onclick = () => $('layers').classList.toggle('collapsed');
 $('help-toggle').onclick = () => $('help').classList.toggle('collapsed');
-if (matchMedia('(pointer: coarse)').matches) { $('layers').classList.add('collapsed'); $('help').classList.add('collapsed'); }
+if (matchMedia('(pointer: coarse)').matches) $('layers').classList.add('collapsed');
 
 const labelRenderer = new CSS2DRenderer();
 labelRenderer.domElement.style.cssText = 'position: fixed; top: 0; pointer-events: none';
