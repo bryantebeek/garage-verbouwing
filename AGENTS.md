@@ -48,8 +48,8 @@
 
 ## Wandkast rondom (laag "Wandkast rondom", aanvulling op de Wandkast)
 
-- Losse laag, standaard uit, alleen samen met de Wandkast: alleen een plank als brug over de tv, even dik als de staanders (25 mm), tussen de zijkolommen (x 0,6188–2,5302), bovenkant gelijk met de zijkolommen (1,795–1,82). Geen vakken erboven en geen kolommen naast de tv (op verzoek weg). 33 cm diep, in de muurkleur.
-- 55, 65 en 75 inch passen eronder (75 inch: 7,3 cm vrij).
+- Losse laag, standaard uit, alleen samen met de Wandkast: alleen een plank als brug over de tv, 40 mm dik (op verzoek iets dikker dan de staanders), tussen de zijkolommen (x 0,6188–2,5302), bovenkant gelijk met de zijkolommen (1,78–1,82). Geen vakken erboven en geen kolommen naast de tv (op verzoek weg). 33 cm diep, in de muurkleur.
+- 55, 65 en 75 inch passen eronder (75 inch: 5,8 cm vrij).
 - Renderen: `--tv-muur "Wandkast,Wandkast rondom"`.
 
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)

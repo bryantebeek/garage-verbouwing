@@ -57981,7 +57981,7 @@
    "type": "VEC3",
    "min": [
     0.6188,
-    1.7950000000000002,
+    1.78,
     -2.994
    ],
    "max": [
@@ -176009,7 +176009,7 @@
    "name": "Wandkast rondom vakken",
    "mesh": 1720,
    "extras": {
-    "omschrijving": "Plank als brug (25 mm, even dik als de staanders) over de tv, tussen de zijkolommen van de Wandkast (191 cm), bovenkant gelijk met de zijkolommen op 1,82 m. In de muurkleur, 33 cm diep. De 55, 65 en 75 inch passen eronder."
+    "omschrijving": "Plank als brug (40 mm) over de tv, tussen de zijkolommen van de Wandkast (191 cm), bovenkant gelijk met de zijkolommen op 1,82 m. In de muurkleur, 33 cm diep. De 55, 65 en 75 inch passen eronder."
    }
   },
   {
