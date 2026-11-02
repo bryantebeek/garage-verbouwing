@@ -44104,6 +44104,30 @@
    "count": 36,
    "bufferView": 1439,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 192,
+   "bufferView": 1440,
+   "byteOffset": 0,
+   "max": [
+    6.1579999923706055,
+    1.0579999685287476,
+    -3.1010000705718994
+   ],
+   "min": [
+    5.828000068664551,
+    1.0420000553131104,
+    -3.6679999828338623
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 192,
+   "bufferView": 1441,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -54131,6 +54155,18 @@
    "byteOffset": 37416844,
    "byteLength": 432,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37417276,
+   "byteLength": 2304,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37419580,
+   "byteLength": 2304,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -54511,7 +54547,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37417276
+   "byteLength": 37421884
   }
  ],
  "materials": [
@@ -79350,6 +79386,18 @@
      "material": 56
     }
    ]
+  },
+  {
+   "name": "Leiding 14",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4293,
+      "NORMAL": 4294
+     },
+     "material": 58
+    }
+   ]
   }
  ],
  "nodes": [
@@ -90441,7 +90489,8 @@
     1869,
     1874,
     2531,
-    2532
+    2532,
+    2534
    ]
   },
   {
@@ -103787,7 +103836,7 @@
   {
    "name": "W9",
    "extras": {
-    "omschrijving": "schakelaar (buitenlampen) + stopcontact + schakelaar"
+    "omschrijving": "schakelaar (buitenlampen) + stopcontact + schakelaar (buitenstopcontact)"
    },
    "translation": [
     5.7995,
@@ -113809,6 +113858,13 @@
     -0.04399999976158142
    ],
    "mesh": 1269
+  },
+  {
+   "name": "Leiding 14",
+   "mesh": 1299,
+   "extras": {
+    "omschrijving": "W9 linker schakelaar -> buitenstopcontact: horizontaal door S19, vlak voor S20 door de buitenmuur naar buiten; schakeldraad/nul/aarde"
+   }
   }
  ],
  "scenes": [
