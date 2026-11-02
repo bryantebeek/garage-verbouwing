@@ -621,6 +621,12 @@ const beamer = { on: false, labelsOn: false, variant: Number(sessionStorage.getI
       w: Math.round((tvBox.max.x - tvBox.min.x) * px), h: Math.round((tvBox.max.y - tvBox.min.y) * px) };
     let loop = VARIANTS[beamer.variant % VARIANTS.length].make(anim, mask);
     beamer.setVariant = i => { beamer.variant = i % VARIANTS.length; sessionStorage.setItem('beamerVariant', beamer.variant); loop = VARIANTS[beamer.variant].make(anim, mask); };
+    beamer.setTv = o => {                                                   // the black area follows the chosen TV size
+      const b = new THREE.Box3().setFromObject(o);
+      Object.assign(mask, { x: Math.round((b.min.x - area.left) * px), y: Math.round((area.top - b.max.y) * px),
+        w: Math.round((b.max.x - b.min.x) * px), h: Math.round((b.max.y - b.min.y) * px) });
+      loop = VARIANTS[beamer.variant].make(anim, mask);
+    };
     const fg = frame.getContext('2d');
     fg.imageSmoothingEnabled = false;
     beamer.draw = now => { loop(now); fg.fillStyle = '#000'; fg.fillRect(0, 0, frame.width, frame.height); fg.drawImage(anim, x0, y0, x1 - x0, y1 - y0); };
@@ -705,7 +711,8 @@ const GROUPS = [
   ['Bouw', ['Vloer, muren, plafond', 'Raamwerk vloer', 'Raamwerk muren', 'Raamwerk plafond', 'Trap', 'Deur']],
   ['Elektra', ['Elektra inbouw', 'Elektra materiaal']],
   ['Afwerking', ['Stucplaten muren', 'Stucplaten plafond', 'Stucwerk', 'Verf', 'Vloer (visgraat)', 'Plint']],
-  ['Inrichting', ['Meubels', 'Kallax', 'Consoles aan de muur', 'Wandkast', 'LG 65 inch', 'LG 75 inch', 'Kinderwagen']],
+  ['Inrichting', ['Meubels', 'Kallax', 'Consoles aan de muur', 'Wandkast', 'Kinderwagen']],
+  ['Tv', ['Tv']],
 ];
 const closedGroups = new Set(JSON.parse(localStorage.getItem('closedGroups') ?? '[]'));
 function switchRow(label, on, onclick) {
@@ -755,6 +762,19 @@ function toggleVariant(name) {
   lastView = '';
   renderLayers();
 }
+// TV size: the objects with extras.tvmaat in the Tv layer, one shown at a time (like the beamer animation).
+const tvSizes = [];
+gltf.scene.traverse(o => { if (o.userData.tvmaat) tvSizes.push(o); });
+let tvSize = localStorage.getItem('tvSize') ?? tvSizes[0]?.userData.tvmaat;
+function setTvSize(size, init) {
+  tvSize = size; localStorage.setItem('tvSize', size);
+  for (const o of tvSizes) o.visible = o.userData.tvmaat === size;
+  const shown = tvSizes.find(o => o.visible);
+  if (shown) beamer.setTv?.(shown);
+  renderer.shadowMap.needsUpdate = true;
+  if (!init) lastView = '';                                              // declared further down; not needed at start
+}
+if (tvSizes.length) setTvSize(tvSizes.some(o => o.userData.tvmaat === tvSize) ? tvSize : tvSizes[0].userData.tvmaat, true);
 function renderLayers() {
   const byGroup = new Map(GROUPS.map(([g]) => [g, []]));
   layers.forEach((l, i) => {
@@ -766,7 +786,16 @@ function renderLayers() {
   for (const [g, idx] of byGroup) {
     if (!idx.length) continue;
     const on = idx.filter(i => layers[i].visible).length;
-    out.push(group(g, idx.map(i => switchRow(displayName(layers[i]), layers[i].visible, () => toggleLayer(i))), {
+    const rows = idx.map(i => switchRow(displayName(layers[i]), layers[i].visible, () => toggleLayer(i)));
+    if (g === 'Tv' && tvSizes.length) {
+      const pick = Object.assign(document.createElement('label'), { className: 'row' });
+      pick.innerHTML = `<span class="name">Formaat</span><select aria-label="Tv-formaat">${tvSizes.map(o =>
+        `<option${o.userData.tvmaat === tvSize ? ' selected' : ''}>${esc(o.userData.tvmaat)}</option>`).join('')}</select>`;
+      const sel = pick.querySelector('select');
+      sel.onchange = () => { setTvSize(sel.value); sel.blur(); };
+      rows.push(pick);
+    }
+    out.push(group(g, rows, {
       count: `${on}/${idx.length}`, state: on === 0 ? 'false' : on === idx.length ? 'true' : 'mixed',
       toggle: () => setLayers(idx, on < idx.length),
     }));

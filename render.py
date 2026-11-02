@@ -16,7 +16,7 @@ args.add_argument('--mode', default='beide', choices=['dag', 'avond', 'beide'])
 args.add_argument('--views', default='all')
 opt = args.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
-SHOW = {'Vloer, muren, plafond', 'Verf', 'Vloer (visgraat)', 'Plint', 'Trap', 'Deur', 'Meubels', 'Elektra materiaal', 'Consoles aan de muur'}
+SHOW = {'Vloer, muren, plafond', 'Verf', 'Vloer (visgraat)', 'Plint', 'Trap', 'Deur', 'Meubels', 'Elektra materiaal', 'Consoles aan de muur', 'Tv'}
 VIEWS = {                                    # name: (eye, look at[, modes]), glTF coordinates
     'kamer': ((5.55, 1.55, -3.35), (0.4, 1.05, -1.0)),
     'tv-muur': ((1.75, 1.25, -0.25), (1.6, 1.0, -3.0)),
@@ -35,6 +35,9 @@ for root in [o for o in bpy.data.objects if o.parent is None]:
     hidden = root.name not in SHOW
     for o in [root, *root.children_recursive]:
         o.hide_render = o.hide_viewport = hidden
+for o in bpy.data.objects:                     # Tv layer: only the 55 inch (the other sizes are options in the viewer)
+    if o.get('tvmaat') not in (None, '55 inch'):
+        for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
 
 # The floor above isn't modelled: close the stairwell above the ceiling (a box without bottom over the opening, glTF x 0-2.06,
 # z -6.04..-4.98), or daylight pours into the hall from above.

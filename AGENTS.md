@@ -14,8 +14,7 @@
 
 ## Tv-muur (laag "Consoles aan de muur")
 
-- Tv (`TV`): LG OLED CS 55 inch (OLED55CS6LA, 122,8 × 70,8 × 4,7 cm), midden op de tv-muur en verticaal midden in de opening van de wandkast (0,77–1,872 m): midden 1,32 m. Beamer en W8 op dezelfde middellijn.
-- Grotere tv's als losse lagen (standaard uit), op hetzelfde midden en net vóór de 55 inch zodat ze hem afdekken: "LG 65 inch" (OLED65CS6LA, 144,9 × 83,2 cm, 2 mm ervoor) en "LG 75 inch" (75QNED82A6B, 167,7 × 96,5 cm, 4 mm ervoor; een LG OLED bestaat niet in 75 inch). Lagen na de 20e hebben geen sneltoets.
+- Laag "Tv" (eigen groep in de zijbalk, met een keuzelijst "Formaat" zoals de beamer-animatie): drie objecten met `extras.tvmaat`, er is er steeds één zichtbaar; de keuze blijft bewaard (localStorage) en het zwarte vlak in de beamerprojectie volgt het gekozen formaat. 55 inch = `TV` (LG OLED CS, OLED55CS6LA, 122,8 × 70,8 × 4,7 cm, mijn eigen tv), 65 inch (OLED65CS6LA, 144,9 × 83,2 cm), 75 inch (75QNED82A6B, 167,7 × 96,5 cm; een LG OLED bestaat niet in 75 inch). Midden op de tv-muur en verticaal midden in de opening van de wandkast. Beamer en W8 op dezelfde middellijn. `render.py` toont de 55 inch.
 - Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 20 cm, vóór de plint; ±26 cm tussen de Sony en de LG (55 inch).
 - **Kazen** zijn de schuine walnoten wandplankjes voor de consoles (`Kaas <console>` in het model):
   - Alleen de console, geen spellen.
