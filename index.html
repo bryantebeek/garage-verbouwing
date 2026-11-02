@@ -546,6 +546,25 @@ gltf.scene.traverse(o => { const w = o.userData.wissel; if (w) variants.set(w, [
 const opened = new Set(saved?.opened ?? []);
 const applyVariant = name => { for (const o of variants.get(name)) o.visible = (o.userData.stand === 'open') === opened.has(name); };
 variants.forEach((_, name) => applyVariant(name));
+// Raised floors: a layer with extras.verhoging { x: [x0, x1], z: [z0, z1], h } lifts the furniture standing in that zone while
+// it is shown, and hides the objects named in extras.verbergt (the rug would cover the glass floor).
+const meubels = layers.find(l => displayName(l) === 'Meubels');
+const raisers = layers.filter(l => l.userData.verhoging).map(l => {
+  const { x, z, h } = l.userData.verhoging, inZone = p => p.x > x[0] && p.x < x[1] && p.z > z[0] && p.z < z[1];
+  const items = meubels?.children ?? [];
+  const lifted = items.filter(o => {
+    const b = new THREE.Box3().setFromObject(o);
+    return b.min.y < 0.05 && (inZone(b.getCenter(new THREE.Vector3())) || inZone(o.getWorldPosition(new THREE.Vector3())));
+  }).map(o => ({ o, y: o.position.y }));
+  return { l, h, lifted, hidden: items.filter(o => (l.userData.verbergt ?? []).includes(displayName(o))) };
+});
+function applyRaise() {
+  for (const r of raisers) {
+    for (const { o, y } of r.lifted) o.position.y = y + (r.l.visible ? r.h : 0);
+    for (const o of r.hidden) o.visible = !r.l.visible;
+  }
+}
+applyRaise();
 if (saved) { camera.position.fromArray(saved.pos); camera.quaternion.fromArray(saved.quat); }
 addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.stringify({
   pos: camera.position.toArray(), quat: camera.quaternion.toArray(), labelsOn,
@@ -702,6 +721,7 @@ function toggleBeamer() {
 
 function toggleLayer(i) {
   layers[i].visible = !layers[i].visible;
+  applyRaise();
   renderer.shadowMap.needsUpdate = true;
   renderLayers();
   lastView = '';
@@ -711,7 +731,7 @@ const GROUPS = [
   ['Bouw', ['Vloer, muren, plafond', 'Raamwerk vloer', 'Raamwerk muren', 'Raamwerk plafond', 'Trap', 'Deur']],
   ['Elektra', ['Elektra inbouw', 'Elektra materiaal']],
   ['Afwerking', ['Stucplaten muren', 'Stucplaten plafond', 'Stucwerk', 'Verf', 'Vloer (visgraat)', 'Plint']],
-  ['Inrichting', ['Meubels', 'Kallax', 'Consoles aan de muur', 'Wandkast', 'Kinderwagen']],
+  ['Inrichting', ['Meubels', 'Kallax', 'Consoles aan de muur', 'Wandkast', 'Glazen vloer', 'Kinderwagen']],
   ['Tv', ['Tv']],
 ];
 const closedGroups = new Set(JSON.parse(localStorage.getItem('closedGroups') ?? '[]'));
@@ -749,6 +769,7 @@ function group(name, rows, all) {
 }
 function setLayers(idx, visible) {
   for (const i of idx) layers[i].visible = visible;
+  applyRaise();
   renderer.shadowMap.needsUpdate = true;
   lastView = '';
   renderLayers();
