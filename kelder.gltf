@@ -51677,6 +51677,336 @@
    "componentType": 5123,
    "count": 159,
    "type": "SCALAR"
+  },
+  {
+   "bufferView": 1960,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.296099999830127,
+    0.2728540676832199,
+    -2.9845
+   ],
+   "max": [
+    2.3459000001698733,
+    0.3680037049538694,
+    -2.799206876631925
+   ]
+  },
+  {
+   "bufferView": 1961,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1962,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.7755000008940697,
+    0.2681696864962578,
+    -2.9845
+   ],
+   "max": [
+    0.8804999991059302,
+    0.3380399137212535,
+    -2.813682580670727
+   ]
+  },
+  {
+   "bufferView": 1963,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1964,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.700100001215935,
+    0.26459798246622085,
+    -2.9845
+   ],
+   "max": [
+    2.7738999987840653,
+    0.35306005917604183,
+    -2.82328532812897
+   ]
+  },
+  {
+   "bufferView": 1965,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1966,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.3669999982118606,
+    0.274709075987339,
+    -2.9845
+   ],
+   "max": [
+    0.45700000178813927,
+    0.3493230981075333,
+    -2.80248879753399
+   ]
+  },
+  {
+   "bufferView": 1967,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1968,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.781499999642372,
+    0.5812333300709724,
+    -2.9845
+   ],
+   "max": [
+    0.8745000003576279,
+    0.654623774722197,
+    -2.8117895942245648
+   ]
+  },
+  {
+   "bufferView": 1969,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1970,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.2739000028967857,
+    0.5807156935334206,
+    -2.9845
+   ],
+   "max": [
+    2.3680999971032146,
+    0.6353733703582785,
+    -2.828127200609888
+   ]
+  },
+  {
+   "bufferView": 1971,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1972,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.3688000018596649,
+    0.5827344805002213,
+    -2.9845
+   ],
+   "max": [
+    0.45519999814033507,
+    0.6569825550597461,
+    -2.8098465154569423
+   ]
+  },
+  {
+   "bufferView": 1973,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1974,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.6920000026822093,
+    0.5737275779247284,
+    -2.9845
+   ],
+   "max": [
+    2.781999997317791,
+    0.6830592778040818,
+    -2.822845239487173
+   ]
+  },
+  {
+   "bufferView": 1975,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1976,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.3649000028967857,
+    0.8991627764701843,
+    -2.9845
+   ],
+   "max": [
+    0.45909999710321425,
+    0.9719835780971964,
+    -2.8263662352743024
+   ]
+  },
+  {
+   "bufferView": 1977,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1978,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.6605000014305116,
+    0.9177033376693725,
+    -2.9845
+   ],
+   "max": [
+    2.8134999985694886,
+    1.0046719422181996,
+    -2.7649151541788317
+   ]
+  },
+  {
+   "bufferView": 1979,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1980,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.3660999986231327,
+    1.5603859415650367,
+    -2.9845
+   ],
+   "max": [
+    0.45790000137686726,
+    1.6194917639730155,
+    -2.7879294599588342
+   ]
+  },
+  {
+   "bufferView": 1981,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1982,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.40103112914413214,
+    1.227807334959507,
+    -2.9845
+   ],
+   "max": [
+    0.4229688708558678,
+    1.2690022082059227,
+    -2.808701389768136
+   ]
+  },
+  {
+   "bufferView": 1983,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1984,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    0.33550000143051145,
+    1.8815506237745285,
+    -2.9845
+   ],
+   "max": [
+    0.4884999985694885,
+    1.9162607309706616,
+    -2.785421382721855
+   ]
+  },
+  {
+   "bufferView": 1985,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1986,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.6898999984264376,
+    1.247115238904953,
+    -2.9845
+   ],
+   "max": [
+    2.7841000015735626,
+    1.2924695881521944,
+    -2.7793122307520584
+   ]
+  },
+  {
+   "bufferView": 1987,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 1988,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3",
+   "min": [
+    2.6883999998569488,
+    1.5639599762560155,
+    -2.9845
+   ],
+   "max": [
+    2.7856000001430514,
+    1.5875979433590424,
+    -2.7860721144750955
+   ]
+  },
+  {
+   "bufferView": 1989,
+   "componentType": 5126,
+   "count": 72,
+   "type": "VEC3"
   }
  ],
  "bufferViews": [
@@ -64798,6 +65128,186 @@
    "byteLength": 318,
    "byteOffset": 52299924,
    "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52300244,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52301108,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52301972,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52302836,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52303700,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52304564,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52305428,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52306292,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52307156,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52308020,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52308884,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52309748,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52310612,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52311476,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52312340,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52313204,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52314068,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52314932,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52315796,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52316660,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52317524,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52318388,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52319252,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52320116,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52320980,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52321844,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52322708,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52323572,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52324436,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52325300,
+   "byteLength": 864,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -65438,7 +65948,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 52300244
+   "byteLength": 52326164
   }
  ],
  "materials": [
@@ -75055,6 +75565,21 @@
      0.9607843160629272,
      1
     ]
+   }
+  },
+  {
+   "name": "Acryl helder",
+   "alphaMode": "BLEND",
+   "doubleSided": true,
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.92,
+     0.96,
+     1.0,
+     0.18
+    ],
+    "metallicFactor": 0,
+    "roughnessFactor": 0.05
    }
   }
  ],
@@ -97776,6 +98301,186 @@
      },
      "indices": 5048,
      "material": 655
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5049,
+      "NORMAL": 5050
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5051,
+      "NORMAL": 5052
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5053,
+      "NORMAL": 5054
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5055,
+      "NORMAL": 5056
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5057,
+      "NORMAL": 5058
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5059,
+      "NORMAL": 5060
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5061,
+      "NORMAL": 5062
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5063,
+      "NORMAL": 5064
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5065,
+      "NORMAL": 5066
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5067,
+      "NORMAL": 5068
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5069,
+      "NORMAL": 5070
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5071,
+      "NORMAL": 5072
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5073,
+      "NORMAL": 5074
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5075,
+      "NORMAL": 5076
+     },
+     "material": 656
+    }
+   ]
+  },
+  {
+   "name": "Controllerhouder",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5077,
+      "NORMAL": 5078
+     },
+     "material": 656
     }
    ]
   }
@@ -122527,7 +123232,22 @@
     4899,
     4900,
     4901,
-    4902
+    4902,
+    4903,
+    4904,
+    4905,
+    4906,
+    4907,
+    4908,
+    4909,
+    4910,
+    4911,
+    4912,
+    4913,
+    4914,
+    4915,
+    4916,
+    4917
    ]
   },
   {
@@ -166424,20 +167144,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.3210000018626453,
-    0.41476054631734227,
-    -2.9890000000000003,
+    0.34356319905662697,
+    -2.8213069284344785,
     1
    ],
    "extras": {
-    "omschrijving": "Atari CX40 joystick, aan de muur boven de console, op een onzichtbare wandhouder.2 cm tussenruimte. Model: \"Atari 2600 Joystick Controller\" door mrhoeivo, SketchUp 3D Warehouse",
+    "omschrijving": "Atari CX40 joystick, op een acryl houder boven de console.2 cm tussenruimte. Model: \"Atari 2600 Joystick Controller\" door mrhoeivo, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Atari 2600 Joystick Controller (model door mrhoeivo)",
@@ -166455,20 +167175,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.8280000074505806,
-    0.4102241573928477,
-    -2.9890000000000003,
+    0.31562780709625604,
+    -2.8369057912394866,
     1
    ],
    "extras": {
-    "omschrijving": "Mega Drive controller (3 knoppen), aan de muur boven de console, op een onzichtbare wandhouder. Model: \"sega genesis Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "omschrijving": "Mega Drive controller (3 knoppen), op een acryl houder boven de console. Model: \"sega genesis Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "sega genesis Controller (model door Modelfundgrube)",
@@ -166486,20 +167206,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.737,
-    0.421263449005232,
-    -2.9890000000000003,
+    0.33219454563786927,
+    -2.838653119373343,
     1
    ],
    "extras": {
-    "omschrijving": "NES controller, aan de muur boven de console, op een onzichtbare wandhouder.5 cm tussenruimte. Model: \"NES Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "omschrijving": "NES controller, op een acryl houder boven de console.5 cm tussenruimte. Model: \"NES Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "NES Controller (model door Modelfundgrube)",
@@ -166517,20 +167237,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.41199998509883873,
-    0.4169111628391823,
-    -2.9890000000000003,
+    0.3240793517802322,
+    -2.8233146478574054,
     1
    ],
    "extras": {
-    "omschrijving": "SNES controller (PAL), aan de muur boven de console, op een onzichtbare wandhouder.4 cm tussenruimte. Model: \"snes controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "omschrijving": "SNES controller (PAL), op een acryl houder boven de console.4 cm tussenruimte. Model: \"snes controller\" door Modelfundgrube, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "snes controller (model door Modelfundgrube)",
@@ -166548,20 +167268,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.828,
-    0.7216243019356833,
-    -2.9890000000000003,
+    0.6350574076599018,
+    -2.849072738367509,
     1
    ],
    "extras": {
-    "omschrijving": "Nintendo 64 controller, aan de muur boven de console, op een onzichtbare wandhouder.7 cm tussenruimte. Model: \"n64 controller\" door Jeffrey D., SketchUp 3D Warehouse",
+    "omschrijving": "Nintendo 64 controller, op een acryl houder boven de console.7 cm tussenruimte. Model: \"n64 controller\" door Jeffrey D., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "n64 controller (model door Jeffrey D.)",
@@ -166579,20 +167299,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.321,
-    0.7162808572170563,
-    -2.9890000000000003,
+    0.6222415538372179,
+    -2.8534033153784852,
     1
    ],
    "extras": {
-    "omschrijving": "PlayStation DualShock (grijs), aan de muur boven de console, op een onzichtbare wandhouder.3 cm tussenruimte. Model: \"Playstation 1 (Vray Ready)\" door Gabriel Coelho, SketchUp 3D Warehouse (DualShock 2-model, grijs gemaakt)",
+    "omschrijving": "PlayStation DualShock (grijs), op een acryl houder boven de console.3 cm tussenruimte. Model: \"Playstation 1 (Vray Ready)\" door Gabriel Coelho, SketchUp 3D Warehouse (DualShock 2-model, grijs gemaakt)",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Playstation 1 (Vray Ready) (model door Gabriel Coelho)",
@@ -166610,20 +167330,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.412,
-    0.7328267761909033,
-    -2.9890000000000003,
+    0.6382227984205981,
+    -2.8456245094568686,
     1
    ],
    "extras": {
-    "omschrijving": "Dreamcast controller, aan de muur boven de console, op een onzichtbare wandhouder.0 cm tussenruimte. Model: \"Sega Dreamcast mit Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "omschrijving": "Dreamcast controller, op een acryl houder boven de console.0 cm tussenruimte. Model: \"Sega Dreamcast mit Controller\" door Modelfundgrube, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Sega Dreamcast mit Controller (model door Modelfundgrube)",
@@ -166641,20 +167361,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.7369999925494195,
-    0.7426919091189003,
-    -2.9890000000000003,
+    0.6670437880427867,
+    -2.8535023617782613,
     1
    ],
    "extras": {
-    "omschrijving": "GameCube controller (indigo), aan de muur boven de console, op een onzichtbare wandhouder.1 cm tussenruimte. Model: \"Gamecube Controller\" door John H., SketchUp 3D Warehouse",
+    "omschrijving": "GameCube controller (indigo), op een acryl houder boven de console.1 cm tussenruimte. Model: \"Gamecube Controller\" door John H., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Gamecube Controller (model door John H.)",
@@ -166672,20 +167392,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.412,
-    1.0523280889168563,
-    -2.9890000000000003,
+    0.9588517615761358,
+    -2.8516423500428996,
     1
    ],
    "extras": {
-    "omschrijving": "DualShock 2, aan de muur boven de console, op een onzichtbare wandhouder.8 cm tussenruimte. Model: \"DualShock 2 Analog Controller\" door Brady B., SketchUp 3D Warehouse",
+    "omschrijving": "DualShock 2, op een acryl houder boven de console.8 cm tussenruimte. Model: \"DualShock 2 Analog Controller\" door Brady B., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "DualShock 2 Analog Controller (model door Brady B.)",
@@ -166703,20 +167423,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
-    2.3899999999999997,
-    1.1079057014413536,
-    -2.9890000000000003,
+    2.737,
+    0.9786627211302878,
+    -2.814220838401514,
     1
    ],
    "extras": {
-    "omschrijving": "Xbox controller (Duke), aan de muur naast de kolom (richting de tv), te hoog voor boven de console, op een onzichtbare wandhouder. Model: \"Xbox Original with a duke controller BH\" door BRENDAN H., SketchUp 3D Warehouse",
+    "omschrijving": "Xbox controller (Duke), op een acryl houder boven de console. Model: \"Xbox Original with a duke controller BH\" door BRENDAN H., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Xbox Original with a duke controller BH (model door BRENDAN H.)",
@@ -166734,20 +167454,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.4120000037252903,
-    1.7006586613586978,
-    -2.9890000000000003,
+    1.6065693433558224,
+    -2.8128148339526016,
     1
    ],
    "extras": {
-    "omschrijving": "Xbox 360 controller (wit), aan de muur boven de console, op een onzichtbare wandhouder.0 cm tussenruimte. Model: \"Xbox 360 Controller\" door Bas P., SketchUp 3D Warehouse",
+    "omschrijving": "Xbox 360 controller (wit), op een acryl houder boven de console.0 cm tussenruimte. Model: \"Xbox 360 Controller\" door Bas P., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Xbox 360 Controller (model door Bas P.)",
@@ -166765,20 +167485,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.4119999990686774,
-    1.3611347982792115,
-    -2.9890000000000003,
+    1.2503325615346514,
+    -2.8443112362788696,
     1
    ],
    "extras": {
-    "omschrijving": "Wii Remote, aan de muur boven de console, op een onzichtbare wandhouder.6 cm tussenruimte. Model: \"Wii Remote\" door NintenG0D, SketchUp 3D Warehouse",
+    "omschrijving": "Wii Remote, op een acryl houder boven de console.6 cm tussenruimte. Model: \"Wii Remote\" door NintenG0D, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Wii Remote (model door NintenG0D)",
@@ -166796,20 +167516,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     0.412,
-    2.007497924443927,
-    -2.9890000000000003,
+    1.8991360588345474,
+    -2.818148267501785,
     1
    ],
    "extras": {
-    "omschrijving": "Wii U GamePad, aan de muur boven de console, op een onzichtbare wandhouder.9 cm tussenruimte. Model: \"wii u controller\" door Modelfundgrube, SketchUp 3D Warehouse",
+    "omschrijving": "Wii U GamePad, op een acryl houder boven de console.9 cm tussenruimte. Model: \"wii u controller\" door Modelfundgrube, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "wii u controller (model door Modelfundgrube)",
@@ -166827,20 +167547,20 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.737,
-    1.37331774194094,
-    -2.9890000000000003,
+    1.280270954268891,
+    -2.8028470030122303,
     1
    ],
    "extras": {
-    "omschrijving": "DualShock 3, aan de muur boven de console, op een onzichtbare wandhouder.2 cm tussenruimte. Model: \"Controle de PS3 (Tamanho real)\" door Gabriel S., SketchUp 3D Warehouse",
+    "omschrijving": "DualShock 3, op een acryl houder boven de console.2 cm tussenruimte. Model: \"Controle de PS3 (Tamanho real)\" door Gabriel S., SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "Controle de PS3 (Tamanho real) (model door Gabriel S.)",
@@ -166858,26 +167578,131 @@
     0.0,
     0,
     0.0,
+    0.9659258262890683,
+    0.25881904510252074,
     0.0,
-    1.0,
-    0,
     0.0,
-    -1.0,
+    -0.25881904510252074,
+    0.9659258262890683,
     0.0,
-    0,
     2.737,
-    1.686230228238621,
-    -2.9890000000000003,
+    1.574898063258185,
+    -2.810542222212008,
     1
    ],
    "extras": {
-    "omschrijving": "DualShock 4, aan de muur boven de console, op een onzichtbare wandhouder.9 cm tussenruimte. Model: \"PS4 controller (Dualshock 4)\" door mahou, SketchUp 3D Warehouse",
+    "omschrijving": "DualShock 4, op een acryl houder boven de console.9 cm tussenruimte. Model: \"PS4 controller (Dualshock 4)\" door mahou, SketchUp 3D Warehouse",
     "product": {
      "winkel": "3D Warehouse",
      "naam": "PS4 controller (Dualshock 4) (model door mahou)",
      "artikel": "43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1",
      "url": "https://3dwarehouse.sketchup.com/model/43be7b2d-183e-4f9c-8ea6-3bc5ec58cde1"
     }
+   }
+  },
+  {
+   "name": "Controllerhouder Atari 2600",
+   "mesh": 1353,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Atari 2600, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Mega Drive + Mega CD",
+   "mesh": 1354,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Mega Drive + Mega CD, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder NES",
+   "mesh": 1355,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de NES, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder SNES",
+   "mesh": 1356,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de SNES, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Nintendo 64",
+   "mesh": 1357,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Nintendo 64, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder PlayStation",
+   "mesh": 1358,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Dreamcast",
+   "mesh": 1359,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Dreamcast, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder GameCube",
+   "mesh": 1360,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de GameCube, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder PlayStation 2",
+   "mesh": 1361,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 2, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Xbox",
+   "mesh": 1362,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Xbox, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Xbox 360",
+   "mesh": 1363,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Xbox 360, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Wii",
+   "mesh": 1364,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Wii, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder Wii U",
+   "mesh": 1365,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de Wii U, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder PlayStation 3",
+   "mesh": 1366,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 3, even schuin (15°)"
+   }
+  },
+  {
+   "name": "Controllerhouder PlayStation 4",
+   "mesh": 1367,
+   "extras": {
+    "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 12 mm boven de PlayStation 4, even schuin (15°)"
    }
   }
  ],
