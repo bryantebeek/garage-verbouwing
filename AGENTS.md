@@ -42,7 +42,8 @@
 
 ## Consoletrap (laag "Consoletrap", alternatief voor de kazen en de wandkast)
 
-- Eén doorlopend meubel over de hele tv-muur (x 0,068–3,093), vóór de plint (achterkant z −2,982), 84 cm diep, in de muurkleur (Skimming Stone).
-- Drie treden, elk zo diep als de diepste console erop, alle drie 15° schuin met randje: trede 1 voor (27 cm diep, voorkant 0,12 m), trede 2 (27 cm, voorkant 0,282 m), trede 3 achter (30 cm, voorkant 0,444 m); elke trede begint 9 cm boven de achterkant van de trede ervoor. Bovenste consoles tot ±0,59 m, onder de tv.
-- Midden een voetstuk van 70 cm breed over de volle diepte, 29 cm hoog: de Sony staat erop (0,29–0,79 m, scherm-midden ±0,58 m), zo ver mogelijk naar achteren: 3 cm van de muur voor stekkers (de taps toelopende achterkant komt maar tot ±0,69 m en past onder elke tv); van voren gezien 5,6 cm onder de 55 inch; de 65 inch (onderkant 0,784) en 75 inch (0,718) vallen er van voren gezien net achter.
-- Consoles 6 cm uit elkaar (4 cm van het Sony-vak), vanaf de Sony naar buiten; per trede links en rechts ongeveer even breed. Trede 1 (vlak): Mega Drive + Mega CD, NES, SNES links; Atari, PS1, N64 rechts. Trede 2: Dreamcast, PS2, Wii links; GameCube, Xbox rechts. Trede 3 (draadloos): Xbox 360, Wii U, Switch links; PS3, PS4 rechts.
+- Eén doorlopend meubel over de hele tv-muur (x 0,068–3,093), vóór de plint (achterkant z −2,982), ±60 cm diep, in de muurkleur (Skimming Stone).
+- Twee treden, beide 15° schuin met randje, elk zo diep als de diepste console erop + 3 cm: trede 1 voor (27,9 cm, voorkant 0,12 m), trede 2 achter (32,5 cm, voorkant 0,285 m; begint 9 cm boven de achterkant van trede 1). Hoogste console ±0,62 m, onder de tv.
+- Consoles die rechtop horen (PS2, Xbox 360, PS4, Wii, Wii U) staan rechtop op hun zijkant; de Switch in zijn dock. Zo passen alle 16 op twee treden met 6 cm ertussen (4 cm van de nis).
+- Midden een nis van 70 cm met een voetstuk van 29 cm hoog dat maar tot 2 cm vóór de Sony loopt (nis ±7 cm terug ten opzichte van de trap). De Sony staat zo ver mogelijk naar achteren: 3 cm van de muur voor stekkers (0,29–0,79 m; de taps toelopende achterkant komt tot ±0,69 m en past onder elke tv).
+- Van de Sony naar buiten. Trede 1 (kortste kabels): Mega Drive + Mega CD, NES, SNES links; Atari, PS1, N64 rechts. Trede 2: Dreamcast, PS2, Xbox, Xbox 360, Wii links; GameCube, PS3, PS4, Wii U, Switch rechts (bedraad naar binnen, draadloos naar buiten).
