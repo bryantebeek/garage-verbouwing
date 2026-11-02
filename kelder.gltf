@@ -44872,6 +44872,30 @@
    "count": 288,
    "bufferView": 1503,
    "byteOffset": 0
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 96,
+   "bufferView": 1504,
+   "byteOffset": 0,
+   "max": [
+    0.052000001072883606,
+    2.378499984741211,
+    0.010499999858438969
+   ],
+   "min": [
+    0.035999998450279236,
+    2.3575000762939453,
+    -0.010499999858438969
+   ]
+  },
+  {
+   "type": "VEC3",
+   "componentType": 5126,
+   "count": 96,
+   "bufferView": 1505,
+   "byteOffset": 0
   }
  ],
  "bufferViews": [
@@ -55283,6 +55307,18 @@
    "byteOffset": 37562140,
    "byteLength": 3456,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37565596,
+   "byteLength": 1152,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37566748,
+   "byteLength": 1152,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -55663,7 +55699,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 37565596
+   "byteLength": 37567900
   }
  ],
  "materials": [
@@ -80763,6 +80799,18 @@
      "material": 58
     }
    ]
+  },
+  {
+   "name": "CH60R tunnelspruit",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 4357,
+      "NORMAL": 4358
+     },
+     "material": 61
+    }
+   ]
   }
  ],
  "nodes": [
@@ -91860,7 +91908,8 @@
     2491,
     2493,
     2547,
-    2548
+    2548,
+    2568
    ]
   },
   {
@@ -115770,6 +115819,194 @@
     0,
     -0.031000000424683094
    ]
+  },
+  {
+   "name": "IN1",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.0,
+    0,
+    1.0
+   ],
+   "extras": {
+    "omschrijving": "Invoer 1 van CD1 (tunnelspruit 16/19 mm), 0° met de klok mee vanaf de voorgevel, gezien van onderen; richting voorgevel (+x)"
+   }
+  },
+  {
+   "name": "IN2",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.25881904510252074,
+    0,
+    0.9659258262890683
+   ],
+   "extras": {
+    "omschrijving": "Invoer 2 van CD1 (tunnelspruit 16/19 mm), 30° met de klok mee vanaf de voorgevel, gezien van onderen; richting voorgevel (+x)"
+   }
+  },
+  {
+   "name": "IN3",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.49999999999999994,
+    0,
+    0.8660254037844387
+   ],
+   "extras": {
+    "omschrijving": "Invoer 3 van CD1 (tunnelspruit 16/19 mm), 60° met de klok mee vanaf de voorgevel, gezien van onderen; richting tv-muur (−z)"
+   }
+  },
+  {
+   "name": "IN4",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.7071067811865475,
+    0,
+    0.7071067811865476
+   ],
+   "extras": {
+    "omschrijving": "Invoer 4 van CD1 (tunnelspruit 16/19 mm), 90° met de klok mee vanaf de voorgevel, gezien van onderen; richting tv-muur (−z)"
+   }
+  },
+  {
+   "name": "IN5",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.8660254037844386,
+    0,
+    0.5000000000000001
+   ],
+   "extras": {
+    "omschrijving": "Invoer 5 van CD1 (tunnelspruit 16/19 mm), 120° met de klok mee vanaf de voorgevel, gezien van onderen; richting tv-muur (−z)"
+   }
+  },
+  {
+   "name": "IN6",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.9659258262890683,
+    0,
+    0.25881904510252074
+   ],
+   "extras": {
+    "omschrijving": "Invoer 6 van CD1 (tunnelspruit 16/19 mm), 150° met de klok mee vanaf de voorgevel, gezien van onderen; richting boekenkast (−x)"
+   }
+  },
+  {
+   "name": "IN7",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    1.0,
+    0,
+    6.123233995736766e-17
+   ],
+   "extras": {
+    "omschrijving": "Invoer 7 van CD1 (tunnelspruit 16/19 mm), 180° met de klok mee vanaf de voorgevel, gezien van onderen; richting boekenkast (−x)"
+   }
+  },
+  {
+   "name": "IN8",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.9659258262890683,
+    0,
+    -0.25881904510252085
+   ],
+   "extras": {
+    "omschrijving": "Invoer 8 van CD1 (tunnelspruit 16/19 mm), 210° met de klok mee vanaf de voorgevel, gezien van onderen; richting boekenkast (−x)"
+   }
+  },
+  {
+   "name": "IN9",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.8660254037844387,
+    0,
+    -0.4999999999999998
+   ],
+   "extras": {
+    "omschrijving": "Invoer 9 van CD1 (tunnelspruit 16/19 mm), 240° met de klok mee vanaf de voorgevel, gezien van onderen; richting lange muur (+z)"
+   }
+  },
+  {
+   "name": "IN10",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.7071067811865476,
+    0,
+    -0.7071067811865475
+   ],
+   "extras": {
+    "omschrijving": "Invoer 10 van CD1 (tunnelspruit 16/19 mm), 270° met de klok mee vanaf de voorgevel, gezien van onderen; richting lange muur (+z)"
+   }
+  },
+  {
+   "name": "IN11",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.49999999999999994,
+    0,
+    -0.8660254037844387
+   ],
+   "extras": {
+    "omschrijving": "Invoer 11 van CD1 (tunnelspruit 16/19 mm), 300° met de klok mee vanaf de voorgevel, gezien van onderen; richting lange muur (+z)"
+   }
+  },
+  {
+   "name": "IN12",
+   "mesh": 1314,
+   "rotation": [
+    0,
+    0.258819045102521,
+    0,
+    -0.9659258262890682
+   ],
+   "extras": {
+    "omschrijving": "Invoer 12 van CD1 (tunnelspruit 16/19 mm), 330° met de klok mee vanaf de voorgevel, gezien van onderen; richting voorgevel (+x)"
+   }
+  },
+  {
+   "name": "CD1",
+   "mesh": 1281,
+   "translation": [
+    4.247,
+    0,
+    -1.52
+   ],
+   "children": [
+    2556,
+    2557,
+    2558,
+    2559,
+    2560,
+    2561,
+    2562,
+    2563,
+    2564,
+    2565,
+    2566,
+    2567
+   ],
+   "extras": {
+    "omschrijving": "Centraaldoos CD1 tussen P11 en P13, ter hoogte van SP10. 12 invoeren IN1-IN12: IN1 richting de voorgevel, dan met de klok mee gezien van onderen (IN4 tv-muur, IN7 boekenkast, IN10 lange muur). Geen achterinvoer.",
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "Attema centraaldoos plafond rond 16/19 mm grijs CH60R (Ø 76 mm, 62 mm diep, 12 invoeren)",
+     "artikel": "401173795",
+     "url": "https://www.elektramat.nl/attema-centraaldoos-plafond-rond-16-19mm-grijs-ch60r"
+    }
+   }
   }
  ],
  "scenes": [

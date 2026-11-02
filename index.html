@@ -973,6 +973,7 @@ function behindSomething(label, at, dist) {
   const hit = sightRay.intersectObjects(layers, true).find(h => shown(h.object));
   if (!hit) return false;
   for (let o = hit.object; o; o = o.parent) if (o === label.parent) return false; // its own surface
+  for (let o = label.parent.parent; o; o = o.parent) if (o === hit.object) return false; // the part it belongs to (e.g. a box with numbered inlets)
   return true;
 }
 renderer.setAnimationLoop(() => {
