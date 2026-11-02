@@ -24,7 +24,7 @@
   - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers).
 - Indeling per kant van de Sony: 2 × 2 kazen naast de Sony (onderkant 18 en 50 cm) en een hoge kolom erboven naast de LG (82, 114, 146 en 178 cm); rijen om de 32 cm.
   - Elke kolom: kazen met hun midden onder elkaar (niet op een zijkant uitgelijnd).
-  - Binnenste kolommen: de breedste kaas links en rechts even ver van de verhoging (60 mm); midden links x 0,9185, rechts x 2,1675.
+  - Binnenste kolommen: links midden tussen de verhoging en de buitenste kolom (Mega Drive + Mega CD 8 cm van beide), rechts gespiegeld; midden links x 0,8985, rechts x 2,2505.
   - Buitenste kolom naast de Sony en de hoge kolom erboven: één kolom, gespiegeld rond het midden van de muur (x 0,412 en 2,737), de breedste kaas minstens 10 cm naast de binnenste kolom.
   - Alles onder de LG blijft onder de onderkant van de LG (55 inch: 84,6 cm).
   - Indeling op lengte van de controllerkabel: de kortste kabels het dichtst bij de speler (binnenste kolommen), dan de buitenste kolommen, de langste bedrade in de onderste kaas van de hoge kolom, draadloos bovenin. Kabels (±): Atari 2600 1,2–1,5 m (aansluiting achter), Mega Drive 1,2–1,8 m, PS1 1,8–2,0, N64 1,9, GameCube 2,0, Dreamcast 2,0, NES 2,3, SNES 2,3, PS2 2,4–2,5, Xbox 2,7–3,0 m; Xbox 360 (aangenomen), Wii (Wii Remote), PS3, Wii U, PS4 en Switch draadloos.
