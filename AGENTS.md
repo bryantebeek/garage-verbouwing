@@ -48,6 +48,8 @@
 
 - Puckspots (`Puck links|rechts 1–6`, in de laag Wandkast): 12 Cefrank LED-puckspots (2 sets van 6, H9-108W, Amazon B075L2W1MP, gekocht), opbouw onder de plank boven elke console in de zijkolommen (midden x 0,3374 en 2,8116, 10 cm achter de voorkant, z −2,764; onderkant plank 0,435 / 0,709 / 0,982 / 1,255 / 1,529 / 1,802). 8 mm dik, Ø 70 mm aangenomen (nog nameten), 2 W / 200 lm, 6000K. De 4 vakken naast de Sony hebben er (nog) geen. `render.py` maakt van elke `Puck …` een lamp (PUCK_WATT).
 
+- Halo 3 helm (`Halo 3 helm`, in de laag Wandkast): Master Chief Mark VI, model "Master Chief Helmet -PHOTO TEXTURED-" (3D Warehouse 9668f0abd848e943b20f6e48f6a30cbf), op 32 cm hoog geschaald (draagbare replica met nekstuk, aangenomen), bovenop de linkerzijkolom (1,82 m), vizier 45° naar de kamer (naar +x/+z), 1 cm van de muur; textures `textures/halo-3-helm-*.jpg`.
+
 ## Wandkast rondom (laag "Wandkast rondom", aanvulling op de Wandkast)
 
 - Losse laag, standaard uit, alleen samen met de Wandkast: alleen een plank als brug over de tv, 40 mm dik (op verzoek iets dikker dan de staanders), tussen de zijkolommen (x 0,6188–2,5302), bovenkant gelijk met de zijkolommen (1,78–1,82). Geen vakken erboven en geen kolommen naast de tv (op verzoek weg). 33 cm diep, in de muurkleur.

@@ -58039,6 +58039,122 @@
    "componentType": 5126,
    "count": 96,
    "type": "VEC3"
+  },
+  {
+   "bufferView": 2317,
+   "componentType": 5126,
+   "count": 3434,
+   "max": [
+    0.9999430179595947,
+    1.0,
+    0.9999860525131226
+   ],
+   "min": [
+    -0.9962183833122253,
+    -1.0,
+    -0.9999617338180542
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2318,
+   "componentType": 5126,
+   "count": 3434,
+   "max": [
+    30.127777099609375,
+    20.635482788085938,
+    26.204519271850586
+   ],
+   "min": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2319,
+   "componentType": 5126,
+   "count": 3434,
+   "max": [
+    0.696306586265564,
+    0.8082444667816162
+   ],
+   "min": [
+    0.1732935607433319,
+    0.1556883454322815
+   ],
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 2320,
+   "componentType": 5125,
+   "count": 3546,
+   "max": [
+    3433.0
+   ],
+   "min": [
+    0.0
+   ],
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2321,
+   "componentType": 5126,
+   "count": 706,
+   "max": [
+    0.9993166327476501,
+    0.984656035900116,
+    0.4280965328216553
+   ],
+   "min": [
+    -0.7579933404922485,
+    -0.9846283793449402,
+    -0.7014334201812744
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2322,
+   "componentType": 5126,
+   "count": 706,
+   "max": [
+    26.213233947753906,
+    18.21152687072754,
+    18.791351318359375
+   ],
+   "min": [
+    17.222291946411133,
+    2.4275825023651123,
+    10.584540367126465
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2323,
+   "componentType": 5126,
+   "count": 706,
+   "max": [
+    0.6270179152488708,
+    0.18569356203079224
+   ],
+   "min": [
+    0.4586782455444336,
+    0.09944808483123779
+   ],
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 2324,
+   "componentType": 5125,
+   "count": 1074,
+   "max": [
+    705.0
+   ],
+   "min": [
+    0.0
+   ],
+   "type": "SCALAR"
   }
  ],
  "bufferViews": [
@@ -73390,6 +73506,60 @@
    "byteOffset": 41923792,
    "byteLength": 1152,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 41208,
+   "byteOffset": 41924944,
+   "byteStride": 12,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 41208,
+   "byteOffset": 41966152,
+   "byteStride": 12,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 27472,
+   "byteOffset": 42007360,
+   "byteStride": 8,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 14184,
+   "target": 34963,
+   "byteOffset": 42034832
+  },
+  {
+   "buffer": 0,
+   "byteLength": 8472,
+   "byteOffset": 42049016,
+   "byteStride": 12,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 8472,
+   "byteOffset": 42057488,
+   "byteStride": 12,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 5648,
+   "byteOffset": 42065960,
+   "byteStride": 8,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 4296,
+   "byteOffset": 42071608,
+   "target": 34963
   }
  ],
  "samplers": [
@@ -73612,6 +73782,12 @@
   },
   {
    "source": 56
+  },
+  {
+   "source": 57
+  },
+  {
+   "source": 58
   }
  ],
  "images": [
@@ -73863,12 +74039,20 @@
   {
    "mimeType": "image/jpeg",
    "uri": "textures/xbox-0.jpg"
+  },
+  {
+   "mimeType": "image/jpeg",
+   "uri": "textures/halo-3-helm-0.jpg"
+  },
+  {
+   "mimeType": "image/jpeg",
+   "uri": "textures/halo-3-helm-1.jpg"
   }
  ],
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41924944
+   "byteLength": 42075904
   }
  ],
  "materials": [
@@ -81947,6 +82131,28 @@
     ],
     "roughnessFactor": 0.4,
     "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Halo 3 helm 0",
+   "doubleSided": true,
+   "pbrMetallicRoughness": {
+    "baseColorTexture": {
+     "index": 57
+    },
+    "metallicFactor": 0.3,
+    "roughnessFactor": 0.45
+   }
+  },
+  {
+   "name": "Halo 3 helm 1",
+   "doubleSided": true,
+   "pbrMetallicRoughness": {
+    "baseColorTexture": {
+     "index": 58
+    },
+    "metallicFactor": 0.3,
+    "roughnessFactor": 0.45
    }
   }
  ],
@@ -108295,6 +108501,36 @@
       "NORMAL": 5475
      },
      "material": 269
+    }
+   ]
+  },
+  {
+   "name": "Halo 3 helm",
+   "primitives": [
+    {
+     "attributes": {
+      "NORMAL": 5476,
+      "POSITION": 5477,
+      "TEXCOORD_0": 5478
+     },
+     "material": 530,
+     "indices": 5479,
+     "mode": 4
+    }
+   ]
+  },
+  {
+   "name": "Halo 3 helm",
+   "primitives": [
+    {
+     "attributes": {
+      "NORMAL": 5480,
+      "POSITION": 5481,
+      "TEXCOORD_0": 5482
+     },
+     "material": 531,
+     "indices": 5483,
+     "mode": 4
     }
    ]
   }
@@ -135897,7 +136133,8 @@
     4864,
     4865,
     4866,
-    4867
+    4867,
+    4870
    ]
   },
   {
@@ -176333,6 +176570,48 @@
      "naam": "Cefrank LED Puck Lights 6-pack, dimbaar, 12V, aluminium",
      "artikel": "B075L2W1MP",
      "url": "https://www.amazon.nl/-/en/dp/B075L2W1MP"
+    }
+   }
+  },
+  {
+   "name": "Halo 3 helm onderdeel",
+   "mesh": 1722
+  },
+  {
+   "name": "Halo 3 helm onderdeel",
+   "mesh": 1723
+  },
+  {
+   "name": "Halo 3 helm",
+   "children": [
+    4868,
+    4869
+   ],
+   "matrix": [
+    0.008634929251377614,
+    0.0,
+    0.008634929251377613,
+    0.0,
+    0.008634929251377613,
+    5.482607688729927e-13,
+    -0.008634929251377614,
+    0.0,
+    -3.876789075286435e-13,
+    0.012211634057430377,
+    3.8767890752864356e-13,
+    0.0,
+    0.11443349496035393,
+    1.8199999999940841,
+    -2.8625323151086493,
+    1.0
+   ],
+   "extras": {
+    "omschrijving": "Halo 3 Master Chief helm (Mark VI), draagbare replica, ±32 cm hoog met nekstuk (aangenomen), linksboven op de Wandkast, 45° gedraaid naar de kamer. Model: \"Master Chief Helmet -PHOTO TEXTURED-\" door Will A., SketchUp 3D Warehouse",
+    "product": {
+     "winkel": "3D Warehouse",
+     "naam": "Master Chief Helmet -PHOTO TEXTURED- (model door Will A.)",
+     "artikel": "9668f0abd848e943b20f6e48f6a30cbf",
+     "url": "https://3dwarehouse.sketchup.com/model/9668f0abd848e943b20f6e48f6a30cbf"
     }
    }
   }
