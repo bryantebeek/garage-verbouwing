@@ -77,6 +77,7 @@
   }
   .product:hover { background: var(--sb-raised); border-color: rgba(255, 159, 67, .45); }
   .product[hidden] { display: none; }
+  .product .fav { flex: none; width: 32px; height: 32px; padding: 6px; box-sizing: border-box; border-radius: 8px; background: #fff; object-fit: contain; }
   .product .p-text { flex: 1; min-width: 0; }
   .product .shop { display: block; font-size: 11px; font-weight: 650; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
   .product .p-name { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.4; }
@@ -341,7 +342,9 @@ function showInfo(d) {
   if (p) {
     link.href = p.url;
     const art = p.artikel && p.artikel !== '–' ? `<span class="art">Art. ${esc(p.artikel)}</span>` : '';
-    link.innerHTML = `<span class="p-text"><span class="shop">${esc(p.winkel ?? 'Bouwmaat')}</span><span class="p-name">${esc(p.naam)}</span>${art}</span>${ICON_EXTERNAL}`;
+    // Favicons are stored in favicons/<host>.png (fetched once, so the viewer calls no third party); a host without one shows none.
+    const fav = `<img class="fav" alt="" src="favicons/${esc(new URL(p.url).hostname)}.png" onerror="this.remove()">`;
+    link.innerHTML = `${fav}<span class="p-text"><span class="shop">${esc(p.winkel ?? 'Bouwmaat')}</span><span class="p-name">${esc(p.naam)}</span>${art}</span>${ICON_EXTERNAL}`;
   }
 }
 const renderer = new THREE.WebGLRenderer({ antialias: true });
