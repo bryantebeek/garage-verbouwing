@@ -57936,7 +57936,7 @@
    "byteOffset": 0,
    "max": [
     3.072000026702881,
-    0.2590000033378601,
+    0.30900001525878906,
     -2.441999912261963
    ],
    "min": [
@@ -57951,6 +57951,28 @@
    "count": 108,
    "bufferView": 2308,
    "byteOffset": 0
+  },
+  {
+   "bufferView": 2309,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    -0.08,
+    -0.006,
+    0
+   ],
+   "max": [
+    0.08,
+    0.006,
+    0.036
+   ]
+  },
+  {
+   "bufferView": 2310,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
   }
  ],
  "bufferViews": [
@@ -73254,6 +73276,18 @@
    "byteOffset": 41908672,
    "byteLength": 1296,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41909968,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41911264,
+   "byteLength": 1296,
+   "target": 34962
   }
  ],
  "samplers": [
@@ -73732,7 +73766,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 41909968
+   "byteLength": 41912560
   }
  ],
  "materials": [
@@ -108118,6 +108152,18 @@
      "material": 401
     }
    ]
+  },
+  {
+   "name": "Wandkast greep",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5468,
+      "NORMAL": 5469
+     },
+     "material": 71
+    }
+   ]
   }
  ],
  "nodes": [
@@ -135682,7 +135728,13 @@
     4758,
     4762,
     4766,
-    4840
+    4840,
+    4841,
+    4842,
+    4843,
+    4844,
+    4845,
+    4846
    ]
   },
   {
@@ -165807,7 +165859,7 @@
     1.0,
     0.0,
     1.5805,
-    0.28,
+    0.33,
     -2.4669999856948857,
     1.0
    ]
@@ -165816,7 +165868,7 @@
    "name": "Wandkast lades",
    "mesh": 1718,
    "extras": {
-    "omschrijving": "3 greeploze rolladen op wieltjes (rijden naar voren uit), in de kastkleur: links en rechts 14 cm hoog, onder de Sony 24 cm hoog en 54 cm diep"
+    "omschrijving": "3 rolladen op wieltjes (rijden naar voren uit), in de kastkleur, elk met twee zwarte grepen: links en rechts 14 cm hoog, onder de Sony 29 cm hoog en 54 cm diep"
    }
   },
   {
@@ -175684,6 +175736,78 @@
     -2.63318525167884,
     1.0
    ]
+  },
+  {
+   "name": "Greep lade links (links)",
+   "mesh": 1719,
+   "translation": [
+    0.3629,
+    0.0905,
+    -2.652
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
+  },
+  {
+   "name": "Greep lade links (rechts)",
+   "mesh": 1719,
+   "translation": [
+    0.9106,
+    0.0905,
+    -2.652
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
+  },
+  {
+   "name": "Greep lade onder de Sony (links)",
+   "mesh": 1719,
+   "translation": [
+    1.3945,
+    0.1655,
+    -2.442
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
+  },
+  {
+   "name": "Greep lade onder de Sony (rechts)",
+   "mesh": 1719,
+   "translation": [
+    1.7665,
+    0.1655,
+    -2.442
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
+  },
+  {
+   "name": "Greep lade rechts (links)",
+   "mesh": 1719,
+   "translation": [
+    2.2504,
+    0.0905,
+    -2.652
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
+  },
+  {
+   "name": "Greep lade rechts (rechts)",
+   "mesh": 1719,
+   "translation": [
+    2.7981,
+    0.0905,
+    -2.652
+   ],
+   "extras": {
+    "omschrijving": "Greep zwart mat, 160 mm lang (hart-op-hart 128 mm), 36 mm uitstekend; twee per rollade"
+   }
   }
  ],
  "scenes": [
