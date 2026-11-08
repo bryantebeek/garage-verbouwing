@@ -546,10 +546,10 @@ gltf.scene.traverse(o => { const w = o.userData.wissel; if (w) variants.set(w, [
 const opened = new Set(saved?.opened ?? []);
 const applyVariant = name => { for (const o of variants.get(name)) o.visible = (o.userData.stand === 'open') === opened.has(name); };
 variants.forEach((_, name) => applyVariant(name));
-// extras.zonder (a layer name): only shown while that layer is off, e.g. the plint behind the Wandkast.
+// extras.zonder (a layer name, or a list): only shown while those layers are off, e.g. the plint behind the Wandkast.
 const withouts = [];
 gltf.scene.traverse(o => { if (o.userData.zonder) withouts.push(o); });
-const applyWithouts = () => { for (const o of withouts) o.visible = !layers.find(l => displayName(l) === o.userData.zonder)?.visible; };
+const applyWithouts = () => { for (const o of withouts) o.visible = ![o.userData.zonder].flat().some(z => layers.find(l => displayName(l) === z)?.visible); };
 applyWithouts();
 if (saved) { camera.position.fromArray(saved.pos); camera.quaternion.fromArray(saved.quat); }
 addEventListener('beforeunload', () => sessionStorage.setItem('kelder', JSON.stringify({

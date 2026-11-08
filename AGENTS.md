@@ -11,7 +11,7 @@
 - Lagen zijn de top-level nodes; `extras.visible: false` = standaard uit. Een nieuwe laag ook in `GROUPS` in `index.html` zetten, anders komt hij onder "Overig".
 - Namen met nummer krijgen een label: S staander, V/B onder-/bovenregel, P plafondbalk, L plafondlat, K klos, W wandcontactdoos (met "Wn inbouwdozen", "Wn draden" en "Leiding n"), SP inbouwspot, CD centraaldoos, PL plint, SW stucwerk, VF verf. Kies voor iets nieuws een vrij voorvoegsel (L en SP zijn bezet).
 - Inspector: `extras.omschrijving` en `extras.product` (`winkel`, `naam`, `artikel`, `url`). Favicons staan in `favicons/<host>.png`, één keer ophalen.
-- `extras.zonder` (een laagnaam): het object is alleen zichtbaar zolang die laag uit staat (viewer en `render.py`), bijv. de plint achter de Wandkast (PL3, PL12).
+- `extras.zonder` (een laagnaam of een lijst laagnamen): het object is alleen zichtbaar zolang die lagen uit staan (viewer en `render.py`), bijv. de plint achter de Wandkast en de akoestische panelen (PL3, PL12: `["Wandkast", "Consoles aan de muur"]`).
 - Varianten (bijv. de slaapbank): beide objecten krijgen `extras.wissel` (label van de schakelaar) en `extras.stand` `dicht` of `open`; de viewer maakt er een schakelaar onder Weergave van; `render.py` toont `dicht`, tenzij `--open <label>` (komma's voor meer).
 - Inbouwdozen: de buiktuit (uitgang naar de leiding) midden op de doos; de leiding sluit daar precies op aan. Een doos zo hoog mogelijk = buiktuit tegen de onderkant van de bovenregel.
 - Bij verwijderen ook de hele subboom weghalen (geen losse knooppunten achterlaten) en node-indexen in `children` en `scenes` omnummeren.
@@ -19,12 +19,17 @@
 ## Tv-muur (laag "Consoles aan de muur")
 
 - Laag "Tv" (eigen groep in de zijbalk, met een keuzelijst "Formaat" zoals de beamer-animatie): drie objecten met `extras.tvmaat`, er is er steeds één zichtbaar; de keuze blijft bewaard (localStorage) en het zwarte vlak in de beamerprojectie volgt het gekozen formaat. 55 inch = `TV` (LG OLED CS, OLED55CS6LA, 122,8 × 70,8 × 4,7 cm, mijn eigen tv), 65 inch (OLED65CS6LA, 144,9 × 83,2 cm), 75 inch (75QNED82A6B, 167,7 × 96,5 cm; een LG OLED bestaat niet in 75 inch). Midden op de tv-muur, het midden van het scherm op 1,24 m (ooghoogte van iemand van 1,80 m op de GRUNNARP is ±1,20 m; op verzoek 4 cm hoger). Dat is leidend; kasten en de Sony passen zich aan de tv aan, niet andersom. Beamer en W8 op dezelfde middellijn. `render.py` toont de 55 inch.
-- Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 30 cm, vóór de plint (Sony 0,31–0,81 m); ±8 cm tussen de Sony en de LG (55 inch), de 65 inch past net, de 75 inch zakt op de Sony.
+- Sony KV-X2501D (beeldbuis) midden onder de LG op een walnoten verhoging van 70 × 50 × 30 cm, vóór de akoestische panelen (achterkant z −2,973; Sony 0,31–0,81 m); ±8 cm tussen de Sony en de LG (55 inch), de 65 inch past net, de 75 inch zakt op de Sony.
+- **Akoestische panelen** (`Akoestische panelen tv-muur` en `… zijmuur`, in deze laag): WoodUpp Akupanel Natural Wood, Classic Oak (echt eikenfineer), Black Felt, 240 × 60 cm, op 2,31 m ingekort, van de vloer (0,01) tot 5 mm onder het plafond; geen plint erachter (PL2, PL3, PL12 `zonder`). 21 mm dik: vilt 9 mm, lamellen 27 × 12 mm, tussenruimte 13 mm (aangenomen, nameten). Model: per muur één vlak vilt plus losse lamellen in 3 eikentinten (`Eiken naturel 1–3`, om en om), `Vilt zwart`.
+  - Tv-muur: x 0,056–3,093, vilt vanaf z −2,994, voorkant lamellen z −2,973; lamellen symmetrisch rond het midden (x 1,5745 valt midden in een tussenruimte), 76 lamellen. Loopt door tot in de hoek links.
+  - Zijmuur links (x 0,056, voorkant lamellen x 0,077): van de voorkant van de tv-muurpanelen (z −2,973) tot de muur tegenover de tv (z −0,0605); lamellen gerekend vanaf die muur, de laatste lamel dekt het eind van PL1. 73 lamellen.
+  - Alles op de tv-muur staat 21 mm naar voren (tegen de lamellen): kazen, consoles, controllers en houders; de Sony-verhoging en de Sony 9 mm (stonden al vóór de plint); de tv's in de laag Tv ook (in elke variant: zo hangt hij ook bij de Wandkast 21 mm van de muur, als op een vlakke beugel). W3 (hoog op de tv-muur) heeft `zonder: Consoles aan de muur`; een kopie 21 mm naar voren (op de lamellen, inbouwdozen met verlengring) zit in deze laag.
+  - Nodig: tv-muur 3,04 m (5 panelen + 1 lamel), zijmuur 2,91 m (5 panelen, het restant geeft de lamel): 10 panelen, 11 bestellen.
 - **Kazen** zijn de schuine walnoten wandplankjes voor de consoles (`Kaas <console>` in het model):
   - Alleen de console, geen spellen.
   - Breedte: 10 mm + console + 10 mm.
   - Diepte per kaas: ±30 mm vrij achter de console (op de vloer van de kaas gemeten); elke kaas is dus zo diep als de console nodig heeft.
-  - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers).
+  - Schuin vlak 15° (bovenkant van de console naar de kamer), 2 cm hoog aan de voorkant, randje van 2 cm hoog en 15 mm dik; onzichtbaar bevestigd (blinde plankdragers, door een lamel heen in het raamwerk/OSB); achterkant tegen de lamellen (z −2,973).
 - Indeling per kant van de Sony: 2 × 2 kazen naast de Sony (onderkant 18 en 50 cm) en een hoge kolom erboven naast de LG (82, 114, 146 en 178 cm); rijen om de 32 cm.
   - Elke kolom: kazen met hun midden onder elkaar (niet op een zijkant uitgelijnd).
   - Binnenste kolommen: zo dicht mogelijk bij de buitenste kolom. Alleen de kaas in dezelfde rij telt (de PS2 hangt erboven): links 6 cm tussen Mega Drive + Mega CD en SNES, rechts gespiegeld (Atari 9,6 cm van de NES); midden links x 0,828, rechts x 2,321.

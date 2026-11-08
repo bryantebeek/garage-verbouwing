@@ -52337,6 +52337,230 @@
    "componentType": 5126,
    "count": 108,
    "type": "VEC3"
+  },
+  {
+   "bufferView": 2020,
+   "componentType": 5126,
+   "count": 24,
+   "type": "VEC3",
+   "min": [
+    0.056,
+    0.01,
+    -2.994
+   ],
+   "max": [
+    3.093,
+    2.315,
+    -2.9850000000000003
+   ]
+  },
+  {
+   "bufferView": 2021,
+   "componentType": 5126,
+   "count": 24,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2022,
+   "componentType": 5123,
+   "count": 36,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2023,
+   "componentType": 5126,
+   "count": 624,
+   "type": "VEC3",
+   "min": [
+    0.06099999999999994,
+    0.01,
+    -2.9850000000000003
+   ],
+   "max": [
+    3.088,
+    2.315,
+    -2.9730000000000003
+   ]
+  },
+  {
+   "bufferView": 2024,
+   "componentType": 5126,
+   "count": 624,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2025,
+   "componentType": 5123,
+   "count": 936,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2026,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3",
+   "min": [
+    0.10099999999999998,
+    0.01,
+    -2.9850000000000003
+   ],
+   "max": [
+    3.008,
+    2.315,
+    -2.9730000000000003
+   ]
+  },
+  {
+   "bufferView": 2027,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2028,
+   "componentType": 5123,
+   "count": 900,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2029,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3",
+   "min": [
+    0.14100000000000001,
+    0.01,
+    -2.9850000000000003
+   ],
+   "max": [
+    3.048,
+    2.315,
+    -2.9730000000000003
+   ]
+  },
+  {
+   "bufferView": 2030,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2031,
+   "componentType": 5123,
+   "count": 900,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2032,
+   "componentType": 5126,
+   "count": 24,
+   "type": "VEC3",
+   "min": [
+    0.056,
+    0.01,
+    -2.9730000000000003
+   ],
+   "max": [
+    0.065,
+    2.315,
+    -0.0605
+   ]
+  },
+  {
+   "bufferView": 2033,
+   "componentType": 5126,
+   "count": 24,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2034,
+   "componentType": 5123,
+   "count": 36,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2035,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3",
+   "min": [
+    0.065,
+    0.01,
+    -2.9675
+   ],
+   "max": [
+    0.077,
+    2.315,
+    -0.0605
+   ]
+  },
+  {
+   "bufferView": 2036,
+   "componentType": 5126,
+   "count": 600,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2037,
+   "componentType": 5123,
+   "count": 900,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2038,
+   "componentType": 5126,
+   "count": 576,
+   "type": "VEC3",
+   "min": [
+    0.065,
+    0.01,
+    -2.8875
+   ],
+   "max": [
+    0.077,
+    2.315,
+    -0.1005
+   ]
+  },
+  {
+   "bufferView": 2039,
+   "componentType": 5126,
+   "count": 576,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2040,
+   "componentType": 5123,
+   "count": 864,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2041,
+   "componentType": 5126,
+   "count": 576,
+   "type": "VEC3",
+   "min": [
+    0.065,
+    0.01,
+    -2.9274999999999998
+   ],
+   "max": [
+    0.077,
+    2.315,
+    -0.1405
+   ]
+  },
+  {
+   "bufferView": 2042,
+   "componentType": 5126,
+   "count": 576,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2043,
+   "componentType": 5123,
+   "count": 864,
+   "type": "SCALAR"
   }
  ],
  "bufferViews": [
@@ -65818,6 +66042,150 @@
    "byteOffset": 52363748,
    "byteLength": 1296,
    "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52365044,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52365332,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52365620,
+   "byteLength": 72,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52365692,
+   "byteLength": 7488,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52373180,
+   "byteLength": 7488,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52380668,
+   "byteLength": 1872,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52382540,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52389740,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52396940,
+   "byteLength": 1800,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52398740,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52405940,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52413140,
+   "byteLength": 1800,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52414940,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52415228,
+   "byteLength": 288,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52415516,
+   "byteLength": 72,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52415588,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52422788,
+   "byteLength": 7200,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52429988,
+   "byteLength": 1800,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52431788,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52438700,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52445612,
+   "byteLength": 1728,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52447340,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52454252,
+   "byteLength": 6912,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 52461164,
+   "byteLength": 1728,
+   "target": 34963
   }
  ],
  "samplers": [
@@ -66458,7 +66826,7 @@
  "buffers": [
   {
    "uri": "kelder.bin",
-   "byteLength": 52365044
+   "byteLength": 52462892
   }
  ],
  "materials": [
@@ -76090,6 +76458,58 @@
     ],
     "metallicFactor": 0,
     "roughnessFactor": 0.05
+   }
+  },
+  {
+   "name": "Eiken naturel 1",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.56,
+     0.37,
+     0.2,
+     1
+    ],
+    "roughnessFactor": 0.6,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Eiken naturel 2",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.52,
+     0.34,
+     0.18,
+     1
+    ],
+    "roughnessFactor": 0.6,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Eiken naturel 3",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.6,
+     0.4,
+     0.22,
+     1
+    ],
+    "roughnessFactor": 0.6,
+    "metallicFactor": 0
+   }
+  },
+  {
+   "name": "Vilt zwart",
+   "pbrMetallicRoughness": {
+    "baseColorFactor": [
+     0.018,
+     0.018,
+     0.02,
+     1
+    ],
+    "roughnessFactor": 1.0,
+    "metallicFactor": 0
    }
   }
  ],
@@ -99173,6 +99593,80 @@
      "material": 656
     }
    ]
+  },
+  {
+   "name": "Akoestische panelen tv-muur",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5109,
+      "NORMAL": 5110
+     },
+     "indices": 5111,
+     "material": 660
+    },
+    {
+     "attributes": {
+      "POSITION": 5112,
+      "NORMAL": 5113
+     },
+     "indices": 5114,
+     "material": 657
+    },
+    {
+     "attributes": {
+      "POSITION": 5115,
+      "NORMAL": 5116
+     },
+     "indices": 5117,
+     "material": 658
+    },
+    {
+     "attributes": {
+      "POSITION": 5118,
+      "NORMAL": 5119
+     },
+     "indices": 5120,
+     "material": 659
+    }
+   ]
+  },
+  {
+   "name": "Akoestische panelen zijmuur",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 5121,
+      "NORMAL": 5122
+     },
+     "indices": 5123,
+     "material": 660
+    },
+    {
+     "attributes": {
+      "POSITION": 5124,
+      "NORMAL": 5125
+     },
+     "indices": 5126,
+     "material": 657
+    },
+    {
+     "attributes": {
+      "POSITION": 5127,
+      "NORMAL": 5128
+     },
+     "indices": 5129,
+     "material": 658
+    },
+    {
+     "attributes": {
+      "POSITION": 5130,
+      "NORMAL": 5131
+     },
+     "indices": 5132,
+     "material": 659
+    }
+   ]
   }
  ],
  "nodes": [
@@ -99978,7 +100472,7 @@
    "translation": [
     2.188499970803727,
     0.8860000007574802,
-    -2.9940000009915133
+    -2.9730000009915134
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -111612,7 +112106,8 @@
   {
    "name": "PL2",
    "extras": {
-    "omschrijving": "Plint Muur naast TV"
+    "omschrijving": "Plint Muur naast TV",
+    "zonder": "Consoles aan de muur"
    },
    "mesh": 732,
    "scale": [
@@ -111630,7 +112125,10 @@
    "name": "PL3",
    "extras": {
     "omschrijving": "Plint TV-muur kamerkant",
-    "zonder": "Wandkast"
+    "zonder": [
+     "Wandkast",
+     "Consoles aan de muur"
+    ]
    },
    "mesh": 733
   },
@@ -122246,7 +122744,8 @@
   {
    "name": "W3",
    "extras": {
-    "omschrijving": "stopcontact + stopcontact + data"
+    "omschrijving": "stopcontact + stopcontact + data",
+    "zonder": "Consoles aan de muur"
    },
    "translation": [
     0.941,
@@ -123967,7 +124466,10 @@
     4944,
     4945,
     4946,
-    4947
+    4947,
+    4948,
+    4949,
+    4950
    ]
   },
   {
@@ -125440,7 +125942,7 @@
    "translation": [
     1.5745,
     0.31,
-    -2.4920000000000004
+    -2.4830000000000005
    ],
    "extras": {
     "omschrijving": "Sony KV-X2501D, 25\" Trinitron beeldbuis-tv op de verhoging midden onder de LG (chassis BE-3B, ±1992). Maten van zustermodel KV-X2501B: 57,5 x 50 x 48,5 cm, 28 kg",
@@ -125458,7 +125960,7 @@
    "translation": [
     1.5745,
     0.01,
-    -2.482
+    -2.4730000000000003
    ],
    "extras": {
     "omschrijving": "Verhoging walnoot op maat voor de Sony, 70 x 50 x 30 cm, vóór de plint: scherm-midden ±60 cm hoog, vanaf de bank ±11° omlaag kijken"
@@ -126907,7 +127409,7 @@
    "translation": [
     2.2989999655493487,
     0.824000000890146,
-    -2.9940000009915133
+    -2.9730000009915134
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -126986,7 +127488,7 @@
    "translation": [
     2.412999960128542,
     0.7575000010324409,
-    -2.994000001096994
+    -2.973000001096994
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -127020,7 +127522,7 @@
    "translation": [
     2.321,
     0.18,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 36,6 x 27,2 cm, 9,3 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Atari 2600"
@@ -127092,7 +127594,7 @@
     0.0,
     2.148,
     0.20401923788646686,
-    -2.737104909575181,
+    -2.716104909575181,
     1.0
    ]
   },
@@ -127102,7 +127604,7 @@
    "translation": [
     0.828,
     0.18,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 49,2 x 25,4 cm, 8,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Mega Drive + Mega CD"
@@ -127135,7 +127637,7 @@
     0.0,
     0.5919999985694885,
     0.2044851121596487,
-    -2.756325943893431,
+    -2.735325943893431,
     1.0
    ]
   },
@@ -127145,7 +127647,7 @@
    "translation": [
     0.412,
     0.5,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 21,0 x 23,4 cm, 8,3 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Dreamcast"
@@ -127346,7 +127848,7 @@
     0.0,
     0.317,
     0.5242764803675463,
-    -2.7758317652218536,
+    -2.7548317652218537,
     1.0
    ]
   },
@@ -127356,7 +127858,7 @@
    "translation": [
     2.737,
     0.18,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 27,4 x 24,1 cm, 8,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): NES"
@@ -127422,7 +127924,7 @@
     0.0,
     2.7913241100756196,
     0.1816792349959342,
-    -2.884909061271715,
+    -2.8639090612717153,
     1.0
    ]
   },
@@ -127432,7 +127934,7 @@
    "translation": [
     0.412,
     1.78,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 19,2 x 30,4 cm, 10,2 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii U"
@@ -127498,7 +128000,7 @@
     0.0,
     0.37062870082649196,
     1.8608797143910263,
-    -2.827989926880383,
+    -2.8069899268803833,
     1.0
    ]
   },
@@ -127508,7 +128010,7 @@
    "translation": [
     0.412,
     1.46,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,0 x 30,0 cm, 10,0 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Xbox 360"
@@ -133550,7 +134052,7 @@
     0.0,
     3.3345452605989285,
     -0.5412627129509563,
-    1.8404091529128523,
+    1.8614091529128522,
     1.0
    ]
   },
@@ -133560,7 +134062,7 @@
    "translation": [
     0.412,
     1.14,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 17,7 x 25,3 cm, 8,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii"
@@ -134081,7 +134583,7 @@
     0.0,
     0.48902483368041355,
     1.1681288634568316,
-    -2.7634350924041895,
+    -2.7424350924041896,
     1.0
    ]
   },
@@ -134091,7 +134593,7 @@
    "translation": [
     0.412,
     0.82,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 32,1 x 22,1 cm, 7,9 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 2"
@@ -134912,7 +135414,7 @@
     0.0,
     0.18529476402642203,
     0.14111081092632838,
-    -2.947317037985794,
+    -2.926317037985794,
     1.0
    ]
   },
@@ -134922,7 +135424,7 @@
    "translation": [
     2.321,
     0.5,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,0 x 22,7 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation"
@@ -134988,7 +135490,7 @@
     0.0,
     2.1295750686507637,
     0.6065346926643403,
-    -3.090666310955987,
+    -3.069666310955987,
     1.0
    ]
   },
@@ -134998,7 +135500,7 @@
    "translation": [
     0.828,
     0.5,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 28,0 x 22,9 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Nintendo 64"
@@ -135053,7 +135555,7 @@
     0.0,
     0.6011565757382126,
     0.5064759792715174,
-    -2.7148579688943837,
+    -2.693857968894384,
     1.0
    ]
   },
@@ -135063,7 +135565,7 @@
    "translation": [
     2.737,
     0.5,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 17,0 x 20,1 cm, 7,4 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): GameCube"
@@ -135169,7 +135671,7 @@
     0.0,
     0.668088273127277,
     -2.2971621780469453,
-    -3.7048701819066547,
+    -3.683870181906655,
     1.0
    ]
   },
@@ -135179,7 +135681,7 @@
    "translation": [
     0.4119999999999999,
     0.18,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 22,0 x 27,9 cm, 9,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): SNES"
@@ -135685,7 +136187,7 @@
     0.0,
     0.2844673623784044,
     0.20101949561110122,
-    -2.7189867444905014,
+    -2.6979867444905015,
     1.0
    ]
   },
@@ -135695,7 +136197,7 @@
    "translation": [
     2.737,
     1.78,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 25,8 x 7,7 cm, 4,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Nintendo Switch"
@@ -136491,7 +136993,7 @@
     0.0,
     2.6180000047925778,
     1.7949586033815503,
-    -2.8977590980799937,
+    -2.8767590980799937,
     1.0
    ]
   },
@@ -136501,7 +137003,7 @@
    "translation": [
     2.737,
     1.46,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 28,5 x 32,3 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 4"
@@ -136572,7 +137074,7 @@
     0.0,
     0.5310906193289884,
     1.0915424239120983,
-    -1.2210699514836487,
+    -1.2000699514836488,
     1.0
    ]
   },
@@ -136582,7 +137084,7 @@
    "translation": [
     2.737,
     1.14,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 31,0 x 32,5 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 3"
@@ -136898,7 +137400,7 @@
     0.0,
     2.551920752203334,
     1.1585897252751896,
-    -2.6636182934505492,
+    -2.6426182934505493,
     1.0
    ]
   },
@@ -136908,7 +137410,7 @@
    "translation": [
     2.737,
     0.82,
-    -2.994
+    -2.9730000000000003
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,4 x 29,0 cm, 9,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Xbox"
@@ -137068,7 +137570,7 @@
     0.0,
     2.6071649691918544,
     0.9041647536603861,
-    -2.9434733235244335,
+    -2.9224733235244336,
     1.0
    ]
   },
@@ -167046,7 +167548,10 @@
    "name": "PL12",
    "extras": {
     "omschrijving": "Plint Muur naast TV, achter de Wandkast",
-    "zonder": "Wandkast"
+    "zonder": [
+     "Wandkast",
+     "Consoles aan de muur"
+    ]
    },
    "mesh": 732,
    "scale": [
@@ -167873,7 +168378,7 @@
     0.0,
     2.3210000018626453,
     0.3721254224736228,
-    -2.825577442864749,
+    -2.804577442864749,
     1
    ],
    "extras": {
@@ -167906,7 +168411,7 @@
     0.0,
     0.8280000074505806,
     0.34419003096248635,
-    -2.8411763054836783,
+    -2.8201763054836784,
     1
    ],
    "extras": {
@@ -167939,7 +168444,7 @@
     0.0,
     2.737,
     0.36075676950409963,
-    -2.8429236336175348,
+    -2.821923633617535,
     1
    ],
    "extras": {
@@ -167972,7 +168477,7 @@
     0.0,
     0.41199998509883873,
     0.3526415756464626,
-    -2.8275851621015966,
+    -2.8065851621015967,
     1
    ],
    "extras": {
@@ -168005,7 +168510,7 @@
     0.0,
     0.828,
     0.6636196306276632,
-    -2.853343252983858,
+    -2.832343252983858,
     1
    ],
    "extras": {
@@ -168038,7 +168543,7 @@
     0.0,
     2.321,
     0.6508037777034482,
-    -2.857673829622677,
+    -2.836673829622677,
     1
    ],
    "extras": {
@@ -168071,7 +168576,7 @@
     0.0,
     0.412,
     0.6667850222868285,
-    -2.8498950237010603,
+    -2.8288950237010604,
     1
    ],
    "extras": {
@@ -168104,7 +168609,7 @@
     0.0,
     2.7369999925494195,
     0.6956060119090172,
-    -2.857772876022453,
+    -2.836772876022453,
     1
    ],
    "extras": {
@@ -168137,7 +168642,7 @@
     0.0,
     0.412,
     0.9874139854423661,
-    -2.8559128642870912,
+    -2.8349128642870913,
     1
    ],
    "extras": {
@@ -168170,7 +168675,7 @@
     0.0,
     2.737,
     1.0072249458949871,
-    -2.818491352273548,
+    -2.797491352273548,
     1
    ],
    "extras": {
@@ -168203,7 +168708,7 @@
     0.0,
     0.4120000037252903,
     1.6351315667728181,
-    -2.8170853483828724,
+    -2.7960853483828725,
     1
    ],
    "extras": {
@@ -168236,7 +168741,7 @@
     0.0,
     0.4119999990686774,
     1.2788947854008819,
-    -2.8485817505230613,
+    -2.8275817505230614,
     1
    ],
    "extras": {
@@ -168269,7 +168774,7 @@
     0.0,
     0.412,
     1.9276982827007778,
-    -2.8224187817459767,
+    -2.801418781745977,
     1
    ],
    "extras": {
@@ -168302,7 +168807,7 @@
     0.0,
     2.737,
     1.3088331781351215,
-    -2.807117517256422,
+    -2.786117517256422,
     1
    ],
    "extras": {
@@ -168335,7 +168840,7 @@
     0.0,
     2.737,
     1.6034602866751808,
-    -2.8148127366422786,
+    -2.7938127366422787,
     1
    ],
    "extras": {
@@ -168357,7 +168862,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Atari 2600, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Mega Drive + Mega CD",
@@ -168366,7 +168876,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Mega Drive + Mega CD, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder NES",
@@ -168375,7 +168890,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de NES, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder SNES",
@@ -168384,7 +168904,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de SNES, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Nintendo 64",
@@ -168393,7 +168918,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Nintendo 64, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder PlayStation",
@@ -168402,7 +168932,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Dreamcast",
@@ -168411,7 +168946,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Dreamcast, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder GameCube",
@@ -168420,7 +168960,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de GameCube, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder PlayStation 2",
@@ -168429,7 +168974,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 2, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Xbox",
@@ -168438,7 +168988,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Xbox 360",
@@ -168447,7 +169002,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Xbox 360, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Wii",
@@ -168456,7 +169016,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder Wii U",
@@ -168465,7 +169030,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de Wii U, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder PlayStation 3",
@@ -168474,7 +169044,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 3, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controllerhouder PlayStation 4",
@@ -168483,7 +169058,12 @@
     "omschrijving": "Houder van helder acryl (5 mm staander achter de console op de kaas, 4 mm plaat onder de controller), houdt de controller 4.0 cm boven de PlayStation 4, 30° gekanteld naar de bank",
     "wissel": "Controllers voor de consoles",
     "stand": "dicht"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Atari 2600",
@@ -168503,7 +169083,7 @@
     0,
     2.3210000018626453,
     0.18597272989153862,
-    -2.7128518895594476,
+    -2.6918518895594477,
     1
    ],
    "extras": {
@@ -168525,7 +169105,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Atari 2600-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Mega Drive + Mega CD",
@@ -168545,7 +169130,7 @@
     0,
     0.8280000074505806,
     0.1836471764445305,
-    -2.7325872893333436,
+    -2.7115872893333437,
     1
    ],
    "extras": {
@@ -168567,7 +169152,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Mega Drive + Mega CD-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller NES",
@@ -168587,7 +169177,7 @@
     0,
     2.737,
     0.19991223347187043,
-    -2.7404626578761855,
+    -2.7194626578761856,
     1
    ],
    "extras": {
@@ -168609,7 +169199,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de NES-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller SNES",
@@ -168629,7 +169224,7 @@
     0,
     0.41199998509883873,
     0.18861103636026383,
-    -2.708181929111481,
+    -2.687181929111481,
     1
    ],
    "extras": {
@@ -168651,7 +169246,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de SNES-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Nintendo 64",
@@ -168671,7 +169271,7 @@
     0,
     0.828,
     0.4745353366136551,
-    -2.7584740931987763,
+    -2.7374740931987764,
     1
    ],
    "extras": {
@@ -168693,7 +169293,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Nintendo 64-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller PlayStation",
@@ -168713,7 +169318,7 @@
     0,
     2.321,
     0.4993965308070183,
-    -2.7604059393405915,
+    -2.7394059393405916,
     1
    ],
    "extras": {
@@ -168735,7 +169340,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Dreamcast",
@@ -168755,7 +169365,7 @@
     0,
     0.412,
     0.47765183997154237,
-    -2.750813590521475,
+    -2.729813590521475,
     1
    ],
    "extras": {
@@ -168777,7 +169387,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Dreamcast-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller GameCube",
@@ -168797,7 +169412,7 @@
     0,
     2.7369999925494195,
     0.4882548729777336,
-    -2.777481498161473,
+    -2.756481498161473,
     1
    ],
    "extras": {
@@ -168819,7 +169434,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de GameCube-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller PlayStation 2",
@@ -168839,7 +169459,7 @@
     0,
     0.412,
     0.8193965308070182,
-    -2.7611487397639913,
+    -2.7401487397639914,
     1
    ],
    "extras": {
@@ -168861,7 +169481,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 2-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Xbox",
@@ -168881,7 +169506,7 @@
     0,
     2.737,
     0.7696420602202415,
-    -2.6916579859796297,
+    -2.67065798597963,
     1
    ],
    "extras": {
@@ -168903,7 +169528,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Xbox-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Xbox 360",
@@ -168923,7 +169553,7 @@
     0,
     0.4120000037252903,
     1.460205574452877,
-    -2.68603290635353,
+    -2.66503290635353,
     1
    ],
    "extras": {
@@ -168945,7 +169575,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Xbox 360-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Wii",
@@ -168965,7 +169600,7 @@
     0,
     0.4119999990686774,
     1.117999998152256,
-    -2.7339395697116853,
+    -2.7129395697116854,
     1
    ],
    "extras": {
@@ -168987,7 +169622,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Wii-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller Wii U",
@@ -169007,7 +169647,7 @@
     0,
     0.412,
     1.7639693213701249,
-    -2.6826489086151124,
+    -2.6616489086151125,
     1
    ],
    "extras": {
@@ -169029,7 +169669,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de Wii U-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller PlayStation 3",
@@ -169049,7 +169694,7 @@
     0,
     2.737,
     1.143002071648836,
-    -2.6618815178871156,
+    -2.6408815178871157,
     1
    ],
    "extras": {
@@ -169071,7 +169716,12 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 3-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
-   }
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
   },
   {
    "name": "Controller PlayStation 4",
@@ -169091,7 +169741,7 @@
     0,
     2.737,
     1.4610654049813747,
-    -2.6638133640289308,
+    -2.642813364028931,
     1
    ],
    "extras": {
@@ -169113,7 +169763,195 @@
     "omschrijving": "Haak van helder acryl (3 mm) over het randje van de kaas, de PlayStation 4-controller hangt ervoor",
     "wissel": "Controllers voor de consoles",
     "stand": "open"
+   },
+   "translation": [
+    0,
+    0,
+    0.021
+   ]
+  },
+  {
+   "name": "Akoestische panelen tv-muur",
+   "mesh": 1383,
+   "extras": {
+    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,1 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele tv-muur (3,04 m: 5 panelen + 1 lamel); 76 lamellen symmetrisch rond het midden van de muur. Lamellen 27 mm, tussenruimte 13 mm, vilt 9 mm (aangenomen, nameten). Kazen, Sony-verhoging en tv komen 21 mm naar voren; W3 met verlengring op de lamellen",
+    "product": {
+     "winkel": "WoodUpp",
+     "naam": "Akupanel Natural Wood, Classic Oak, Black Felt, 240 x 60 cm (echt eikenfineer)",
+     "url": "https://woodupp.nl/product/akupanel/"
+    }
    }
+  },
+  {
+   "name": "Akoestische panelen zijmuur",
+   "mesh": 1384,
+   "extras": {
+    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,1 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele zijmuur links van de tv-muur (2,91 m: 5 panelen), tegen de panelen van de tv-muur; 73 lamellen",
+    "product": {
+     "winkel": "WoodUpp",
+     "naam": "Akupanel Natural Wood, Classic Oak, Black Felt, 240 x 60 cm (echt eikenfineer)",
+     "url": "https://woodupp.nl/product/akupanel/"
+    }
+   }
+  },
+  {
+   "name": "W3",
+   "extras": {
+    "omschrijving": "stopcontact + stopcontact + data (op de akoestische panelen, inbouwdozen met verlengring)"
+   },
+   "translation": [
+    0.941,
+    2.22,
+    -2.9735
+   ],
+   "children": [
+    4951,
+    4952,
+    4958,
+    4964
+   ]
+  },
+  {
+   "name": "W3 afdekraam",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG afdekraam 3-voudig A550 alpinwit",
+     "artikel": "401181308",
+     "url": "https://www.elektramat.nl/jung-afdekraam-3-voudig-a550-alpine-wit-a5583bfww/"
+    }
+   },
+   "mesh": 1168
+  },
+  {
+   "name": "W3 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "translation": [
+    -0.071,
+    0,
+    0
+   ],
+   "children": [
+    4953,
+    4954,
+    4955,
+    4956,
+    4957
+   ]
+  },
+  {
+   "name": "W3 stopcontact sokkel",
+   "mesh": 1169
+  },
+  {
+   "name": "W3 stopcontact plaat",
+   "mesh": 1170
+  },
+  {
+   "name": "W3 stopcontact kom",
+   "mesh": 1171
+  },
+  {
+   "name": "W3 stopcontact gaten",
+   "mesh": 1172
+  },
+  {
+   "name": "W3 randaarde",
+   "mesh": 1173
+  },
+  {
+   "name": "W3 stopcontact",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG stopcontact met randaarde 1-voudig alpinwit (A1520NWW)",
+     "artikel": "401296333",
+     "url": "https://www.elektramat.nl/jung-stopcontact-met-randaarde-1-voudig-as500-alpin-wit-a1520nww/"
+    }
+   },
+   "children": [
+    4959,
+    4960,
+    4961,
+    4962,
+    4963
+   ]
+  },
+  {
+   "name": "W3 stopcontact sokkel",
+   "mesh": 1174
+  },
+  {
+   "name": "W3 stopcontact plaat",
+   "mesh": 1175
+  },
+  {
+   "name": "W3 stopcontact kom",
+   "mesh": 1176
+  },
+  {
+   "name": "W3 stopcontact gaten",
+   "mesh": 1177
+  },
+  {
+   "name": "W3 randaarde",
+   "mesh": 1178
+  },
+  {
+   "name": "W3 data",
+   "translation": [
+    0.071,
+    0,
+    0
+   ],
+   "children": [
+    4965,
+    4966,
+    4967
+   ]
+  },
+  {
+   "name": "W3 UAE sokkel",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG basiselement UTP 1-voudig Cat6 (UAE 8 UPOK6)",
+     "artikel": "401028245",
+     "url": "https://www.elektramat.nl/jung-universele-wandcontactdoos-inbouw-basiselement-utp-1-voudig-cat6-uae8upok6/"
+    }
+   },
+   "mesh": 1179
+  },
+  {
+   "name": "W3 data afdekking",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG A500 afdekking voor UAE 1-voudig alpinwit (A569-1BFPLUAWW)",
+     "artikel": "401037242",
+     "url": "https://www.elektramat.nl/jung-a500-afdekking-voor-uae-1-voudig-alpin-wit-a569-1bfpluaww/"
+    }
+   },
+   "mesh": 1180
+  },
+  {
+   "name": "W3 RJ45",
+   "extras": {
+    "product": {
+     "winkel": "Elektramat",
+     "naam": "JUNG basiselement UTP 1-voudig Cat6 (UAE 8 UPOK6)",
+     "artikel": "401028245",
+     "url": "https://www.elektramat.nl/jung-universele-wandcontactdoos-inbouw-basiselement-utp-1-voudig-cat6-uae8upok6/"
+    }
+   },
+   "mesh": 1181
   }
  ],
  "scenes": [

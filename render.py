@@ -42,8 +42,9 @@ opened = set(filter(None, opt.open.split(',')))
 for o in bpy.data.objects:                     # extras.wissel/stand: like the viewer's switches, closed unless --open names it
     if o.get('wissel') and (o.get('stand') == 'open') != (o['wissel'] in opened):
         for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
-for o in bpy.data.objects:                     # extras.zonder: only without that layer (the plint behind the Wandkast)
-    if o.get('zonder') in SHOW:
+for o in bpy.data.objects:                     # extras.zonder (a layer or a list): only without those layers (the plint behind the Wandkast)
+    z = o.get('zonder')
+    if z and SHOW & ({z} if isinstance(z, str) else set(z)):
         for x in [o, *o.children_recursive]: x.hide_render = x.hide_viewport = True
 for o in bpy.data.objects:                     # Tv layer: only the 55 inch (the other sizes are options in the viewer)
     if o.get('tvmaat') not in (None, '55 inch'):
