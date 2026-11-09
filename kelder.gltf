@@ -52372,14 +52372,14 @@
    "count": 624,
    "type": "VEC3",
    "min": [
-    0.06099999999999994,
-    0.01,
-    -2.9850000000000003
+    0.061000000685453415,
+    0.009999999776482582,
+    -2.984999895095825
    ],
    "max": [
-    3.088,
-    2.315,
-    -2.9730000000000003
+    3.0880000591278076,
+    2.315000057220459,
+    -2.972
    ]
   },
   {
@@ -52400,14 +52400,14 @@
    "count": 600,
    "type": "VEC3",
    "min": [
-    0.10099999999999998,
-    0.01,
-    -2.9850000000000003
+    0.10100000351667404,
+    0.009999999776482582,
+    -2.984999895095825
    ],
    "max": [
-    3.008,
-    2.315,
-    -2.9730000000000003
+    3.007999897003174,
+    2.315000057220459,
+    -2.972
    ]
   },
   {
@@ -52428,14 +52428,14 @@
    "count": 600,
    "type": "VEC3",
    "min": [
-    0.14100000000000001,
-    0.01,
-    -2.9850000000000003
+    0.14100000262260437,
+    0.009999999776482582,
+    -2.984999895095825
    ],
    "max": [
-    3.048,
-    2.315,
-    -2.9730000000000003
+    3.0480000972747803,
+    2.315000057220459,
+    -2.972
    ]
   },
   {
@@ -52456,14 +52456,14 @@
    "count": 24,
    "type": "VEC3",
    "min": [
-    0.056,
-    0.01,
-    -2.9730000000000003
+    0.0560000017285347,
+    0.009999999776482582,
+    -2.972
    ],
    "max": [
-    0.065,
-    2.315,
-    -0.0605
+    0.06499999761581421,
+    2.315000057220459,
+    -0.060499999672174454
    ]
   },
   {
@@ -52484,14 +52484,14 @@
    "count": 600,
    "type": "VEC3",
    "min": [
-    0.065,
-    0.01,
-    -2.9675
+    0.06499999761581421,
+    0.009999999776482582,
+    -2.9674999713897705
    ],
    "max": [
-    0.077,
-    2.315,
-    -0.0605
+    0.07800000160932541,
+    2.315000057220459,
+    -0.060499999672174454
    ]
   },
   {
@@ -52512,14 +52512,14 @@
    "count": 576,
    "type": "VEC3",
    "min": [
-    0.065,
-    0.01,
-    -2.8875
+    0.06499999761581421,
+    0.009999999776482582,
+    -2.887500047683716
    ],
    "max": [
-    0.077,
-    2.315,
-    -0.1005
+    0.07800000160932541,
+    2.315000057220459,
+    -0.10050000250339508
    ]
   },
   {
@@ -52540,14 +52540,14 @@
    "count": 576,
    "type": "VEC3",
    "min": [
-    0.065,
-    0.01,
-    -2.9274999999999998
+    0.06499999761581421,
+    0.009999999776482582,
+    -2.927500009536743
    ],
    "max": [
-    0.077,
-    2.315,
-    -0.1405
+    0.07800000160932541,
+    2.315000057220459,
+    -0.1404999941587448
    ]
   },
   {
@@ -100472,7 +100472,7 @@
    "translation": [
     2.188499970803727,
     0.8860000007574802,
-    -2.9730000009915134
+    -2.9720000009915135
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -125935,7 +125935,7 @@
    "translation": [
     1.5745,
     0.31,
-    -2.4830000000000005
+    -2.4820000000000007
    ],
    "extras": {
     "omschrijving": "Sony KV-X2501D, 25\" Trinitron beeldbuis-tv op de verhoging midden onder de LG (chassis BE-3B, ±1992). Maten van zustermodel KV-X2501B: 57,5 x 50 x 48,5 cm, 28 kg",
@@ -125953,7 +125953,7 @@
    "translation": [
     1.5745,
     0.01,
-    -2.4730000000000003
+    -2.4720000000000004
    ],
    "extras": {
     "omschrijving": "Verhoging walnoot op maat voor de Sony, 70 x 50 x 30 cm, vóór de plint: scherm-midden ±60 cm hoog, vanaf de bank ±11° omlaag kijken"
@@ -127402,7 +127402,7 @@
    "translation": [
     2.2989999655493487,
     0.824000000890146,
-    -2.9730000009915134
+    -2.9720000009915135
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -127481,7 +127481,7 @@
    "translation": [
     2.412999960128542,
     0.7575000010324409,
-    -2.973000001096994
+    -2.972000001096994
    ],
    "rotation": [
     -6.462110182878968e-17,
@@ -127515,7 +127515,7 @@
    "translation": [
     2.321,
     0.18,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 36,6 x 27,2 cm, 9,3 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Atari 2600"
@@ -127587,7 +127587,7 @@
     0.0,
     2.148,
     0.20401923788646686,
-    -2.716104909575181,
+    -2.715104909575181,
     1.0
    ]
   },
@@ -127597,7 +127597,7 @@
    "translation": [
     0.828,
     0.18,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 49,2 x 25,4 cm, 8,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Mega Drive + Mega CD"
@@ -127630,7 +127630,7 @@
     0.0,
     0.5919999985694885,
     0.2044851121596487,
-    -2.735325943893431,
+    -2.734325943893431,
     1.0
    ]
   },
@@ -127640,7 +127640,7 @@
    "translation": [
     0.412,
     0.5,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 21,0 x 23,4 cm, 8,3 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Dreamcast"
@@ -127841,7 +127841,7 @@
     0.0,
     0.317,
     0.5242764803675463,
-    -2.7548317652218537,
+    -2.753831765221854,
     1.0
    ]
   },
@@ -127851,7 +127851,7 @@
    "translation": [
     2.737,
     0.18,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 27,4 x 24,1 cm, 8,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): NES"
@@ -127917,7 +127917,7 @@
     0.0,
     2.7913241100756196,
     0.1816792349959342,
-    -2.8639090612717153,
+    -2.8629090612717154,
     1.0
    ]
   },
@@ -127927,7 +127927,7 @@
    "translation": [
     0.412,
     1.78,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 19,2 x 30,4 cm, 10,2 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii U"
@@ -127993,7 +127993,7 @@
     0.0,
     0.37062870082649196,
     1.8608797143910263,
-    -2.8069899268803833,
+    -2.8059899268803834,
     1.0
    ]
   },
@@ -128003,7 +128003,7 @@
    "translation": [
     0.412,
     1.46,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,0 x 30,0 cm, 10,0 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Xbox 360"
@@ -134045,7 +134045,7 @@
     0.0,
     3.3345452605989285,
     -0.5412627129509563,
-    1.8614091529128522,
+    1.8624091529128521,
     1.0
    ]
   },
@@ -134055,7 +134055,7 @@
    "translation": [
     0.412,
     1.14,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 17,7 x 25,3 cm, 8,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Wii"
@@ -134576,7 +134576,7 @@
     0.0,
     0.48902483368041355,
     1.1681288634568316,
-    -2.7424350924041896,
+    -2.7414350924041897,
     1.0
    ]
   },
@@ -134586,7 +134586,7 @@
    "translation": [
     0.412,
     0.82,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 32,1 x 22,1 cm, 7,9 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 2"
@@ -135407,7 +135407,7 @@
     0.0,
     0.18529476402642203,
     0.14111081092632838,
-    -2.926317037985794,
+    -2.9253170379857942,
     1.0
    ]
   },
@@ -135417,7 +135417,7 @@
    "translation": [
     2.321,
     0.5,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 29,0 x 22,7 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation"
@@ -135483,7 +135483,7 @@
     0.0,
     2.1295750686507637,
     0.6065346926643403,
-    -3.069666310955987,
+    -3.068666310955987,
     1.0
    ]
   },
@@ -135493,7 +135493,7 @@
    "translation": [
     0.828,
     0.5,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 28,0 x 22,9 cm, 8,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Nintendo 64"
@@ -135548,7 +135548,7 @@
     0.0,
     0.6011565757382126,
     0.5064759792715174,
-    -2.693857968894384,
+    -2.692857968894384,
     1.0
    ]
   },
@@ -135558,7 +135558,7 @@
    "translation": [
     2.737,
     0.5,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 17,0 x 20,1 cm, 7,4 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): GameCube"
@@ -135664,7 +135664,7 @@
     0.0,
     0.668088273127277,
     -2.2971621780469453,
-    -3.683870181906655,
+    -3.682870181906655,
     1.0
    ]
   },
@@ -135674,7 +135674,7 @@
    "translation": [
     0.4119999999999999,
     0.18,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 22,0 x 27,9 cm, 9,5 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): SNES"
@@ -136180,7 +136180,7 @@
     0.0,
     0.2844673623784044,
     0.20101949561110122,
-    -2.6979867444905015,
+    -2.6969867444905016,
     1.0
    ]
   },
@@ -136190,7 +136190,7 @@
    "translation": [
     2.737,
     1.78,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 25,8 x 7,7 cm, 4,1 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Nintendo Switch"
@@ -136986,7 +136986,7 @@
     0.0,
     2.6180000047925778,
     1.7949586033815503,
-    -2.8767590980799937,
+    -2.875759098079994,
     1.0
    ]
   },
@@ -136996,7 +136996,7 @@
    "translation": [
     2.737,
     1.46,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 28,5 x 32,3 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 4"
@@ -137067,7 +137067,7 @@
     0.0,
     0.5310906193289884,
     1.0915424239120983,
-    -1.2000699514836488,
+    -1.199069951483649,
     1.0
    ]
   },
@@ -137077,7 +137077,7 @@
    "translation": [
     2.737,
     1.14,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 31,0 x 32,5 cm, 10,7 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): PlayStation 3"
@@ -137393,7 +137393,7 @@
     0.0,
     2.551920752203334,
     1.1585897252751896,
-    -2.6426182934505493,
+    -2.6416182934505494,
     1.0
    ]
   },
@@ -137403,7 +137403,7 @@
    "translation": [
     2.737,
     0.82,
-    -2.9730000000000003
+    -2.9720000000000004
    ],
    "extras": {
     "omschrijving": "Kaas (wandplankje) walnoot geolied, 34,4 x 29,0 cm, 9,8 cm hoog aan de muur en 2 cm aan de voorkant (schuin vlak 15°) met randje van 2 cm, ±30 mm vrij achter de console, onzichtbaar aan de muur (blinde plankdragers): Xbox"
@@ -137563,7 +137563,7 @@
     0.0,
     2.6071649691918544,
     0.9041647536603861,
-    -2.9224733235244336,
+    -2.9214733235244337,
     1.0
    ]
   },
@@ -168245,7 +168245,7 @@
     0.0,
     2.3210000018626453,
     0.3721254224736228,
-    -2.804577442864749,
+    -2.803577442864749,
     1
    ],
    "extras": {
@@ -168278,7 +168278,7 @@
     0.0,
     0.8280000074505806,
     0.34419003096248635,
-    -2.8201763054836784,
+    -2.8191763054836785,
     1
    ],
    "extras": {
@@ -168311,7 +168311,7 @@
     0.0,
     2.737,
     0.36075676950409963,
-    -2.821923633617535,
+    -2.820923633617535,
     1
    ],
    "extras": {
@@ -168344,7 +168344,7 @@
     0.0,
     0.41199998509883873,
     0.3526415756464626,
-    -2.8065851621015967,
+    -2.805585162101597,
     1
    ],
    "extras": {
@@ -168377,7 +168377,7 @@
     0.0,
     0.828,
     0.6636196306276632,
-    -2.832343252983858,
+    -2.8313432529838582,
     1
    ],
    "extras": {
@@ -168410,7 +168410,7 @@
     0.0,
     2.321,
     0.6508037777034482,
-    -2.836673829622677,
+    -2.835673829622677,
     1
    ],
    "extras": {
@@ -168443,7 +168443,7 @@
     0.0,
     0.412,
     0.6667850222868285,
-    -2.8288950237010604,
+    -2.8278950237010605,
     1
    ],
    "extras": {
@@ -168476,7 +168476,7 @@
     0.0,
     2.7369999925494195,
     0.6956060119090172,
-    -2.836772876022453,
+    -2.835772876022453,
     1
    ],
    "extras": {
@@ -168509,7 +168509,7 @@
     0.0,
     0.412,
     0.9874139854423661,
-    -2.8349128642870913,
+    -2.8339128642870914,
     1
    ],
    "extras": {
@@ -168542,7 +168542,7 @@
     0.0,
     2.737,
     1.0072249458949871,
-    -2.797491352273548,
+    -2.796491352273548,
     1
    ],
    "extras": {
@@ -168575,7 +168575,7 @@
     0.0,
     0.4120000037252903,
     1.6351315667728181,
-    -2.7960853483828725,
+    -2.7950853483828726,
     1
    ],
    "extras": {
@@ -168608,7 +168608,7 @@
     0.0,
     0.4119999990686774,
     1.2788947854008819,
-    -2.8275817505230614,
+    -2.8265817505230615,
     1
    ],
    "extras": {
@@ -168641,7 +168641,7 @@
     0.0,
     0.412,
     1.9276982827007778,
-    -2.801418781745977,
+    -2.800418781745977,
     1
    ],
    "extras": {
@@ -168674,7 +168674,7 @@
     0.0,
     2.737,
     1.3088331781351215,
-    -2.786117517256422,
+    -2.785117517256422,
     1
    ],
    "extras": {
@@ -168707,7 +168707,7 @@
     0.0,
     2.737,
     1.6034602866751808,
-    -2.7938127366422787,
+    -2.792812736642279,
     1
    ],
    "extras": {
@@ -168733,7 +168733,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168747,7 +168747,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168761,7 +168761,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168775,7 +168775,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168789,7 +168789,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168803,7 +168803,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168817,7 +168817,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168831,7 +168831,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168845,7 +168845,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168859,7 +168859,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168873,7 +168873,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168887,7 +168887,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168901,7 +168901,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168915,7 +168915,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168929,7 +168929,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168950,7 +168950,7 @@
     0,
     2.3210000018626453,
     0.18597272989153862,
-    -2.6918518895594477,
+    -2.6908518895594478,
     1
    ],
    "extras": {
@@ -168976,7 +168976,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -168997,7 +168997,7 @@
     0,
     0.8280000074505806,
     0.1836471764445305,
-    -2.7115872893333437,
+    -2.710587289333344,
     1
    ],
    "extras": {
@@ -169023,7 +169023,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169044,7 +169044,7 @@
     0,
     2.737,
     0.19991223347187043,
-    -2.7194626578761856,
+    -2.7184626578761857,
     1
    ],
    "extras": {
@@ -169070,7 +169070,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169091,7 +169091,7 @@
     0,
     0.41199998509883873,
     0.18861103636026383,
-    -2.687181929111481,
+    -2.686181929111481,
     1
    ],
    "extras": {
@@ -169117,7 +169117,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169138,7 +169138,7 @@
     0,
     0.828,
     0.4745353366136551,
-    -2.7374740931987764,
+    -2.7364740931987765,
     1
    ],
    "extras": {
@@ -169164,7 +169164,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169185,7 +169185,7 @@
     0,
     2.321,
     0.4993965308070183,
-    -2.7394059393405916,
+    -2.7384059393405917,
     1
    ],
    "extras": {
@@ -169211,7 +169211,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169232,7 +169232,7 @@
     0,
     0.412,
     0.47765183997154237,
-    -2.729813590521475,
+    -2.728813590521475,
     1
    ],
    "extras": {
@@ -169258,7 +169258,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169279,7 +169279,7 @@
     0,
     2.7369999925494195,
     0.4882548729777336,
-    -2.756481498161473,
+    -2.755481498161473,
     1
    ],
    "extras": {
@@ -169305,7 +169305,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169326,7 +169326,7 @@
     0,
     0.412,
     0.8193965308070182,
-    -2.7401487397639914,
+    -2.7391487397639915,
     1
    ],
    "extras": {
@@ -169352,7 +169352,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169373,7 +169373,7 @@
     0,
     2.737,
     0.7696420602202415,
-    -2.67065798597963,
+    -2.66965798597963,
     1
    ],
    "extras": {
@@ -169399,7 +169399,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169420,7 +169420,7 @@
     0,
     0.4120000037252903,
     1.460205574452877,
-    -2.66503290635353,
+    -2.66403290635353,
     1
    ],
    "extras": {
@@ -169446,7 +169446,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169467,7 +169467,7 @@
     0,
     0.4119999990686774,
     1.117999998152256,
-    -2.7129395697116854,
+    -2.7119395697116855,
     1
    ],
    "extras": {
@@ -169493,7 +169493,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169514,7 +169514,7 @@
     0,
     0.412,
     1.7639693213701249,
-    -2.6616489086151125,
+    -2.6606489086151126,
     1
    ],
    "extras": {
@@ -169540,7 +169540,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169561,7 +169561,7 @@
     0,
     2.737,
     1.143002071648836,
-    -2.6408815178871157,
+    -2.639881517887116,
     1
    ],
    "extras": {
@@ -169587,7 +169587,7 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
@@ -169608,7 +169608,7 @@
     0,
     2.737,
     1.4610654049813747,
-    -2.642813364028931,
+    -2.641813364028931,
     1
    ],
    "extras": {
@@ -169634,14 +169634,14 @@
    "translation": [
     0,
     0,
-    0.021
+    0.022000000000000002
    ]
   },
   {
    "name": "Akoestische panelen tv-muur",
    "mesh": 1383,
    "extras": {
-    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,1 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele tv-muur (3,04 m: 5 panelen + 1 lamel); 76 lamellen symmetrisch rond het midden van de muur. Lamellen 27 mm, tussenruimte 13 mm, vilt 9 mm (aangenomen, nameten). Kazen, Sony-verhoging en tv komen 21 mm naar voren; W3 met verlengring op de lamellen",
+    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,2 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele tv-muur (3,04 m: 5 panelen + 1 lamel); 76 lamellen symmetrisch rond het midden van de muur. Lamellen 27 mm breed en 13 mm dik, tussenruimte 13 mm, vilt 9 mm, 15 lamellen per paneel (WoodUpp). Kazen, Sony-verhoging en tv komen 22 mm naar voren; W3 met verlengring op de lamellen",
     "product": {
      "winkel": "WoodUpp",
      "naam": "Akupanel Natural Wood, Classic Oak, Black Felt, 240 x 60 cm (echt eikenfineer)",
@@ -169653,7 +169653,7 @@
    "name": "Akoestische panelen zijmuur",
    "mesh": 1384,
    "extras": {
-    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,1 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele zijmuur links van de tv-muur (2,91 m: 5 panelen), tegen de panelen van de tv-muur; 73 lamellen",
+    "omschrijving": "Akoestische panelen, naturel eiken lamellen op zwart vilt, 60 x 240 x 2,2 cm, op 2,31 m ingekort (vloer tot plafond, geen plint), over de hele zijmuur links van de tv-muur (2,91 m: 5 panelen), tegen de panelen van de tv-muur; 73 lamellen",
     "product": {
      "winkel": "WoodUpp",
      "naam": "Akupanel Natural Wood, Classic Oak, Black Felt, 240 x 60 cm (echt eikenfineer)",
@@ -169669,7 +169669,7 @@
    "translation": [
     0.941,
     2.22,
-    -2.9735
+    -2.9725
    ],
    "children": [
     4944,
