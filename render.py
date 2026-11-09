@@ -3,7 +3,7 @@
 #   blender -b -P render.py -- [--draft] [--mode dag|avond|beide] [--views tv-muur,voorkozijn,...] [--tv-muur Wandkast] [--open "Controllers voor de consoles"]
 #
 # Shows the finished room (paint, floor, furniture, fittings; no framework, plates or wiring), lights it as day
-# (sky and sun through the front frame) or evening (the 21 recessed spots, 2700 K), and writes renders/<view>-<mode>.png.
+# (sky and sun through the front frame) or evening (the 20 recessed spots, 2700 K), and writes renders/<view>-<mode>.png.
 # Positions below are glTF coordinates (y up), as in the viewer's position readout.
 import argparse, math, pathlib, sys, time
 import bpy
