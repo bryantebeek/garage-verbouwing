@@ -15,6 +15,7 @@ args.add_argument('--draft', action='store_true', help='small and quick, for che
 args.add_argument('--mode', default='beide', choices=['dag', 'avond', 'beide'])
 args.add_argument('--views', default='all')
 args.add_argument('--open', default='', help='variant switches (extras.wissel) to show open, comma-separated (e.g. "Controllers voor de consoles")')
+args.add_argument('--size', help='resolution WxH, e.g. 3840x2160 for a wallpaper')
 args.add_argument('--tv-muur', default='Consoles aan de muur', help='tv-wall layer(s) to show, comma-separated (e.g. Wandkast,Kallax)')
 opt = args.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
@@ -24,7 +25,9 @@ VIEWS = {                                    # name: (eye, look at[, modes]), gl
     'tv-muur': ((1.75, 1.25, -0.25), (1.6, 1.0, -3.0)),
     'voorkozijn': ((0.45, 1.45, -2.6), (5.8, 1.2, -1.1)),
     'hal': ((3.95, 1.5, -4.75), (0.6, 1.6, -3.9), ('avond',)),   # no windows: by day it looks the same, lights on
+    'webcam': ((4.643, 1.36, -0.39), (4.3, 1.05, -3.0)),          # on top of the desk monitor (LG 27UP850K), into the room
 }
+LENS = {'webcam': 20}                        # mm; default 18. A webcam sees ±70 degrees across
 SPOT_WATT = 20                               # per spot (Blender watts), warm white
 PUCK_WATT = 6                                # per Cefrank puck (2 W, 200 lm), cool white
 SUN = dict(elevation=28, azimuth=-25, strength=5)   # azimuth 0 = straight in through the front frame (+x)
@@ -154,7 +157,7 @@ cyc.use_adaptive_sampling = True
 cyc.use_denoising = True
 cyc.max_bounces, cyc.diffuse_bounces, cyc.glossy_bounces, cyc.transmission_bounces = 10, 6, 4, 8
 cyc.caustics_reflective = cyc.caustics_refractive = False
-scene.render.resolution_x, scene.render.resolution_y = (960, 600) if opt.draft else (1920, 1200)
+scene.render.resolution_x, scene.render.resolution_y = map(int, opt.size.split('x')) if opt.size else (960, 600) if opt.draft else (1920, 1200)
 scene.view_settings.view_transform = 'AgX'
 scene.render.image_settings.file_format = 'PNG'
 
@@ -168,6 +171,7 @@ for mode in (['dag', 'avond'] if opt.mode == 'beide' else [opt.mode]):
     for name, (eye, at, *modes) in views.items():
         if modes and mode not in modes[0]:
             continue
+        cam_data.lens = LENS.get(name, 18)
         cam.location = to_blender(eye)
         cam.rotation_euler = (to_blender(at) - to_blender(eye)).to_track_quat('-Z', 'Y').to_euler()
         variant = '' if opt.tv_muur == 'Consoles aan de muur' else '-' + opt.tv_muur.lower().replace(' ', '-').replace(',', '-')
